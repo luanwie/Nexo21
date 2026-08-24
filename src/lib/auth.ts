@@ -3,13 +3,14 @@ import { prismaAdapter } from "better-auth/adapters/prisma";
 import { nextCookies } from "better-auth/next-js";
 import { escapeHtml, sendTransactionalEmail } from "@/lib/email";
 import { secureSessionConfig } from "@/lib/auth-policy";
-import { resolveAppUrlFromEnvironment, resolvePublicAppUrlFromEnvironment } from "@/lib/app-url";
+import { resolveAppUrlFromEnvironment, resolvePublicAppUrlFromEnvironment, resolveTrustedOrigins } from "@/lib/app-url";
 import { prisma } from "@/lib/prisma";
 
 const requireEmailVerification = true;
 const authSecret = process.env.BETTER_AUTH_SECRET;
 const publicAppUrl = resolvePublicAppUrlFromEnvironment();
 const appUrl = publicAppUrl ?? resolveAppUrlFromEnvironment();
+const trustedOrigins = resolveTrustedOrigins(appUrl, process.env.BETTER_AUTH_TRUSTED_ORIGINS);
 const databaseProvider = process.env.DATABASE_URL?.startsWith("postgres") ? "postgresql" : "sqlite";
 
 if (
@@ -26,7 +27,7 @@ export const auth = betterAuth({
   appName: "Nexo 21",
   baseURL: appUrl,
   secret: authSecret,
-  trustedOrigins: [appUrl ?? "http://localhost:3000"],
+  trustedOrigins,
   database: prismaAdapter(prisma, { provider: databaseProvider, transaction: true }),
   emailVerification: {
     sendOnSignUp: true,
