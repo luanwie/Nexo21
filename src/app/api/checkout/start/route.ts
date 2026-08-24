@@ -22,6 +22,7 @@ export async function POST(request:Request){
       const result=await processCheckoutEvent({provider:"mock",eventId:`evt:${transactionId}`,transactionId,occurredAt:new Date(),email,status:"paid",items:unique,amountCents:offers.reduce((sum,item)=>sum+item.priceCents,0),currency:"USD"});
       return Response.json({ok:true,mode:"mock",next:"/registro",...result});
     }
+    if(process.env.CHECKOUT_PROVIDER!=="hotmart") return Response.json({error:"Checkout Hotmart aún no configurado"},{status:503});
     const primary=offers.find(item=>item.type!=="BUMP")??offers[0];
     const url=process.env[checkoutEnvKey(primary.slug)];
     if(!url) return Response.json({error:"Checkout externo aún no configurado para este producto"},{status:503});

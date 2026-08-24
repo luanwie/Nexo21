@@ -11,6 +11,23 @@
 - revogar somente o acesso afetado por refund/chargeback/cancelamento;
 - manter trilha de auditoria e reconciliação.
 
+### Provedor escolhido: Hotmart
+
+O lançamento usa **Hotmart Checkout + Webhook v2.0.0**. O botão da landing redireciona para a URL oficial configurada em `CHECKOUT_URL_NEXO_21`; o redirect nunca concede acesso. A concessão ou revogação nasce somente em `POST /api/checkout/webhook`.
+
+Controles obrigatórios do adaptador:
+
+- validar `X-HOTMART-HOTTOK` em tempo constante antes de ler o payload;
+- aceitar somente `version=2.0.0`;
+- identificar idempotência pelo `id` do evento e compra por `purchase.transaction`;
+- exigir correspondência exata de `product.ucode` e `purchase.offer.code` com a allowlist;
+- mapear `PURCHASE_APPROVED`/`PURCHASE_COMPLETE` para pago, `PURCHASE_REFUNDED` para reembolso, `PURCHASE_CHARGEBACK` para chargeback e cancelado/expirado para cancelamento;
+- validar preço e moeda da oferta contra o catálogo interno;
+- ignorar outro produto identificado e rejeitar a oferta esperada quando seu código ainda não estiver mapeado;
+- manter `HOTMART_WEBHOOK_ENABLED=false` até um post de teste da Hotmart passar.
+
+Na Hotmart, registrar o endpoint `https://nexo21-luluwiebu-1474s-projects.vercel.app/api/checkout/webhook` especificamente para o produto Nexo 21 e selecionar os eventos de compra aprovados, concluídos, cancelados, expirados, reembolsados e chargeback. A documentação oficial usa o header `X-HOTMART-HOTTOK`: https://developers.hotmart.com/docs/en/2.0.0/webhook/purchase-webhook/
+
 ## 2. Módulos e fronteiras
 
 ```text

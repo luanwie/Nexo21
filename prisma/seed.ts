@@ -1,7 +1,9 @@
 import { PrismaClient, ProductType } from "../src/generated/prisma-v2";
 import { OFFERS } from "../src/lib/offers";
 
-const prisma = new PrismaClient();
+const prisma = process.env.DATABASE_URL
+  ? new PrismaClient({ datasourceUrl: process.env.DATABASE_URL })
+  : new PrismaClient();
 
 async function main() {
   for (const [index, offer] of OFFERS.entries()) {

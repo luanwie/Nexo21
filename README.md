@@ -30,8 +30,7 @@ P0 implementado e exercitado localmente:
 - Tailwind CSS 4
 - Better Auth
 - Prisma 6
-- SQLite somente para desenvolvimento
-- PostgreSQL/Neon para produção
+- PostgreSQL 18 / Neon
 - Vitest + Playwright
 
 ## Estrutura
@@ -47,7 +46,7 @@ P0 implementado e exercitado localmente:
 │   └── prayers.json       36 orações
 ├── docs/                  produto, oferta, checkout, analytics e lançamento
 ├── marketing/             UGC, estáticos, carrosséis, vídeos, prompts e emails
-├── prisma/                schema e seed local
+├── prisma/                schema PostgreSQL, migrations e seed
 ├── scripts/               compilação determinística de conteúdo
 ├── src/app/               rotas públicas, produto, API e admin
 ├── src/components/        UI e ferramentas interativas
@@ -61,7 +60,7 @@ P0 implementado e exercitado localmente:
 npm install
 cp .env.example .env
 npm run db:generate
-npm run db:push
+npm run db:migrate:deploy
 npm run db:seed
 npm run dev
 ```
@@ -72,12 +71,15 @@ Abra a URL configurada em `NEXT_PUBLIC_APP_URL`.
 
 | Variável | Uso |
 |---|---|
-| `DATABASE_URL` | SQLite local; depois da conexão Neon, PostgreSQL em produção |
+| `DATABASE_URL` | conexão pooled do Neon para runtime |
+| `DATABASE_URL_UNPOOLED` | conexão direta do Neon para migrations |
 | `BETTER_AUTH_SECRET` | segredo de sessão com 32+ bytes |
 | `NEXT_PUBLIC_APP_URL` | URL pública da aplicação |
-| `CHECKOUT_PROVIDER` | `mock` local ou provedor real |
+| `CHECKOUT_PROVIDER` | `mock` local, `hotmart` em produção ou `disabled` |
 | `ENABLE_MOCK_CHECKOUT` | somente QA local; nunca habilitar na Vercel |
-| `CHECKOUT_WEBHOOK_MODE` / `CHECKOUT_WEBHOOK_SECRET` | webhook interno; desabilitado até existir adaptador real |
+| `HOTMART_WEBHOOK_ENABLED` | libera o endpoint somente após configuração e teste |
+| `HOTMART_HOTTOK` | token do header oficial `X-HOTMART-HOTTOK` |
+| `HOTMART_PRODUCT_UCODE` / `HOTMART_OFFER_CODE` | allowlist do produto e oferta Nexo 21 |
 | `CHECKOUT_URL_<SLUG>` | checkout externo por produto |
 | `RESEND_API_KEY` / `EMAIL_FROM` | email transacional |
 | `ADMIN_EMAIL` | usuário verificado que o operador promove explicitamente com `npm run admin:promote` |
@@ -101,23 +103,7 @@ Cada leitura da jornada possui pelo menos 500 palavras.
 
 ## Banco
 
-### Local
-
-O schema atual permite usar SQLite para desenvolvimento e QA sem credenciais externas.
-
-### Produção
-
-A publicação seguirá obrigatoriamente:
-
-1. GitHub;
-2. primeiro projeto/deploy Vercel;
-3. integração Neon pela conta Vercel;
-4. migração do datasource Prisma para PostgreSQL;
-5. migration versionada e `prisma migrate deploy`;
-6. seed idempotente;
-7. redeploy e smoke tests públicos.
-
-SQLite não é armazenamento durável na Vercel.
+O projeto usa PostgreSQL/Neon em todos os ambientes persistentes. Mudanças estruturais entram em `prisma/migrations` e são aplicadas com `npm run db:migrate:deploy`; `prisma db push` não faz parte do release.
 
 ## Checkout e acesso
 

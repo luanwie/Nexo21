@@ -1,6 +1,8 @@
 import { PrismaClient } from "../src/generated/prisma-v2";
 
-const prisma = new PrismaClient();
+const prisma = process.env.DATABASE_URL
+  ? new PrismaClient({ datasourceUrl: process.env.DATABASE_URL })
+  : new PrismaClient();
 
 async function main() {
   const email = process.env.ADMIN_EMAIL?.trim().toLowerCase();

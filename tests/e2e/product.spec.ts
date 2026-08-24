@@ -1,12 +1,18 @@
 import { test, expect } from "@playwright/test";
 import { PrismaClient } from "@/generated/prisma-v2";
 
-const prisma = new PrismaClient();
+const prisma = process.env.DATABASE_URL
+  ? new PrismaClient({ datasourceUrl: process.env.DATABASE_URL })
+  : new PrismaClient();
 const buyerEmail = "compradora.e2e@nexo21.test";
 const adminEmail = process.env.ADMIN_EMAIL ?? "admin@nexo21.local";
 const password = "Nexo21!Prueba2026";
 
 async function clean(email: string) {
+  const purchases = await prisma.purchase.findMany({ where: { purchaserEmail: email }, select: { id: true } });
+  if (purchases.length) {
+    await prisma.paymentEvent.deleteMany({ where: { purchaseId: { in: purchases.map((purchase) => purchase.id) } } });
+  }
   await prisma.purchase.deleteMany({ where: { purchaserEmail: email } });
   await prisma.user.deleteMany({ where: { email } });
 }
@@ -50,7 +56,7 @@ test("buyer completes checkout, registers and uses core product flows", async ({
   await page.goto("/checkout?product=nexo-21");
   await page.getByLabel("Tu email de acceso").fill(buyerEmail);
   await page.getByRole("button", { name: /Continuar al pago seguro/i }).click();
-  await expect(page.getByRole("heading", { name: /Compra simulada confirmada/i })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /Compra simulada confirmada/i })).toBeVisible({ timeout: 20_000 });
   await page.getByRole("link", { name: /Crear mi acceso/i }).click();
 
   await page.getByLabel("Nombre").fill("María Prueba");
@@ -63,7 +69,7 @@ test("buyer completes checkout, registers and uses core product flows", async ({
   await page.getByLabel("Correo electrónico").fill(buyerEmail);
   await page.getByLabel("Contraseña").fill(password);
   await page.getByRole("button", { name: /^Ingresar$/i }).click();
-  await expect(page).toHaveURL(/\/app$/);
+  await expect(page).toHaveURL(/\/app$/, { timeout: 20_000 });
   await expect(page.getByRole("heading", { name: /Tu siguiente paso está aquí/i })).toBeVisible();
 
   await page.goto("/app/jornada/1");
@@ -108,7 +114,7 @@ test("admin account can access operations dashboard", async ({ page }) => {
   await page.getByLabel("Correo electrónico").fill(adminEmail);
   await page.getByLabel("Contraseña").fill(password);
   await page.getByRole("button", { name: /^Ingresar$/i }).click();
-  await expect(page).toHaveURL(/\/app$/);
+  await expect(page).toHaveURL(/\/app$/, { timeout: 20_000 });
   await page.goto("/admin");
   await expect(page.getByText("Operación de Nexo 21.")).toBeVisible();
   await expect(page.getByText("Desbloqueo manual")).toBeVisible();

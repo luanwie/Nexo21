@@ -45,6 +45,11 @@ export function normalizeCheckoutEvent(input: unknown) {
 
 type PurchaseState = "PENDING" | "PAID" | "REFUNDED" | "CHARGEBACK" | "CANCELLED";
 
+export function canAcceptBuyerIdentity(existingEmail: string, incomingEmail: string, incomingStatus: PurchaseState) {
+  if (existingEmail.trim().toLowerCase() === incomingEmail.trim().toLowerCase()) return true;
+  return incomingStatus === "REFUNDED" || incomingStatus === "CHARGEBACK" || incomingStatus === "CANCELLED";
+}
+
 const stateRank: Record<PurchaseState, number> = {
   PENDING: 0,
   PAID: 1,
@@ -59,6 +64,9 @@ export function canApplyPurchaseEvent(
   incomingAt: Date,
   currentAt: Date,
 ) {
-  if (incomingAt.getTime() <= currentAt.getTime()) return false;
+  const incomingTime = incomingAt.getTime();
+  const currentTime = currentAt.getTime();
+  if (incomingTime < currentTime) return false;
+  if (incomingTime === currentTime) return stateRank[incoming] > stateRank[current];
   return stateRank[incoming] >= stateRank[current];
 }

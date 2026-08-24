@@ -1,30 +1,38 @@
-import { timingSafeEqual } from "node:crypto";
 import { processCheckoutEvent } from "@/lib/checkout-service";
+import {
+  getHotmartConfigFromEnvironment,
+  normalizeHotmartPurchase,
+  UnmappedHotmartOfferError,
+  UnmappedHotmartProductError,
+  validHotmartHottok,
+} from "@/lib/hotmart";
 import { PayloadTooLargeError, readJsonBody } from "@/lib/http-body";
+import { ZodError } from "zod";
 
 export const runtime = "nodejs";
 
-function validSecret(received: string | null) {
-  const expected = process.env.CHECKOUT_WEBHOOK_SECRET;
-  if (!expected || !received) return false;
-  const a = Buffer.from(expected);
-  const b = Buffer.from(received);
-  return a.length === b.length && timingSafeEqual(a, b);
-}
-
 export async function POST(request: Request) {
-  if (process.env.NODE_ENV === "production" && process.env.CHECKOUT_WEBHOOK_MODE !== "internal-signed") {
-    return Response.json({ error: "Webhook adapter not configured" }, { status: 503 });
+  if (process.env.CHECKOUT_PROVIDER !== "hotmart" || process.env.HOTMART_WEBHOOK_ENABLED !== "true") {
+    return Response.json({ error: "Hotmart webhook is not enabled" }, { status: 503 });
   }
-  if (!validSecret(request.headers.get("x-checkout-secret"))) {
+  if (!validHotmartHottok(request.headers.get("x-hotmart-hottok"), process.env.HOTMART_HOTTOK)) {
     return Response.json({ error: "Unauthorized" }, { status: 401 });
   }
+
   try {
-    const result = await processCheckoutEvent(await readJsonBody(request, 64_000));
+    const payload = await readJsonBody(request, 64_000);
+    const event = normalizeHotmartPurchase(payload, getHotmartConfigFromEnvironment());
+    const result = await processCheckoutEvent(event);
     return Response.json({ ok: true, ...result });
   } catch (error) {
     if (error instanceof PayloadTooLargeError) return Response.json({ error: error.message }, { status: 413 });
-    const message = error instanceof Error ? error.message : "Invalid checkout event";
-    return Response.json({ error: message }, { status: 400 });
+    if (error instanceof UnmappedHotmartProductError) return Response.json({ ok: true, ignored: "unmapped_product" });
+    if (error instanceof UnmappedHotmartOfferError) return Response.json({ error: error.message }, { status: 422 });
+    if (error instanceof ZodError) return Response.json({ error: "Invalid Hotmart event" }, { status: 400 });
+    if (error instanceof Error && /identity|amount|currency|unknown|inactive/i.test(error.message)) {
+      return Response.json({ error: error.message }, { status: 422 });
+    }
+    console.error("Hotmart webhook processing failed", error instanceof Error ? error.name : "UnknownError");
+    return Response.json({ error: "Temporary webhook processing failure" }, { status: 500 });
   }
 }

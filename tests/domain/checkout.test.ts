@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canApplyPurchaseEvent, normalizeCheckoutEvent } from "@/lib/domain/checkout";
+import { canAcceptBuyerIdentity, canApplyPurchaseEvent, normalizeCheckoutEvent } from "@/lib/domain/checkout";
 
 describe("checkout event normalization", () => {
   it("maps a paid transaction to explicit entitlements", () => {
@@ -45,5 +45,22 @@ describe("checkout event normalization", () => {
 
   it("ignores events older than the latest provider event", () => {
     expect(canApplyPurchaseEvent("PAID", "CHARGEBACK", new Date("2026-08-23T11:00:00Z"), new Date("2026-08-23T12:00:00Z"))).toBe(false);
+  });
+
+  it("lets a reversal win when Hotmart events share the same timestamp", () => {
+    const sameTime = new Date("2026-08-23T12:00:00Z");
+    expect(canApplyPurchaseEvent("PAID", "REFUNDED", sameTime, sameTime)).toBe(true);
+    expect(canApplyPurchaseEvent("REFUNDED", "PAID", sameTime, sameTime)).toBe(false);
+  });
+
+  it("never lets a later payable event move a transaction to another buyer", () => {
+    expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "PAID")).toBe(false);
+    expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "PENDING")).toBe(false);
+  });
+
+  it("accepts an email mismatch only to apply a terminal reversal", () => {
+    expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "REFUNDED")).toBe(true);
+    expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "CHARGEBACK")).toBe(true);
+    expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "CANCELLED")).toBe(true);
   });
 });
