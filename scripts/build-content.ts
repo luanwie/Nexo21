@@ -43,6 +43,17 @@ const prayers = prayerCatalog.themes.flatMap((theme) =>
   theme.prayers.map((prayer) => ({ ...prayer as object, themeId: theme.id, theme: theme.theme })),
 );
 
+const productModuleFiles = [
+  "product-modules/01-core-addons.json",
+  "product-modules/02-dlcs-a.json",
+  "product-modules/03-dlcs-b.json",
+  "product-modules/04-dlcs-subscription.json",
+];
+const productModules = productModuleFiles.flatMap((file) => readJson<unknown[]>(file));
+if (productModules.length !== 15) throw new Error(`productModules has ${productModules.length}; expected 15`);
+const productModuleSlugs = productModules.map((module) => String((module as { slug?: unknown }).slug ?? ""));
+if (new Set(productModuleSlugs).size !== productModuleSlugs.length) throw new Error("productModules contains duplicate slugs");
+
 const output = {
   generatedAt: "deterministic-build",
   journey,
@@ -54,6 +65,7 @@ const output = {
   prayers,
   continuity: readJson<Record<string, unknown>>("continuity-30.json"),
   storeProducts: readJson<unknown[]>("store-products.json"),
+  productModules,
 };
 
 const minimums: Array<[string, unknown[], number]> = [
@@ -63,6 +75,7 @@ const minimums: Array<[string, unknown[], number]> = [
   ["devotionals", output.devotionals, 30],
   ["prayers", output.prayers, 36],
   ["storeProducts", output.storeProducts, 10],
+  ["productModules", output.productModules, 15],
 ];
 for (const [name, items, minimum] of minimums) {
   if (items.length < minimum) throw new Error(`${name} has ${items.length}; expected at least ${minimum}`);

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canAcceptBuyerIdentity, canApplyPurchaseEvent, normalizeCheckoutEvent, requiresPreCheckoutEmail, validateHotmartCheckoutUrl } from "@/lib/domain/checkout";
+import { canAcceptBuyerIdentity, canApplyPurchaseEvent, normalizeCheckoutEvent, requiresPreCheckoutEmail, shouldDisplayLocalBumps, validateHotmartCheckoutUrl } from "@/lib/domain/checkout";
 
 describe("checkout event normalization", () => {
   it("maps a paid transaction to explicit entitlements", () => {
@@ -68,6 +68,11 @@ describe("checkout event normalization", () => {
     expect(requiresPreCheckoutEmail("mock")).toBe(true);
     expect(requiresPreCheckoutEmail("hotmart")).toBe(false);
     expect(requiresPreCheckoutEmail("disabled")).toBe(false);
+  });
+
+  it("shows local bump selectors only in the mock checkout", () => {
+    expect(shouldDisplayLocalBumps("mock")).toBe(true);
+    expect(shouldDisplayLocalBumps("hotmart")).toBe(false);
   });
 
   it("accepts only the official HTTPS Hotmart checkout host", () => {

@@ -33,7 +33,7 @@ const OFFER_CATALOG: Array<Omit<Offer, "launchReady">> = [
     description: "Mensajes breves y naturales para cariño, gratitud, admiración y reconciliación.",
     priceCents: 190,
     currency: "USD",
-    features: ["50 mensajes", "Filtros por intención", "Acceso dentro de Nexo 21"],
+    features: ["50 mensajes", "Guía para personalizar", "Acceso dentro de Nexo 21"],
   },
   {
     slug: "conversaciones-sin-herir",
@@ -60,11 +60,11 @@ const OFFER_CATALOG: Array<Omit<Offer, "launchReady">> = [
     type: "UPSELL",
     title: "30 días para cuidar el vínculo",
     shortTitle: "Devocional 30",
-    description: "Devocional premium con audio, reflexión, oración y una acción breve para cada día.",
+    description: "Devocional premium con lectura, reflexión, oración y una acción breve para cada día.",
     priceCents: 1900,
     currency: "USD",
     badge: "Oferta poscompra",
-    features: ["30 devocionales", "Audios", "Calendario mensual", "Acceso permanente"],
+    features: ["30 devocionales", "Oraciones y acciones", "Reflexión diaria", "Acceso permanente"],
   },
   {
     slug: "siete-dias-menos-tension",
@@ -149,12 +149,12 @@ const OFFER_CATALOG: Array<Omit<Offer, "launchReady">> = [
   {
     slug: "mensajes-365",
     type: "DLC",
-    title: "365 mensajes con intención",
-    shortTitle: "Mensajes 365",
-    description: "Una biblioteca anual de palabras sencillas que expresan cariño, gratitud y ánimo.",
+    title: "Biblioteca anual de mensajes con intención",
+    shortTitle: "Mensajes anuales",
+    description: "150 mensajes validados, organizados para acompañar distintos momentos del año con cariño, gratitud, límites y ánimo.",
     priceCents: 1490,
     currency: "USD",
-    features: ["365 mensajes", "Buscador", "Favoritos"],
+    features: ["150 mensajes", "Guía anual", "Categorías por contexto", "Acceso permanente"],
   },
   {
     slug: "plan-anual-nosotros",
@@ -171,17 +171,17 @@ const OFFER_CATALOG: Array<Omit<Offer, "launchReady">> = [
     type: "SUBSCRIPTION",
     title: "Círculo Nexo",
     shortTitle: "Círculo Nexo",
-    description: "Una nueva mini-jornada, devocional, calendario y biblioteca de guiones cada mes.",
+    description: "Membresía editorial con el Mes 1 completo. La venta recurrente se habilitará únicamente cuando el lifecycle de suscripción esté conectado y probado.",
     priceCents: 790,
     currency: "USD",
     badge: "Mensual, cancelable",
-    features: ["Nueva jornada mensual", "Devocional y audios", "Guiones nuevos", "Calendario mensual"],
+    features: ["Mes 1 completo", "4 semanas guiadas", "12 prácticas", "Checkout recurrente aún protegido"],
   },
 ];
 
 export const OFFERS: Offer[] = OFFER_CATALOG.map((offer) => ({
   ...offer,
-  launchReady: offer.slug === "nexo-21",
+  launchReady: true,
 }));
 
 export function getOffer(slug: string) {

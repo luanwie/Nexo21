@@ -80,8 +80,8 @@ export function CheckoutForm({
     </div> : null}
 
     <div className="rounded-2xl bg-[#282621] p-5 text-white">
-      <div className="flex justify-between gap-4 text-sm text-white/65"><span>{chosen.length} producto{chosen.length > 1 ? "s" : ""}</span><span>Pago único</span></div>
-      <div className="mt-2 flex items-end justify-between"><span className="text-sm">Total</span><strong className="text-3xl">US${(total / 100).toFixed(2)}</strong></div>
+      <div className="flex justify-between gap-4 text-sm text-white/65"><span>{chosen.length} producto{chosen.length > 1 ? "s" : ""}</span><span>{primary.type === "SUBSCRIPTION" ? "Cobro mensual, cancelable" : "Pago único"}</span></div>
+      <div className="mt-2 flex items-end justify-between"><span className="text-sm">{primary.type === "SUBSCRIPTION" ? "Cada mes" : "Total"}</span><strong className="text-3xl">US${(total / 100).toFixed(2)}</strong></div>
     </div>
     {error ? <p className="error-text" role="alert">{error}</p> : null}
     <button className="primary-button w-full" disabled={loading}>{loading ? <Loader2 size={18} className="animate-spin" /> : <LockKeyhole size={18} />} {loading ? "Preparando…" : "Continuar al pago seguro"}</button>

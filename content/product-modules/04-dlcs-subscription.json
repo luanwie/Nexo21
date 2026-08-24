@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "mensajes-365",
+    "title": "Biblioteca anual de mensajes con intención",
+    "format": "interactive-library",
+    "version": "1.0",
+    "intro": "Esta biblioteca anual reúne 150 mensajes validados para acompañar conversaciones cotidianas durante todo el año. No contiene 365 textos únicos: la propuesta consiste en elegir, adaptar y reutilizar con intención el mensaje que mejor responda al contexto, en lugar de enviar una frase automática cada día. Las rutas siguientes ayudan a usar el catálogo con criterio, consentimiento y atención al efecto real de las palabras.",
+    "safetyNotice": "Estos mensajes no sustituyen apoyo profesional ni deben usarse para presionar una respuesta. Si existe violencia, coerción, amenaza o riesgo para cualquier persona, prioriza la seguridad, evita confrontar en privado y busca ayuda local especializada o servicios de emergencia.",
+    "library": {
+      "source": "messages",
+      "limit": 150,
+      "title": "150 mensajes validados para usar durante el año"
+    },
+    "sections": [
+      {
+        "id": "elegir-con-contexto",
+        "title": "Elegir con contexto",
+        "summary": "Antes de enviar, identifica la situación, tu intención y el grado de disponibilidad de la otra persona para recibir el mensaje sin presión.",
+        "items": [
+          {
+            "title": "Define una intención honesta",
+            "body": "Un mensaje cuidadoso empieza por una intención que puedas nombrar sin disfrazarla. Reconocer, escuchar, reparar o expresar un límite son propósitos distintos. Si en realidad buscas obtener una respuesta inmediata, calmar tus celos o provocar culpa, espera y reformula antes de elegir un texto de la biblioteca.",
+            "prompt": "¿Qué deseo aportar con este mensaje y qué respuesta estoy intentando controlar?",
+            "action": "Escribe tu intención en una frase y elige solo un mensaje coherente con ella."
+          },
+          {
+            "title": "Revisa el momento y el canal",
+            "body": "La misma frase puede sentirse cercana o invasiva según el momento. Considera si la persona está trabajando, descansando, atravesando una dificultad o si pidió espacio. Para un asunto sensible, un mensaje breve puede servir para solicitar una conversación, pero no para exigir que todo se resuelva por escrito.",
+            "prompt": "¿Este es un momento razonable y este canal protege la calma y la privacidad?",
+            "action": "Si tienes dudas, pregunta primero cuándo y por qué medio sería adecuado conversar."
+          },
+          {
+            "title": "Adapta sin cambiar el sentido",
+            "body": "Usa el texto seleccionado como punto de partida, no como guion rígido. Sustituye palabras que no usarías, añade un detalle verdadero y conserva el tono respetuoso. Evita exagerar afecto, prometer cambios que no sostendrás o copiar frases que contradicen lo ocurrido entre ustedes.",
+            "prompt": "¿Qué detalle concreto haría este mensaje verdadero y reconocible para nosotros?",
+            "action": "Personaliza una sola frase y léela en voz baja antes de decidir si la envías."
+          }
+        ]
+      },
+      {
+        "id": "enviar-sin-presionar",
+        "title": "Enviar sin presionar",
+        "summary": "Convierte el mensaje elegido en una invitación clara que respete autonomía, tiempos, límites y la posibilidad legítima de no responder.",
+        "items": [
+          {
+            "title": "Deja espacio para una respuesta libre",
+            "body": "Una muestra de cariño pierde cuidado cuando incluye una deuda emocional. No acompañes el mensaje con reclamos por la demora, múltiples signos de interrogación o pruebas de amor. Puedes expresar que no hace falta responder de inmediato y sostener esa libertad con tus acciones posteriores.",
+            "prompt": "¿La otra persona puede recibir esto sin sentir que debe tranquilizarme o complacerme?",
+            "action": "Envía un solo mensaje y evita insistir durante el periodo de espacio que acordaste."
+          },
+          {
+            "title": "Habla desde tu experiencia",
+            "body": "Las frases en primera persona reducen interpretaciones innecesarias: describe lo que observaste, cómo te afectó y qué petición concreta deseas hacer. Evita afirmar lo que la otra persona piensa, diagnosticar sus motivos o usar palabras absolutas como siempre y nunca para ganar la conversación.",
+            "prompt": "¿Qué observé realmente y qué parte de mi relato es una interpretación no comprobada?",
+            "action": "Reescribe cualquier acusación como observación, impacto personal y petición específica."
+          },
+          {
+            "title": "Cuida los límites digitales",
+            "body": "Un mensaje no autoriza revisar conexiones, exigir ubicación, pedir contraseñas ni vigilar la actividad digital. Si necesitas claridad, formula una pregunta directa y acepta que la confianza se conversa mediante acuerdos voluntarios. La privacidad y la autonomía siguen siendo importantes dentro de una relación cercana.",
+            "prompt": "¿Mi forma de buscar claridad respeta la privacidad y la capacidad de decidir de ambos?",
+            "action": "Elimina toda exigencia de acceso o vigilancia y plantea una conversación voluntaria."
+          }
+        ]
+      },
+      {
+        "id": "revisar-y-reutilizar",
+        "title": "Revisar y reutilizar durante el año",
+        "summary": "Observa el efecto de tus palabras, registra aprendizajes y vuelve al catálogo cuando exista un propósito real, no por cumplir una cuota diaria.",
+        "items": [
+          {
+            "title": "Observa el efecto sin defenderte",
+            "body": "Tu buena intención no determina por sí sola el impacto. Si la persona dice que el mensaje llegó en mal momento, sonó distante o generó presión, escucha antes de explicar. Agradece la información, pregunta qué habría sido más cuidadoso y decide si corresponde reparar con una acción concreta.",
+            "prompt": "¿Qué puedo aprender del impacto descrito sin convertirlo en un debate sobre mi intención?",
+            "action": "Resume lo que entendiste y pregunta si hace falta una reparación concreta y posible."
+          },
+          {
+            "title": "Crea un registro breve de uso",
+            "body": "La biblioteca está diseñada para 150 mensajes validados que pueden acompañar distintos momentos del año; no necesitas inventar 365 textos ni usar uno cada día. Registra fecha, categoría, contexto y aprendizaje para reconocer qué expresiones resultan auténticas y cuáles conviene adaptar.",
+            "prompt": "¿Qué contexto, elección y aprendizaje vale la pena recordar para un momento futuro?",
+            "action": "Anota cuatro datos breves después de una interacción significativa, sin guardar información íntima innecesaria."
+          },
+          {
+            "title": "Repite con intención, no por rutina",
+            "body": "Reutilizar un mensaje puede ser valioso cuando la necesidad vuelve y las palabras siguen siendo ciertas. Evita convertirlo en una fórmula automática o enviarlo para cerrar un conflicto sin conversar. Antes de repetir, añade una observación actual y comprueba que el texto representa tu disposición real.",
+            "prompt": "¿Por qué este mensaje vuelve a ser pertinente y qué cambió desde la última vez?",
+            "action": "Añade un detalle del presente o elige otra categoría si la necesidad actual es distinta."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "plan-anual-nosotros",
+    "title": "Planner anual de nosotros",
+    "format": "workbook",
+    "version": "1.0",
+    "intro": "Este cuaderno propone doce revisiones mensuales para construir un año compartido con acuerdos observables, flexibles y voluntarios. Cada mes abre una conversación distinta sobre el cuidado de la relación, sin imponer que ambas personas avancen al mismo ritmo. Pueden completar una revisión juntos o por separado, registrar diferencias y convertir las prioridades elegidas en acciones pequeñas que sí caben en la vida cotidiana.",
+    "safetyNotice": "Este plan presupone diálogo libre y respetuoso; nunca debe utilizarse para vigilar, castigar o forzar acuerdos. Ante violencia, coerción, amenaza o riesgo, suspende el ejercicio conjunto, prioriza tu seguridad y busca apoyo profesional, comunitario o de emergencia en tu localidad.",
+    "sections": [
+      {
+        "id": "primer-trimestre",
+        "title": "Primer trimestre: base compartida",
+        "summary": "Los primeros tres meses aclaran prioridades, formas de cuidado y acuerdos de comunicación que servirán como base revisable para el resto del año.",
+        "items": [
+          {
+            "title": "Enero: visión y prioridades",
+            "body": "Comiencen nombrando qué desean proteger, aprender y disfrutar durante el año. Comparen prioridades sin exigir coincidencia total y distingan deseos personales de metas compartidas. El resultado no necesita ser una lista extensa: dos prioridades comunes y un límite de capacidad ofrecen una dirección más realista.",
+            "prompt": "¿Qué dos prioridades compartidas merecen atención y qué necesidad personal no queremos perder?",
+            "action": "Registren dos prioridades, una renuncia consciente y una fecha para revisar el acuerdo."
+          },
+          {
+            "title": "Febrero: lenguaje de cuidado",
+            "body": "Revisen qué gestos cotidianos hacen sentir cuidado a cada persona y cuáles, aunque bien intencionados, no ayudan. Hablen de tiempo, palabras, tareas y cercanía física sin convertir preferencias en obligaciones. Un acuerdo útil traduce el afecto en conductas posibles y deja espacio para decir no.",
+            "prompt": "¿Qué gesto concreto recibo como cuidado y cuál necesito poder rechazar sin culpa?",
+            "action": "Elijan un gesto semanal por persona y acuerden cómo preguntar antes de ofrecerlo."
+          },
+          {
+            "title": "Marzo: comunicación y pausas",
+            "body": "Observen cómo inician conversaciones difíciles, qué señales indican saturación y cómo regresan después de una pausa. Una pausa saludable tiene propósito y hora aproximada de retorno; no es silencio punitivo. Definan palabras sencillas para detener la escalada sin abandonar el tema pendiente.",
+            "prompt": "¿Qué señal muestra que necesitamos pausar y qué nos ayuda a retomar con respeto?",
+            "action": "Escriban un protocolo de pausa con señal, duración orientativa y forma de regreso."
+          }
+        ]
+      },
+      {
+        "id": "segundo-trimestre",
+        "title": "Segundo trimestre: vida cotidiana",
+        "summary": "Esta etapa revisa la distribución de responsabilidades, el dinero y el descanso para reducir supuestos y construir acuerdos cotidianos más equitativos.",
+        "items": [
+          {
+            "title": "Abril: tareas y carga invisible",
+            "body": "Hagan visible quién recuerda, organiza y ejecuta las tareas que sostienen la vida diaria. No se limiten a contar labores: consideren frecuencia, dificultad, tiempo y carga mental. Busquen una distribución percibida como justa, no necesariamente idéntica, y revisable cuando cambien las capacidades.",
+            "prompt": "¿Qué tarea visible o mental está pesando demasiado y qué ajuste sería más justo?",
+            "action": "Redistribuyan una responsabilidad completa, incluida su planificación, durante las próximas cuatro semanas."
+          },
+          {
+            "title": "Mayo: dinero con transparencia",
+            "body": "Conversen sobre ingresos, gastos, deudas, ahorro y temores sin usar el dinero como medida de valor personal. Definan qué decisiones requieren consulta y qué margen conserva cada persona. Si no comparten finanzas, aun pueden acordar cómo distribuir costos comunes de forma clara y voluntaria.",
+            "prompt": "¿Qué dato financiero necesitamos compartir y qué decisión merece un acuerdo explícito?",
+            "action": "Revisen un mes real de gastos y documenten un límite de consulta mutuamente aceptado."
+          },
+          {
+            "title": "Junio: descanso y disfrute",
+            "body": "La relación no debe sostenerse solo con administración y resolución de problemas. Revisen cuánto espacio existe para descanso individual, disfrute compartido y actividades sin productividad. Eviten imponer un plan costoso; una experiencia sencilla y elegida por ambos puede ofrecer conexión genuina.",
+            "prompt": "¿Qué forma de descanso nos falta y qué actividad sencilla disfrutaríamos sin obligación?",
+            "action": "Reserven un espacio individual y otro compartido, ambos ajustados a energía y presupuesto."
+          }
+        ]
+      },
+      {
+        "id": "tercer-trimestre",
+        "title": "Tercer trimestre: vínculo y entorno",
+        "summary": "Los meses centrales exploran intimidad, redes de apoyo y manejo de cambios, siempre desde el consentimiento, la autonomía y expectativas realistas.",
+        "items": [
+          {
+            "title": "Julio: cercanía y consentimiento",
+            "body": "Hablen de cercanía emocional y física con lenguaje claro, sin asumir disponibilidad. El consentimiento debe ser libre, específico y reversible, incluso en relaciones duraderas. Nombren formas de conexión no sexual y acuerden cómo recibir un no sin castigo, distancia intencional ni insistencia.",
+            "prompt": "¿Qué forma de cercanía deseo hoy y cómo puedo expresar un no con seguridad?",
+            "action": "Practiquen una invitación clara y una respuesta respetuosa que incluya la posibilidad de rechazar."
+          },
+          {
+            "title": "Agosto: amistades y redes de apoyo",
+            "body": "Una relación saludable no necesita aislarse para ser importante. Revisen si cada persona mantiene vínculos, intereses y apoyos propios, además de espacios compartidos. Conversen sobre límites de privacidad y tiempo sin prohibir amistades ni pedir que una sola persona cubra todas las necesidades.",
+            "prompt": "¿Qué vínculo o espacio personal deseo cuidar y qué apoyo compartido necesitamos fortalecer?",
+            "action": "Programen una acción de conexión individual y otra con una red de apoyo confiable."
+          },
+          {
+            "title": "Septiembre: adaptación al cambio",
+            "body": "Identifiquen cambios recientes en trabajo, salud, familia, hogar o energía y revisen acuerdos que ya no encajan. Adaptarse no significa que una persona absorba todo el costo. Distingan lo temporal de lo permanente y definan una prueba breve antes de adoptar una nueva distribución.",
+            "prompt": "¿Qué cambio volvió obsoleto un acuerdo y qué apoyo temporal sería sostenible para ambos?",
+            "action": "Diseñen un ajuste de dos semanas con responsabilidades claras y fecha de evaluación."
+          }
+        ]
+      },
+      {
+        "id": "cuarto-trimestre",
+        "title": "Cuarto trimestre: reparación y cierre",
+        "summary": "El cierre del año permite revisar confianza, gratitud y aprendizajes sin borrar dificultades, y preparar decisiones informadas para el siguiente ciclo.",
+        "items": [
+          {
+            "title": "Octubre: conflictos y reparación",
+            "body": "Revisen un patrón de conflicto, no para decidir quién gana, sino para reconocer detonantes, impactos y responsabilidades. Una disculpa útil nombra la conducta sin excusas, escucha el daño y propone una reparación posible. Perdonar no es obligatorio ni elimina límites o consecuencias.",
+            "prompt": "¿Qué patrón queremos interrumpir y qué reparación concreta sigue pendiente este mes?",
+            "action": "Cada persona elige una conducta propia que cambiará y define una señal observable de avance."
+          },
+          {
+            "title": "Noviembre: gratitud con realidad",
+            "body": "La gratitud puede reconocer el bien sin minimizar cansancio, desigualdad o dolor. Nombren acciones específicas que valoran y también una necesidad que sigue abierta. Eviten usar el agradecimiento como obligación de conformarse; apreciar y pedir un cambio pueden coexistir con honestidad.",
+            "prompt": "¿Qué acción concreta agradezco y qué necesidad importante todavía merece atención?",
+            "action": "Intercambien un reconocimiento específico y registren una petición que revisarán sin defensividad."
+          },
+          {
+            "title": "Diciembre: balance y próximo ciclo",
+            "body": "Cierren el año comparando lo planeado con lo vivido, sin convertir el balance en una calificación de la relación. Reconozcan avances, acuerdos que fallaron y circunstancias inesperadas. Decidan qué desean conservar, ajustar o dejar atrás antes de formular nuevas metas compartidas.",
+            "prompt": "¿Qué aprendizaje cambia nuestra forma de planear y qué acuerdo merece continuar?",
+            "action": "Escriban tres aprendizajes, un cierre consciente y una primera conversación para el próximo ciclo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "circulo-nexo",
+    "title": "Círculo Nexo",
+    "format": "monthly-membership",
+    "version": "1.0",
+    "intro": "El primer mes de Círculo Nexo está completamente desarrollado en cuatro semanas de trabajo escrito: observar, escuchar, acordar y sostener. Incluye doce prácticas que pueden realizarse de manera individual o en pareja, sin depender de audios, encuentros en vivo ni una comunidad externa. Avancen a su propio ritmo, repitan lo útil y omitan cualquier ejercicio que no se sienta seguro o pertinente para su situación.",
+    "safetyNotice": "La membresía ofrece educación y reflexión, no atención de crisis ni terapia. Si hay violencia, coerción, amenaza o riesgo, no uses estas prácticas para confrontar a la otra persona; prioriza un plan de seguridad y contacta apoyo especializado o servicios de emergencia locales.",
+    "sections": [
+      {
+        "id": "semana-1-observar",
+        "title": "Semana 1: observar sin juzgar",
+        "summary": "La primera semana crea una línea de base sobre momentos de conexión, tensión y autocuidado antes de intentar cambiar la dinámica compartida.",
+        "items": [
+          {
+            "title": "Mapa de momentos cotidianos",
+            "body": "Durante un día, registra tres momentos: uno de conexión, uno neutral y uno de tensión. Describe hechos observables, sin atribuir intenciones ni corregir a la otra persona. Esta mirada permite detectar condiciones que favorecen el cuidado y evita sacar conclusiones generales desde un episodio aislado.",
+            "prompt": "¿Qué ocurrió, qué observé directamente y qué interpretación añadí después de ese momento?",
+            "action": "Registra tres escenas en dos líneas cada una y separa hechos de interpretaciones."
+          },
+          {
+            "title": "Termómetro personal",
+            "body": "Identifica cómo se presenta en tu cuerpo la activación baja, media y alta: respiración, tensión, velocidad al hablar o impulso de retirarte. No necesitas justificar la emoción para reconocerla. Saber en qué nivel estás ayuda a elegir entre conversar, pedir una pausa o cuidarte primero.",
+            "prompt": "¿Qué señales corporales aparecen antes de que me resulte difícil hablar con respeto?",
+            "action": "Define tres niveles de activación y una respuesta de cuidado apropiada para cada uno."
+          },
+          {
+            "title": "Inventario de recursos reales",
+            "body": "Haz una lista breve de recursos disponibles: tiempo, energía, apoyo, privacidad y dinero. Las propuestas de cambio fracasan cuando ignoran límites concretos. Diferencia lo que puedes ofrecer de manera sostenible, lo que requiere coordinación y lo que no está disponible durante este mes.",
+            "prompt": "¿Qué puedo ofrecer este mes sin resentimiento y qué límite necesito comunicar claramente?",
+            "action": "Anota dos recursos disponibles, un límite y una necesidad de apoyo que puedas pedir."
+          }
+        ]
+      },
+      {
+        "id": "semana-2-escuchar",
+        "title": "Semana 2: escuchar y comprender",
+        "summary": "La segunda semana practica escucha con turnos, preguntas abiertas y comprobación de lo entendido, sin exigir acuerdo ni solución inmediata.",
+        "items": [
+          {
+            "title": "Diez minutos con turnos",
+            "body": "Elijan un tema de intensidad baja. Una persona habla durante cinco minutos y la otra escucha sin interrumpir ni preparar una defensa; después cambian. Quien escucha puede tomar notas breves, pero no corrige detalles durante el turno. Al final, ambos deciden si desean seguir.",
+            "prompt": "¿Qué tema pequeño puedo compartir para practicar escucha sin intentar resolverlo hoy?",
+            "action": "Realicen dos turnos de cinco minutos y terminen con un agradecimiento específico."
+          },
+          {
+            "title": "Reflejo antes de respuesta",
+            "body": "Antes de dar tu opinión, resume lo que entendiste con tus propias palabras y pregunta si falta algo importante. Reflejar no significa aceptar cada interpretación; significa demostrar que escuchaste la experiencia expresada. Solo responde cuando la otra persona confirme o aclare tu resumen.",
+            "prompt": "¿Qué emoción, necesidad y hecho central escuché, sin agregar mi versión todavía?",
+            "action": "Formula un resumen de tres frases y pide confirmación antes de compartir tu perspectiva."
+          },
+          {
+            "title": "Pregunta que abre",
+            "body": "Transforma preguntas acusatorias en invitaciones a explicar una experiencia. En vez de preguntar por qué alguien siempre actúa así, pregunta qué ocurrió, qué fue difícil o qué necesita ahora. Evita interrogar repetidamente; una pregunta abierta también requiere respetar el silencio o un no.",
+            "prompt": "¿Qué pregunta permitiría comprender mejor sin insinuar culpa ni exigir una confesión?",
+            "action": "Escribe una pregunta abierta, hazla una vez y escucha la respuesta sin interrumpir."
+          }
+        ]
+      },
+      {
+        "id": "semana-3-acordar",
+        "title": "Semana 3: crear acuerdos pequeños",
+        "summary": "La tercera semana convierte necesidades conversadas en acuerdos voluntarios, específicos y medibles que pueden probarse sin promesas desproporcionadas.",
+        "items": [
+          {
+            "title": "Petición concreta y negociable",
+            "body": "Una petición clara describe una conducta, un momento y una frecuencia posible. Se diferencia de una demanda porque admite una respuesta negativa y abre negociación. Explica por qué importa, pregunta qué es viable para la otra persona y evita presentar el amor como condición para aceptar.",
+            "prompt": "¿Qué conducta observable quiero pedir y qué alternativas podría aceptar de buena fe?",
+            "action": "Formula una petición con momento y frecuencia, y ofrece al menos una alternativa negociable."
+          },
+          {
+            "title": "Experimento de siete días",
+            "body": "Elijan un ajuste pequeño para probar durante una semana, como avisar cambios de horario o reservar diez minutos sin pantallas. Definan qué hará cada persona y cómo sabrán si ayudó. Una prueba limitada reduce la presión y permite aprender antes de convertirla en compromiso permanente.",
+            "prompt": "¿Qué cambio pequeño podemos probar siete días y qué señal mostrará que fue útil?",
+            "action": "Documenten conducta, responsable, duración y criterio de revisión en cuatro líneas claras."
+          },
+          {
+            "title": "Plan para un incumplimiento",
+            "body": "Los acuerdos realistas incluyen una forma de hablar cuando algo no se cumple. Decidan cómo avisar, cómo escuchar el impacto y cuándo renegociar, sin castigos ni humillación. Distingan un olvido reparable de un patrón que requiere límites nuevos o apoyo adicional.",
+            "prompt": "¿Cómo queremos responder a un incumplimiento para cuidar responsabilidad y dignidad a la vez?",
+            "action": "Acuerden una frase de aviso, una reparación posible y una fecha límite para renegociar."
+          }
+        ]
+      },
+      {
+        "id": "semana-4-sostener",
+        "title": "Semana 4: sostener y revisar",
+        "summary": "La cuarta semana integra lo aprendido, mide cambios con evidencia cotidiana y define qué práctica continuar, ajustar o cerrar al terminar el mes.",
+        "items": [
+          {
+            "title": "Revisión con evidencias",
+            "body": "Revisen el experimento semanal usando ejemplos concretos, no impresiones globales. Pregunten qué ocurrió, qué efecto tuvo y qué costo implicó. Cada persona puede evaluar de forma distinta; registren ambas perspectivas antes de decidir si mantienen, ajustan o terminan el acuerdo.",
+            "prompt": "¿Qué evidencia muestra avance, qué costo apareció y qué perspectiva todavía no comprendemos?",
+            "action": "Anoten un resultado útil, una dificultad y una decisión consensuada sobre el acuerdo."
+          },
+          {
+            "title": "Reconocimiento específico",
+            "body": "Cierra el mes identificando una acción concreta que valoraste en ti y otra que observaste en la otra persona. El reconocimiento no borra temas pendientes ni obliga a la reconciliación; solo hace visible un esfuerzo real. Evita elogios genéricos y describe el efecto que tuvo.",
+            "prompt": "¿Qué acción específica quiero reconocer y qué diferencia produjo durante este mes?",
+            "action": "Expresa dos reconocimientos concretos sin añadir una crítica, petición o deuda emocional."
+          },
+          {
+            "title": "Decisión para el siguiente mes",
+            "body": "Elige una sola práctica para continuar y una que convenga modificar o dejar. Considera seguridad, energía y utilidad, no la idea de completar todo perfectamente. Si trabajaron en pareja, cada persona conserva derecho a una decisión propia y pueden negociar solo la práctica compartida.",
+            "prompt": "¿Qué práctica merece continuar porque fue útil y cuál ya no responde a nuestra realidad?",
+            "action": "Registra una continuidad, un ajuste y la fecha de la próxima revisión mensual."
+          }
+        ]
+      }
+    ]
+  }
+]

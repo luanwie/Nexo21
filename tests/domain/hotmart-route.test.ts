@@ -59,4 +59,19 @@ describe("Hotmart webhook HTTP boundary", () => {
     const response = await POST(request({ ...payload, data: { ...payload.data, purchase: { ...payload.data.purchase, offer: { code: "other-offer" } } } }));
     expect(response.status).toBe(422);
   });
+
+  it("rejects a subscription purchase while recurring lifecycle is disabled", async () => {
+    process.env.HOTMART_PRODUCT_MAP_JSON = JSON.stringify({
+      "circulo-nexo": { productUcode: "circle-ucode", offerCodes: ["circle-offer"] },
+    });
+    const response = await POST(request({
+      ...payload,
+      data: {
+        ...payload.data,
+        product: { ucode: "circle-ucode", name: "Círculo Nexo" },
+        purchase: { ...payload.data.purchase, offer: { code: "circle-offer" }, price: { value: 7.9, currency_value: "USD" } },
+      },
+    }));
+    expect(response.status).toBe(422);
+  });
 });

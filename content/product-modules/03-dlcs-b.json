@@ -1,0 +1,527 @@
+[
+  {
+    "slug": "rutina-y-reconexion",
+    "title": "Reconexión después de la rutina",
+    "format": "guided-journey",
+    "version": "1.0",
+    "intro": "Esta jornada de catorce prácticas ayuda a una pareja a recuperar atención mutua en medio del trabajo, la crianza, el cansancio y las tareas domésticas. No exige grandes citas ni emociones perfectas: propone observar la rutina, elegir acuerdos pequeños y crear momentos sostenibles de encuentro. Cada práctica puede adaptarse al tiempo, la energía y las convicciones de ambos, sin comparar la relación con un ideal ajeno ni prometer resultados automáticos.",
+    "safetyNotice": "Estas prácticas no sustituyen apoyo profesional ni deben usarse para tolerar violencia, coerción, amenaza o riesgo. Si expresar una necesidad o poner un límite puede provocar represalias, prioriza tu seguridad y busca apoyo especializado y confiable. Ningún ejercicio, oración o compromiso de pareja obliga a permanecer en una situación peligrosa.",
+    "sections": [
+      {
+        "id": "mirar-la-rutina",
+        "title": "Mirar la rutina sin culpas",
+        "summary": "Antes de cambiar hábitos, la pareja observa dónde se pierde la conexión y reconoce las cargas reales de cada persona sin convertir el diagnóstico en un juicio.",
+        "items": [
+          {
+            "title": "Mapa de una semana real",
+            "body": "Dibujen una semana común y marquen trabajo, traslados, cuidados, descanso y tareas invisibles. El objetivo no es demostrar quién hace más, sino descubrir en qué momentos la atención queda fragmentada y dónde existe un margen pequeño para cuidarse. Incluyan también los periodos de mayor cansancio, porque un hábito solo será sostenible si respeta la energía disponible.",
+            "prompt": "¿En qué momento cotidiano sentimos más distancia y qué necesidad aparece allí?",
+            "action": "Marquen un espacio realista de diez minutos para reencontrarse esta semana."
+          },
+          {
+            "title": "Cargas visibles e invisibles",
+            "body": "Cada persona enumera cinco responsabilidades que ocupa su mente, incluso cuando nadie la ve: recordar citas, anticipar compras, coordinar hijos o resolver asuntos familiares. Escuchen sin corregir ni competir. Reconocer la carga mental reduce interpretaciones como “no le importo” y permite diseñar apoyo concreto en vez de exigir disponibilidad que hoy no existe.",
+            "prompt": "¿Qué responsabilidad mental mía te sorprende o no habías alcanzado a notar?",
+            "action": "Elijan una carga invisible que pueda compartirse o simplificarse desde hoy."
+          },
+          {
+            "title": "Señales tempranas de desconexión",
+            "body": "Identifiquen señales pequeñas que suelen preceder a la distancia: respuestas automáticas, uso constante del teléfono, irritación al llegar, silencio prolongado o hablar solo de pendientes. Trátenlas como información, no como pruebas de desamor. Nombrar la señal a tiempo permite pedir una pausa o cercanía antes de que el agotamiento se convierta en una pelea mayor.",
+            "prompt": "¿Qué señal te ayuda a saber que necesito cuidado antes de que me cierre?",
+            "action": "Acuerden una frase neutral para avisar que la conexión necesita atención."
+          },
+          {
+            "title": "Lo que ya sostiene el vínculo",
+            "body": "Recuerden tres costumbres que todavía aportan estabilidad, aunque parezcan modestas: despedirse con cariño, preparar café, preguntar por una reunión o compartir una breve reflexión. Reconocer lo que funciona evita empezar desde la carencia. Si la fe forma parte de su vida, pueden agradecer a Dios por esos gestos, sin convertir la gratitud en obligación espiritual.",
+            "prompt": "¿Qué gesto cotidiano tuyo me hace sentir acompañado aunque nunca lo mencione?",
+            "action": "Conserven durante siete días una costumbre valiosa que ya practican."
+          }
+        ]
+      },
+      {
+        "id": "rituales-de-transicion",
+        "title": "Rituales de llegada y despedida",
+        "summary": "Las transiciones del día se convierten en puntos de encuentro breves, previsibles y flexibles, sin exigir que ambos tengan siempre el mismo ánimo.",
+        "items": [
+          {
+            "title": "Despedida con intención",
+            "body": "Antes de separarse por trabajo u obligaciones, deténganse treinta segundos para mirarse y decir qué esperan del día. Puede ser una frase de ánimo, una información práctica o un abrazo si ambos lo desean. La constancia importa más que la intensidad. Si una mañana es caótica, un mensaje posterior puede cumplir la misma función sin transformar el ritual en una prueba de amor.",
+            "prompt": "¿Qué forma de despedida me ayuda a sentir que seguimos siendo un equipo?",
+            "action": "Prueben durante tres mañanas una despedida breve elegida por los dos."
+          },
+          {
+            "title": "Puente antes de entrar",
+            "body": "Quien regresa a casa puede tomarse dos minutos antes de entrar para reconocer cómo llega: acelerado, preocupado, alegre o agotado. Después comunica ese estado sin descargarlo sobre la otra persona. Este puente ayuda a distinguir el estrés externo del vínculo y permite pedir acogida, silencio o ayuda práctica con claridad, en vez de esperar que el otro adivine.",
+            "prompt": "¿Qué necesito hacer para no traer toda la tensión del día a nuestro encuentro?",
+            "action": "Usen hoy la frase “llego sintiéndome… y me ayudaría…” al reencontrarse."
+          },
+          {
+            "title": "Los primeros diez minutos",
+            "body": "Acuerden proteger los primeros diez minutos juntos de reclamos y listas de tareas, salvo una urgencia real. Salúdense, regulen el ritmo y pregunten por el estado del otro. Esto no elimina asuntos difíciles; solo crea una entrada más humana para tratarlos después. Si alguien necesita espacio, puede decir cuánto tiempo requiere y cuándo estará disponible para volver.",
+            "prompt": "¿Qué tendría que ocurrir en esos primeros minutos para sentirme recibido?",
+            "action": "Definan una bienvenida simple y el momento posterior para revisar pendientes."
+          },
+          {
+            "title": "Cierre amable del día",
+            "body": "Antes de dormir, compartan una cosa pesada y una cosa buena del día. Escuchen sin resolver de inmediato. Si quedó un conflicto abierto, confirmen cuándo lo retomarán para que la noche no dependa de una reconciliación apresurada. Una oración breve puede ser una opción compartida, nunca una manera de evitar disculpas, conversación o descanso necesario.",
+            "prompt": "¿Qué necesito soltar esta noche y qué quisiera agradecer de este día?",
+            "action": "Hagan un cierre de cinco minutos sin pantallas y sin buscar soluciones."
+          }
+        ]
+      },
+      {
+        "id": "microhabitos-de-atencion",
+        "title": "Microhábitos de atención",
+        "summary": "Pequeñas acciones repetibles reemplazan las expectativas grandiosas y permiten cuidar el vínculo incluso durante semanas exigentes o imprevisibles.",
+        "items": [
+          {
+            "title": "Pregunta que no sea logística",
+            "body": "Una vez al día formulen una pregunta que no trate de compras, horarios ni obligaciones. Puede explorar una emoción, una idea, algo aprendido o una esperanza. La persona que escucha evita interrogar y ofrece atención durante unos minutos. Si el momento no es adecuado, acuerden otro horario; posponer con claridad es distinto de ignorar la invitación.",
+            "prompt": "¿Qué ha ocupado hoy tu mundo interior y te gustaría que yo comprendiera?",
+            "action": "Aparten siete minutos hoy para una pregunta sin teléfonos ni interrupciones."
+          },
+          {
+            "title": "Aprecio específico",
+            "body": "Cambien elogios generales por reconocimientos observables: “noté que preparaste todo aunque estabas cansado” o “agradecí que me escucharas sin apurarme”. La precisión ayuda a que el cuidado sea visible y creíble. No usen el aprecio para pedir algo después ni para negar un problema; puede coexistir con conversaciones honestas sobre lo que necesita cambiar.",
+            "prompt": "¿Qué acción concreta tuya de las últimas veinticuatro horas quiero reconocer?",
+            "action": "Expresen hoy un agradecimiento específico sin añadir consejo, pedido ni crítica."
+          },
+          {
+            "title": "Contacto acordado",
+            "body": "Conversen sobre qué contacto físico cotidiano resulta acogedor y cuál incomoda según el momento: tomar la mano, abrazar, acercarse en el sofá o simplemente sentarse cerca. El afecto no se presume por ser pareja. Preguntar y aceptar un no sin castigo fortalece la confianza. También pueden elegir formas no físicas de cercanía cuando alguien está saturado.",
+            "prompt": "¿Qué gesto de cercanía disfruto hoy y cómo prefiero que me lo ofrezcas?",
+            "action": "Pidan consentimiento para un gesto afectuoso y reciban la respuesta con respeto."
+          }
+        ]
+      },
+      {
+        "id": "sostener-lo-acordado",
+        "title": "Sostener lo acordado",
+        "summary": "La pareja revisa sus prácticas con flexibilidad, repara interrupciones y protege el descanso para que la reconexión no se vuelva una nueva carga.",
+        "items": [
+          {
+            "title": "Versión mínima para días difíciles",
+            "body": "Diseñen una versión mínima de sus rituales para enfermedad, viajes, turnos largos o crisis familiares. Tal vez sea un mensaje honesto, un minuto de mirada o confirmar cuándo hablarán. La versión mínima no expresa menor amor; protege la continuidad sin negar límites humanos. Eviten cobrar después las prácticas que no pudieron realizar durante una etapa exigente.",
+            "prompt": "¿Cuál es la forma más pequeña de decir “sigo contigo” en un día agotador?",
+            "action": "Escriban una versión mínima de su ritual y déjenla visible para ambos."
+          },
+          {
+            "title": "Reiniciar sin llevar cuentas",
+            "body": "Cuando un hábito se interrumpe, describan lo ocurrido sin usar “siempre” o “nunca”. Pregunten qué obstáculo apareció y ajusten duración, horario o frecuencia. Reiniciar no requiere castigar ni acumular deudas emocionales. Una disculpa es útil cuando hubo descuido, pero debe acompañarse de un cambio posible y no de promesas desproporcionadas que luego generen frustración.",
+            "prompt": "¿Qué obstáculo real interrumpió nuestro acuerdo y qué ajuste sería más honesto?",
+            "action": "Retomen hoy un hábito con una meta menor y una fecha breve de revisión."
+          },
+          {
+            "title": "Revisión semanal compasiva",
+            "body": "Una vez por semana revisen qué práctica dio vida, cuál se sintió forzada y qué necesita pausa. Hablen desde la experiencia propia y celebren el esfuerzo, no una puntuación perfecta. Pueden cerrar agradeciendo, guardando silencio o orando si ambos lo desean. La revisión debe producir como máximo un ajuste concreto para evitar que el cuidado se convierta en otra reunión administrativa.",
+            "prompt": "¿Qué momento de esta semana nos acercó y qué podemos simplificar ahora?",
+            "action": "Programen una revisión de quince minutos y elijan un solo ajuste semanal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "confianza-paso-a-paso",
+    "title": "Confianza paso a paso",
+    "format": "guided-journey",
+    "version": "1.0",
+    "intro": "Estas veintiuna prácticas presentan la confianza como una experiencia que se construye con verdad, coherencia, límites y reparación cotidiana. Sirven para relaciones que desean fortalecer su seguridad relacional, no para borrar de inmediato heridas profundas ni exigir reconciliación. Cada persona conserva su derecho a observar hechos, pedir tiempo y decidir qué límites necesita. La fe puede inspirar honestidad, misericordia y responsabilidad, pero nunca reemplaza las consecuencias ni obliga a confiar antes de estar preparada.",
+    "safetyNotice": "La confianza no exige soportar violencia, coerción, amenaza, vigilancia o cualquier situación de riesgo. Si temes represalias por decir la verdad, poner límites o pedir ayuda, no realices estos ejercicios a solas con la otra persona; busca apoyo profesional y una red segura. Perdonar, orar o amar no elimina el derecho a protegerte ni garantiza que una relación deba continuar.",
+    "sections": [
+      {
+        "id": "definir-la-confianza",
+        "title": "Definir una confianza observable",
+        "summary": "La pareja transforma una palabra amplia en conductas concretas, reconoce niveles distintos de seguridad y evita pedir fe ciega o certezas imposibles.",
+        "items": [
+          {
+            "title": "Confianza no es adivinación",
+            "body": "Cada persona completa la frase “puedo confiar cuando observo…”, usando conductas verificables como cumplir horarios acordados, informar cambios o escuchar sin ridiculizar. Eviten definiciones que exijan leer pensamientos o estar siempre disponible. Una expectativa observable permite conversar y revisar avances; una expectativa difusa suele producir acusaciones que nadie sabe cómo reparar.",
+            "prompt": "¿Qué conducta concreta me permite sentir seguridad sin pedir perfección?",
+            "action": "Escriban por separado tres señales observables y comparen sus significados."
+          },
+          {
+            "title": "Áreas con ritmos distintos",
+            "body": "La confianza puede estar firme en la crianza y frágil en el dinero, la puntualidad o la intimidad. Dibujen varias áreas y valoren su seguridad actual sin promediarlo todo en una sola etiqueta. Reconocer matices evita decir “no confío en ti para nada” y ayuda a concentrar el trabajo donde hace falta, conservando lo que sí funciona en la relación.",
+            "prompt": "¿En qué área existe base sólida y en cuál necesito más evidencia y tiempo?",
+            "action": "Elijan una sola área para trabajar durante la próxima semana."
+          },
+          {
+            "title": "Derecho a preguntar",
+            "body": "Acordar transparencia no significa someterse a interrogatorios interminables. Definan qué preguntas son legítimas, cuándo pueden hacerse y cómo responder si alguien necesita tiempo para ordenar sus ideas. Quien pregunta se compromete a no insultar; quien responde evita desviar o castigar. Si una pregunta toca información privada de terceros, busquen una respuesta honesta que también proteja esa confidencialidad.",
+            "prompt": "¿Qué forma de preguntar me ayuda a responder con claridad y sin defensividad?",
+            "action": "Practiquen una pregunta directa y una respuesta breve sobre un asunto pequeño."
+          },
+          {
+            "title": "Expectativas heredadas",
+            "body": "Exploren qué aprendieron sobre confianza en sus familias, comunidades o experiencias anteriores. Algunas reglas pudieron ser útiles; otras quizá confundieron amor con control, silencio o acceso total a la privacidad. Escuchen las historias sin usar el pasado como excusa. Comprender el origen de una reacción permite elegir una norma compartida más sana para el presente.",
+            "prompt": "¿Qué regla antigua sobre confianza deseo conservar, cuestionar o reemplazar?",
+            "action": "Nombren una expectativa heredada y redacten juntos una alternativa actual."
+          },
+          {
+            "title": "Esperanza sin garantía",
+            "body": "Distingan esperanza de garantía. La esperanza permite comprometerse con un proceso; la garantía pretende asegurar que nunca habrá decepción. Ninguna pareja puede prometer ausencia total de errores, pero sí puede acordar cómo hablará, reparará y buscará ayuda. Si comparten fe, pueden sostener esperanza en Dios sin atribuirle una promesa específica sobre el desenlace de la relación.",
+            "prompt": "¿Qué compromiso realista puedo ofrecer sin prometer un futuro que no controlo?",
+            "action": "Cambien una promesa absoluta por un compromiso medible y revisable."
+          }
+        ]
+      },
+      {
+        "id": "verdad-y-transparencia",
+        "title": "Verdad y transparencia responsable",
+        "summary": "Decir la verdad incluye precisión, oportunidad y respeto por límites legítimos; no autoriza vigilancia, exposición innecesaria ni confesiones usadas para descargar culpa.",
+        "items": [
+          {
+            "title": "Información a tiempo",
+            "body": "Identifiquen qué cambios deben comunicarse pronto: un retraso, un gasto fuera del acuerdo, contacto relevante o una decisión que afecta a ambos. La transparencia pierde valor cuando solo aparece después de ser descubierta. Definan un plazo razonable y un canal. Informar a tiempo no obliga a resolver toda la conversación en ese instante, pero evita que el silencio cree una segunda herida.",
+            "prompt": "¿Qué información compartida tarde suele afectar más nuestra seguridad?",
+            "action": "Acordar por escrito tres cambios que comunicarán antes de veinticuatro horas."
+          },
+          {
+            "title": "Privacidad no es secreto",
+            "body": "Conversen sobre la diferencia entre privacidad personal y secreto que afecta decisiones compartidas. Un diario, una conversación confidencial de amistad o un momento de reflexión pueden ser privados; ocultar una deuda común o un incumplimiento relevante afecta al otro. No exijan contraseñas como prueba universal de amor. Definan límites de dispositivos y cuentas por consentimiento mutuo, no por presión.",
+            "prompt": "¿Qué espacio privado necesito y qué información sí impacta nuestra vida común?",
+            "action": "Redacten una regla de privacidad que proteja autonomía y responsabilidad."
+          },
+          {
+            "title": "Verdad sin detalles dañinos",
+            "body": "Una revelación importante debe ser suficiente para que la otra persona tome decisiones informadas, pero no necesita incluir detalles gráficos o comparaciones que añadan daño. Pregunten qué información es necesaria, qué puede esperar y si conviene apoyo profesional. Quien habla asume responsabilidad sin culpar a la pareja por su reacción; quien escucha puede detener la conversación y retomarla en condiciones más seguras.",
+            "prompt": "¿Qué información necesito para decidir y qué detalle solo aumentaría el dolor?",
+            "action": "Antes de una conversación sensible, acuerden alcance, duración y derecho a pausar."
+          },
+          {
+            "title": "Corregir una versión incompleta",
+            "body": "Si antes minimizaste u omitiste algo relevante, corrige la información sin esperar una pregunta perfecta. Explica qué fue inexacto, ofrece la versión verdadera y reconoce el impacto de la demora. No pidas confianza inmediata como recompensa por hablar. La otra persona puede necesitar verificar hechos, cambiar acuerdos o tomar distancia mientras procesa lo ocurrido.",
+            "prompt": "¿Hay algo que deba aclarar para que nuestras decisiones se basen en hechos?",
+            "action": "Corrige hoy una información pequeña e imprecisa con una frase directa."
+          }
+        ]
+      },
+      {
+        "id": "coherencia-cotidiana",
+        "title": "Coherencia en lo pequeño",
+        "summary": "Los acuerdos modestos y repetidos producen evidencia más confiable que las declaraciones intensas, especialmente cuando incluyen límites, plazos y avisos de cambio.",
+        "items": [
+          {
+            "title": "Prometer menos y cumplir mejor",
+            "body": "Revisen compromisos frecuentes y detecten cuáles nacen del deseo de evitar una discusión: “yo me encargo de todo”, “nunca volverá a pasar” o “mañana estará listo”. Sustitúyanlos por acuerdos que consideren tiempo, recursos y obstáculos. Decir que no puedes cumplir algo puede resultar incómodo, pero es más confiable que ofrecer seguridad momentánea y fallar en silencio.",
+            "prompt": "¿Qué promesa suelo hacer para calmar el momento aunque no sea sostenible?",
+            "action": "Reformula un compromiso pendiente con alcance, fecha y condición realistas."
+          },
+          {
+            "title": "Avisar antes de incumplir",
+            "body": "Cuando adviertas que no cumplirás un acuerdo, informa antes del plazo si es posible. Explica brevemente el obstáculo, reconoce el efecto y propone una nueva opción que la otra persona pueda aceptar o rechazar. No conviertas el aviso en justificación extensa. Esta práctica muestra que el vínculo sigue presente incluso cuando las circunstancias impiden cumplir exactamente lo previsto.",
+            "prompt": "¿Qué me dificulta avisar temprano cuando sé que no llegaré a cumplir?",
+            "action": "Envía hoy un aviso responsable sobre un compromiso que necesite ajuste."
+          },
+          {
+            "title": "Registro sin vigilancia",
+            "body": "Para un área en reparación, pueden llevar un registro temporal de acuerdos cumplidos, gastos informados o revisiones realizadas. El registro sirve para reducir discusiones de memoria, no para controlar cada movimiento. Definan quién lo ve, cuánto dura y cuándo dejará de ser necesario. Si genera obsesión, miedo o castigo, deténganlo y busquen otra herramienta.",
+            "prompt": "¿Qué dato objetivo nos ayudaría sin convertir la relación en supervisión constante?",
+            "action": "Diseñen un registro de una semana con propósito y fecha de cierre."
+          },
+          {
+            "title": "Hacer lo correcto sin aplauso",
+            "body": "Parte de la coherencia ocurre cuando nadie reconoce de inmediato el esfuerzo. Cumplir un límite, informar un error o respetar una pausa no compra perdón ni cercanía. Practiquen actuar según sus valores porque es responsable, dejando que la confianza crezca al ritmo de la otra persona. La fe puede motivar integridad, pero no debe utilizarse para reclamar una respuesta espiritual o emocional.",
+            "prompt": "¿Qué conducta responsable necesito sostener aunque hoy no produzca reconocimiento?",
+            "action": "Cumple un acuerdo discreto y evita pedir validación inmediata por hacerlo."
+          }
+        ]
+      },
+      {
+        "id": "reparar-con-responsabilidad",
+        "title": "Reparar con responsabilidad",
+        "summary": "La reparación reconoce el impacto, acepta consecuencias y propone cambios verificables sin controlar el ritmo emocional ni exigir una reconciliación inmediata.",
+        "items": [
+          {
+            "title": "Disculpa de cuatro partes",
+            "body": "Una disculpa responsable nombra la conducta, reconoce su impacto, evita excusas y describe un cambio concreto. Por ejemplo: “No te avisé del gasto; eso afectó nuestra planificación; fue mi responsabilidad; desde ahora lo consultaré antes”. La persona herida no está obligada a responder con perdón inmediato. Una disculpa abre trabajo; no borra automáticamente las consecuencias.",
+            "prompt": "¿Puedo describir lo que hice y su impacto sin centrar mi propia incomodidad?",
+            "action": "Escribe una disculpa en cuatro partes y elimina toda exigencia de respuesta."
+          },
+          {
+            "title": "Consecuencia y castigo",
+            "body": "Distingan una consecuencia protectora de un castigo diseñado para humillar. Revisar temporalmente un presupuesto tras ocultar deudas puede ser proporcional; insultar, exponer públicamente o retirar afecto para dominar no lo es. Las consecuencias deben relacionarse con el daño, tener criterios claros y revisarse. Ante dudas o desequilibrios de poder, busquen acompañamiento profesional independiente.",
+            "prompt": "¿Esta medida protege una necesidad concreta o intenta hacer sufrir al otro?",
+            "action": "Revisen una consecuencia acordada y definan propósito, duración y evaluación."
+          },
+          {
+            "title": "Escuchar el impacto",
+            "body": "Quien causó daño practica escuchar cómo afectó a la otra persona sin discutir cada palabra ni apresurarla a ver sus buenas intenciones. Puede reflejar lo entendido y preguntar qué falta. Escuchar no significa aceptar insultos ni conversaciones interminables; ambos pueden acordar pausas. El objetivo es comprender suficiente para reparar mejor, no producir una versión única de cada emoción.",
+            "prompt": "¿Qué parte del impacto aún intento corregir en vez de comprender?",
+            "action": "Escucha diez minutos, resume lo entendido y pregunta si falta algo esencial."
+          },
+          {
+            "title": "Plan ante una recaída",
+            "body": "Si el problema puede repetirse, anticipen qué hará cada persona ante una señal temprana. Incluyan a quién informar, qué acceso o actividad se pausará y qué ayuda externa buscarán. Un plan no garantiza que no haya recaída; reduce improvisación y ocultamiento. La persona afectada conserva el derecho a cambiar sus límites si la seguridad o la evidencia empeoran.",
+            "prompt": "¿Qué señal temprana requiere acción antes de que el problema vuelva a crecer?",
+            "action": "Escriban un plan breve con señal, respuesta, apoyo y criterio de revisión."
+          }
+        ]
+      },
+      {
+        "id": "revisar-y-decidir",
+        "title": "Revisar avances y decidir",
+        "summary": "Las revisiones periódicas consideran hechos, bienestar y límites, permitiendo continuar, ajustar o detener el proceso sin presentar ninguna opción como fracaso moral.",
+        "items": [
+          {
+            "title": "Evidencia de treinta días",
+            "body": "Revisen un periodo concreto y busquen patrones, no un día excepcional. Pregunten qué acuerdos se cumplieron, qué información llegó a tiempo y cómo se manejaron los errores. Incluyan también cómo se siente el cuerpo: mayor calma, vigilancia constante o agotamiento. La confianza se evalúa con hechos y experiencia, no solo con las intenciones declaradas por quien desea recuperarla.",
+            "prompt": "¿Qué patrón observable de este mes apoya o debilita mi sensación de seguridad?",
+            "action": "Anoten tres hechos favorables y tres preocupaciones sin discutirlos todavía."
+          },
+          {
+            "title": "Semáforo de límites",
+            "body": "Clasifiquen conductas en verde, amarillo y rojo. Verde indica seguridad; amarillo requiere conversación o apoyo; rojo activa un límite inmediato. Cada persona puede tener umbrales diferentes. El semáforo no sustituye criterio profesional ante abuso, pero facilita respuestas tempranas. Nunca negocien una señal roja bajo presión ni usen lenguaje religioso para reducir su gravedad.",
+            "prompt": "¿Qué conducta es una alerta amarilla y cuál cruza un límite no negociable?",
+            "action": "Definan dos ejemplos por color y una respuesta concreta para cada nivel."
+          },
+          {
+            "title": "Apoyo externo adecuado",
+            "body": "Consideren apoyo individual, terapia de pareja cuando sea segura, asesoría financiera o acompañamiento pastoral capacitado. Elijan personas que respeten confidencialidad, consentimiento y límites, y que no presionen a reconciliarse. En presencia de abuso o miedo, la intervención conjunta puede no ser apropiada; prioricen orientación especializada e independiente para la persona en riesgo.",
+            "prompt": "¿Qué tipo de ayuda corresponde al problema y qué cualidades debe tener?",
+            "action": "Identifiquen dos opciones de apoyo y verifiquen experiencia, enfoque y confidencialidad."
+          },
+          {
+            "title": "Decisión sin prisa impuesta",
+            "body": "Al final de una etapa, cada persona puede decidir continuar, ajustar acuerdos, tomar distancia o cerrar la relación. Ninguna elección garantiza ausencia de dolor. Eviten fechas límite usadas para presionar, salvo que un límite personal necesite una decisión concreta. Si oran o buscan consejo, háganlo como apoyo al discernimiento, no como sustituto de hechos, seguridad y libertad.",
+            "prompt": "¿Qué necesito observar o proteger antes de decidir mi siguiente paso?",
+            "action": "Escribe tu próximo límite o compromiso sin exigir que el otro decida igual."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "intimidad-y-presencia",
+    "title": "Intimidad y presencia",
+    "format": "guided-journey",
+    "version": "1.0",
+    "intro": "Esta jornada de catorce prácticas amplía la intimidad más allá del contacto sexual: incluye seguridad, conversación, ternura, juego, descanso y presencia. Cada propuesta requiere consentimiento libre, específico y reversible; estar en pareja, casados o haber aceptado antes no crea una obligación actual. El objetivo es comprender preferencias y cultivar cercanía sin presión, comparación ni garantías de deseo. Las convicciones cristianas pueden orientar dignidad, fidelidad y cuidado mutuo, siempre respetando la conciencia, el cuerpo y el ritmo de cada persona.",
+    "safetyNotice": "No realices estas prácticas cuando exista violencia, coerción, amenaza, miedo o cualquier riesgo. El consentimiento obtenido mediante culpa, insistencia, autoridad espiritual, dependencia económica o temor no es libre. Ante dolor persistente, trauma o dificultades de salud, detén la actividad y considera apoyo médico o terapéutico competente; ninguna práctica obliga a contacto físico ni garantiza una respuesta sexual.",
+    "sections": [
+      {
+        "id": "seguridad-y-consentimiento",
+        "title": "Seguridad y consentimiento cotidiano",
+        "summary": "La pareja aprende a pedir, escuchar y retirar consentimiento con naturalidad, creando un lenguaje que protege tanto el sí entusiasta como el no o todavía no.",
+        "items": [
+          {
+            "title": "Consentimiento en palabras simples",
+            "body": "Practiquen preguntas claras para gestos cotidianos: “¿quieres un abrazo?”, “¿te gustaría que me siente cerca?” o “¿prefieres espacio?”. La respuesta puede cambiar en cualquier momento. Quien recibe un no evita discutir, enfadarse o pedir explicaciones inmediatas. Esta práctica reduce la adivinación y muestra que la cercanía ofrecida con libertad vale más que el contacto obtenido por obligación.",
+            "prompt": "¿Qué manera de preguntarme me permite responder con mayor libertad y calma?",
+            "action": "Pide hoy consentimiento para un gesto pequeño y acepta la respuesta completa."
+          },
+          {
+            "title": "Sí, no y quizá",
+            "body": "Cada persona escribe ejemplos de contacto o cercanía que hoy ubica en tres categorías: sí, no y quizá con condiciones. No comparen listas ni intenten negociar un no. En los quizá, aclaren condiciones como tiempo, privacidad, energía o posibilidad de detenerse. Las listas describen el presente, no un contrato permanente, y deben actualizarse cuando cambien el cuerpo o las circunstancias.",
+            "prompt": "¿Qué condición convierte una posibilidad incierta en una experiencia segura para mí?",
+            "action": "Compartan una preferencia de cada categoría sin intentar cambiar la del otro."
+          },
+          {
+            "title": "Señal para pausar",
+            "body": "Elijan una palabra o gesto sencillo que signifique pausa inmediata, incluso durante una conversación afectiva. Al usarla, ambos se detienen sin reclamar razones. Después preguntan si la persona necesita espacio, apoyo o terminar la interacción. La señal no es un fracaso ni un rechazo global; es una herramienta para conservar seguridad y evitar continuar cuando el cuerpo o la mente dicen basta.",
+            "prompt": "¿Qué señal sería fácil de usar incluso si me siento bloqueado o confundido?",
+            "action": "Acuerden una señal de pausa y practíquenla en una situación neutral."
+          },
+          {
+            "title": "Recibir un no con cuidado",
+            "body": "Ensayen una respuesta respetuosa ante un no: “gracias por decírmelo; está bien; ¿prefieres espacio o otra forma de cercanía?”. No conviertan la alternativa en una negociación oculta. Quien dijo no tampoco debe compensar con afecto. Recibir límites de manera segura crea condiciones para que futuros sí sean más honestos, aunque no promete una frecuencia determinada de intimidad.",
+            "prompt": "¿Qué reacción mía haría más seguro que me digas no la próxima vez?",
+            "action": "Practiquen en voz alta una invitación, un no y una aceptación respetuosa."
+          }
+        ]
+      },
+      {
+        "id": "presencia-emocional",
+        "title": "Presencia emocional y corporal",
+        "summary": "La intimidad se apoya en atención, regulación y curiosidad por la experiencia del otro, sin exigir que una conversación o un gesto termine en actividad sexual.",
+        "items": [
+          {
+            "title": "Llegar al propio cuerpo",
+            "body": "Antes de buscar cercanía, cada persona observa respiración, tensión, cansancio, dolor y disposición emocional. Compartir “hoy estoy inquieta” o “necesito ir despacio” ayuda a decidir con información. No diagnostiquen ni minimicen la experiencia del otro. La presencia empieza por notar el propio estado y reconocer que el deseo puede variar por estrés, medicación, salud, historia o etapa vital.",
+            "prompt": "¿Qué noto ahora en mi cuerpo y qué tipo de cuidado sería apropiado?",
+            "action": "Hagan un registro corporal de dos minutos y compartan solo lo deseado."
+          },
+          {
+            "title": "Escucha sin agenda",
+            "body": "Durante diez minutos, una persona habla de cómo vive la cercanía últimamente y la otra escucha sin llevar la conversación hacia una petición sexual. Puede reflejar lo entendido y agradecer la confianza. Luego intercambian roles otro día si falta energía. Esta escucha separa la vulnerabilidad de la obligación de actuar y permite conocer factores que una discusión centrada en frecuencia suele ocultar.",
+            "prompt": "¿Qué aspecto de mi experiencia íntima quisiera que comprendas sin resolverlo hoy?",
+            "action": "Ofrezcan diez minutos de escucha y acuerden que no habrá petición posterior."
+          },
+          {
+            "title": "Mirada y respiración compartida",
+            "body": "Si ambos desean, siéntense a una distancia cómoda y mantengan contacto visual intermitente mientras respiran con naturalidad durante dos minutos. Pueden mirar a otro punto o terminar en cualquier momento. No intenten sincronizarse perfectamente ni interpretar la emoción del otro. El ejercicio entrena presencia suave y puede hacerse sin tocarse ni avanzar hacia otra actividad.",
+            "prompt": "¿Qué distancia y duración hacen que esta práctica se sienta tranquila para mí?",
+            "action": "Prueben dos minutos de presencia y después describan la experiencia sin evaluarla."
+          },
+          {
+            "title": "Conversación sobre deseo cambiante",
+            "body": "Hablen del deseo como algo variable y no como medida del amor o la fe. Algunas personas sienten deseo espontáneo; otras lo experimentan después de seguridad, descanso o conexión. Ningún patrón obliga a participar. Eviten comparar con etapas anteriores o con otras parejas. Si el cambio preocupa o causa malestar, consideren una evaluación médica o terapéutica respetuosa.",
+            "prompt": "¿Qué factores aumentan o reducen mi disposición sin determinar una obligación?",
+            "action": "Nombren dos condiciones favorables y una presión que desean retirar."
+          }
+        ]
+      },
+      {
+        "id": "afecto-y-cercania",
+        "title": "Afecto sin escalada obligatoria",
+        "summary": "Los gestos de ternura recuperan valor propio cuando ambos saben que pueden disfrutarlos sin que deban avanzar hacia otra forma de intimidad.",
+        "items": [
+          {
+            "title": "Menú de afecto no sexual",
+            "body": "Creen un menú de opciones como conversar, caminar, tomar la mano, apoyar la cabeza, recibir un masaje breve o sentarse cerca. Cada opción necesita consentimiento y puede tener límites de tiempo o zona corporal. Elegir una no autoriza las demás. El menú amplía posibilidades en días de baja energía y evita que todo contacto sea interpretado como inicio automático de actividad sexual.",
+            "prompt": "¿Qué forma de afecto disfruto cuando sé que no tendrá que avanzar?",
+            "action": "Elijan una opción del menú y acuerden explícitamente dónde termina."
+          },
+          {
+            "title": "Cita de atención plena",
+            "body": "Reservar veinte minutos para una actividad sensorial compartida que no tenga meta romántica: probar una bebida, escuchar música, cuidar una planta o mirar el atardecer. Describan colores, sonidos o sensaciones y dejen los teléfonos aparte. Estar presentes en una experiencia sencilla puede nutrir cercanía sin presión; si alguno está saturado, reduzcan el tiempo o cambien la actividad.",
+            "prompt": "¿Qué experiencia sencilla nos permitiría compartir atención sin tener que rendir?",
+            "action": "Programen una actividad sensorial de veinte minutos elegida por ambos."
+          },
+          {
+            "title": "Ternura y convicciones",
+            "body": "Conversen sobre cómo sus valores, fe o cultura han moldeado las ideas de ternura, cuerpo y sexualidad. Escuchen sin predicar ni corregir la conciencia del otro. Pueden encontrar valores comunes como dignidad, fidelidad, paciencia y cuidado, mientras reconocen preguntas pendientes. Ningún texto religioso debe usarse para exigir acceso al cuerpo, silenciar dolor o negar consentimiento.",
+            "prompt": "¿Qué enseñanza me dio libertad para cuidar y cuál todavía me produce presión?",
+            "action": "Compartan una convicción valiosa y una pregunta sin buscar acuerdo inmediato."
+          }
+        ]
+      },
+      {
+        "id": "acuerdos-y-cuidado",
+        "title": "Acuerdos, reparación y apoyo",
+        "summary": "La pareja integra límites, conversaciones posteriores y ayuda competente para responder con cuidado cuando una experiencia incomoda o una diferencia persiste.",
+        "items": [
+          {
+            "title": "Conversación después de la cercanía",
+            "body": "Después de una experiencia afectiva, pregunten en un momento tranquilo qué se sintió cómodo, qué preferirían distinto y si quedó alguna emoción. Escuchen sin buscar calificación ni defender intenciones. Una observación no convierte toda la experiencia en fracaso. Si alguien se sintió sobrepasado, prioricen reconocerlo, detener prácticas similares y acordar condiciones antes de intentar nuevamente.",
+            "prompt": "¿Qué parte se sintió cuidada y qué ajuste aumentaría mi seguridad?",
+            "action": "Hagan una revisión breve usando “me gustó”, “prefiero” y “necesito”."
+          },
+          {
+            "title": "Reparar una presión",
+            "body": "Si insististe, reaccionaste mal ante un no o asumiste consentimiento, reconoce la conducta con precisión. No expliques primero tu necesidad ni pidas que la otra persona te tranquilice. Pregunta qué límite necesita y acepta que puede requerir distancia o apoyo externo. La disculpa y el cambio son responsabilidades; no garantizan que la confianza o el contacto se restablezcan.",
+            "prompt": "¿Puedo reconocer la presión sin minimizarla ni reclamar una nueva oportunidad?",
+            "action": "Redacta una disculpa que nombre conducta, impacto, límite y cambio concreto."
+          },
+          {
+            "title": "Cuándo buscar apoyo",
+            "body": "Busquen apoyo competente si hay dolor, recuerdos traumáticos, conflicto persistente, cambios bruscos de deseo o dificultades médicas. Puede incluir medicina, fisioterapia especializada, terapia individual o de pareja cuando sea segura. Verifiquen que la persona profesional respete consentimiento y convicciones sin imponer prácticas. Eviten consejeros que prometan resultados, culpen o presionen a una persona.",
+            "prompt": "¿Qué dificultad merece una evaluación que no podemos ofrecer el uno al otro?",
+            "action": "Anoten una opción profesional y las preguntas que harán antes de elegirla."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "familia-y-limites",
+    "title": "Familia, límites y unidad",
+    "format": "workbook",
+    "version": "1.0",
+    "intro": "Este cuaderno reúne doce situaciones para que una pareja converse sobre familias de origen, visitas, celebraciones, ayuda, información privada y decisiones compartidas. Poner límites no busca aislar ni castigar a nadie: busca cuidar la unidad de la pareja, mantener vínculos familiares dignos y aclarar responsabilidades. Las propuestas se adaptan a culturas, etapas y convicciones diferentes, sin prometer armonía inmediata ni exigir que ambos sientan igual. Cuando la fe es importante, puede orientar respeto y honra sin anular la adultez, la seguridad o la conciencia.",
+    "safetyNotice": "Si un familiar o la pareja ejerce violencia, coerción, amenaza, acoso o crea un riesgo, no uses una conversación conjunta como primera respuesta. Prioriza seguridad, apoyo especializado y un plan adecuado. Honrar a la familia, perdonar o preservar la unidad no obliga a permitir abuso, entregar acceso a hijos, revelar una ubicación ni mantener contacto peligroso.",
+    "sections": [
+      {
+        "id": "acuerdos-de-pareja",
+        "title": "Acuerdos antes de responder",
+        "summary": "La pareja identifica valores comunes y crea un proceso privado para decidir, evitando respuestas impulsivas o alianzas familiares que dejen al otro sin voz.",
+        "items": [
+          {
+            "title": "Nuestro círculo de decisiones",
+            "body": "Clasifiquen decisiones que pertenecen a la pareja, asuntos que pueden consultar y temas personales de cada integrante. Vivienda, crianza o presupuesto común suelen requerir acuerdo; pedir consejo no transfiere la decisión. Eviten presentar a la familia una postura como conjunta antes de hablarla. Esta claridad protege la unidad sin tratar toda opinión externa como intromisión.",
+            "prompt": "¿Qué decisión reciente compartimos con otros antes de conversar entre nosotros?",
+            "action": "Definan tres asuntos que siempre revisarán en privado antes de responder."
+          },
+          {
+            "title": "Tiempo para responder",
+            "body": "Adopten una frase de pausa cuando una invitación o petición familiar requiera coordinación: “gracias por pensar en nosotros; lo conversamos y respondemos mañana”. La pausa evita que quien recibe la solicitud comprometa al otro bajo presión. Establezcan un plazo real y cumplan la respuesta. No usen “mi pareja no me deja” para escapar de la responsabilidad compartida.",
+            "prompt": "¿Qué tipo de petición familiar me cuesta pausar antes de responder?",
+            "action": "Practiquen una frase de pausa y un plazo que ambos puedan sostener."
+          },
+          {
+            "title": "Valor común, estrategia distinta",
+            "body": "Quizá ambos valoran la generosidad, pero discrepan sobre prestar dinero; o valoran la cercanía, pero difieren sobre visitas frecuentes. Nombren primero el valor común y luego las estrategias. Esto reduce la idea de que uno ama a la familia y el otro no. Elijan una prueba temporal y una fecha de revisión en vez de convertir cada desacuerdo en una definición permanente.",
+            "prompt": "¿Qué valor compartimos detrás de nuestras propuestas aparentemente opuestas?",
+            "action": "Diseñen una solución de prueba por treinta días con fecha de revisión."
+          }
+        ]
+      },
+      {
+        "id": "visitas-y-celebraciones",
+        "title": "Visitas, fiestas y disponibilidad",
+        "summary": "Los acuerdos de tiempo, alojamiento y celebraciones consideran capacidad real, reciprocidad y descanso, con comunicaciones claras que no culpabilizan a terceros.",
+        "items": [
+          {
+            "title": "Visitas con aviso",
+            "body": "Definan cuánto aviso necesitan para recibir visitas, qué excepciones existen y quién comunica la regla. Una visita sorpresa puede ser alegre para alguien y agotadora para otro; ninguna reacción prueba falta de amor. Usen una frase conjunta y ofrezcan alternativas reales cuando sea posible. El hogar compartido requiere consentimiento de quienes viven en él, no solo la costumbre familiar.",
+            "prompt": "¿Cuánto aviso necesito para recibir a alguien sin resentimiento ni desorden?",
+            "action": "Escriban una regla de visitas con plazo, excepciones y responsable de comunicarla."
+          },
+          {
+            "title": "Calendario de celebraciones",
+            "body": "Antes de fechas importantes, anoten invitaciones, traslados, costos, tradiciones y necesidad de descanso. No intenten demostrar igualdad matemática cada año si las circunstancias son distintas; busquen equidad a lo largo del tiempo. Incluyan la opción de crear una celebración propia o asistir por separado a alguna actividad, siempre que ambos puedan hablarlo sin castigo.",
+            "prompt": "¿Qué celebración deseo priorizar y qué costo emocional o práctico implica?",
+            "action": "Creen un calendario conjunto y decidan primero los periodos de descanso."
+          },
+          {
+            "title": "Alojamiento con límites",
+            "body": "Si un familiar quiere quedarse en casa, acuerden duración, espacios, gastos, horarios y responsabilidades antes de confirmar. Consideren privacidad, niños, trabajo y salud. Un límite de tiempo no es falta de hospitalidad. Si la convivencia se vuelve irrespetuosa, cualquiera de los dos puede activar el plan de salida acordado sin ser presentado como culpable ante la familia.",
+            "prompt": "¿Qué condiciones hacen posible hospedar sin poner en riesgo nuestro bienestar?",
+            "action": "Redacten cinco condiciones de alojamiento y una alternativa externa viable."
+          }
+        ]
+      },
+      {
+        "id": "ayuda-dinero-y-cuidados",
+        "title": "Ayuda, dinero y responsabilidades",
+        "summary": "La generosidad familiar se organiza con transparencia, capacidad y criterios compartidos para evitar deudas ocultas, agotamiento o expectativas indefinidas.",
+        "items": [
+          {
+            "title": "Ayuda económica transparente",
+            "body": "Acuerden qué monto puede dar o prestar cada persona sin consulta y qué solicitudes requieren decisión conjunta. Antes de ayudar, revisen presupuesto, propósito, frecuencia y posibilidad real de devolución. No oculten transferencias para evitar conflicto ni prometan dinero bajo culpa. También pueden ofrecer información, tiempo limitado u otra ayuda que no comprometa necesidades esenciales del hogar.",
+            "prompt": "¿Qué criterio nos permite ser generosos sin ocultar costos ni crear resentimiento?",
+            "action": "Definan un umbral de consulta y un presupuesto familiar de ayuda."
+          },
+          {
+            "title": "Cuidar sin agotarse",
+            "body": "Cuando un familiar necesita cuidados, enumeren tareas, duración probable, habilidades y recursos externos. Repartir responsabilidades no significa que la pareja deba cubrir todo. Hablen con otros parientes, servicios o comunidades de apoyo y preserven descanso. Revisen el acuerdo con frecuencia, porque una ayuda temporal puede convertirse sin aviso en una obligación que desborda al hogar.",
+            "prompt": "¿Qué cuidado podemos ofrecer de forma sostenible y cuál requiere más apoyo?",
+            "action": "Hagan una lista de tareas y asignen responsables, relevos y fecha de revisión."
+          },
+          {
+            "title": "Préstamos y expectativas",
+            "body": "Antes de prestar dinero, decidan si realmente pueden asumir que no regrese. Si esperan devolución, escriban monto, fechas y qué ocurrirá ante un retraso. Eviten condiciones humillantes o acceso indebido a decisiones personales. Si el préstamo amenaza la estabilidad de la pareja, es válido decir no. Una recomendación financiera profesional puede ayudar en cantidades importantes.",
+            "prompt": "¿Podemos asumir la pérdida de este dinero sin afectar necesidades ni vínculo?",
+            "action": "Usen una hoja simple para registrar monto, condiciones y consentimiento de ambos."
+          }
+        ]
+      },
+      {
+        "id": "comunicar-y-sostener-limites",
+        "title": "Comunicar y sostener límites",
+        "summary": "Los límites se expresan como decisiones propias, se sostienen con consecuencias proporcionales y se revisan sin entrar en discusiones infinitas ni campañas familiares.",
+        "items": [
+          {
+            "title": "Guion claro y respetuoso",
+            "body": "Formulen el límite con cuatro elementos: reconocimiento, decisión, alternativa posible y cierre. Por ejemplo: “Sabemos que te importa vernos; no recibiremos visitas sin aviso; podemos coordinar el sábado; te confirmaremos mañana”. Eviten largas defensas que abren cada detalle a debate. El tono respetuoso no requiere abandonar una decisión necesaria cuando la otra persona se molesta.",
+            "prompt": "¿Cómo puedo expresar nuestra decisión sin culpar, justificar de más ni atacar?",
+            "action": "Escriban y ensayen un guion de cuatro frases para un límite actual."
+          },
+          {
+            "title": "Cuando insisten",
+            "body": "Si un familiar repite la petición, usen una respuesta breve y coherente en vez de añadir nuevas explicaciones. Después apliquen una consecuencia relacionada, como terminar la llamada o posponer la visita. No amenacen con medidas que no cumplirán. La insistencia no transforma un no en sí, y la culpa o una cita religiosa no reemplazan el consentimiento de la pareja.",
+            "prompt": "¿Qué frase repetiré y qué haré si la conversación deja de ser respetuosa?",
+            "action": "Acuerden una respuesta repetible y una consecuencia proporcional que sí sostendrán."
+          },
+          {
+            "title": "Información privada y alianzas",
+            "body": "Definan qué conflictos, datos financieros, asuntos de salud o detalles íntimos no compartirán sin permiso. Buscar apoyo es legítimo, pero debe hacerse con alguien confiable y sin reclutar a la familia para presionar. Si ya revelaron algo indebido, reconozcan el daño, pidan que no se difunda y cambien el patrón. La privacidad protege dignidad, no encubre peligro o abuso.",
+            "prompt": "¿Qué información nuestra requiere permiso antes de compartirla y con quién?",
+            "action": "Creen una lista breve de temas privados y dos fuentes seguras de apoyo."
+          }
+        ]
+      }
+    ]
+  }
+]

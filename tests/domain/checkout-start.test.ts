@@ -16,6 +16,10 @@ describe("checkout start boundary", () => {
     process.env.CHECKOUT_PROVIDER = "hotmart";
     process.env.CHECKOUT_URL_NEXO_21 = "https://pay.hotmart.com/ABC123";
     process.env.HOTMART_WEBHOOK_ENABLED = "false";
+    process.env.HOTMART_HOTTOK = "configured-secret";
+    process.env.HOTMART_PRODUCT_MAP_JSON = JSON.stringify({
+      "nexo-21": { productUcode: "product-ucode", offerCodes: ["offer-code"] },
+    });
   });
 
   afterEach(() => {
@@ -41,6 +45,6 @@ describe("checkout start boundary", () => {
     process.env.HOTMART_WEBHOOK_ENABLED = "true";
     process.env.CHECKOUT_URL_NEXO_21 = "https://evil.example/collect";
     const response = await POST(request());
-    expect(response.status).toBe(400);
+    expect(response.status).toBe(503);
   });
 });

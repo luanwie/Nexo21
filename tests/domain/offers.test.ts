@@ -15,7 +15,8 @@ describe("offer catalog", () => {
     expect(new Set(OFFERS.map((offer) => offer.slug)).size).toBe(OFFERS.length);
   });
 
-  it("publishes only the complete main product at launch", () => {
-    expect(OFFERS.filter((offer) => offer.launchReady).map((offer) => offer.slug)).toEqual(["nexo-21"]);
+  it("publishes the complete 16-product catalog", () => {
+    expect(OFFERS).toHaveLength(16);
+    expect(OFFERS.every((offer) => offer.launchReady)).toBe(true);
   });
 });

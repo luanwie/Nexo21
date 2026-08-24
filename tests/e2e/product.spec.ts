@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { PrismaClient } from "@/generated/prisma-v2";
+import { OFFERS } from "@/lib/offers";
 
 const prisma = process.env.DATABASE_URL
   ? new PrismaClient({ datasourceUrl: process.env.DATABASE_URL })
@@ -55,6 +56,11 @@ test("public legal and support pages are available", async ({ page }) => {
   }
 });
 
+test("paid modules reject unauthenticated access", async ({ page }) => {
+  await page.goto("/app/extras/dinero-en-equipo");
+  await expect(page).toHaveURL(/\/login$/);
+});
+
 test("buyer completes checkout, registers and uses core product flows", async ({ page }) => {
   test.setTimeout(90_000);
   await page.goto("/checkout?product=nexo-21");
@@ -102,11 +108,14 @@ test("buyer completes checkout, registers and uses core product flows", async ({
   await expect(page.getByText("Frases que ayudan")).toBeVisible();
 
   await page.goto("/app/tienda");
-  await expect(page.getByText(/Lo que tienes hoy y lo que estamos preparando/i)).toBeVisible();
+  await expect(page.getByRole("heading", { name: /Experiencias completas para distintos momentos/i })).toBeVisible();
   await expect(page.getByRole("link", { name: /Comprar/i })).toHaveCount(0);
+  await page.goto("/app/extras/dinero-en-equipo");
+  await expect(page).toHaveURL(/\/app\/tienda\?bloqueado=dinero-en-equipo$/);
 });
 
 test("admin account can access operations dashboard", async ({ page }) => {
+  test.setTimeout(150_000);
   await page.goto("/registro");
   await page.getByLabel("Nombre").fill("Administradora E2E");
   await page.getByLabel("Correo electrónico").fill(adminEmail);
@@ -122,4 +131,13 @@ test("admin account can access operations dashboard", async ({ page }) => {
   await page.goto("/admin");
   await expect(page.getByText("Operación de Nexo 21.")).toBeVisible();
   await expect(page.getByText("Desbloqueo manual")).toBeVisible();
+
+  await page.goto("/app/tienda");
+  await expect(page.locator("article")).toHaveCount(16);
+  for (const offer of OFFERS.filter((item) => item.slug !== "nexo-21")) {
+    const response = await page.goto(`/app/extras/${offer.slug}`);
+    expect(response?.ok(), offer.slug).toBe(true);
+    await expect(page.getByRole("heading", { level: 1, name: offer.title })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Contenido guiado" })).toBeVisible();
+  }
 });

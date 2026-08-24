@@ -1,0 +1,512 @@
+[
+  {
+    "slug": "siete-dias-menos-tension",
+    "title": "7 días con menos tensión",
+    "format": "guided-journey",
+    "version": "1.0",
+    "intro": "Esta jornada breve propone siete días de observación, regulación y conversación para reducir la reactividad antes de abordar un tema importante. No busca evitar las diferencias ni decidir quién tiene razón: ofrece pausas concretas, lenguaje descriptivo y acuerdos pequeños que cada persona puede aceptar, ajustar o rechazar. Avancen a un ritmo realista y repitan una práctica cuando sea más útil que pasar a la siguiente.",
+    "safetyNotice": "Si existe violencia, coerción, amenaza o riesgo para cualquier persona, no utilicen estas prácticas para confrontar ni negociar a solas. Prioricen un lugar seguro, apoyo profesional o comunitario y los servicios de emergencia de su zona. Una pausa nunca debe usarse para castigar, vigilar o forzar contacto.",
+    "sections": [
+      {
+        "id": "preparar-el-terreno",
+        "title": "Preparar el terreno",
+        "summary": "Los primeros dos días ayudan a reconocer la activación, separar hechos de interpretaciones y acordar una pausa que sí incluya un regreso responsable.",
+        "items": [
+          {
+            "title": "Antes de empezar: semáforo y condiciones",
+            "body": "Antes del día uno, cada persona valora su tensión de cero a diez y nombra qué condiciones necesita para participar: tiempo, privacidad, descanso o la posibilidad de detenerse. Si alguien está en rojo, la tarea no es resolver el tema sino recuperar estabilidad y escoger otro momento sin imponer cercanía.",
+            "prompt": "¿Qué señales indican que hoy puedo conversar y cuáles indican que necesito esperar?",
+            "action": "Escriban por separado una condición de inicio y una señal clara para detener la conversación."
+          },
+          {
+            "title": "Día 1: mapa de detonantes observables",
+            "body": "Registra una situación reciente sin atribuir intenciones: qué ocurrió, qué palabras escuchaste, qué notaste en tu cuerpo y qué hiciste después. Distinguir el evento de la historia mental evita convertir una suposición como «no le importo» en un hecho y permite identificar el punto exacto donde la tensión subió.",
+            "prompt": "¿Qué hecho observable ocurrió justo antes de que mi tensión aumentara dos puntos?",
+            "action": "Completa cuatro líneas: hecho, interpretación, sensación corporal y respuesta que elegiste."
+          },
+          {
+            "title": "Día 2: pausa con retorno acordado",
+            "body": "Practica una pausa que proteja la conversación en vez de abandonarla. La fórmula incluye reconocer la activación, pedir un intervalo concreto y proponer cuándo retomar. Durante la pausa no prepares un contraataque: camina, respira, bebe agua o escribe el tema central en una frase neutral.",
+            "prompt": "¿Cuánto tiempo necesito para regularme sin dejar a la otra persona en incertidumbre?",
+            "action": "Ensaya en voz alta: «Estoy activado; necesito una pausa y propongo volver a las…»."
+          }
+        ]
+      },
+      {
+        "id": "hablar-sin-escalar",
+        "title": "Hablar sin escalar",
+        "summary": "Los días tres a cinco convierten acusaciones amplias en observaciones, escucha verificable y peticiones que dejan espacio para una respuesta honesta.",
+        "items": [
+          {
+            "title": "Día 3: un episodio, no todo el historial",
+            "body": "Elige un solo episodio reciente y descríbelo con lugar, momento y conducta visible. Evita «siempre», «nunca» y listas de errores antiguos, porque amplían el juicio y dificultan responder. Limitar el alcance no borra un patrón; crea una unidad manejable para comprenderlo con precisión.",
+            "prompt": "¿Qué episodio concreto representa el tema sin convertirlo en una acusación global?",
+            "action": "Redacta dos frases que comiencen con «Cuando ocurrió…» y «El efecto para mí fue…»."
+          },
+          {
+            "title": "Día 4: escuchar y comprobar",
+            "body": "Una persona habla durante tres minutos y la otra resume contenido y emoción sin refutar. Quien habló corrige el resumen hasta sentirse comprendido, no necesariamente de acuerdo. Después cambian de rol. La meta es reducir malentendidos antes de proponer soluciones, no obtener una confesión ni ganar el turno.",
+            "prompt": "¿Qué parte de lo escuchado puedo resumir sin añadir mi defensa o una explicación?",
+            "action": "Realicen dos turnos de tres minutos y cierren cada resumen con «¿Lo entendí bien?»."
+          },
+          {
+            "title": "Día 5: necesidad y petición negociable",
+            "body": "Transforma una queja en una necesidad propia y una petición específica, medible y abierta a negociación. «Necesito más apoyo» puede convertirse en «¿Podrías encargarte de la cena martes y jueves durante dos semanas?». La otra persona puede aceptar, proponer una alternativa o decir que no sin recibir castigo.",
+            "prompt": "¿Qué petición concreta expresaría mi necesidad sin controlar la decisión de la otra persona?",
+            "action": "Formula una petición con acción, frecuencia y plazo; pregunta qué ajuste la haría viable."
+          }
+        ]
+      },
+      {
+        "id": "reparar-y-continuar",
+        "title": "Reparar y continuar",
+        "summary": "Los días seis y siete consolidan responsabilidad y acuerdos pequeños; la revisión final convierte lo aprendido en un plan para futuras tensiones.",
+        "items": [
+          {
+            "title": "Día 6: reparación sin condiciones",
+            "body": "Nombra una conducta propia, su impacto probable y una acción de reparación sin añadir «pero» ni exigir perdón. Reparar no significa asumir toda la culpa ni cerrar el tema de inmediato; significa hacerse cargo de una parte concreta y permitir que la otra persona decida qué necesita y cuánto tiempo requiere.",
+            "prompt": "¿De qué conducta específica puedo responsabilizarme aunque también tenga algo que explicar?",
+            "action": "Ofrece una reparación en tres pasos: conducta, impacto y cambio observable para la próxima vez."
+          },
+          {
+            "title": "Día 7: acuerdo mínimo de catorce días",
+            "body": "Elijan un cambio pequeño que ambos puedan sostener durante catorce días, con una señal de inicio y una revisión definida. Un acuerdo útil indica quién hará qué y cómo se conversará un incumplimiento. No conviertan el seguimiento en vigilancia; registren hechos y ajusten si la carga resultó poco realista.",
+            "prompt": "¿Cuál es el cambio más pequeño que reduciría fricción sin exigir perfección?",
+            "action": "Escriban un acuerdo de una oración y agenden una revisión de quince minutos en catorce días."
+          },
+          {
+            "title": "Cierre: plan para la próxima ola",
+            "body": "Revisen qué práctica bajó la tensión, cuál costó más y qué señales anuncian una nueva escalada. Diseñen una secuencia breve: detectar, pausar, volver y hablar de un solo episodio. El plan no garantiza conversaciones fáciles, pero ofrece una referencia compartida para elegir respuestas menos automáticas.",
+            "prompt": "¿Qué señal temprana quiero reconocer antes de que la tensión llegue a su punto máximo?",
+            "action": "Guarda un plan de cuatro pasos y acuerda dónde estará disponible para ambos."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dinero-en-equipo",
+    "title": "Dinero en equipo",
+    "format": "workbook",
+    "version": "1.0",
+    "intro": "Este cuaderno organiza conversaciones sobre ingresos, gastos, deudas, prioridades y autonomía sin reducir la relación a una hoja de cálculo. Las herramientas combinan preparación individual, datos compartidos y acuerdos revisables. No existe un único modelo correcto: cuentas conjuntas, separadas o mixtas pueden funcionar si hay información suficiente, consentimiento y una distribución que ambas personas consideran comprensible y digna.",
+    "safetyNotice": "Si hay violencia económica, coerción, amenaza, ocultamiento forzado o riesgo por revelar dinero, no hagan una sesión conjunta ni entreguen acceso a cuentas. Busquen apoyo financiero, legal o especializado de forma segura. Ningún acuerdo justifica controlar compras básicas, documentos, trabajo o movimientos de la otra persona.",
+    "sections": [
+      {
+        "id": "historias-y-datos",
+        "title": "Historias y datos antes del presupuesto",
+        "summary": "Estas herramientas separan la carga emocional de la información disponible para que la conversación empiece con contexto y no con acusaciones.",
+        "items": [
+          {
+            "title": "Herramienta 1: autobiografía financiera breve",
+            "body": "Cada persona escribe qué aprendió sobre ahorrar, gastar, pedir ayuda y hablar de deudas en su familia de origen. Incluye una frase que todavía influye en tus decisiones y una práctica que deseas conservar. Compartir estas historias explica sensibilidades, pero no convierte el pasado en excusa para ocultar información actual.",
+            "prompt": "¿Qué regla sobre el dinero aprendí temprano y cómo aparece hoy en mis decisiones?",
+            "action": "Escribe cinco recuerdos financieros y comparte solo los que te resulte seguro conversar."
+          },
+          {
+            "title": "Herramienta 2: fotografía financiera común",
+            "body": "Reúnan cifras del mismo periodo: ingresos netos, saldos, pagos mínimos, gastos fijos, gastos variables y compromisos próximos. Marquen cada cifra como confirmada, estimada o pendiente. Una fotografía incompleta pero honesta es más útil que una precisión fingida; no rellenen huecos con suposiciones sobre la otra persona.",
+            "prompt": "¿Qué dato falta para comprender el mes sin convertir esa ausencia en una acusación?",
+            "action": "Completen una tabla con monto, fecha, responsable actual y estado confirmado o estimado."
+          },
+          {
+            "title": "Conversación 3: temperatura antes de calcular",
+            "body": "Antes de abrir números, cada persona califica su tensión de cero a diez y elige escucha, ideas o decisión como objetivo de la sesión. Si alguien supera siete, acuerden una pausa y una hora de retorno. Trabajar con activación alta favorece respuestas defensivas y decisiones apresuradas que luego generan resentimiento.",
+            "prompt": "¿Necesito que hoy me escuchen, que pensemos opciones o que tomemos una decisión?",
+            "action": "Declaren el objetivo de la sesión y limiten la primera conversación a treinta minutos."
+          }
+        ]
+      },
+      {
+        "id": "prioridades-y-gastos",
+        "title": "Prioridades y gastos cotidianos",
+        "summary": "El segundo bloque traduce valores generales en categorías, límites y decisiones pequeñas que puedan revisarse sin fiscalización personal.",
+        "items": [
+          {
+            "title": "Herramienta 4: tres niveles de prioridad",
+            "body": "Clasifiquen los gastos del próximo mes como esenciales, importantes o deseables. Hagan primero listas individuales y luego comparen diferencias: una categoría puede representar seguridad para alguien y flexibilidad para la otra persona. No discutan la etiqueta como si fuera una verdad moral; expliquen qué necesidad protege.",
+            "prompt": "¿Qué necesidad intento proteger con los tres gastos que considero más importantes?",
+            "action": "Clasifiquen diez gastos y elijan dos diferencias para explorar sin resolverlas todavía."
+          },
+          {
+            "title": "Herramienta 5: fijo, flexible y ocasional",
+            "body": "Separen obligaciones de monto estable, categorías ajustables y gastos que aparecen pocas veces al año. Esta distinción evita tratar una matrícula anual como sorpresa o exigir recortes imposibles en una deuda fija. Añadan fechas y rangos realistas para observar dónde existe margen de decisión durante este ciclo.",
+            "prompt": "¿Qué gasto parecía inesperado pero en realidad puede anticiparse por fecha o temporada?",
+            "action": "Marca cada categoría como fija, flexible u ocasional y asigna un rango mensual realista."
+          },
+          {
+            "title": "Conversación 6: umbral para consultar",
+            "body": "Acuerden qué decisiones requieren aviso, conversación o decisión conjunta según monto e impacto, no como permiso general para gastar. Incluyan excepciones para salud y emergencias y definan cómo informar después. El umbral debe aplicarse de forma equivalente y no servir para revisar cada movimiento de una sola persona.",
+            "prompt": "¿Qué impacto, además del monto, hace necesario consultar antes de comprometer recursos?",
+            "action": "Definan tres niveles de decisión con ejemplos y una fecha para revisar si funcionan."
+          }
+        ]
+      },
+      {
+        "id": "deudas-imprevistos-y-autonomia",
+        "title": "Deudas, imprevistos y autonomía",
+        "summary": "Estas prácticas hacen visibles las obligaciones sin avergonzar, preparan gastos irregulares y protegen un margen de decisión personal.",
+        "items": [
+          {
+            "title": "Herramienta 7: mapa respetuoso de deudas",
+            "body": "Para cada deuda registren saldo, tasa, pago mínimo, fecha y titularidad. Después comparen estrategias posibles por costo, alivio emocional y viabilidad, sin llamar irresponsable a quien contrajo una obligación. La responsabilidad incluye información clara y próximos pasos, no humillación ni acceso forzado a credenciales.",
+            "prompt": "¿Qué dato de cada deuda necesitamos para comparar opciones sin juzgar a la persona?",
+            "action": "Completen el mapa y seleccionen una sola acción informativa para esta semana."
+          },
+          {
+            "title": "Herramienta 8: fondos para gastos irregulares",
+            "body": "Elijan entre tres y cinco gastos previsibles que no ocurren cada mes, como mantenimiento, salud o celebraciones. Estimen el total anual, divídanlo por los meses disponibles y ajusten si el monto no cabe. Un fondo pequeño no elimina imprevistos, pero hace visible la preparación posible sin prometer control total.",
+            "prompt": "¿Qué gasto irregular tendría mayor impacto si vuelve a encontrarnos sin preparación?",
+            "action": "Crea un fondo con nombre, meta, aporte inicial y fecha de revisión trimestral."
+          },
+          {
+            "title": "Conversación 9: dinero personal sin vigilancia",
+            "body": "Definan un monto o porcentaje que cada persona pueda usar sin justificar compras, siempre que estén cubiertos los compromisos acordados. Si los ingresos son muy distintos, conversen si la igualdad será por cantidad, proporción o acceso. La autonomía financiera no debe depender de demostrar merecimiento ni de revelar cada detalle.",
+            "prompt": "¿Qué arreglo ofrece autonomía real sin ignorar nuestras obligaciones compartidas?",
+            "action": "Elijan un criterio provisional de dinero personal y pruébenlo durante un mes."
+          }
+        ]
+      },
+      {
+        "id": "acuerdos-y-revision",
+        "title": "Acuerdos que pueden cambiar",
+        "summary": "El cierre convierte las decisiones en rutinas breves, planes para desacuerdos y un documento vivo en lugar de reglas permanentes.",
+        "items": [
+          {
+            "title": "Herramienta 10: reunión semanal de veinte minutos",
+            "body": "Usen una agenda fija: revisar saldo disponible, pagos de los próximos siete días, un avance y una decisión pendiente. No aprovechen este espacio para reabrir todos los conflictos. Si surge un tema grande, agréguenlo a otra cita con duración definida para proteger la brevedad de la revisión semanal.",
+            "prompt": "¿Qué cuatro datos necesitamos ver cada semana para evitar sorpresas evitables?",
+            "action": "Agenden cuatro reuniones y preparen una plantilla que pueda completarse en veinte minutos."
+          },
+          {
+            "title": "Conversación 11: protocolo para desacuerdos",
+            "body": "Decidan de antemano qué hacer cuando no haya consenso: posponer compras no urgentes, buscar información, proponer dos alternativas o consultar a una persona profesional neutral. Nadie gana por cansar a la otra persona. El protocolo debe proteger necesidades básicas y evitar decisiones financieras tomadas como represalia.",
+            "prompt": "¿Qué paso neutral podemos usar cuando una decisión importante queda bloqueada?",
+            "action": "Escriban una secuencia de tres pasos y una excepción clara para necesidades urgentes."
+          },
+          {
+            "title": "Herramienta 12: acuerdo financiero de treinta días",
+            "body": "Redacten un acuerdo breve con prioridades del mes, aportes, límites de consulta, dinero personal y fecha de revisión. Señalen qué parte es experimental y cómo pedir un ajuste. Firmar no convierte el documento en autorización de control; su función es conservar memoria común y facilitar cambios explícitos.",
+            "prompt": "¿Qué tres compromisos podemos observar y revisar sin prometer resultados perfectos?",
+            "action": "Redacten una página, léanla por separado y confirmen cada punto antes de probarla."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "desafio-gratitud-30",
+    "title": "30 días de gratitud visible",
+    "format": "interactive-library",
+    "version": "1.0",
+    "intro": "Este desafío combina treinta acciones breves de la biblioteca con nueve prácticas editoriales para observar, expresar y recibir gratitud de manera específica. Agradecer no exige estar de acuerdo, minimizar una herida ni mantener una apariencia positiva. Pueden alternar días, adaptar una acción a su cultura y detener cualquier propuesta que se sienta invasiva. La constancia vale más que la intensidad y una expresión sincera puede ser muy sencilla.",
+    "safetyNotice": "La gratitud nunca debe utilizarse para encubrir violencia, coerción, amenaza o riesgo, ni para pedir que alguien tolere daño. Si expresar aprecio puede provocar represalias, prioriza seguridad y apoyo especializado. También es válido agradecer algo y, al mismo tiempo, mantener un límite o pedir reparación.",
+    "library": {
+      "source": "actions",
+      "limit": 30,
+      "title": "30 acciones de gratitud visible"
+    },
+    "sections": [
+      {
+        "id": "mirar-con-precision",
+        "title": "Mirar con precisión",
+        "summary": "Estas prácticas entrenan la observación para que la gratitud se refiera a conductas reales y no a elogios genéricos o expectativas disfrazadas.",
+        "items": [
+          {
+            "title": "Registro de lo específico",
+            "body": "Durante tres días anota una acción concreta que facilitó tu jornada, por pequeña que sea. Describe qué hizo la persona y cuál fue el efecto para ti, sin convertir el agradecimiento en una evaluación de su carácter. La precisión permite que el mensaje sea comprensible y evita elogios que suenan automáticos.",
+            "prompt": "¿Qué conducta exacta observé y qué cambió para mí durante ese momento?",
+            "action": "Escribe una frase con la estructura «Cuando hiciste…, para mí significó…»."
+          },
+          {
+            "title": "Trabajo visible e invisible",
+            "body": "Revisa tareas de cuidado, organización, memoria y seguimiento que suelen pasar desapercibidas. Reconocerlas no sustituye una distribución justa de responsabilidades, pero ayuda a nombrar la carga real. Pregunta antes de asumir quién hizo algo y evita agradecer como si la tarea perteneciera naturalmente a una sola persona.",
+            "prompt": "¿Qué esfuerzo de preparación o seguimiento no suelo notar hasta que falta?",
+            "action": "Reconoce una tarea invisible y pregunta si su distribución actual necesita conversación."
+          },
+          {
+            "title": "Recibir sin desviar",
+            "body": "Cuando recibas gratitud, prueba responder «gracias por decírmelo» antes de minimizar, bromear o devolver otro elogio. Recibir no implica aceptar una imagen idealizada ni quedar en deuda. Si el mensaje te incomoda, puedes agradecer la intención y pedir una formulación más concreta o un momento distinto.",
+            "prompt": "¿Qué hago habitualmente cuando alguien reconoce algo bueno que aporté?",
+            "action": "Recibe un agradecimiento con una sola frase y observa tu reacción sin corregirla."
+          }
+        ]
+      },
+      {
+        "id": "gratitud-sin-negar",
+        "title": "Gratitud sin negar lo difícil",
+        "summary": "El segundo bloque integra aprecio, límites y días complejos para evitar que la práctica se convierta en positividad obligatoria.",
+        "items": [
+          {
+            "title": "Dos verdades en la misma frase",
+            "body": "Practica sostener dos hechos: valoras una contribución y existe una necesidad pendiente. Por ejemplo, puedes reconocer que alguien escuchó con atención y también pedir retomar un acuerdo incumplido. No uses la gratitud para suavizar hasta borrar el problema ni la queja para negar todo lo valioso.",
+            "prompt": "¿Qué puedo agradecer con honestidad sin retirar la petición que todavía necesito hacer?",
+            "action": "Escribe dos oraciones separadas: una de aprecio y otra con la necesidad pendiente."
+          },
+          {
+            "title": "Día difícil, escala pequeña",
+            "body": "En una jornada pesada, reduce la práctica a observar algo neutralmente útil: agua preparada, un mensaje respetuoso o cinco minutos de silencio. Si no aparece gratitud sincera, registra descanso, alivio o ausencia de daño sin forzar emoción. El desafío no se pierde por pausar ni por reconocer cansancio.",
+            "prompt": "¿Cuál es la observación más pequeña y verdadera que puedo hacer hoy sin fingir ánimo?",
+            "action": "Elige una versión de dos minutos o marca una pausa consciente sin compensarla mañana."
+          },
+          {
+            "title": "Agradecer un límite claro",
+            "body": "Un límite expresado con respeto aporta información y puede prevenir resentimiento. Agradecer la claridad no significa celebrar la respuesta ni renunciar a tu necesidad. Puedes decir que valoras saber con qué contar y luego buscar otra solución. Nadie debe premiar un límite con acceso, afecto o aprobación.",
+            "prompt": "¿Qué límite reciente me dio información útil aunque no fuera la respuesta que esperaba?",
+            "action": "Reconoce la claridad del límite sin intentar negociarlo en el mismo mensaje."
+          }
+        ]
+      },
+      {
+        "id": "hacerlo-sostenible",
+        "title": "Hacerlo sostenible",
+        "summary": "El cierre crea rituales ligeros, conserva evidencias concretas y revisa el mes sin convertir la gratitud en puntuación o deuda.",
+        "items": [
+          {
+            "title": "Ritual de tres minutos",
+            "body": "Elijan un momento realista, como después de cenar o antes de apagar una luz, para compartir una observación del día. Cualquiera puede pasar sin explicar motivos y no se acumulan turnos pendientes. Un ritual sostenible admite silencio, semanas ocupadas y cambios de horario sin medir el compromiso afectivo.",
+            "prompt": "¿En qué momento existente cabría una práctica breve sin añadir presión a la rutina?",
+            "action": "Prueben el ritual tres veces esta semana y ajusten duración, lugar o frecuencia."
+          },
+          {
+            "title": "Archivo de evidencias cotidianas",
+            "body": "Guarden notas, fotos u objetos que recuerden apoyos concretos, con permiso cuando incluyan información privada. El archivo sirve para volver a momentos significativos, no para demostrar cuánto dio cada persona. Eviten usarlo durante una discusión como prueba de que un dolor actual no debería existir.",
+            "prompt": "¿Qué formato sencillo nos permitiría recordar sin convertir los gestos en contabilidad?",
+            "action": "Crea un sobre o álbum compartido y añade una evidencia con fecha y contexto."
+          },
+          {
+            "title": "Revisión del día treinta",
+            "body": "Al terminar, cada persona identifica qué formas de gratitud se sintieron auténticas, cuáles resultaron incómodas y qué práctica desea conservar. Comparen experiencias sin exigir la misma conclusión. El valor del mes está en la información obtenida y en los gestos elegidos, no en completar una racha perfecta.",
+            "prompt": "¿Qué aprendí sobre la manera en que prefiero expresar y recibir reconocimiento?",
+            "action": "Elijan una práctica para continuar, una para adaptar y una que pueden dejar atrás."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "citas-en-casa",
+    "title": "30 encuentros en casa",
+    "format": "interactive-library",
+    "version": "1.0",
+    "intro": "Esta biblioteca reúne treinta encuentros de bajo costo que pueden realizarse en casa o muy cerca, con materiales cotidianos y preparación breve. Una cita no tiene que ser espectacular para ser significativa: puede durar veinte minutos, adaptarse al cansancio y terminar antes si alguien lo necesita. Elijan por curiosidad, presupuesto y energía; la invitación siempre admite un no o una alternativa sin interpretarlo como falta de cariño.",
+    "safetyNotice": "Si existe violencia, coerción, amenaza o riesgo, una cita privada no es una herramienta de reparación ni una obligación. Prioriza seguridad, apoyo de confianza y orientación especializada. Ninguna actividad autoriza presión para hablar, beber, tocar, gastar dinero, compartir contraseñas o permanecer en el mismo espacio.",
+    "sections": [
+      {
+        "id": "sabores-y-cocina",
+        "title": "Sabores y cocina compartida",
+        "summary": "Seis encuentros convierten ingredientes sencillos en experiencias sensoriales y cooperativas, sin requerir compras especiales ni desempeño culinario.",
+        "items": [
+          {
+            "title": "Encuentro 1: picnic en el suelo",
+            "body": "Extiendan una manta en la sala y armen un picnic con lo que ya haya: fruta, pan, sobras o una bebida caliente. Cambiar la altura, apagar luces fuertes y usar una lista musical breve transforma el ambiente sin comprar decoración. Cada persona elige algo que sí desea comer.",
+            "prompt": "¿Qué detalle sencillo haría que una comida habitual se sienta diferente esta noche?",
+            "action": "Reúnan tres alimentos disponibles, preparen la manta y dejen los teléfonos fuera durante veinte minutos."
+          },
+          {
+            "title": "Encuentro 2: degustación a ciegas",
+            "body": "Seleccionen cuatro alimentos seguros y conocidos, córtenlos en porciones pequeñas y prueben uno por uno con los ojos cerrados si ambos se sienten cómodos. Describan textura, aroma y recuerdo antes de adivinar. Revisen alergias y nunca escondan ingredientes ni conviertan el juego en una prueba.",
+            "prompt": "¿Qué sabor cotidiano nunca hemos descrito con atención y sin apresurarnos?",
+            "action": "Preparen cuatro muestras etiquetadas y alternen quién guía cada degustación."
+          },
+          {
+            "title": "Encuentro 3: receta con historia",
+            "body": "Elijan una receta familiar o un plato que recuerde una etapa de vida. Mientras preparan una versión posible con los ingredientes disponibles, cuenten quién lo cocinaba, cuándo aparecía y qué emoción trae. No es necesario reproducirlo con exactitud; el objetivo es compartir contexto, no evaluar autenticidad.",
+            "prompt": "¿Qué comida cuenta una parte de mi historia que todavía no he explicado con detalle?",
+            "action": "Elijan una receta sencilla y repartan preparación, cocina y limpieza antes de comenzar."
+          },
+          {
+            "title": "Encuentro 4: laboratorio de bebidas sin alcohol",
+            "body": "Usen agua, hielo, cítricos, hierbas, té o jugo disponible para crear dos bebidas sin alcohol. Anoten proporciones y pónganles nombres relacionados con un recuerdo agradable. Probar es opcional y cualquier ingrediente puede omitirse; la actividad funciona también con dos infusiones servidas de manera distinta.",
+            "prompt": "¿Qué combinación representa el ánimo que queremos traer a este encuentro?",
+            "action": "Diseñen una bebida cada uno, compartan la receta y elijan un nombre para ambas."
+          },
+          {
+            "title": "Encuentro 5: desayuno a la hora de la cena",
+            "body": "Conviertan una cena en desayuno usando opciones económicas como tostadas, avena, fruta o huevos. Cada persona elige una tarea y una pregunta ligera para la mesa. La inversión de horario aporta novedad sin exigir ingredientes caros y puede adaptarse a restricciones alimentarias o poca energía.",
+            "prompt": "¿Qué costumbre cotidiana nos gustaría invertir solo por diversión durante una noche?",
+            "action": "Definan un menú de tres componentes con lo disponible y cocinen sin buscar perfección."
+          },
+          {
+            "title": "Encuentro 6: un ingrediente, tres versiones",
+            "body": "Elijan un ingrediente común, como papa, manzana o pan, y preparen tres presentaciones pequeñas usando técnicas simples. Comparen qué cambia con temperatura, corte o condimento. Mantengan las porciones reducidas para evitar desperdicio y usen sobras de forma segura en otra comida.",
+            "prompt": "¿Qué ingrediente básico podría sorprendernos si lo observamos de tres maneras?",
+            "action": "Planifiquen tres versiones sencillas y asignen una tarea concreta a cada persona."
+          }
+        ]
+      },
+      {
+        "id": "juego-y-curiosidad",
+        "title": "Juego y curiosidad",
+        "summary": "Seis propuestas lúdicas usan papel, objetos domésticos y reglas cooperativas para explorar sin convertir la cita en una competencia tensa.",
+        "items": [
+          {
+            "title": "Encuentro 7: museo de cinco objetos",
+            "body": "Cada persona selecciona cinco objetos de la casa y prepara una etiqueta con título, fecha aproximada y una línea sobre su importancia. Hagan una visita guiada por turnos. Pueden omitir cualquier historia privada; la curiosidad se expresa con preguntas abiertas y no con presión para revelar más.",
+            "prompt": "¿Qué objeto común tiene una historia que la otra persona quizá no conoce?",
+            "action": "Armen dos exhibiciones de cinco objetos y recorran cada museo durante diez minutos."
+          },
+          {
+            "title": "Encuentro 8: búsqueda fotográfica",
+            "body": "Creen una lista de ocho consignas, como una sombra interesante, algo azul o una textura inesperada. Busquen dentro de casa o en áreas comunes seguras y tomen fotos con un solo teléfono. Al final, elijan dos imágenes y expliquen qué llamó su atención, sin puntuar resultados.",
+            "prompt": "¿Qué detalles de nuestro espacio solemos atravesar sin mirarlos realmente?",
+            "action": "Escriban ocho consignas, tomen las fotos y creen un collage sencillo con cuatro."
+          },
+          {
+            "title": "Encuentro 9: rompecabezas por turnos",
+            "body": "Usen un rompecabezas disponible, una imagen cortada en piezas grandes o un acertijo impreso. Trabajen en intervalos de cinco minutos mientras la otra persona observa y puede ofrecer una pista solo si se la piden. El objetivo es notar estilos de resolución y colaborar, no terminar a toda costa.",
+            "prompt": "¿Cómo prefiero recibir ayuda cuando intento resolver algo y todavía no encuentro la respuesta?",
+            "action": "Acuerden una señal para pedir pistas y jueguen durante treinta minutos como máximo."
+          },
+          {
+            "title": "Encuentro 10: laboratorio de aviones de papel",
+            "body": "Doblen tres modelos de avión con papel reutilizado y prueben cómo cambian al ajustar alas, peso o lanzamiento. Midan distancia solo como dato para mejorar juntos. Eviten zonas con objetos frágiles y cierren con un diseño compartido que combine las ideas favoritas de ambos.",
+            "prompt": "¿Qué cambio pequeño queremos probar después de observar el primer lanzamiento?",
+            "action": "Construyan tres prototipos y documenten una mejora concreta en el diseño final."
+          },
+          {
+            "title": "Encuentro 11: trivia hecha en casa",
+            "body": "Cada persona escribe seis preguntas: dos sobre gustos actuales, dos sobre recuerdos compartidos y dos de cultura general. Incluyan opciones de respuesta y permitan decir «paso». Las respuestas equivocadas abren una historia o una búsqueda breve; no sirven para medir cuánto se conocen o cuánto importa la relación.",
+            "prompt": "¿Qué pregunta podría enseñarme algo nuevo sin examinar a la otra persona?",
+            "action": "Preparen seis preguntas cada uno y alternen turnos sin llevar una puntuación total."
+          },
+          {
+            "title": "Encuentro 12: refugio de mantas",
+            "body": "Construyan una estructura sencilla con sillas, mantas y pinzas, cuidando estabilidad y circulación. Llévenle una lámpara segura, agua y algo para leer o escuchar. Pasen veinte minutos dentro conversando o en silencio; la experiencia no requiere actuar de manera infantil ni permanecer si resulta incómoda.",
+            "prompt": "¿Qué elemento convierte un rincón cotidiano en un espacio donde podemos bajar el ritmo?",
+            "action": "Armen el refugio con una salida despejada y elijan una actividad tranquila para compartir."
+          }
+        ]
+      },
+      {
+        "id": "historias-y-conversacion",
+        "title": "Historias y conversación con apoyo",
+        "summary": "Estas seis citas ofrecen objetos, mapas y preguntas como punto de partida, de modo que hablar no dependa de improvisar intimidad ni revelar más de lo deseado.",
+        "items": [
+          {
+            "title": "Encuentro 13: álbum comentado",
+            "body": "Elijan diez fotos antiguas o digitales y mírenlas en orden. Quien seleccionó cada imagen cuenta qué ocurría fuera del encuadre y qué recuerda ahora de ese momento. Pidan permiso antes de guardar, compartir o publicar; algunas fotos pueden mirarse sin explicar todos sus detalles.",
+            "prompt": "¿Qué historia fuera del encuadre cambia la manera de comprender esta fotografía?",
+            "action": "Seleccionen cinco fotos cada uno y dediquen dos minutos a comentar cada una."
+          },
+          {
+            "title": "Encuentro 14: mapa de lugares importantes",
+            "body": "Dibujen un mapa libre con lugares que marcaron su vida: una calle, escuela, parque, casa o sitio imaginado. No importa la precisión geográfica. Elijan dos puntos para contar qué aprendieron allí y uno que quisieran conocer juntos, sin convertirlo todavía en un compromiso de viaje.",
+            "prompt": "¿Qué lugar explica una parte de mí que rara vez aparece en nuestras conversaciones?",
+            "action": "Dibujen mapas individuales y conecten tres lugares con una línea de tiempo."
+          },
+          {
+            "title": "Encuentro 15: cartas para abrir en seis meses",
+            "body": "Escriban cartas individuales sobre lo que desean recordar de la etapa actual, una esperanza realista y una forma de apoyo que valoran. Nadie tiene que leer la carta ahora. Guárdenlas en sobres con fecha de apertura; cada persona conserva el derecho de modificar o retirar la suya antes de entonces.",
+            "prompt": "¿Qué detalle de nuestra vida actual podría volverse valioso cuando pase el tiempo?",
+            "action": "Escriban durante quince minutos y acuerden dónde guardar los sobres de forma privada."
+          },
+          {
+            "title": "Encuentro 16: banda sonora de una etapa",
+            "body": "Cada persona elige tres canciones disponibles en un servicio gratuito, radio o biblioteca propia. Presenten una canción por vez y expliquen qué momento, lugar o emoción representa. Escuchar no obliga a compartir el gusto musical; pueden ajustar volumen, saltar una pieza o usar versiones instrumentales.",
+            "prompt": "¿Qué canción funciona como una puerta a una etapa que quiero contar mejor?",
+            "action": "Armen una lista de seis canciones y alternen presentación y escucha sin interrupciones."
+          },
+          {
+            "title": "Encuentro 17: historia de un objeto heredado",
+            "body": "Busquen un objeto recibido, conservado o encontrado que tenga una historia. Describan de dónde vino, por qué sigue presente y qué representa hoy. Si no hay un objeto heredado, elijan algo que les gustaría conservar. Eviten valorar las historias por precio o antigüedad; importa el significado asignado.",
+            "prompt": "¿Por qué decidí conservar este objeto y qué parte de su historia quiero transmitir?",
+            "action": "Elijan un objeto cada uno y registren su historia en una nota de cien palabras."
+          },
+          {
+            "title": "Encuentro 18: entrevista de diez preguntas",
+            "body": "Preparen diez preguntas abiertas sobre rutinas, curiosidades y sueños próximos, evitando temas que ya saben sensibles sin consentimiento. Hagan cinco preguntas por turno y permitan responder «prefiero pasar». La entrevista busca actualizar lo que saben, no detectar contradicciones ni obtener promesas.",
+            "prompt": "¿Qué aspecto cotidiano de la otra persona me gustaría conocer como si fuera nuevo?",
+            "action": "Escriban diez preguntas, marquen dos opcionales y reserven cinco minutos para comentarios finales."
+          }
+        ]
+      },
+      {
+        "id": "movimiento-y-aire",
+        "title": "Movimiento, aire y cambio de ritmo",
+        "summary": "Seis encuentros incorporan cuerpo, ventana, patio o vecindario con alternativas accesibles y sin exigir rendimiento físico.",
+        "items": [
+          {
+            "title": "Encuentro 19: atardecer desde una ventana",
+            "body": "Elijan una ventana, balcón o entrada segura y observen durante veinte minutos cómo cambia la luz. Preparen una bebida y nombren cinco detalles visibles o sonoros. Si el clima no ayuda, miren una transmisión gratuita de paisaje y comenten qué atmósfera les permite desacelerar.",
+            "prompt": "¿Qué cambio de luz o sonido noto cuando dejo de hacer otras tareas por unos minutos?",
+            "action": "Definan la hora, acomoden dos lugares y observen sin pantallas adicionales durante veinte minutos."
+          },
+          {
+            "title": "Encuentro 20: estiramiento guiado por turnos",
+            "body": "Cada persona propone tres movimientos suaves que conoce y la otra decide si desea copiarlos o adaptarlos. Eviten corregir cuerpos, forzar rangos o usar ejercicios que causen dolor. Pueden realizar toda la secuencia sentados; el propósito es compartir atención corporal, no completar una rutina atlética.",
+            "prompt": "¿Qué movimiento me ayuda a sentir comodidad sin comparar capacidades físicas?",
+            "action": "Preparen una secuencia de seis movimientos y acuerden detenerse ante cualquier molestia."
+          },
+          {
+            "title": "Encuentro 21: paseo de las cinco cosas",
+            "body": "Recorran una ruta cercana y segura buscando cinco colores, cinco sonidos y cinco formas. Una persona puede quedarse en casa y observar desde una ventana o acompañar por audio si salir no es posible. Mantengan el ritmo de quien necesita ir más despacio y no conviertan la distancia en meta.",
+            "prompt": "¿Qué detalle del vecindario aparece cuando caminamos sin intentar llegar rápido?",
+            "action": "Elijan una ruta de veinte minutos y registren juntos quince observaciones breves."
+          },
+          {
+            "title": "Encuentro 22: clase de baile gratuita",
+            "body": "Elijan un tutorial gratuito de una canción y revisen antes su duración y dificultad. Bailen en un espacio despejado, con opción de observar, adaptar movimientos o detener el video. Reírse de los propios tropiezos puede ser amable; burlarse del cuerpo o coordinación de la otra persona no forma parte del juego.",
+            "prompt": "¿Qué estilo nos da curiosidad probar sin esperar hacerlo bien desde el inicio?",
+            "action": "Despejen el área, elijan un video menor a veinte minutos y aprendan solo una secuencia."
+          },
+          {
+            "title": "Encuentro 23: observación del cielo",
+            "body": "Busquen un punto seguro con vista al cielo y usen una aplicación gratuita, un mapa impreso o solo la vista. Identifiquen la luna, una estrella brillante o formas de nubes y compartan una pregunta sobre el universo. Si no hay visibilidad, exploren imágenes públicas de una misión espacial.",
+            "prompt": "¿Qué pregunta sobre el cielo despierta curiosidad aunque no sepamos responderla?",
+            "action": "Elijan tres objetos celestes para buscar y anoten una pregunta que investigarán después."
+          },
+          {
+            "title": "Encuentro 24: circuito cooperativo de sala",
+            "body": "Diseñen cuatro estaciones accesibles: lanzar calcetines a una cesta, equilibrar un libro, trasladar papel o resolver una figura. La meta es completar el circuito sumando ideas, no vencer al otro. Ajusten cada estación por movilidad, espacio y energía, y retiren objetos que puedan causar caídas.",
+            "prompt": "¿Cómo podemos adaptar el juego para que ambos participemos con comodidad y elección?",
+            "action": "Creen cuatro estaciones seguras y completen dos rondas cambiando una regla juntos."
+          }
+        ]
+      },
+      {
+        "id": "cuidado-y-proyectos",
+        "title": "Cuidado y proyectos pequeños",
+        "summary": "Las últimas seis citas producen algo útil o reconfortante mientras mantienen presupuesto, consentimiento y alcance bajo control.",
+        "items": [
+          {
+            "title": "Encuentro 25: spa doméstico opcional",
+            "body": "Preparen toallas limpias, agua tibia, música suave y una opción simple como crema propia o compresa. Cada persona elige autocuidado individual, cuidado mutuo con consentimiento específico o solo descanso. Revisen alergias y no supongan permiso para tocar por el nombre de la actividad.",
+            "prompt": "¿Qué forma de cuidado se sentiría agradable hoy y qué prefiero hacer por mi cuenta?",
+            "action": "Elijan dos opciones seguras, pidan consentimiento antes de cada contacto y respeten cualquier cambio."
+          },
+          {
+            "title": "Encuentro 26: reparar algo pequeño",
+            "body": "Seleccionen un objeto de bajo riesgo que necesite pegarse, coserse, limpiarse o ajustarse. Revisen juntos materiales y pasos antes de empezar, y abandonen tareas eléctricas o peligrosas que requieran experiencia. Conversen sobre lo que hace valioso conservar un objeto en lugar de reemplazarlo.",
+            "prompt": "¿Qué objeto merece una segunda oportunidad y qué historia tiene en nuestra casa?",
+            "action": "Elijan una reparación segura de treinta minutos y definan quién hace cada paso."
+          },
+          {
+            "title": "Encuentro 27: plan de microaventura",
+            "body": "Diseñen una salida futura gratuita o económica de dos horas: biblioteca, parque, mercado o recorrido a pie. Consulten horarios, transporte, accesibilidad y un límite de gasto. Planear no obliga a realizarla; dejen una alternativa en casa y una forma sencilla de cancelar sin reproches.",
+            "prompt": "¿Qué lugar cercano podría ofrecernos novedad sin exigir un presupuesto alto?",
+            "action": "Escriban un plan con fecha tentativa, costo máximo, ruta y alternativa por clima."
+          },
+          {
+            "title": "Encuentro 28: jardín de esquejes o semillas",
+            "body": "Usen semillas de cocina, un esqueje obtenido con permiso o una planta que ya tengan. Preparen un recipiente reutilizado con drenaje y consulten cuidados básicos en una fuente confiable. Asignen el seguimiento según disponibilidad real; la salud de la planta no mide el éxito del vínculo.",
+            "prompt": "¿Qué cuidado pequeño podemos observar juntos sin convertirlo en otra obligación pesada?",
+            "action": "Preparen un recipiente, registren la fecha y acuerden quién revisará agua y luz esta semana."
+          },
+          {
+            "title": "Encuentro 29: café de reconocimiento",
+            "body": "Con una bebida sencilla, cada persona escribe tres aportes recientes que observó en la otra y uno propio. Lean solo lo que deseen compartir y mantengan los ejemplos concretos. No comparen cantidades ni usen el reconocimiento para evitar una conversación pendiente; este espacio puede coexistir con límites.",
+            "prompt": "¿Qué aporte reciente puedo reconocer con un ejemplo que la otra persona identifique?",
+            "action": "Escriban cuatro notas cada uno y compartan hasta tres sin esperar una respuesta equivalente."
+          },
+          {
+            "title": "Encuentro 30: collage de próximos meses",
+            "body": "Reúnan revistas usadas, empaques, dibujos o imágenes digitales gratuitas y creen un collage sobre los próximos tres meses. Incluyan descanso, hogar, aprendizaje y una experiencia compartida posible. Distingan deseos de compromisos: ninguna imagen se convierte automáticamente en gasto, fecha o promesa.",
+            "prompt": "¿Qué atmósfera queremos cultivar en los próximos meses, más allá de una lista de metas?",
+            "action": "Creen un collage con materiales disponibles y elijan una intención pequeña para la próxima semana."
+          }
+        ]
+      }
+    ]
+  }
+]

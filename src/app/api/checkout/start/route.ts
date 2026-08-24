@@ -3,13 +3,12 @@ import { z } from "zod";
 import { processCheckoutEvent } from "@/lib/checkout-service";
 import { getOffer } from "@/lib/offers";
 import { PayloadTooLargeError, readJsonBody } from "@/lib/http-body";
-import { validateHotmartCheckoutUrl } from "@/lib/domain/checkout";
+import { getCheckoutReadiness } from "@/lib/checkout-readiness";
 
 export const runtime = "nodejs";
 
 const schema=z.object({email:z.email().optional(),items:z.array(z.string()).min(1).max(5)});
 
-function checkoutEnvKey(slug:string){return `CHECKOUT_URL_${slug.replace(/-/g,"_").toUpperCase()}`;}
 
 export async function POST(request:Request){
   try{
@@ -25,11 +24,10 @@ export async function POST(request:Request){
       return Response.json({ok:true,mode:"mock",next:"/registro",...result});
     }
     if(process.env.CHECKOUT_PROVIDER!=="hotmart") return Response.json({error:"Checkout Hotmart aún no configurado"},{status:503});
-    if(process.env.HOTMART_WEBHOOK_ENABLED!=="true") return Response.json({error:"La activación automática todavía no está disponible"},{status:503});
     const primary=offers.find(item=>item.type!=="BUMP")??offers[0];
-    const url=process.env[checkoutEnvKey(primary.slug)];
-    if(!url) return Response.json({error:"Checkout externo aún no configurado para este producto"},{status:503});
     if (unique.length > 1) return Response.json({error:"Los complementos deben configurarse como order bumps dentro del procesador de pago"},{status:503});
-    return Response.json({ok:true,mode:"external",next:validateHotmartCheckoutUrl(url)});
+    const readiness=await getCheckoutReadiness(primary.slug);
+    if(!readiness.ready) return Response.json({error:"Checkout y entrega automática aún no están configurados para este producto"},{status:503});
+    return Response.json({ok:true,mode:"external",next:readiness.checkoutUrl});
   }catch(error){if(error instanceof PayloadTooLargeError)return Response.json({error:error.message},{status:413});return Response.json({error:error instanceof Error?error.message:"Checkout inválido"},{status:400});}
 }

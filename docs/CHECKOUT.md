@@ -61,7 +61,11 @@ Sales UI
 |---|---|---:|---|---|
 | `n21_core_v1` | base | 990 | `product:nexo-21` | não |
 
-No lançamento, **somente o produto principal está ativo**. Bumps, upsell, DLCs e assinatura permanecem no roadmap e não podem criar checkout ou entitlement até conteúdo, preço, recorrência e adaptador do processador receberem uma nova revisão.
+O catálogo contém **16 produtos editoriais ativos no Nexo 21**: principal, três bumps, um upsell, dez DLCs e uma assinatura. Todos possuem conteúdo versionado e entitlement independente. A loja só exibe o botão de compra de um item não recorrente quando URL, HOTTOK, webhook, produto ativo e mapeamento UCODE/oferta do slug estão simultaneamente válidos; portanto, ativação editorial não permite cobrança sem entrega automática.
+
+`Círculo Nexo` tem o Mes 1 editorial completo, mas o checkout e o webhook de assinatura permanecem bloqueados até existir lifecycle testado para renovação, inadimplência, cancelamento e fim do período pago. Um UCODE mapeado como `SUBSCRIPTION` recebe `422` e não pode criar entitlement permanente.
+
+O adaptador aceita vários produtos por `HOTMART_PRODUCT_MAP_JSON`, associando cada Product UCODE a um slug interno e a uma ou mais ofertas permitidas. O formato completo e as fichas de cadastro estão em `docs/HOTMART-PRODUCTS.md` e `docs/hotmart-product-map.template.json`.
 
 Preço é inteiro em centavos e moeda ISO-4217. O adaptador envia IDs externos, mas o sistema persiste o SKU interno no snapshot. Nunca inferir produto por descrição textual do webhook.
 

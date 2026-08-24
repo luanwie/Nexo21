@@ -1,3 +1,5 @@
+import { getSupportContact, resolveEmailReplyTo } from "@/lib/contact";
+
 type EmailPayload = {
   to: string;
   subject: string;
@@ -19,13 +21,14 @@ export async function sendTransactionalEmail(payload: EmailPayload) {
   const from = process.env.EMAIL_FROM;
 
   if (apiKey && from) {
+    const support = getSupportContact();
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ from, ...payload }),
+      body: JSON.stringify({ from, reply_to: resolveEmailReplyTo(process.env.EMAIL_REPLY_TO, support.email), ...payload }),
     });
     if (!response.ok) {
       throw new Error(`Email provider rejected request (${response.status})`);

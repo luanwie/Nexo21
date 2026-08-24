@@ -49,6 +49,10 @@ export function requiresPreCheckoutEmail(provider: string | undefined) {
   return provider === "mock";
 }
 
+export function shouldDisplayLocalBumps(provider: string | undefined) {
+  return provider === "mock";
+}
+
 export function validateHotmartCheckoutUrl(value: string) {
   try {
     const url = new URL(value);

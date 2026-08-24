@@ -1,0 +1,483 @@
+[
+  {
+    "slug": "mensajes-esenciales",
+    "title": "50 mensajes para volver a acercarse",
+    "format": "interactive-library",
+    "version": "1.0",
+    "intro": "Esta biblioteca reúne cincuenta mensajes breves para expresar aprecio, pedir escucha, reconocer un error, poner un límite o retomar el contacto con honestidad. No son fórmulas para obtener una reacción: cada texto es un punto de partida que conviene adaptar a lo que realmente sientes, al contexto y a la libertad de la otra persona.",
+    "safetyNotice": "Estos mensajes no son adecuados para confrontar situaciones de violencia, coerción o amenaza. Si existe miedo, control o riesgo para tu seguridad, evita avisar planes que puedan exponerte y busca apoyo local especializado desde un dispositivo o medio seguro.",
+    "library": {
+      "source": "messages",
+      "limit": 50,
+      "title": "Biblioteca de 50 mensajes esenciales"
+    },
+    "sections": [
+      {
+        "id": "elegir-con-intencion",
+        "title": "Elegir antes de enviar",
+        "summary": "Una pausa breve ayuda a distinguir entre una palabra que acerca y un mensaje escrito para descargar tensión, presionar o provocar una respuesta.",
+        "items": [
+          {
+            "title": "Define un objetivo honesto",
+            "body": "Antes de buscar una frase, nombra para qué quieres escribir: agradecer, pedir atención, reconocer un impacto o expresar una necesidad. Un objetivo claro evita mezclar cariño con reclamos ocultos. Si esperas una respuesta específica, reconócelo sin convertir esa expectativa en una obligación para la otra persona.",
+            "prompt": "¿Qué deseo comunicar y qué parte de la respuesta no puedo controlar?",
+            "action": "Escribe tu objetivo en una oración que empiece con «Quiero expresar» y no con «Quiero lograr que»."
+          },
+          {
+            "title": "Revisa el momento y el canal",
+            "body": "Un mensaje puede ser respetuoso y aun así llegar en un momento poco adecuado. Considera si el asunto requiere privacidad, tiempo o una conversación con matices. Los temas extensos, urgentes o emocionalmente cargados suelen necesitar una invitación a hablar, no una cadena de textos que crece mientras ambos están ocupados.",
+            "prompt": "¿Este contenido cabe en un mensaje o necesita una conversación acordada?",
+            "action": "Si el tema es sensible, envía solo una invitación breve y ofrece dos momentos posibles para conversar."
+          },
+          {
+            "title": "Comprueba que sea verdadero",
+            "body": "No copies una declaración más intensa de lo que sientes. La cercanía se fortalece cuando las palabras coinciden con la experiencia y la conducta. Puedes escoger un texto sencillo, cambiarlo por completo o no enviarlo. Evita promesas absolutas, elogios inventados y disculpas que todavía no estás dispuesto a respaldar con acciones.",
+            "prompt": "¿Podría sostener este mensaje con mi tono y mis decisiones de hoy?",
+            "action": "Subraya cada afirmación y reemplaza cualquier exageración por un detalle concreto que hayas observado de verdad."
+          }
+        ]
+      },
+      {
+        "id": "personalizar-sin-presionar",
+        "title": "Hacerlo propio sin presionar",
+        "summary": "Personalizar significa añadir verdad y contexto, no diseñar una frase perfecta para vencer resistencias o conseguir acceso emocional inmediato.",
+        "items": [
+          {
+            "title": "Añade un detalle observable",
+            "body": "Los mensajes más creíbles nombran algo específico sin atribuir intenciones. En lugar de «siempre estás para mí», puedes reconocer que ayer escuchó con paciencia o que cumplió un acuerdo. La observación concreta reduce ambigüedad, evita elogios vacíos y permite agradecer sin crear una deuda emocional.",
+            "prompt": "¿Qué gesto, momento o conducta concreta quiero reconocer sin exagerarla?",
+            "action": "Agrega al texto una referencia verificable de esta semana y elimina palabras como «siempre» o «nunca»."
+          },
+          {
+            "title": "Deja espacio para un no",
+            "body": "Una invitación cuidadosa incluye libertad real para aceptar, proponer otro momento o rechazar. Frases como «cuando puedas» no bastan si después castigas el silencio. Expresa lo que deseas, indica si hay una necesidad de coordinación y aclara que la otra persona puede responder con honestidad sin tener que cuidar tu reacción.",
+            "prompt": "¿Mi mensaje permite que la otra persona diga no o pida más tiempo?",
+            "action": "Incluye una alternativa respetuosa, por ejemplo otro horario, otro canal o la posibilidad de no conversar hoy."
+          },
+          {
+            "title": "Cuida tono, longitud y ritmo",
+            "body": "Lee el mensaje como si lo recibieras durante un día difícil. Muchas explicaciones seguidas pueden sentirse como un interrogatorio, aunque cada frase parezca amable. Mantén una idea central, evita mayúsculas, sarcasmo y sucesivos signos de pregunta. Después de enviarlo, espera en vez de acumular recordatorios para forzar atención.",
+            "prompt": "¿Qué puede eliminarse para que la idea central resulte clara y respirable?",
+            "action": "Reduce el borrador a tres oraciones y decide de antemano cuánto tiempo esperarás antes de volver a escribir."
+          }
+        ]
+      },
+      {
+        "id": "reparar-y-poner-limites",
+        "title": "Reparar y poner límites",
+        "summary": "Las palabras pueden abrir una puerta, pero una disculpa necesita responsabilidad y un límite necesita acciones propias, no amenazas disfrazadas.",
+        "items": [
+          {
+            "title": "Disculpa sin defenderte",
+            "body": "Una disculpa útil nombra la conducta, reconoce su impacto y evita explicar demasiado pronto tus motivos. Decir «lamento que te sintieras así» desplaza la responsabilidad; decir «te interrumpí y eso dificultó que pudieras expresarte» muestra comprensión. La otra persona no está obligada a perdonar ni a confiar de inmediato.",
+            "prompt": "¿Qué hice, qué impacto pudo tener y qué responsabilidad me corresponde asumir?",
+            "action": "Redacta tres frases: conducta concreta, impacto reconocido y cambio observable que empezarás a practicar."
+          },
+          {
+            "title": "Formula un límite propio",
+            "body": "Un límite describe la condición necesaria para participar y la acción segura que tomarás si esa condición no existe. No exige controlar el teléfono, las amistades o las decisiones ajenas. Por ejemplo, puedes terminar una conversación si aparecen insultos y ofrecer retomarla cuando haya respeto, siempre que hacerlo sea seguro.",
+            "prompt": "¿Qué necesito para participar y qué acción depende realmente de mí?",
+            "action": "Convierte una orden dirigida al otro en una frase sobre lo que tú harás para cuidarte con respeto."
+          },
+          {
+            "title": "Observa lo que ocurre después",
+            "body": "No midas el valor de un mensaje solo por la respuesta inmediata. Revisa si tú fuiste claro, respetaste el tiempo ajeno y actuaste de manera coherente. Si no hay respuesta, puedes hacer un seguimiento razonable cuando sea necesario coordinar; no uses culpa, vigilancia, terceros o mensajes repetidos para obtener contacto.",
+            "prompt": "¿Qué conducta coherente puedo mantener aunque la respuesta no sea la esperada?",
+            "action": "Anota una acción propia para las próximas veinticuatro horas y evita enviar otro texto desde la ansiedad."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "conversaciones-sin-herir",
+    "title": "Guía de conversaciones sin herir",
+    "format": "guided-journey",
+    "version": "1.0",
+    "intro": "Quince guías temáticas te ayudan a preparar conversaciones difíciles, abrirlas con claridad, escuchar sin perder tu voz y cerrar con acuerdos revisables. El propósito no es ganar una discusión ni garantizar reconciliación, sino crear mejores condiciones para hablar cuando ambas personas participan libremente y existe seguridad suficiente.",
+    "safetyNotice": "No uses estas guías para mediar o confrontar cuando haya violencia, coerción, amenaza, vigilancia o riesgo. Prioriza tu seguridad, evita anunciar límites que puedan aumentar el peligro y contacta servicios locales especializados desde un medio seguro.",
+    "library": {
+      "source": "conversations",
+      "limit": 15,
+      "title": "15 conversaciones guiadas"
+    },
+    "sections": [
+      {
+        "id": "preparar-el-terreno",
+        "title": "Preparar el terreno",
+        "summary": "La preparación reduce improvisación y ayuda a escoger un tema, un momento y un propósito que ambas personas puedan comprender.",
+        "items": [
+          {
+            "title": "Comprueba seguridad y disposición",
+            "body": "Una conversación guiada requiere libertad para participar, pedir una pausa y retirarse sin represalias. Antes de comenzar, observa si hay miedo, intoxicación, gritos, destrucción de objetos o control. Si la seguridad no está clara, no uses la guía para confrontar; busca orientación individual y apoyo apropiado.",
+            "prompt": "¿Puedo decir lo que pienso y detener la conversación sin temer represalias?",
+            "action": "Confirma tu salida segura y acuerda que cualquiera puede posponer la conversación sin castigo ni persecución."
+          },
+          {
+            "title": "Elige un solo asunto",
+            "body": "Cuando una conversación intenta resolver dinero, familia, intimidad y tareas al mismo tiempo, es fácil perder el hilo y acumular defensas. Define un hecho reciente y el resultado práctico que deseas explorar. Otros asuntos pueden anotarse para después sin usarlos como pruebas de que la relación entera está mal.",
+            "prompt": "¿Cuál es el único asunto concreto que necesita atención en este encuentro?",
+            "action": "Escribe el tema en una línea y crea una lista aparte para los asuntos que no tratarán hoy."
+          },
+          {
+            "title": "Acordar tiempo y condiciones",
+            "body": "Preguntar si es buen momento no es una formalidad: la respuesta puede ser no. Propón una duración realista, privacidad suficiente y un horario alternativo. Evita iniciar justo antes de dormir, durante el trabajo o frente a otras personas. Una conversación de veinte minutos puede ser más útil que una sesión sin límite.",
+            "prompt": "¿Cuándo tendremos privacidad, energía y un final claro para conversar?",
+            "action": "Ofrece dos horarios y acuerda una duración inicial con cinco minutos finales para resumir lo entendido."
+          }
+        ]
+      },
+      {
+        "id": "hablar-y-escuchar",
+        "title": "Hablar y escuchar con cuidado",
+        "summary": "El diálogo mejora cuando se separan hechos, emociones, necesidades y peticiones, y cuando escuchar no se confunde con aceptar todo.",
+        "items": [
+          {
+            "title": "Describe sin diagnosticar",
+            "body": "Empieza por una conducta observable y evita etiquetas como egoísta, manipulador o incapaz. Puedes decir «esta semana tres tareas quedaron sin responsable» en lugar de afirmar que a la otra persona no le importa. Describir con precisión deja espacio para corregir datos y reduce la necesidad de defender la identidad.",
+            "prompt": "¿Qué podría registrar una cámara sin interpretar intenciones o personalidad?",
+            "action": "Reescribe tu frase inicial usando un momento, una conducta y un efecto concreto, sin «siempre» ni «nunca»."
+          },
+          {
+            "title": "Escucha para verificar",
+            "body": "Escuchar no exige renunciar a tu perspectiva. Resume con tus palabras y pregunta si entendiste antes de responder. Distingue entre validar una emoción y aprobar una conducta. Si algo no está claro, pide un ejemplo; si discrepas, primero refleja el punto central para que la conversación avance sobre información compartida.",
+            "prompt": "¿Qué escuché sobre su experiencia y qué necesito comprobar antes de responder?",
+            "action": "Ofrece un resumen de dos frases y termina con una pregunta genuina para corregir lo que hayas entendido mal."
+          },
+          {
+            "title": "Pide algo voluntario y concreto",
+            "body": "Una petición útil especifica una conducta posible y admite negociación. «Necesito que cambies» no explica qué ayudaría; «¿podemos registrar los gastos mayores esta semana y revisarlos el sábado?» permite responder. Si la respuesta es no, puedes explorar alternativas o decidir un límite propio sin castigar.",
+            "prompt": "¿Mi petición puede responderse con sí, no o una alternativa concreta?",
+            "action": "Formula una conducta medible, un periodo de prueba y una fecha breve para revisar juntos cómo funcionó."
+          }
+        ]
+      },
+      {
+        "id": "pausar-y-cerrar",
+        "title": "Pausar, acordar y cerrar",
+        "summary": "Un buen cierre distingue entre lo comprendido y lo acordado, protege la pausa y evita convertir una promesa apresurada en falsa solución.",
+        "items": [
+          {
+            "title": "Usa una pausa con regreso",
+            "body": "La pausa cuida el diálogo cuando la activación impide escuchar. Nombra que necesitas regularte, propone una duración y confirma cuándo volverán al tema. Desaparecer, bloquear o prolongar el silencio para castigar no es una pausa acordada. Si regresar no es seguro, prioriza protección y apoyo sobre el protocolo.",
+            "prompt": "¿Qué señales me indican que ya no puedo conversar con respeto y claridad?",
+            "action": "Practica una frase de pausa que incluya motivo breve, tiempo estimado y propuesta específica para retomar."
+          },
+          {
+            "title": "Registra acuerdos revisables",
+            "body": "Resume solo aquello que ambos aceptaron: quién hará qué, durante cuánto tiempo y cuándo lo revisarán. No conviertas el silencio en consentimiento ni agregues condiciones después. Los acuerdos pequeños permiten aprender; si no funcionan, la revisión sirve para ajustar responsabilidades y no para buscar culpables.",
+            "prompt": "¿Qué aceptó expresamente cada persona y qué parte continúa abierta?",
+            "action": "Escribe el acuerdo en lenguaje sencillo, léelo en voz alta y pide confirmación antes de guardarlo."
+          },
+          {
+            "title": "Cierra sin exigir cercanía",
+            "body": "Después de un tema difícil, una persona puede necesitar espacio y otra puede desear afecto inmediato. Agradece el esfuerzo sin exigir abrazo, oración compartida, intimidad o una declaración tranquilizadora. La cercanía posterior debe ser voluntaria. Define únicamente el siguiente paso necesario y deja que la calma regrese.",
+            "prompt": "¿Qué cierre respetaría necesidades distintas sin convertir el afecto en prueba de amor?",
+            "action": "Pregunta qué tipo de cierre resulta cómodo y confirma solo el próximo paso práctico que ambos acepten."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "diario-imprimible",
+    "title": "Diario de reconexión imprimible",
+    "format": "workbook",
+    "version": "1.0",
+    "intro": "Este cuaderno contiene treinta páginas de reflexión para observar tu experiencia, reconocer recursos, practicar límites y elegir acciones relacionales pequeñas. Puedes escribir directamente en el navegador o imprimir la vista: abre el menú de impresión de tu navegador y selecciona una impresora o «Guardar como PDF». No se ofrece ni se promete un archivo de descarga separado.",
+    "safetyNotice": "No guardes o imprimas respuestas sensibles si alguien podría usarlas para aumentar violencia, coerción, amenaza o riesgo. En contextos de control, protege tu privacidad, usa un dispositivo seguro y busca apoyo local especializado antes de documentar planes.",
+    "sections": [
+      {
+        "id": "dias-1-10-observar",
+        "title": "Días 1–10: observar con honestidad",
+        "summary": "Las primeras diez páginas ayudan a desacelerar, separar hechos de interpretaciones y reconocer necesidades sin convertir el diario en un juicio contra nadie.",
+        "items": [
+          {
+            "title": "Día 1 — Mi punto de partida",
+            "body": "Describe cómo llegas a este mes sin intentar producir una versión ideal de ti o de la relación. Incluye energía, preocupaciones, apoyos disponibles y algo que deseas cuidar. Este registro sirve como referencia personal, no como prueba para ganar una discusión ni como evaluación de la otra persona.",
+            "prompt": "¿Cómo estoy hoy y qué aspecto de mi vida relacional necesita atención amable?",
+            "action": "Escribe diez líneas sin editar y encierra una necesidad que dependa de tus propias decisiones."
+          },
+          {
+            "title": "Día 2 — Hechos e historias",
+            "body": "La mente completa rápidamente la información que falta. Divide la página entre hechos observables e historias que estás contando sobre esos hechos. Una demora en responder es observable; concluir que ya no importas es una interpretación. Ambas experiencias merecen atención, pero no tienen la misma certeza.",
+            "prompt": "¿Qué ocurrió exactamente y qué significado añadí sin haberlo comprobado todavía?",
+            "action": "Anota tres hechos y tres interpretaciones; marca con una pregunta lo que necesitas verificar."
+          },
+          {
+            "title": "Día 3 — El mapa de mis emociones",
+            "body": "Nombra varias emociones en lugar de quedarte solo con enojo o tristeza. Tal vez convivan alivio, temor, decepción y esperanza. Ubica dónde las notas en el cuerpo y qué información parecen ofrecer. Sentir algo no obliga a actuar de inmediato, pero ignorarlo suele reducir tu capacidad de elegir.",
+            "prompt": "¿Qué emociones aparecen, dónde las siento y qué necesidad podrían estar señalando?",
+            "action": "Elige cuatro emociones precisas y asigna a cada una una intensidad del uno al diez."
+          },
+          {
+            "title": "Día 4 — Lo que sí funciona",
+            "body": "Reconocer recursos no niega los problemas. Observa un hábito, apoyo o decisión que haya contribuido a un momento de calma o cooperación. Describe por qué funcionó y qué condiciones lo hicieron posible. La intención es detectar capacidades reales que puedan repetirse, no fabricar gratitud obligatoria.",
+            "prompt": "¿Qué momento reciente fue un poco mejor y qué elementos concretos lo favorecieron?",
+            "action": "Registra un recurso personal, uno compartido y uno externo que puedas volver a utilizar."
+          },
+          {
+            "title": "Día 5 — Mis señales de tensión",
+            "body": "Antes de reaccionar, el cuerpo suele avisar: respiración corta, mandíbula rígida, urgencia por interrumpir o dificultad para pensar. Identificar estas señales permite pedir una pausa antes de herir. No conviertas el registro en una excusa; úsalo para asumir responsabilidad por tu regulación.",
+            "prompt": "¿Qué señales físicas, pensamientos y conductas aparecen cuando empiezo a perder calma?",
+            "action": "Crea un semáforo con tres señales verdes, tres amarillas y tres rojas que puedas reconocer."
+          },
+          {
+            "title": "Día 6 — Una necesidad legítima",
+            "body": "Distingue una necesidad de la estrategia preferida para satisfacerla. Puedes necesitar descanso sin que la única solución sea que otra persona cancele sus planes. Al abrir alternativas, mantienes la necesidad visible y reduces la presión. También puedes reconocer cuando una necesidad requiere apoyo profesional o comunitario.",
+            "prompt": "¿Qué necesidad hay debajo de mi petición y qué estrategias diferentes podrían atenderla?",
+            "action": "Escribe una necesidad y propone tres maneras de cuidarla, incluyendo una acción que dependa de ti."
+          },
+          {
+            "title": "Día 7 — Expectativas silenciosas",
+            "body": "Las expectativas no conversadas pueden sentirse como acuerdos incumplidos aunque nunca hayan sido aceptadas. Identifica algo que esperabas que la otra persona supiera sin decirlo. Pregúntate de dónde viene esa expectativa, si es razonable y cómo convertirla en una petición explícita que admita negociación.",
+            "prompt": "¿Qué esperaba sin haberlo hablado y qué parte de esa expectativa necesito revisar?",
+            "action": "Transforma una expectativa silenciosa en una petición clara, específica y abierta a una respuesta honesta."
+          },
+          {
+            "title": "Día 8 — Mi responsabilidad posible",
+            "body": "Asumir tu parte no significa cargar con todo ni negar el impacto de otras conductas. Revisa una situación y separa lo que hiciste, lo que omitiste y lo que estaba fuera de tu control. Elige una corrección propia que no dependa de obtener disculpas, aprobación o reciprocidad.",
+            "prompt": "¿Qué parte me corresponde reparar y qué parte no puedo asumir por otra persona?",
+            "action": "Completa dos columnas: «puedo responder por» y «no me corresponde controlar» con tres puntos cada una."
+          },
+          {
+            "title": "Día 9 — Gratitud sin maquillaje",
+            "body": "Busca un detalle bueno y verdadero que coexistió con las dificultades. La gratitud madura no minimiza dolor, injusticia o cansancio; simplemente evita que lo difícil ocupe toda la percepción. Puedes agradecer una ayuda, un límite respetado o tu propia capacidad de pedir apoyo.",
+            "prompt": "¿Qué bien concreto puedo reconocer hoy sin negar lo que todavía necesita atención?",
+            "action": "Describe un detalle en cinco sentidos y decide si deseas agradecerlo en privado o compartirlo libremente."
+          },
+          {
+            "title": "Día 10 — La pausa que necesito",
+            "body": "Revisa qué tipo de descanso ayuda a recuperar claridad: silencio, movimiento, sueño, oración personal o conversación con alguien confiable. Una pausa no debe usarse para castigar ni evadir indefinidamente. Diseña un regreso razonable para los asuntos seguros que continúan pendientes.",
+            "prompt": "¿Qué forma de pausa me regula y cómo puedo comunicarla sin desaparecer ni castigar?",
+            "action": "Escribe una frase de pausa, una duración aproximada y una condición segura para retomar el asunto."
+          }
+        ]
+      },
+      {
+        "id": "dias-11-20-expresar",
+        "title": "Días 11–20: expresar con claridad",
+        "summary": "Estas páginas convierten observaciones internas en palabras, peticiones, límites y reparaciones que respetan autonomía, contexto y consentimiento.",
+        "items": [
+          {
+            "title": "Día 11 — Una verdad en primera persona",
+            "body": "Practica hablar desde tu experiencia sin presentar interpretaciones como hechos. «Me siento fuera de la decisión cuando el plan cambia sin avisar» ofrece información más útil que «nunca me tomas en cuenta». La primera persona no suaviza todo, pero mantiene visible quién observa, siente y necesita.",
+            "prompt": "¿Cómo puedo describir mi experiencia sin diagnosticar el carácter o la intención ajena?",
+            "action": "Redacta tres frases con la secuencia hecho, emoción y necesidad, y elimina etiquetas personales."
+          },
+          {
+            "title": "Día 12 — La pregunta que abre",
+            "body": "Una pregunta genuina busca información que todavía no conoces. Evita preguntas acusatorias cuya respuesta ya decidiste, como «¿por qué nunca te importa?». Formula una pregunta sobre experiencia, necesidades o alternativas y prepárate para escuchar una respuesta distinta de la que imaginabas.",
+            "prompt": "¿Qué necesito comprender y qué pregunta permitiría una respuesta no defensiva?",
+            "action": "Escribe una pregunta abierta y añade una segunda frase que confirme tu disposición a escuchar hasta el final."
+          },
+          {
+            "title": "Día 13 — Petición o exigencia",
+            "body": "La diferencia se observa en lo que ocurre cuando recibes un no. Una petición admite conversación; una exigencia responde con culpa, castigo o presión. Revisa si la conducta solicitada es concreta, posible y limitada en el tiempo. Luego identifica alternativas que no anulen la libertad ajena.",
+            "prompt": "¿Cómo reaccionaría si la respuesta fuera no, todavía no o de otra manera?",
+            "action": "Anota tu petición, una alternativa negociable y una respuesta respetuosa que podrías dar ante un no."
+          },
+          {
+            "title": "Día 14 — Un límite que me cuida",
+            "body": "Un límite sano comunica qué condición necesitas y qué acción propia tomarás. No es una amenaza diseñada para provocar obediencia. Considera seguridad, recursos y consecuencias reales antes de expresarlo. Cuando haya peligro o control, planifica con apoyo especializado en vez de confrontar directamente.",
+            "prompt": "¿Qué conducta no puedo aceptar y qué medida segura depende de mí si ocurre?",
+            "action": "Redacta un límite breve con condición, acción propia y ausencia de insultos, chantaje o castigo."
+          },
+          {
+            "title": "Día 15 — Escuchar sin desaparecer",
+            "body": "Puedes escuchar con atención y conservar tu propia perspectiva. Resume lo entendido, pregunta si falta algo y luego expresa tu diferencia. Validar que alguien se sintió herido no significa aceptar cada interpretación. La escucha madura evita tanto la defensa inmediata como la renuncia automática a tu voz.",
+            "prompt": "¿Qué puedo validar de su experiencia y qué diferencia necesito expresar después?",
+            "action": "Escribe un resumen respetuoso y una frase de desacuerdo que no borre ni ridiculice lo escuchado."
+          },
+          {
+            "title": "Día 16 — Una disculpa completa",
+            "body": "Revisa una conducta tuya sin añadir un «pero». Nombra el hecho, reconoce el impacto, asume responsabilidad y propone una reparación posible. Evita pedir perdón para cerrar rápido la incomodidad. La confianza pertenece a la persona afectada y puede requerir tiempo, evidencia y límites nuevos.",
+            "prompt": "¿Qué daño causé y qué cambio verificable puede respaldar mis palabras a partir de ahora?",
+            "action": "Prepara una disculpa de cuatro partes y elimina explicaciones que desplacen la responsabilidad a la otra persona."
+          },
+          {
+            "title": "Día 17 — Reparar con una acción",
+            "body": "Una reparación intenta atender el impacto, no comprar absolución. Puede consistir en devolver algo, corregir información, rehacer una tarea o cambiar una práctica. Pregunta qué sería significativo cuando sea apropiado, sin transferir a la persona afectada toda la carga de diseñar tu cambio.",
+            "prompt": "¿Qué acción concreta guarda relación con el impacto y puedo sostener sin prometer demasiado?",
+            "action": "Define una reparación para esta semana, sus recursos necesarios y la evidencia sencilla de que se completó."
+          },
+          {
+            "title": "Día 18 — Conversación con propósito",
+            "body": "Antes de invitar a hablar, define si buscas informar, comprender, decidir o reparar. Mezclar propósitos vuelve confuso el encuentro. Establece un tema, una duración y una pregunta central. Si la otra persona no está disponible, acuerda otro momento en lugar de perseguir una respuesta inmediata.",
+            "prompt": "¿Cuál es el propósito principal y qué resultado mínimo haría útil la conversación?",
+            "action": "Escribe una invitación con tema, intención, duración propuesta y libertad para sugerir otro horario."
+          },
+          {
+            "title": "Día 19 — Palabras que conviene retirar",
+            "body": "Identifica expresiones que aumentan vergüenza o defensividad: absolutos, sarcasmo, comparaciones, amenazas y diagnósticos. No se trata de hablar de forma perfecta, sino de reducir daño evitable. Sustituye cada frase por una observación precisa y una necesidad o límite que realmente puedas explicar.",
+            "prompt": "¿Qué frase uso para descargar tensión y qué necesidad queda oculta detrás de ella?",
+            "action": "Elige tres frases habituales, táchalas y redacta una alternativa clara y respetuosa para cada una."
+          },
+          {
+            "title": "Día 20 — Cierre con dignidad",
+            "body": "No toda conversación termina en acuerdo. Un cierre digno resume lo comprendido, distingue lo pendiente y confirma el siguiente paso sin exigir afecto. Puedes agradecer la participación y pedir tiempo para pensar. Evita declarar una solución que nadie aceptó solo para aliviar la incertidumbre.",
+            "prompt": "¿Qué quedó claro, qué sigue abierto y cuál es el próximo paso realmente aceptado?",
+            "action": "Redacta un cierre de cuatro líneas que incluya comprensión, desacuerdo pendiente, paso siguiente y fecha de revisión."
+          }
+        ]
+      },
+      {
+        "id": "dias-21-30-sostener",
+        "title": "Días 21–30: sostener cambios pequeños",
+        "summary": "La etapa final ayuda a probar acuerdos, cuidar redes de apoyo, evaluar avances sin perfeccionismo y diseñar una continuidad realista.",
+        "items": [
+          {
+            "title": "Día 21 — Un hábito diminuto",
+            "body": "Elige una práctica tan pequeña que pueda sobrevivir a una semana ocupada: saludar con atención, revisar una tarea o dejar el teléfono durante diez minutos. Define cuándo y dónde ocurrirá. Un hábito humilde y repetible ofrece más información que un plan intenso abandonado al tercer día.",
+            "prompt": "¿Qué acción de menos de cinco minutos representaría el cambio que deseo practicar?",
+            "action": "Vincula la acción a una rutina existente y anota una versión mínima para los días difíciles."
+          },
+          {
+            "title": "Día 22 — Acuerdo en periodo de prueba",
+            "body": "Los acuerdos revisables reducen la presión de encontrar una solución perfecta. Escoge una responsabilidad concreta, un periodo breve y una fecha de evaluación. Incluye qué harán si algo impide cumplir. La revisión busca aprender y ajustar, no reunir pruebas para culpar a quien falló.",
+            "prompt": "¿Qué acuerdo podemos probar sin convertirlo en una promesa indefinida?",
+            "action": "Diseña un ensayo de siete días con responsables, señal de cumplimiento y momento exacto de revisión."
+          },
+          {
+            "title": "Día 23 — Cuidar mi red",
+            "body": "Una relación no debería cargar con todas las necesidades de apoyo, consejo y pertenencia. Haz un mapa de personas, comunidades y profesionales confiables. Considera con quién puedes hablar sin exponer detalles ajenos innecesariamente y quién tiene capacidad para ayudarte en una dificultad específica.",
+            "prompt": "¿Qué apoyos confiables tengo y qué tipo de ayuda puedo pedir a cada uno?",
+            "action": "Anota cinco recursos y contacta hoy a uno con una petición concreta, prudente y respetuosa."
+          },
+          {
+            "title": "Día 24 — Descanso que sostiene",
+            "body": "El cansancio crónico vuelve más difícil regular emociones, conversar y cumplir acuerdos. Observa qué parte del descanso depende de ti y qué barreras requieren coordinación. No uses productividad como medida de valor. Cuidar sueño, alimento y pausas puede ser una intervención relacional básica.",
+            "prompt": "¿Qué forma de agotamiento está afectando mi manera de relacionarme esta semana?",
+            "action": "Protege un bloque realista de descanso y comunica con anticipación cualquier coordinación necesaria."
+          },
+          {
+            "title": "Día 25 — Diferencias que pueden permanecer",
+            "body": "No toda diferencia necesita resolverse. Algunas preferencias, ritmos y opiniones pueden coexistir si hay respeto y acuerdos sobre sus efectos. Distingue incompatibilidad práctica, asunto de seguridad y diversidad tolerable. Renunciar a corregir cada diferencia puede liberar energía para lo verdaderamente importante.",
+            "prompt": "¿Qué diferencia podría aceptar sin resignarme a daño ni intentar cambiar a la otra persona?",
+            "action": "Escribe qué respetarás, qué coordinación sí necesitan y qué comentario crítico dejarás de repetir."
+          },
+          {
+            "title": "Día 26 — Confianza basada en evidencia",
+            "body": "La confianza puede crecer con coherencia observada, no con presión para olvidar. Elige una dimensión concreta como puntualidad, honestidad o respeto de límites y define qué conductas aportarían evidencia. Mantén expectativas graduales; una buena semana no borra un patrón, pero puede iniciar información nueva.",
+            "prompt": "¿Qué conducta repetida aumentaría confianza y durante cuánto tiempo necesito observarla?",
+            "action": "Crea tres indicadores sencillos y revisables sin vigilar dispositivos, ubicaciones ni comunicaciones privadas."
+          },
+          {
+            "title": "Día 27 — Celebrar sin comparar",
+            "body": "Reconoce un avance por su significado, no porque sea mejor que el de otra pareja o el de un mes anterior. Puede ser haber pedido una pausa, cumplido un acuerdo o buscado ayuda. Celebrar no declara terminado el proceso; fortalece la atención sobre conductas que vale la pena continuar.",
+            "prompt": "¿Qué avance pequeño merece ser reconocido y qué lo hizo posible?",
+            "action": "Registra el avance, agradece los recursos involucrados y elige una forma sencilla de celebrarlo sin gasto obligatorio."
+          },
+          {
+            "title": "Día 28 — Aprender de un tropiezo",
+            "body": "Un tropiezo no invalida todo el proceso, pero merece una revisión honesta. Describe qué pasó antes, durante y después sin justificar daño. Identifica una señal temprana, una habilidad faltante y una reparación necesaria. Ajusta el sistema en lugar de confiar únicamente en tener más fuerza de voluntad.",
+            "prompt": "¿Qué puedo aprender del tropiezo sin minimizarlo ni convertirlo en una identidad permanente?",
+            "action": "Completa una secuencia de antecedente, conducta, impacto, reparación y ajuste para la próxima ocasión."
+          },
+          {
+            "title": "Día 29 — Mi plan para días difíciles",
+            "body": "Anticipar cansancio, enfermedad o sobrecarga permite proteger lo esencial. Decide qué prácticas pueden reducirse, qué límites deben mantenerse y a quién pedirás ayuda. Incluye señales que indican que una conversación debe posponerse. Un plan flexible evita que la dificultad se convierta automáticamente en abandono.",
+            "prompt": "¿Qué necesito simplificar, mantener y pedir cuando mi capacidad sea menor?",
+            "action": "Escribe un plan de tres niveles: día estable, día difícil y día de crisis, con acciones específicas."
+          },
+          {
+            "title": "Día 30 — Continuidad con libertad",
+            "body": "Cierra el mes revisando cambios, preguntas abiertas y apoyos que deseas conservar. No prometas perfección ni continuidad automática de la relación. Elige prácticas acordes con tus valores y seguridad. Decide qué página repetirás, qué conversación necesita apoyo y cuándo evaluarás de nuevo.",
+            "prompt": "¿Qué quiero llevar conmigo y qué necesito dejar de exigir a este proceso?",
+            "action": "Redacta un compromiso personal de treinta días con dos prácticas, un apoyo y una fecha de revisión."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "devocional-30",
+    "title": "30 días para cuidar el vínculo",
+    "format": "guided-journey",
+    "version": "1.0",
+    "intro": "Esta jornada devocional de treinta días integra lectura bíblica referenciada, reflexión original, oración y una acción relacional breve. Puede recorrerse de forma individual o compartirse solo cuando ambas personas lo desean. La fe aquí orienta la propia conducta; nunca se usa para exigir cercanía, silencio, perdón rápido o permanencia en una relación.",
+    "safetyNotice": "La oración no sustituye protección ante violencia, coerción, amenaza o riesgo. Si existe abuso, control o miedo, no uses el devocional para confrontar ni buscar mediación informal; busca ayuda local especializada y accede desde un medio seguro.",
+    "library": {
+      "source": "devotionals",
+      "limit": 30,
+      "title": "Devocional completo de 30 días"
+    },
+    "sections": [
+      {
+        "id": "ritmo-devocional",
+        "title": "Crear un ritmo sostenible",
+        "summary": "Una práctica breve y honesta ayuda a recibir cada lectura sin convertir la espiritualidad en una tarea de rendimiento o una exigencia compartida.",
+        "items": [
+          {
+            "title": "Reserva un momento realista",
+            "body": "Escoge entre diez y quince minutos que puedan mantenerse incluso en días ocupados. No necesitas una atmósfera perfecta: basta un espacio donde puedas leer, guardar silencio y elegir una acción. Si pierdes un día, retoma el siguiente sin duplicar lecturas como castigo ni medir tu fe por una racha.",
+            "prompt": "¿Qué momento y lugar me permiten practicar con atención sin añadir presión innecesaria?",
+            "action": "Agenda cinco momentos de esta semana y prepara una alternativa breve para el día con menos tiempo."
+          },
+          {
+            "title": "Lee en contexto",
+            "body": "La referencia bíblica invita a abrir el pasaje completo y observar quién habla, a quién y con qué propósito. La reflexión ofrece una aplicación, no una interpretación única. Evita usar un versículo aislado para ganar una discusión, imponer obediencia o invalidar emociones. Anota preguntas que merezcan estudio responsable.",
+            "prompt": "¿Qué enseña el pasaje sobre mi conducta antes de aplicarlo a otra persona?",
+            "action": "Lee los versículos anteriores y posteriores, y escribe una observación que desafíe tu propia reacción."
+          },
+          {
+            "title": "Comparte solo con consentimiento",
+            "body": "Puedes invitar a otra persona a leer u orar, pero su participación debe ser libre. Un no no demuestra falta de amor ni de espiritualidad. Si practican juntos, acuerden duración y confidencialidad, y permitan interpretaciones distintas. La devoción compartida no reemplaza conversaciones ni reparaciones pendientes.",
+            "prompt": "¿Mi invitación permite una negativa honesta sin culpa, sermón o consecuencia relacional?",
+            "action": "Formula una invitación breve con opción de participar, hacerlo en otro momento o no compartir la práctica."
+          }
+        ]
+      },
+      {
+        "id": "amor-con-verdad",
+        "title": "Practicar amor con verdad",
+        "summary": "El recorrido conecta paciencia, humildad y gracia con responsabilidad, límites y reparación, evitando una espiritualidad que oculte el daño.",
+        "items": [
+          {
+            "title": "Distingue paciencia de tolerar daño",
+            "body": "La paciencia bíblica desacelera la reacción y sostiene el bien; no exige permanecer disponible ante insultos, control o peligro. Puedes responder con mansedumbre y al mismo tiempo terminar una conversación, buscar apoyo o establecer distancia. La dignidad y la seguridad no contradicen el amor.",
+            "prompt": "¿Dónde necesito responder más despacio y dónde necesito un límite más claro?",
+            "action": "Escribe una práctica de paciencia y un límite de protección, sin confundir una cosa con la otra."
+          },
+          {
+            "title": "Ora por tu propia transformación",
+            "body": "Es natural desear que otra persona cambie, pero la oración no es una herramienta para dirigir su voluntad. Lleva a Dios tu dolor, esperanza y límites, y pide sabiduría para actuar con integridad. Evita anunciar que Dios te dio la razón o usar lenguaje espiritual para cerrar una conversación.",
+            "prompt": "¿Qué actitud o conducta propia necesita verdad, valentía o corrección hoy?",
+            "action": "Redacta una oración en primera persona y termina con una decisión concreta que dependa de ti."
+          },
+          {
+            "title": "Une arrepentimiento y reparación",
+            "body": "El arrepentimiento incluye reconocer la conducta y orientar los pasos en otra dirección. Cuando causaste daño, una oración privada puede preparar el corazón, pero no sustituye una disculpa ni una reparación apropiada. Pregunta qué impacto tuvo, acepta límites y demuestra cambio sin reclamar confianza inmediata.",
+            "prompt": "¿Qué fruto observable mostraría que mi arrepentimiento está pasando de palabras a conducta?",
+            "action": "Elige una reparación relacionada con el impacto y define cómo la sostendrás durante las próximas dos semanas."
+          }
+        ]
+      },
+      {
+        "id": "integrar-los-treinta-dias",
+        "title": "Integrar los treinta días",
+        "summary": "Revisar acciones, oraciones y aprendizajes permite continuar con humildad, detectar necesidades de apoyo y evitar promesas irreales al cerrar el mes.",
+        "items": [
+          {
+            "title": "Registra frutos sin perfeccionismo",
+            "body": "Una vez por semana, revisa qué lectura permaneció contigo, qué acción realizaste y qué resultó difícil. Busca frutos como mayor claridad, dominio propio o disposición a reparar, no control sobre el comportamiento ajeno. Reconoce también cansancio y resistencia sin convertirlos en fracaso espiritual.",
+            "prompt": "¿Qué cambio pequeño observo en mi manera de pensar, hablar o responder?",
+            "action": "Anota una evidencia concreta, una dificultad y una práctica que repetirás durante la siguiente semana."
+          },
+          {
+            "title": "Discierne cuándo pedir ayuda",
+            "body": "Algunos asuntos necesitan más que reflexión personal. Considera apoyo pastoral responsable, terapia, atención médica, asesoría legal o servicios especializados según la situación. Una persona de apoyo segura respeta confidencialidad, autonomía y límites; no presiona reconciliación ni recomienda permanecer en peligro.",
+            "prompt": "¿Qué asunto supera mis recursos actuales y qué tipo de apoyo corresponde buscar?",
+            "action": "Identifica dos recursos confiables, verifica cómo contactarlos y da un primer paso desde un medio seguro."
+          },
+          {
+            "title": "Cierra con un compromiso humilde",
+            "body": "Al completar los treinta días, agradece lo aprendido sin prometer que nunca volverás a fallar. Elige una lectura para releer, una práctica semanal y una relación de apoyo. Si hiciste el recorrido con otra persona, cada quien decide libremente qué desea compartir y qué compromiso personal puede sostener.",
+            "prompt": "¿Qué práctica expresa mis valores y puedo mantener sin depender de una respuesta ajena?",
+            "action": "Escribe un compromiso de un mes con frecuencia, apoyo necesario y fecha específica para revisarlo con honestidad."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -4,6 +4,7 @@ import {
   normalizeHotmartPurchase,
   UnmappedHotmartOfferError,
   UnmappedHotmartProductError,
+  UnsupportedHotmartSubscriptionError,
   validHotmartHottok,
 } from "@/lib/hotmart";
 import { PayloadTooLargeError, readJsonBody } from "@/lib/http-body";
@@ -28,6 +29,7 @@ export async function POST(request: Request) {
     if (error instanceof PayloadTooLargeError) return Response.json({ error: error.message }, { status: 413 });
     if (error instanceof UnmappedHotmartProductError) return Response.json({ ok: true, ignored: "unmapped_product" });
     if (error instanceof UnmappedHotmartOfferError) return Response.json({ error: error.message }, { status: 422 });
+    if (error instanceof UnsupportedHotmartSubscriptionError) return Response.json({ error: error.message }, { status: 422 });
     if (error instanceof ZodError) return Response.json({ error: "Invalid Hotmart event" }, { status: 400 });
     if (error instanceof Error && /identity|amount|currency|unknown|inactive/i.test(error.message)) {
       return Response.json({ error: error.message }, { status: 422 });
