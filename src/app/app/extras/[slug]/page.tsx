@@ -1,0 +1,8 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { ArrowLeft, CheckCircle2, Sparkles } from "lucide-react";
+import { requireEntitlement } from "@/lib/access";
+import { getOffer } from "@/lib/offers";
+import { requireUser } from "@/lib/session";
+
+export default async function ExtraPage({params}:{params:Promise<{slug:string}>}){const user=await requireUser();const {slug}=await params;const offer=getOffer(slug);if(!offer||!["DLC","UPSELL","SUBSCRIPTION"].includes(offer.type))notFound();await requireEntitlement(user,slug);return <div className="mx-auto max-w-4xl space-y-7"><Link href="/app/tienda" className="secondary-button w-fit"><ArrowLeft size={16}/> Volver a la tienda</Link><section className="surface p-7 sm:p-10"><span className="pill bg-[#f0ddd5] text-[#934731]">Experiencia desbloqueada</span><Sparkles className="mt-7 text-[#B85C42]" size={30}/><h1 className="editorial-title mt-4 text-4xl sm:text-6xl">{offer.title}</h1><p className="mt-5 text-lg leading-8 text-muted">{offer.description}</p><div className="mt-8 grid gap-3 sm:grid-cols-2">{offer.features.map(feature=><p key={feature} className="app-card flex gap-3 p-4"><CheckCircle2 size={18} className="mt-0.5 shrink-0 text-[#74836B]"/>{feature}</p>)}</div><div className="mt-8 rounded-2xl bg-[#e4e9df] p-6"><h2 className="font-semibold text-[#354436]">Tu acceso está activo</h2><p className="mt-2 leading-7 text-[#4e5b4f]">La arquitectura de Nexo 21 ya reconoce esta compra como un módulo independiente. El contenido editorial completo de cada DLC se publica por versiones sin afectar la jornada principal.</p></div></section></div>}

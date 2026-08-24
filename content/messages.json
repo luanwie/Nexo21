@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "msg-001",
+    "text": "Gracias por preparar todo esta mañana; ese detalle hizo más liviano mi día.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-002",
+    "text": "Vi el esfuerzo que pusiste en escucharme aun estando cansado, y quiero valorarlo.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-003",
+    "text": "Me hizo bien tu mensaje de hoy; sentí compañía sin presión.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-004",
+    "text": "Aprecio que hayas cumplido lo que acordamos, porque fortalece mi confianza.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-005",
+    "text": "Gracias por preguntar cómo estaba antes de darme una solución.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-006",
+    "text": "Noté tu paciencia con la familia y admiro la ternura con la que actuaste.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-007",
+    "text": "Valoro que me hayas dado espacio y, al mismo tiempo, siguieras disponible.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-008",
+    "text": "Quiero reconocer tu constancia en esas tareas que casi nadie ve.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-009",
+    "text": "Gracias por celebrar mi avance sin compararme con nadie.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-010",
+    "text": "Me gustó compartir ese momento sencillo contigo; para mí tuvo mucho valor.",
+    "category": "aprecio",
+    "feeling": "agradecido",
+    "context": "Después de notar un gesto cotidiano de cuidado",
+    "objective": "Reconocer el bien sin exigir una respuesta"
+  },
+  {
+    "id": "msg-011",
+    "text": "¿Tienes diez minutos para escucharme sin que busquemos resolver nada todavía?",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-012",
+    "text": "Quiero entender tu experiencia; ¿puedes contarme qué fue lo más difícil para ti?",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-013",
+    "text": "Antes de responder, voy a repetir lo que entendí para comprobar si te escuché bien.",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-014",
+    "text": "No necesito que estemos de acuerdo de inmediato; sí deseo comprender tu punto de vista.",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-015",
+    "text": "¿Prefieres que te escuche, que te ayude a pensar o que hagamos algo concreto?",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-016",
+    "text": "Puedo dejar el teléfono a un lado para prestarte atención de verdad.",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-017",
+    "text": "Lo que dices importa; tómate el tiempo que necesites para explicarlo.",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-018",
+    "text": "Creo que interrumpí una parte importante. ¿Quieres retomarla desde ahí?",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-019",
+    "text": "¿Hay algo que no me has dicho por temor a cómo podría reaccionar?",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-020",
+    "text": "Voy a escuchar hasta el final y luego te preguntaré si entendí correctamente.",
+    "category": "escucha",
+    "feeling": "curioso",
+    "context": "Al iniciar una conversación que necesita atención mutua",
+    "objective": "Invitar a escuchar con presencia y respeto"
+  },
+  {
+    "id": "msg-021",
+    "text": "Lo que dije fue hiriente y no tiene justificación; lamento haberte tratado así.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-022",
+    "text": "Entiendo que mi silencio te dejó solo en un momento importante. Quiero reparar con hechos.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-023",
+    "text": "No voy a pedirte que olvides rápido; quiero escuchar el impacto de lo que hice.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-024",
+    "text": "Prometí algo y no lo cumplí. Asumo mi responsabilidad y propongo un nuevo acuerdo realista.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-025",
+    "text": "Usé un tono despectivo. Te pido perdón y voy a detener la conversación si vuelvo a elevarlo.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-026",
+    "text": "Minimicé tu preocupación en vez de acompañarte; reconozco que eso dolió.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-027",
+    "text": "No respeté el límite que habías expresado. Lo siento y no volveré a cruzarlo.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-028",
+    "text": "Me defendí antes de comprenderte. Quiero intentarlo de nuevo con más humildad.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-029",
+    "text": "Conté algo privado sin tu permiso. Fue una falta de cuidado y asumiré las consecuencias.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-030",
+    "text": "No puedo cambiar lo ocurrido, pero sí puedo preguntarte qué reparación sería significativa y posible.",
+    "category": "reparacion",
+    "feeling": "arrepentido",
+    "context": "Después de reconocer una conducta propia que causó daño",
+    "objective": "Asumir responsabilidad y proponer reparación"
+  },
+  {
+    "id": "msg-031",
+    "text": "Puedo hablar de este tema, pero no continuaré si hay insultos; retomemos cuando haya calma.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-032",
+    "text": "Esta noche necesito descansar. Podemos elegir juntos otro momento para conversar.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-033",
+    "text": "No voy a compartir mis contraseñas; la confianza se construye sin invadir la privacidad.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-034",
+    "text": "Quiero ayudarte, pero no puedo asumir esta responsabilidad por ti.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-035",
+    "text": "No me siento cómodo con bromas sobre este asunto; te pido que no las hagas conmigo.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-036",
+    "text": "Necesito tiempo para pensar antes de dar una respuesta, y te responderé mañana.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-037",
+    "text": "Puedo acompañarte, aunque no aceptaré que decidas con quién puedo relacionarme.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-038",
+    "text": "No participaré en una conversación donde se grita; me retiraré por ahora para cuidarnos.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-039",
+    "text": "Este gasto no está dentro de lo acordado; necesito que lo conversemos antes de decidir.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-040",
+    "text": "Te quiero y también necesito mantener este límite para estar en una relación segura y respetuosa.",
+    "category": "limites",
+    "feeling": "sereno",
+    "context": "Cuando una conducta o petición supera un límite personal",
+    "objective": "Expresar un límite claro sin amenaza ni control"
+  },
+  {
+    "id": "msg-041",
+    "text": "Estoy demasiado activado para hablar con cuidado; necesito veinte minutos y luego regreso.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-042",
+    "text": "Quiero resolver esto contigo, pero primero voy a respirar y ordenar lo que siento.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-043",
+    "text": "No quiero convertir el cansancio en palabras que lastimen; continuemos después de descansar.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-044",
+    "text": "Podemos bajar el tono y tratar un solo punto a la vez.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-045",
+    "text": "Voy a tomar agua y caminar un momento; no estoy abandonando la conversación.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-046",
+    "text": "Ahora mismo mi cuerpo está en alerta. ¿Pausamos y acordamos una hora para retomar?",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-047",
+    "text": "No necesito ganar esta discusión; necesito recuperar la calma para escucharte.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-048",
+    "text": "Hablemos más despacio, sin interpretar intenciones que no hemos preguntado.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-049",
+    "text": "Puedo sentir enojo y aun así elegir no herirte.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-050",
+    "text": "Antes de seguir, quisiera que ambos nombremos qué necesitamos para sentirnos seguros al conversar.",
+    "category": "calma",
+    "feeling": "abrumado",
+    "context": "Durante una tensión que puede escalar",
+    "objective": "Reducir la activación antes de continuar"
+  },
+  {
+    "id": "msg-051",
+    "text": "Quiero ser honesto: esto despertó inseguridad en mí y necesito hablarlo sin acusarte.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-052",
+    "text": "¿Podemos acordar qué significa transparencia para ambos sin perder nuestra autonomía?",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-053",
+    "text": "La confianza me cuesta hoy; prefiero decirlo con claridad antes que actuar desde la sospecha.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-054",
+    "text": "Necesito coherencia entre palabras y acciones, y entiendo que observarla tomará tiempo.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-055",
+    "text": "No quiero revisar ni controlar tus cosas; sí quiero hacer preguntas directas sobre lo ocurrido.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-056",
+    "text": "¿Qué acuerdo concreto y voluntario podría ayudarnos a reconstruir seguridad?",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-057",
+    "text": "Puedo ofrecer confianza de manera gradual sin negar las señales que me preocupan.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-058",
+    "text": "Quiero contarte qué situación activó mi temor y escuchar cómo la viviste tú.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-059",
+    "text": "No puedo garantizar cómo terminará este proceso, pero puedo participar con honestidad.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-060",
+    "text": "Si algo cambia en nuestro acuerdo, prefiero que lo conversemos antes de ocultarlo.",
+    "category": "confianza",
+    "feeling": "vulnerable",
+    "context": "Al hablar de dudas o de reconstrucción de confianza",
+    "objective": "Pedir claridad sin vigilancia ni acusación"
+  },
+  {
+    "id": "msg-061",
+    "text": "Estoy aquí contigo. ¿Qué tipo de apoyo te sería útil hoy?",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-062",
+    "text": "No tengo una respuesta perfecta, pero puedo acompañarte mientras decides tu siguiente paso.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-063",
+    "text": "¿Quieres que me encargue de una tarea concreta para darte un poco de espacio?",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-064",
+    "text": "Confío en tu capacidad para elegir y puedo ayudarte a revisar opciones si lo deseas.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-065",
+    "text": "No voy a apresurarte a estar bien; podemos atravesar este día paso a paso.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-066",
+    "text": "Puedo escucharte sin convertir tu dolor en un problema que yo deba controlar.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-067",
+    "text": "¿Te serviría compañía en silencio o prefieres estar a solas un rato?",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-068",
+    "text": "Lo que estás viviendo es importante; no necesitas minimizarlo para protegerme.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-069",
+    "text": "Si buscas ayuda profesional, puedo apoyarte con la logística sin decidir por ti.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-070",
+    "text": "No tienes que responder ahora. Mi ofrecimiento de ayuda seguirá abierto sin presión.",
+    "category": "apoyo",
+    "feeling": "solidario",
+    "context": "Cuando la otra persona atraviesa una dificultad",
+    "objective": "Ofrecer apoyo respetando su agencia"
+  },
+  {
+    "id": "msg-071",
+    "text": "¿Te gustaría que apartemos media hora esta semana para caminar y conversar?",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-072",
+    "text": "Extraño reír contigo; ¿elegimos una actividad sencilla que ambos disfrutemos?",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-073",
+    "text": "Podemos dejar las pantallas durante la cena y contarnos una cosa importante del día.",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-074",
+    "text": "Quisiera tener una cita contigo sin que tenga que ser costosa ni perfecta.",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-075",
+    "text": "¿Qué momento de esta semana se siente realista para conectar sin prisa?",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-076",
+    "text": "Me gustaría cocinar juntos y usar ese tiempo para estar presentes.",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-077",
+    "text": "¿Hacemos una lista de planes breves para los días en que tenemos poca energía?",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-078",
+    "text": "Quiero cuidar nuestra amistad; ¿qué te haría sentir acompañado este fin de semana?",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-079",
+    "text": "Podemos turnarnos para elegir un plan y mantener espacio para decir que no.",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-080",
+    "text": "Hoy tengo quince minutos libres y me encantaría compartirlos contigo, si también quieres.",
+    "category": "tiempo-de-calidad",
+    "feeling": "ilusionado",
+    "context": "Al proponer conexión en medio de la rutina",
+    "objective": "Crear un encuentro posible y compartido"
+  },
+  {
+    "id": "msg-081",
+    "text": "¿Te gustaría que oremos juntos por esta decisión antes de seguir conversando?",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-082",
+    "text": "Este pasaje me invitó a ser más paciente; quiero aplicarlo primero a mi conducta.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-083",
+    "text": "Puedo orar por ti sin usar la fe para presionarte ni corregirte.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-084",
+    "text": "¿Qué has sentido que Dios te está enseñando en esta etapa?",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-085",
+    "text": "Quiero pedir sabiduría para amar con verdad, límites y misericordia.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-086",
+    "text": "No deseo usar un versículo para cerrar la conversación; quiero escuchar también tu experiencia.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-087",
+    "text": "¿Podemos agradecer juntos por algo pequeño que recibimos hoy?",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-088",
+    "text": "Mi fe me llama a asumir mi parte, no a exigir que tú cambies primero.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-089",
+    "text": "Quisiera que nuestra vida espiritual produzca más cuidado y menos juicio.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-090",
+    "text": "Si hoy no quieres orar en voz alta, puedo respetarlo y guardar un momento de silencio.",
+    "category": "fe-compartida",
+    "feeling": "esperanzado",
+    "context": "Al integrar la fe de forma voluntaria en la relación",
+    "objective": "Invitar a una práctica espiritual sin imponerla"
+  },
+  {
+    "id": "msg-091",
+    "text": "Hoy agradezco que pudimos hablar sin escapar de lo difícil.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-092",
+    "text": "Doy gracias por tu presencia, no porque todo sea perfecto, sino porque seguimos aprendiendo.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-093",
+    "text": "Me llevo con gratitud la forma en que cuidaste mis palabras esta tarde.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-094",
+    "text": "Gracias por compartir conmigo una parte de tu mundo interior.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-095",
+    "text": "Hoy fue pesado, y aun así valoro el pequeño gesto de ternura que tuvimos.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-096",
+    "text": "Agradezco que podamos reconocer nuestros límites sin dejar de tratarnos con dignidad.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-097",
+    "text": "Me alegra la manera en que celebramos el logro del otro sin competir.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-098",
+    "text": "Gracias por corregirme con respeto y darme oportunidad de reflexionar.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-099",
+    "text": "Valoro el hogar que construimos en las decisiones sencillas de cada día.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-100",
+    "text": "Esta semana no salió como esperábamos, pero agradezco que buscamos ayuda a tiempo.",
+    "category": "gratitud",
+    "feeling": "en-paz",
+    "context": "Al cerrar el día o una etapa compartida",
+    "objective": "Cultivar gratitud concreta y realista"
+  },
+  {
+    "id": "msg-101",
+    "text": "Quiero hablar del problema sin convertirte a ti en el problema.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-102",
+    "text": "Podemos estar en desacuerdo y aun así tratarnos con respeto.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-103",
+    "text": "¿Cuál es el punto más importante para ti y cuál podría ser flexible?",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-104",
+    "text": "No voy a traer errores antiguos para aumentar el peso de esta discusión.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-105",
+    "text": "Busquemos una solución provisional y revisémosla en una semana.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-106",
+    "text": "Quiero distinguir lo que ocurrió de la historia que estoy contando sobre tus intenciones.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-107",
+    "text": "Puedo ceder en este detalle sin negar una necesidad importante para mí.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-108",
+    "text": "Antes de proponer algo, quiero resumir lo que entiendo que necesitas.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-109",
+    "text": "No deseo usar el silencio como castigo; si necesito una pausa, diré cuándo volveré.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-110",
+    "text": "Si no logramos avanzar solos, consideremos apoyo de una persona profesional y segura.",
+    "category": "conflicto",
+    "feeling": "determinado",
+    "context": "En un desacuerdo donde ambos tienen necesidades legítimas",
+    "objective": "Buscar acuerdos sin ganar ni castigar"
+  },
+  {
+    "id": "msg-111",
+    "text": "La carga se siente desigual; ¿hacemos una lista visible y repartimos tareas de nuevo?",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-112",
+    "text": "No quiero recordarte cada paso. Acordemos qué responsabilidad completa asume cada uno.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-113",
+    "text": "¿Qué tarea puedes tomar esta semana y cuál puedo asumir yo de forma realista?",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-114",
+    "text": "Revisemos el presupuesto con los mismos datos antes de decidir.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-115",
+    "text": "Además de ejecutar tareas, necesito que compartamos la planificación.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-116",
+    "text": "Propongo probar este reparto durante siete días y conversar sobre cómo funcionó.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-117",
+    "text": "¿Hay alguna responsabilidad que debamos simplificar, delegar o dejar por ahora?",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-118",
+    "text": "Quiero reconocer el trabajo invisible que haces y también expresar dónde necesito apoyo.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-119",
+    "text": "Anotemos el acuerdo para no depender de la memoria en un momento de cansancio.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-120",
+    "text": "No se trata de contar puntos, sino de construir una colaboración sostenible para ambos.",
+    "category": "corresponsabilidad",
+    "feeling": "practico",
+    "context": "Al repartir tareas, dinero o carga mental",
+    "objective": "Crear acuerdos claros y revisables"
+  },
+  {
+    "id": "msg-121",
+    "text": "Quiero mostrarte una parte de mí que suelo esconder; ¿tienes espacio para escucharla?",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-122",
+    "text": "Me sentí pequeño en esa situación y me cuesta admitirlo, pero confío en contártelo.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-123",
+    "text": "¿Qué emoción ha estado más presente en ti esta semana?",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-124",
+    "text": "No necesito que soluciones esta herida; me ayuda que puedas conocerla.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-125",
+    "text": "Me gustaría saber qué te hace sentir cuidado cuando estás vulnerable.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-126",
+    "text": "Cuando compartes algo íntimo, quiero recibirlo sin usarlo después en una discusión.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-127",
+    "text": "¿Hay un sueño que hayas guardado por miedo a que parezca poco realista?",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-128",
+    "text": "Puedo acercarme a tu experiencia sin asumir que es igual a la mía.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-129",
+    "text": "Quiero contarte qué me dio alegría hoy, no solo lo que salió mal.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-130",
+    "text": "Si una pregunta se siente demasiado personal, puedes decir que no sin tener que justificarte.",
+    "category": "intimidad-emocional",
+    "feeling": "cercano",
+    "context": "En un momento seguro para compartir el mundo interior",
+    "objective": "Profundizar conexión con consentimiento y cuidado"
+  },
+  {
+    "id": "msg-131",
+    "text": "¿Qué esperas de los próximos dos años y qué parte todavía no tienes clara?",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-132",
+    "text": "Quiero hablar de nuestros proyectos sin asumir que deseamos exactamente lo mismo.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-133",
+    "text": "¿Qué valores no quieres perder mientras construimos un futuro juntos?",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-134",
+    "text": "Podemos imaginar opciones y también admitir lo que aún no sabemos.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-135",
+    "text": "Antes de comprometernos con este cambio, revisemos su impacto para ambos.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-136",
+    "text": "No quiero que el miedo decida por nosotros, pero tampoco ignorar los riesgos reales.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-137",
+    "text": "¿Qué apoyo necesitaría cada uno si elegimos este camino?",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-138",
+    "text": "Podemos establecer una fecha para revisar la decisión en lugar de tratarla como irreversible.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-139",
+    "text": "Mi deseo es caminar contigo, no diseñar tu vida en tu lugar.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-140",
+    "text": "Si descubrimos una diferencia importante, quiero abordarla con honestidad y respeto.",
+    "category": "futuro",
+    "feeling": "reflexivo",
+    "context": "Al discernir decisiones y expectativas de largo plazo",
+    "objective": "Alinear valores sin imponer un resultado"
+  },
+  {
+    "id": "msg-141",
+    "text": "Me alegra verte. ¿Necesitas primero descansar o te gustaría que conversemos un poco?",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-142",
+    "text": "Te extrañé y quiero acercarme sin exigirte que cambies de ritmo de inmediato.",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-143",
+    "text": "La semana nos dejó desconectados; ¿qué pequeño momento podemos recuperar hoy?",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-144",
+    "text": "No quiero interpretar tu cansancio como falta de amor. ¿Cómo llegas a casa hoy?",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-145",
+    "text": "Podemos comenzar de nuevo con algo sencillo: un abrazo, un té o unos minutos de silencio.",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-146",
+    "text": "He pensado en ti durante este tiempo y quiero saber cómo fue tu experiencia.",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-147",
+    "text": "No necesito compensar toda la distancia en una sola conversación.",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-148",
+    "text": "¿Qué te ayudaría a sentir que volvemos a estar en el mismo equipo?",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-149",
+    "text": "Quiero darte la bienvenida sin convertir este momento en una lista de pendientes.",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  },
+  {
+    "id": "msg-150",
+    "text": "Si hoy tenemos poca energía, podemos acordar un encuentro más atento para mañana.",
+    "category": "distancia-y-reencuentro",
+    "feeling": "afectuoso",
+    "context": "Después de tiempo separados, desconexión o una jornada exigente",
+    "objective": "Retomar el vínculo sin reclamo ni presión"
+  }
+]

@@ -1,0 +1,6 @@
+import { HandHeart } from "lucide-react";
+import { requireEntitlement } from "@/lib/access";
+import { loadPrayers } from "@/lib/content";
+import { requireUser } from "@/lib/session";
+
+export default async function PrayersPage(){const user=await requireUser();await requireEntitlement(user);const prayers=loadPrayers();const themes=[...new Set(prayers.map(item=>item.theme))];return <div className="space-y-8"><header><p className="text-sm font-semibold uppercase tracking-[.16em] text-[#B85C42]">Oraciones</p><h1 className="editorial-title mt-3 text-4xl sm:text-6xl">Palabras para orar con verdad y gracia.</h1><p className="mt-4 max-w-3xl text-lg leading-8 text-muted">La oración puede acompañar decisiones responsables. No reemplaza protección, límites, atención clínica, asesoría legal ni servicios de emergencia.</p></header>{themes.map(theme=><section key={theme}><h2 className="editorial-title text-3xl">{theme}</h2><div className="mt-4 grid gap-4 md:grid-cols-3">{prayers.filter(item=>item.theme===theme).map(item=><article key={item.id} className="app-card p-5"><HandHeart size={20} className="text-[#B85C42]"/><h3 className="mt-4 font-semibold">{item.title}</h3><p className="mt-3 leading-7 text-muted">{item.text}</p></article>)}</div></section>)}</div>}

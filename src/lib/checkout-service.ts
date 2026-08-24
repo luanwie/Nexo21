@@ -1,0 +1,289 @@
+import { createHash } from "node:crypto";
+import {
+  EntitlementStatus,
+  EntitlementSourceType,
+  Prisma,
+  PurchaseStatus,
+} from "@/generated/prisma-v2";
+import {
+  canApplyPurchaseEvent,
+  normalizeCheckoutEvent,
+} from "@/lib/domain/checkout";
+import { prisma } from "@/lib/prisma";
+
+const purchaseStatus: Record<string, PurchaseStatus> = {
+  PENDING: "PENDING",
+  PAID: "PAID",
+  REFUNDED: "REFUNDED",
+  CHARGEBACK: "CHARGEBACK",
+  CANCELLED: "CANCELLED",
+};
+
+function targetEntitlementStatus(status: PurchaseStatus): EntitlementStatus {
+  return status === "PAID" ? "ACTIVE" : "REVOKED";
+}
+
+function normalizedPayload(event: ReturnType<typeof normalizeCheckoutEvent>) {
+  return JSON.stringify({
+    provider: event.provider,
+    eventId: event.eventId,
+    transactionId: event.transactionId,
+    occurredAt: event.occurredAt.toISOString(),
+    email: event.email,
+    status: event.status,
+    products: [...event.products].sort(),
+    amountCents: event.amountCents,
+    currency: event.currency,
+  });
+}
+
+function sha256(value: string) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+function emailOwnershipRequired() {
+  return process.env.NODE_ENV === "production" || process.env.REQUIRE_EMAIL_VERIFICATION === "true";
+}
+
+async function eligibleUser(
+  tx: Prisma.TransactionClient,
+  email: string,
+) {
+  const user = await tx.user.findUnique({ where: { email } });
+  if (!user) return null;
+  if (emailOwnershipRequired() && !user.emailVerified) return null;
+  return user;
+}
+
+function purchaseSourceKey(purchaseId: string, productId: string) {
+  return `purchase:${purchaseId}:${productId}`;
+}
+
+export async function processCheckoutEvent(input: unknown) {
+  const event = normalizeCheckoutEvent(input);
+  const status = purchaseStatus[event.status];
+  const payloadJson = normalizedPayload(event);
+  const payloadHash = sha256(payloadJson);
+
+  return prisma.$transaction(
+    async (tx) => {
+      const priorEvent = await tx.paymentEvent.findUnique({
+        where: {
+          provider_eventId: {
+            provider: event.provider,
+            eventId: event.eventId,
+          },
+        },
+      });
+      if (priorEvent) {
+        if (priorEvent.payloadHash !== payloadHash) {
+          throw new Error("Payment event ID was reused with a different payload");
+        }
+        return {
+          purchaseId: priorEvent.purchaseId,
+          linked: Boolean(priorEvent.purchaseId),
+          duplicate: true,
+          ignored: false,
+        };
+      }
+
+      const existing = await tx.purchase.findUnique({
+        where: {
+          provider_transactionId: {
+            provider: event.provider,
+            transactionId: event.transactionId,
+          },
+        },
+        include: { items: { include: { product: true } } },
+      });
+
+      const products = await tx.product.findMany({
+        where: {
+          slug: { in: event.products },
+          ...(existing ? {} : { active: true }),
+        },
+      });
+      if (products.length !== event.products.length) {
+        throw new Error("One or more checkout products are unknown or inactive");
+      }
+
+      const expectedTotal = products.reduce((sum, product) => sum + product.priceCents, 0);
+      if (!existing && (event.amountCents !== expectedTotal || event.currency !== "USD")) {
+        throw new Error("Checkout amount or currency does not match the offer catalog");
+      }
+
+      if (existing) {
+        const existingSlugs = existing.items.map((item) => item.product.slug).sort();
+        const incomingSlugs = [...event.products].sort();
+        if (
+          JSON.stringify(existingSlugs) !== JSON.stringify(incomingSlugs) ||
+          existing.amountCents !== event.amountCents ||
+          existing.currency !== event.currency
+        ) {
+          throw new Error("Transaction identity conflicts with the original purchase");
+        }
+      }
+
+      const user = await eligibleUser(tx, event.email);
+      let purchaseId: string;
+      let ignored = false;
+
+      if (existing) {
+        purchaseId = existing.id;
+        const shouldApply = canApplyPurchaseEvent(
+          existing.status,
+          status,
+          event.occurredAt,
+          existing.providerOccurredAt,
+        );
+        ignored = !shouldApply;
+        if (shouldApply) {
+          await tx.purchase.update({
+            where: { id: existing.id },
+            data: {
+              status,
+              providerOccurredAt: event.occurredAt,
+              userId: user?.id ?? existing.userId,
+            },
+          });
+        }
+      } else {
+        const created = await tx.purchase.create({
+          data: {
+            provider: event.provider,
+            transactionId: event.transactionId,
+            purchaserEmail: event.email,
+            status,
+            amountCents: event.amountCents,
+            currency: event.currency,
+            rawPayload: payloadJson,
+            providerOccurredAt: event.occurredAt,
+            userId: user?.id,
+            items: {
+              create: products.map((product) => ({
+                productId: product.id,
+                priceCents: product.priceCents,
+              })),
+            },
+          },
+        });
+        purchaseId = created.id;
+      }
+
+      await tx.paymentEvent.create({
+        data: {
+          provider: event.provider,
+          eventId: event.eventId,
+          transactionId: event.transactionId,
+          status,
+          payloadHash,
+          payloadJson,
+          occurredAt: event.occurredAt,
+          purchaseId: purchaseId,
+        },
+      });
+
+      if (!ignored && user) {
+        for (const product of products) {
+          const sourceKey = purchaseSourceKey(purchaseId, product.id);
+          await tx.entitlement.upsert({
+            where: {
+              userId_productId_sourceKey: {
+                userId: user.id,
+                productId: product.id,
+                sourceKey,
+              },
+            },
+            update: { status: targetEntitlementStatus(status) },
+            create: {
+              userId: user.id,
+              productId: product.id,
+              status: targetEntitlementStatus(status),
+              sourceType: EntitlementSourceType.PURCHASE,
+              sourceKey,
+              sourcePurchaseId: purchaseId,
+            },
+          });
+        }
+      }
+
+      if (!ignored) {
+        await tx.analyticsEvent.create({
+          data: {
+            userId: user?.id,
+            name:
+              status === "PAID"
+                ? "Purchase"
+                : status === "REFUNDED"
+                  ? "Refund"
+                  : status === "CHARGEBACK"
+                    ? "Chargeback"
+                    : "PurchaseStatusChanged",
+            path: "/api/checkout/webhook",
+            payloadJson: JSON.stringify({
+              provider: event.provider,
+              eventId: event.eventId,
+              transactionId: event.transactionId,
+              status,
+              amountCents: event.amountCents,
+              currency: event.currency,
+            }),
+          },
+        });
+      }
+
+      return {
+        purchaseId: purchaseId,
+        linked: Boolean(user),
+        duplicate: false,
+        ignored,
+      };
+    },
+    {
+      isolationLevel: Prisma.TransactionIsolationLevel.Serializable,
+      maxWait: 5_000,
+      timeout: 20_000,
+    },
+  );
+}
+
+export async function claimPurchasesForUser(userId: string, email: string) {
+  return prisma.$transaction(async (tx) => {
+    const user = await tx.user.findUnique({ where: { id: userId } });
+    if (!user || user.email.toLowerCase() !== email.toLowerCase()) return 0;
+    if (emailOwnershipRequired() && !user.emailVerified) return 0;
+
+    const purchases = await tx.purchase.findMany({
+      where: { purchaserEmail: email.toLowerCase(), status: "PAID" },
+      include: { items: true },
+    });
+
+    for (const purchase of purchases) {
+      if (!purchase.userId) {
+        await tx.purchase.update({ where: { id: purchase.id }, data: { userId } });
+      }
+      for (const item of purchase.items) {
+        const sourceKey = purchaseSourceKey(purchase.id, item.productId);
+        await tx.entitlement.upsert({
+          where: {
+            userId_productId_sourceKey: {
+              userId,
+              productId: item.productId,
+              sourceKey,
+            },
+          },
+          update: { status: "ACTIVE" },
+          create: {
+            userId,
+            productId: item.productId,
+            status: "ACTIVE",
+            sourceType: "PURCHASE",
+            sourceKey,
+            sourcePurchaseId: purchase.id,
+          },
+        });
+      }
+    }
+    return purchases.length;
+  });
+}

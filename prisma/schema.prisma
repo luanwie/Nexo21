@@ -1,0 +1,297 @@
+generator client {
+  provider   = "prisma-client-js"
+  output   = "../src/generated/prisma-v2"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  MEMBER
+  ADMIN
+}
+
+enum ProductType {
+  MAIN
+  BUMP
+  UPSELL
+  DLC
+  SUBSCRIPTION
+}
+
+enum PurchaseStatus {
+  PENDING
+  PAID
+  REFUNDED
+  CHARGEBACK
+  CANCELLED
+}
+
+enum EntitlementStatus {
+  ACTIVE
+  REFUNDED
+  REVOKED
+  EXPIRED
+}
+
+enum EntitlementSourceType {
+  PURCHASE
+  MANUAL
+  SUBSCRIPTION
+}
+
+model User {
+  id            String   @id
+  name          String
+  email         String   @unique
+  emailVerified Boolean  @default(false)
+  image         String?
+  role          UserRole @default(MEMBER)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  sessions         Session[]
+  accounts         Account[]
+  purchases        Purchase[]
+  entitlements     Entitlement[]
+  progress         JourneyProgress[]
+  journalEntries   JournalEntry[]
+  favorites        Favorite[]
+  messageUses      MessageUse[]
+  actionCompletions ActionCompletion[]
+  subscriptions    Subscription[]
+  analyticsEvents  AnalyticsEvent[]
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  issuer                String?
+  userId                String
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+}
+
+model Product {
+  id          String      @id @default(cuid())
+  slug        String      @unique
+  title       String
+  description String
+  type        ProductType
+  priceCents  Int
+  currency    String      @default("USD")
+  active      Boolean     @default(true)
+  contentKey  String?
+  sortOrder   Int         @default(0)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  purchaseItems PurchaseItem[]
+  entitlements Entitlement[]
+  subscriptions Subscription[]
+}
+
+model Purchase {
+  id            String         @id @default(cuid())
+  provider      String
+  transactionId String
+  status        PurchaseStatus @default(PENDING)
+  amountCents   Int
+  currency      String
+  rawPayload    String?
+  purchaserEmail String
+  userId        String?
+  providerOccurredAt DateTime @default(now())
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  user          User?          @relation(fields: [userId], references: [id], onDelete: SetNull)
+  items         PurchaseItem[]
+  entitlements  Entitlement[]  @relation("EntitlementSource")
+  events         PaymentEvent[]
+
+  @@unique([provider, transactionId])
+  @@index([userId, status])
+}
+
+model PurchaseItem {
+  id         String   @id @default(cuid())
+  purchaseId String
+  productId  String
+  priceCents Int
+  purchase   Purchase @relation(fields: [purchaseId], references: [id], onDelete: Cascade)
+  product    Product  @relation(fields: [productId], references: [id])
+
+  @@unique([purchaseId, productId])
+}
+
+model PaymentEvent {
+  id            String         @id @default(cuid())
+  provider      String
+  eventId       String
+  transactionId String
+  status        PurchaseStatus
+  payloadHash   String
+  payloadJson   String
+  occurredAt    DateTime
+  createdAt     DateTime       @default(now())
+  purchaseId    String?
+  purchase      Purchase?      @relation(fields: [purchaseId], references: [id], onDelete: SetNull)
+
+  @@unique([provider, eventId])
+  @@index([provider, transactionId, occurredAt])
+}
+
+model Entitlement {
+  id               String            @id @default(cuid())
+  userId           String
+  productId        String
+  status           EntitlementStatus @default(ACTIVE)
+  sourceType       EntitlementSourceType
+  sourceKey        String
+  sourcePurchaseId String?
+  grantedAt        DateTime          @default(now())
+  expiresAt        DateTime?
+  user             User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product          Product           @relation(fields: [productId], references: [id])
+  sourcePurchase   Purchase?         @relation("EntitlementSource", fields: [sourcePurchaseId], references: [id])
+
+  @@unique([userId, productId, sourceKey])
+  @@index([userId, productId, status, expiresAt])
+}
+
+model JourneyProgress {
+  id          String    @id @default(cuid())
+  userId      String
+  day         Int
+  completedAt DateTime?
+  note        String?
+  updatedAt   DateTime  @updatedAt
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, day])
+}
+
+model JournalEntry {
+  id        String   @id @default(cuid())
+  userId    String
+  entryDate DateTime @default(now())
+  title     String
+  body      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, entryDate])
+}
+
+model Favorite {
+  id           String   @id @default(cuid())
+  userId       String
+  resourceType String
+  resourceId   String
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, resourceType, resourceId])
+}
+
+model MessageUse {
+  id        String   @id @default(cuid())
+  userId    String
+  messageId String
+  usedAt    DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, messageId])
+}
+
+model ActionCompletion {
+  id          String   @id @default(cuid())
+  userId      String
+  actionId    String
+  completedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, actionId])
+}
+
+model Subscription {
+  id                     String   @id @default(cuid())
+  userId                 String
+  productId              String
+  provider               String
+  providerSubscriptionId String   @unique
+  status                 String
+  currentPeriodEnd       DateTime?
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+  user                    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product                 Product @relation(fields: [productId], references: [id])
+}
+
+model ContentItem {
+  id        String   @id @default(cuid())
+  type      String
+  slug      String
+  title     String
+  bodyJson  String
+  active    Boolean  @default(true)
+  version   Int      @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([type, slug])
+  @@index([type, active])
+}
+
+model AnalyticsEvent {
+  id         String   @id @default(cuid())
+  userId     String?
+  sessionId  String?
+  name       String
+  path       String?
+  payloadJson String?
+  createdAt  DateTime @default(now())
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([name, createdAt])
+  @@index([userId, createdAt])
+}

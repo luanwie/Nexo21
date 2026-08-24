@@ -1,0 +1,302 @@
+[
+  {
+    "id": "dlc-conversaciones",
+    "title": "Conversaciones que acercan",
+    "type": "DLC",
+    "offer": {
+      "headline": "Hablen de lo importante con una guía, no con un guion rígido.",
+      "summary": "Un pack para preparar, abrir y cerrar 40 conversaciones sensibles con escucha, límites y acuerdos revisables.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "conversaciones-que-acercan",
+    "price": {
+      "amount": 9.9,
+      "currency": "USD",
+      "display": "US$ 9.90"
+    },
+    "description": "Un pack para preparar, abrir y cerrar 40 conversaciones sensibles con escucha, límites y acuerdos revisables.",
+    "deliverables": [
+      "40 guías de conversación en PDF",
+      "40 tarjetas de apertura y preguntas",
+      "Hoja de preparación emocional",
+      "Plantilla de acuerdos y revisión"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-mensajes",
+    "title": "150 mensajes con intención",
+    "type": "DLC",
+    "offer": {
+      "headline": "Encuentra palabras cuidadosas sin copiar emociones que no sientes.",
+      "summary": "Biblioteca editable de mensajes para agradecer, reparar, pedir una pausa, expresar límites y ofrecer apoyo sin presión.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "mensajes-con-intencion",
+    "price": {
+      "amount": 6.9,
+      "currency": "USD",
+      "display": "US$ 6.90"
+    },
+    "description": "Biblioteca editable de mensajes para agradecer, reparar, pedir una pausa, expresar límites y ofrecer apoyo sin presión.",
+    "deliverables": [
+      "150 mensajes organizados por contexto",
+      "Índice por emoción y objetivo",
+      "Guía para personalizar cada texto",
+      "Lista de frases manipuladoras que conviene evitar"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-devocional",
+    "title": "30 días de amor con verdad",
+    "type": "DLC",
+    "offer": {
+      "headline": "Una práctica bíblica breve para transformar primero la propia conducta.",
+      "summary": "Devocional de treinta días con lectura, reflexión, oración y una acción relacional concreta, compatible con práctica individual o compartida.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "devocional-amor-con-verdad",
+    "price": {
+      "amount": 8.9,
+      "currency": "USD",
+      "display": "US$ 8.90"
+    },
+    "description": "Devocional de treinta días con lectura, reflexión, oración y una acción relacional concreta, compatible con práctica individual o compartida.",
+    "deliverables": [
+      "30 lecturas bíblicas referenciadas",
+      "30 reflexiones originales",
+      "30 oraciones breves",
+      "30 acciones prácticas"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-reparacion",
+    "title": "Camino de reparación",
+    "type": "DLC",
+    "offer": {
+      "headline": "Pasa de la disculpa a una reparación observable y prudente.",
+      "summary": "Cuaderno educativo para reconocer impacto, asumir responsabilidad, diseñar cambios sostenibles y comprender que el perdón no obliga a restaurar confianza de inmediato.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "camino-de-reparacion",
+    "price": {
+      "amount": 12.9,
+      "currency": "USD",
+      "display": "US$ 12.90"
+    },
+    "description": "Cuaderno educativo para reconocer impacto, asumir responsabilidad, diseñar cambios sostenibles y comprender que el perdón no obliga a restaurar confianza de inmediato.",
+    "deliverables": [
+      "Mapa de impacto y responsabilidad",
+      "Guía de disculpas sin excusas",
+      "Plan de reparación de cuatro semanas",
+      "Revisiones de coherencia y confianza gradual"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-finanzas",
+    "title": "Dinero en equipo",
+    "type": "DLC",
+    "offer": {
+      "headline": "Conviertan cifras y expectativas en acuerdos claros, sin vigilancia financiera.",
+      "summary": "Herramientas para conversar sobre presupuesto, deudas, gastos, generosidad y metas manteniendo autonomía, transparencia y decisiones compartidas.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "dinero-en-equipo",
+    "price": {
+      "amount": 10.9,
+      "currency": "USD",
+      "display": "US$ 10.90"
+    },
+    "description": "Herramientas para conversar sobre presupuesto, deudas, gastos, generosidad y metas manteniendo autonomía, transparencia y decisiones compartidas.",
+    "deliverables": [
+      "Plantilla mensual de presupuesto",
+      "Inventario privado de deudas y metas",
+      "Guía para seis conversaciones financieras",
+      "Revisión trimestral de acuerdos"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-hogar",
+    "title": "Hogar corresponsable",
+    "type": "DLC",
+    "offer": {
+      "headline": "Hagan visible la carga y repártanla de forma sostenible.",
+      "summary": "Sistema simple para mapear tareas físicas, planificación y carga mental, probar un reparto durante siete días y ajustarlo sin llevar un marcador de puntos.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "hogar-corresponsable",
+    "price": {
+      "amount": 7.9,
+      "currency": "USD",
+      "display": "US$ 7.90"
+    },
+    "description": "Sistema simple para mapear tareas físicas, planificación y carga mental, probar un reparto durante siete días y ajustarlo sin llevar un marcador de puntos.",
+    "deliverables": [
+      "Mapa de trabajo visible e invisible",
+      "Tablero semanal imprimible",
+      "Guía de reparto por energía y disponibilidad",
+      "Ritual de revisión de diez minutos"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-intimidad",
+    "title": "Intimidad con ternura y consentimiento",
+    "type": "DLC",
+    "offer": {
+      "headline": "Cultiven cercanía emocional y física que respete cada sí, no y todavía no.",
+      "summary": "Recursos cristianos para conversar sobre vulnerabilidad, afecto, deseo, privacidad y consentimiento sin presión espiritual ni emocional.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "intimidad-ternura-consentimiento",
+    "price": {
+      "amount": 11.9,
+      "currency": "USD",
+      "display": "US$ 11.90"
+    },
+    "description": "Recursos cristianos para conversar sobre vulnerabilidad, afecto, deseo, privacidad y consentimiento sin presión espiritual ni emocional.",
+    "deliverables": [
+      "20 preguntas de intimidad emocional",
+      "Guía de consentimiento cotidiano",
+      "Inventario personal de seguridad y preferencias",
+      "Ritual de conexión sin expectativas"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-noviazgo",
+    "title": "Noviazgo con propósito y libertad",
+    "type": "DLC",
+    "offer": {
+      "headline": "Disciernan compatibilidad sin acelerar compromisos ni ignorar señales.",
+      "summary": "Ruta de seis módulos sobre valores, fe, dinero, familia, conflicto, futuro y límites para tomar decisiones informadas sin prometer un resultado específico.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "noviazgo-proposito-libertad",
+    "price": {
+      "amount": 14.9,
+      "currency": "USD",
+      "display": "US$ 14.90"
+    },
+    "description": "Ruta de seis módulos sobre valores, fe, dinero, familia, conflicto, futuro y límites para tomar decisiones informadas sin prometer un resultado específico.",
+    "deliverables": [
+      "6 módulos de discernimiento",
+      "Inventarios individuales de valores",
+      "12 conversaciones guiadas",
+      "Matriz de decisiones y próximos pasos"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-familias",
+    "title": "Límites con la familia extensa",
+    "type": "DLC",
+    "offer": {
+      "headline": "Honren a la familia sin entregar la dirección de la relación.",
+      "summary": "Pack para conversar sobre visitas, fiestas, privacidad, ayuda económica, consejos no solicitados y decisiones de pareja con respeto y firmeza.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "limites-familia-extensa",
+    "price": {
+      "amount": 8.9,
+      "currency": "USD",
+      "display": "US$ 8.90"
+    },
+    "description": "Pack para conversar sobre visitas, fiestas, privacidad, ayuda económica, consejos no solicitados y decisiones de pareja con respeto y firmeza.",
+    "deliverables": [
+      "Guía de siete límites frecuentes",
+      "18 frases de respuesta respetuosa",
+      "Plan para celebraciones y visitas",
+      "Hoja de acuerdos de privacidad"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-conflicto",
+    "title": "Pausa, diálogo y acuerdo",
+    "type": "DLC",
+    "offer": {
+      "headline": "Un protocolo para desacelerar conflictos antes de herirse.",
+      "summary": "Método educativo para reconocer escalada, pedir una pausa con regreso acordado, tratar un tema por vez y documentar soluciones provisionales. No es mediación para situaciones de abuso.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "pausa-dialogo-acuerdo",
+    "price": {
+      "amount": 9.9,
+      "currency": "USD",
+      "display": "US$ 9.90"
+    },
+    "description": "Método educativo para reconocer escalada, pedir una pausa con regreso acordado, tratar un tema por vez y documentar soluciones provisionales. No es mediación para situaciones de abuso.",
+    "deliverables": [
+      "Semáforo personal de activación",
+      "Protocolo de pausa y regreso",
+      "Guía de diálogo en cuatro pasos",
+      "Registro de acuerdos revisables"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-oraciones",
+    "title": "Oraciones para el camino compartido",
+    "type": "DLC",
+    "offer": {
+      "headline": "Ora por sabiduría y transformación sin convertir la fe en presión.",
+      "summary": "Colección temática de oraciones para comunicación, gratitud, conflicto, decisiones, crisis, límites, seguridad y esperanza, pensada para uso personal o voluntariamente compartido.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "oraciones-camino-compartido",
+    "price": {
+      "amount": 5.9,
+      "currency": "USD",
+      "display": "US$ 5.90"
+    },
+    "description": "Colección temática de oraciones para comunicación, gratitud, conflicto, decisiones, crisis, límites, seguridad y esperanza, pensada para uso personal o voluntariamente compartido.",
+    "deliverables": [
+      "48 oraciones originales",
+      "12 tarjetas temáticas imprimibles",
+      "Guía para orar sin imponer",
+      "Liturgia breve de gratitud semanal"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "dlc-continuidad",
+    "title": "90 días de continuidad",
+    "type": "DLC",
+    "offer": {
+      "headline": "Sostengan lo aprendido con un ritmo pequeño, medible y flexible.",
+      "summary": "Plan posjornada de tres meses que combina prácticas diarias mínimas, encuentros semanales y revisiones mensuales, con alternativas para temporadas de poca energía.",
+      "idealFor": "Personas o parejas que eligen participar libremente y desean una práctica cristiana, concreta y respetuosa."
+    },
+    "slug": "continuidad-90-dias",
+    "price": {
+      "amount": 15.9,
+      "currency": "USD",
+      "display": "US$ 15.90"
+    },
+    "description": "Plan posjornada de tres meses que combina prácticas diarias mínimas, encuentros semanales y revisiones mensuales, con alternativas para temporadas de poca energía.",
+    "deliverables": [
+      "Calendario de 90 días",
+      "12 encuentros semanales guiados",
+      "3 revisiones mensuales",
+      "Tablero de hábitos sin competencia"
+    ],
+    "access": "Descarga digital, acceso personal de por vida a la versión adquirida.",
+    "disclaimer": "Material educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni emergencias. No garantiza cambios en otra persona ni resultados de relación. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y busca ayuda local especializada desde un medio seguro."
+  }
+]

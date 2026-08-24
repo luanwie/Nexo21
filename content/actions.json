@@ -1,0 +1,702 @@
+[
+  {
+    "id": "act-001",
+    "text": "Escucha durante cinco minutos sin interrumpir y luego resume lo comprendido.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-002",
+    "text": "Pregunta si la otra persona desea escucha, ideas o ayuda práctica.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-003",
+    "text": "Deja el teléfono fuera de alcance durante una conversación breve.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-004",
+    "text": "Formula una pregunta abierta sobre el momento más importante del día.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-005",
+    "text": "Repite una emoción que hayas oído y pregunta si la nombraste bien.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-006",
+    "text": "Espera tres segundos antes de responder a un tema sensible.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-007",
+    "text": "Pide permiso antes de hacer una pregunta personal.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-008",
+    "text": "Anota una idea que quieras responder para no interrumpir.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-009",
+    "text": "Observa tu postura y relaja los brazos mientras escuchas.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-010",
+    "text": "Cierra la charla diciendo una cosa nueva que comprendiste.",
+    "category": "escucha",
+    "durationMinutes": 5,
+    "objective": "Practicar escucha de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-011",
+    "text": "Agradece un gesto específico que normalmente pasa desapercibido.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-012",
+    "text": "Escribe una nota breve sobre una cualidad que admiras.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-013",
+    "text": "Reconoce en voz alta una tarea invisible realizada por la otra persona.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-014",
+    "text": "Celebra un avance sin compararlo con logros anteriores.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-015",
+    "text": "Cuenta a la otra persona cómo uno de sus gestos te ayudó hoy.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-016",
+    "text": "Da las gracias sin añadir una petición al final.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-017",
+    "text": "Recuerda juntos un momento sencillo por el que sientas gratitud.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-018",
+    "text": "Menciona una fortaleza que viste durante una dificultad reciente.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-019",
+    "text": "Envía un mensaje de aprecio que no requiera respuesta inmediata.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-020",
+    "text": "Agradece un límite sano que la otra persona expresó con claridad.",
+    "category": "aprecio",
+    "durationMinutes": 5,
+    "objective": "Practicar aprecio de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-021",
+    "text": "Realiza cinco respiraciones lentas antes de responder a una tensión.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-022",
+    "text": "Toma una pausa de veinte minutos y acuerda una hora concreta para volver.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-023",
+    "text": "Bebe agua y revisa si el cansancio está amplificando el conflicto.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-024",
+    "text": "Reduce la conversación a un solo tema observable.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-025",
+    "text": "Camina diez minutos sin preparar argumentos contra la otra persona.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-026",
+    "text": "Nombra tu emoción y su intensidad del uno al diez.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-027",
+    "text": "Baja voluntariamente el volumen de tu voz.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-028",
+    "text": "Apoya ambos pies en el suelo y describe tres cosas que ves.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-029",
+    "text": "Pospón decisiones importantes si cualquiera está demasiado activado.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-030",
+    "text": "Escribe lo que necesitas decir y elimina acusaciones sobre intenciones.",
+    "category": "calma",
+    "durationMinutes": 5,
+    "objective": "Practicar calma de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-031",
+    "text": "Ofrece una disculpa sin usar la palabra «pero».",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-032",
+    "text": "Pregunta qué impacto tuvo tu conducta antes de explicar tu intención.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-033",
+    "text": "Repara hoy una promesa pequeña que habías descuidado.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-034",
+    "text": "Identifica una acción concreta que evitará repetir el mismo daño.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-035",
+    "text": "Devuelve o reemplaza algo que usaste sin permiso.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-036",
+    "text": "Reconoce una interrupción y devuelve la palabra a quien hablaba.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-037",
+    "text": "Corrige frente a otros una información privada que compartiste indebidamente.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-038",
+    "text": "Escribe un acuerdo nuevo que sea específico, medible y voluntario.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-039",
+    "text": "Pregunta si la reparación propuesta realmente sería útil.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-040",
+    "text": "Revisa dentro de una semana si tu cambio se sostuvo en los hechos.",
+    "category": "reparacion",
+    "durationMinutes": 5,
+    "objective": "Practicar reparacion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-041",
+    "text": "Escribe un límite usando la fórmula: «Puedo…, y no puedo…».",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-042",
+    "text": "Di no a una petición menor sin inventar una excusa.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-043",
+    "text": "Define qué harás tú si una conversación incluye insultos.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-044",
+    "text": "Pide tiempo para pensar antes de aceptar un compromiso.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-045",
+    "text": "Protege quince minutos de descanso sin convertirlos en castigo.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-046",
+    "text": "Conversa sobre una expectativa de privacidad digital.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-047",
+    "text": "Distingue una preferencia de un límite necesario para tu seguridad.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-048",
+    "text": "Repite tu límite con calma sin entrar en una discusión circular.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-049",
+    "text": "Reconoce un límite ajeno aunque te produzca frustración.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-050",
+    "text": "Busca apoyo seguro si expresar límites provoca amenazas o represalias.",
+    "category": "limites",
+    "durationMinutes": 5,
+    "objective": "Practicar limites de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-051",
+    "text": "Ora un minuto por sabiduría para cambiar tu propia conducta.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-052",
+    "text": "Lee Santiago 1:19 y elige una forma concreta de escuchar mejor.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-053",
+    "text": "Agradece a Dios por una cualidad de la otra persona.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-054",
+    "text": "Pide permiso antes de proponer una oración compartida.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-055",
+    "text": "Guarda dos minutos de silencio sin usar la fe para evitar el tema difícil.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-056",
+    "text": "Anota una manera de practicar misericordia y verdad al mismo tiempo.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-057",
+    "text": "Lee 1 Corintios 13:4-7 y examina una actitud propia, no ajena.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-058",
+    "text": "Pide consejo a una persona madura que respete la dignidad y los límites.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-059",
+    "text": "Confiesa ante Dios una reacción que necesitas reparar.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-060",
+    "text": "Bendice a la otra persona sin pedir que responda como tú deseas.",
+    "category": "fe",
+    "durationMinutes": 5,
+    "objective": "Practicar fe de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-061",
+    "text": "Elijan una tarea doméstica y definan quién la completa de principio a fin.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-062",
+    "text": "Hagan una revisión de diez minutos del calendario semanal.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-063",
+    "text": "Anoten tres gastos próximos antes de tomar una decisión financiera.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-064",
+    "text": "Intercambien una tarea según la energía disponible hoy.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-065",
+    "text": "Eliminen una obligación no esencial de esta semana.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-066",
+    "text": "Pregunten qué parte de la carga mental nadie está viendo.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-067",
+    "text": "Prueben un reparto nuevo durante siete días y fijen una revisión.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-068",
+    "text": "Preparen juntos lo necesario para la mañana siguiente.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-069",
+    "text": "Definan qué significa «terminado» para una tarea compartida.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-070",
+    "text": "Agradezcan el esfuerzo antes de ajustar el acuerdo.",
+    "category": "colaboracion",
+    "durationMinutes": 5,
+    "objective": "Practicar colaboracion de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-071",
+    "text": "Compartan una bebida durante diez minutos sin pantallas.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-072",
+    "text": "Den una vuelta breve y hablen de algo que les dio alegría.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-073",
+    "text": "Elijan una canción cada uno y escúchenlas con atención.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-074",
+    "text": "Cocinen una parte de la comida juntos.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-075",
+    "text": "Miren una fotografía antigua y cuenten qué recuerdan de ese día.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-076",
+    "text": "Programen una cita sencilla dentro del presupuesto disponible.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-077",
+    "text": "Hagan una pregunta de curiosidad que no sea sobre pendientes.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-078",
+    "text": "Compartan quince minutos de lectura en el mismo espacio.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-079",
+    "text": "Elijan por turnos una actividad gratuita para el fin de semana.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-080",
+    "text": "Terminen el día nombrando un momento en que se sintieron equipo.",
+    "category": "tiempo-de-calidad",
+    "durationMinutes": 10,
+    "objective": "Practicar tiempo de calidad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-081",
+    "text": "Duerme o descansa antes de abordar un tema que no es urgente.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-082",
+    "text": "Come algo nutritivo si llevas horas sin hacerlo.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-083",
+    "text": "Escribe tres emociones sin juzgar si son correctas.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-084",
+    "text": "Habla con una amistad segura sin exponer detalles íntimos innecesarios.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-085",
+    "text": "Realiza una actividad que disfrutas de manera independiente.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-086",
+    "text": "Revisa si estás intentando asumir una responsabilidad que no te corresponde.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-087",
+    "text": "Agenda apoyo profesional si el malestar supera tus recursos actuales.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-088",
+    "text": "Dedica diez minutos a ordenar un espacio pequeño para reducir carga.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-089",
+    "text": "Practica decirte una frase compasiva en vez de insultarte.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-090",
+    "text": "Recuerda que cuidar la relación no exige abandonar tu salud ni tu identidad.",
+    "category": "autocuidado",
+    "durationMinutes": 5,
+    "objective": "Practicar autocuidado de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-091",
+    "text": "Guarda en un lugar seguro los números locales de emergencia y apoyo.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-092",
+    "text": "Identifica una persona confiable a quien puedas avisar si te sientes en riesgo.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-093",
+    "text": "Prepara un plan privado de salida si existen amenazas o violencia.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-094",
+    "text": "Evita confrontar a solas a alguien que ha reaccionado con violencia.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-095",
+    "text": "Protege documentos, medicación y recursos esenciales sin alertar al agresor.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-096",
+    "text": "Usa un dispositivo seguro para buscar ayuda si temes vigilancia digital.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-097",
+    "text": "Registra incidentes solo cuando hacerlo no aumente el riesgo.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-098",
+    "text": "Acude a servicios de emergencia si hay peligro inmediato.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-099",
+    "text": "Busca orientación especializada en violencia doméstica de tu localidad.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  },
+  {
+    "id": "act-100",
+    "text": "Recuerda que el abuso no es un problema de comunicación ni culpa de quien lo sufre.",
+    "category": "seguridad",
+    "durationMinutes": 10,
+    "objective": "Practicar seguridad de manera concreta y respetuosa."
+  }
+]

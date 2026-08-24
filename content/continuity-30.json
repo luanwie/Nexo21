@@ -1,0 +1,307 @@
+{
+  "title": "Continuidad Nexo21: 30 días después de la jornada",
+  "description": "Plan posjornada para convertir aprendizajes en hábitos pequeños, voluntarios y revisables. Cada día requiere entre cinco y veinte minutos.",
+  "disclaimer": "Este plan es educativo y espiritual; no sustituye terapia, atención médica, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses ejercicios de pareja para confrontar. Prioriza tu seguridad y contacta servicios locales especializados desde un medio seguro.",
+  "days": [
+    {
+      "day": 1,
+      "week": 1,
+      "title": "Elegir una práctica ancla",
+      "focus": "Constancia antes que intensidad",
+      "practice": "Elige una sola práctica de la jornada y fija un momento diario realista para repetirla.",
+      "conversationPrompt": "¿Qué práctica nos ayudó más y cuándo cabe de verdad en nuestra rutina?",
+      "prayer": "Señor, dame fidelidad en lo pequeño y libertad para aprender sin buscar perfección.",
+      "checkpoint": "La práctica quedó escrita con hora, duración y una alternativa para días difíciles."
+    },
+    {
+      "day": 2,
+      "week": 1,
+      "title": "Recordar el propósito",
+      "focus": "Motivación libre de perfeccionismo",
+      "practice": "Escribe en dos frases por qué deseas cuidar la relación sin depender de controlar el resultado.",
+      "conversationPrompt": "¿Qué clase de persona queremos ser en nuestra manera de relacionarnos?",
+      "prayer": "Dios, alinea mis motivos con el amor, la verdad y la dignidad de cada persona.",
+      "checkpoint": "El propósito describe valores y acciones propias, no cambios exigidos al otro."
+    },
+    {
+      "day": 3,
+      "week": 1,
+      "title": "Cinco minutos de escucha",
+      "focus": "Presencia breve y frecuente",
+      "practice": "Realicen un turno de cinco minutos cada uno; quien escucha solo resume y pregunta.",
+      "conversationPrompt": "¿Qué ocupó más espacio en tu mente hoy?",
+      "prayer": "Jesús, enséñame a escuchar con presencia antes de preparar mi respuesta.",
+      "checkpoint": "Ambos tuvieron un turno y pudieron corregir el resumen sin discusión."
+    },
+    {
+      "day": 4,
+      "week": 1,
+      "title": "Gratitud específica",
+      "focus": "Reconocer lo cotidiano",
+      "practice": "Agradece un gesto observable y explica su impacto sin añadir petición.",
+      "conversationPrompt": "¿Qué detalle pequeño te hizo sentir acompañado esta semana?",
+      "prayer": "Padre, abre mis ojos al bien concreto y guarda mi gratitud de toda negación.",
+      "checkpoint": "La gratitud fue concreta, sincera y no se usó para negar una dificultad."
+    },
+    {
+      "day": 5,
+      "week": 1,
+      "title": "Revisar el nivel de energía",
+      "focus": "Cuidar el cuerpo para cuidar el diálogo",
+      "practice": "Antes de hablar de algo sensible, revisa hambre, sueño, dolor y activación del uno al diez.",
+      "conversationPrompt": "¿Tenemos recursos para esta conversación o conviene fijar otro momento?",
+      "prayer": "Dios de descanso, ayúdame a reconocer mis límites físicos antes de reaccionar.",
+      "checkpoint": "Se decidió conscientemente conversar, pausar o buscar apoyo."
+    },
+    {
+      "day": 6,
+      "week": 1,
+      "title": "Un límite claro",
+      "focus": "Dignidad y responsabilidad personal",
+      "practice": "Escribe un límite con la fórmula: “Puedo…, no puedo…, y si ocurre…, haré…”.",
+      "conversationPrompt": "¿Qué límite ayuda a que nuestra relación sea más segura y respetuosa?",
+      "prayer": "Señor, dame claridad para cuidar la dignidad con límites serenos y seguros.",
+      "checkpoint": "El límite define una acción propia, no una amenaza para controlar al otro."
+    },
+    {
+      "day": 7,
+      "week": 1,
+      "title": "Cierre de la primera semana",
+      "focus": "Aprender sin calificarse",
+      "practice": "Revisen seis días y elijan un avance, una dificultad y un ajuste pequeño.",
+      "conversationPrompt": "¿Qué queremos conservar y qué necesita simplificarse?",
+      "prayer": "Gracias por esta semana; muéstranos qué conservar y qué ajustar con humildad.",
+      "checkpoint": "Hay un ajuste concreto para la semana siguiente y no una promesa de perfección."
+    },
+    {
+      "day": 8,
+      "week": 2,
+      "title": "Nombrar emociones",
+      "focus": "Vocabulario emocional sin culpa",
+      "practice": "Cada persona nombra dos emociones y una necesidad, evitando acusaciones sobre intención.",
+      "conversationPrompt": "¿Qué emoción te cuesta más compartir conmigo?",
+      "prayer": "Espíritu Santo, ayúdame a nombrar lo que siento sin convertirlo en acusación.",
+      "checkpoint": "Las emociones se expresaron como experiencia propia, no como veredicto sobre el otro."
+    },
+    {
+      "day": 9,
+      "week": 2,
+      "title": "Pedir sin exigir",
+      "focus": "Peticiones claras y voluntarias",
+      "practice": "Convierte una queja frecuente en una petición específica que pueda recibir sí, no o alternativa.",
+      "conversationPrompt": "¿Qué petición pequeña haría esta semana más sostenible?",
+      "prayer": "Dios, enséñame a pedir con claridad y a respetar una respuesta libre.",
+      "checkpoint": "La otra persona tuvo libertad real para responder y negociar."
+    },
+    {
+      "day": 10,
+      "week": 2,
+      "title": "Reparación pendiente",
+      "focus": "Responsabilidad con hechos",
+      "practice": "Identifica un daño propio no reparado, reconoce el impacto y pregunta qué acción sería útil.",
+      "conversationPrompt": "¿Hay algo que necesite reconocer sin defender mi intención?",
+      "prayer": "Señor misericordioso, haz que mi arrepentimiento produzca reparación verdadera.",
+      "checkpoint": "La disculpa no incluyó excusas ni exigió perdón inmediato."
+    },
+    {
+      "day": 11,
+      "week": 2,
+      "title": "Tiempo de calidad realista",
+      "focus": "Amistad en la rutina",
+      "practice": "Aparten veinte minutos para una actividad sencilla sin pantallas ni agenda de problemas.",
+      "conversationPrompt": "¿Qué actividad breve nos ayuda a disfrutar otra vez de nuestra amistad?",
+      "prayer": "Dios de alegría, renueva nuestra amistad en encuentros sencillos y presentes.",
+      "checkpoint": "El encuentro fue voluntario, posible y ajustado a la energía disponible."
+    },
+    {
+      "day": 12,
+      "week": 2,
+      "title": "Mapa de cargas",
+      "focus": "Corresponsabilidad visible",
+      "practice": "Anoten tareas físicas, planificación y carga emocional; redistribuyan una sola responsabilidad completa.",
+      "conversationPrompt": "¿Qué trabajo invisible necesita ser reconocido o compartido?",
+      "prayer": "Padre, haz visible la carga y guíanos hacia una colaboración justa.",
+      "checkpoint": "Cada tarea elegida tiene responsable y significado claro de “terminada”."
+    },
+    {
+      "day": 13,
+      "week": 2,
+      "title": "Privacidad y confianza",
+      "focus": "Cercanía sin vigilancia",
+      "practice": "Revisen un acuerdo de privacidad digital, confidencialidad o redes sociales.",
+      "conversationPrompt": "¿Qué te ayuda a sentir transparencia sin perder autonomía?",
+      "prayer": "Dios fiel, construye confianza sin vigilancia, coerción ni pérdida de autonomía.",
+      "checkpoint": "El acuerdo fue mutuo, específico y no exige contraseñas, aislamiento ni control."
+    },
+    {
+      "day": 14,
+      "week": 2,
+      "title": "Cierre de la segunda semana",
+      "focus": "Observar patrones",
+      "practice": "Revisen qué situaciones activaron defensa, silencio o prisa y qué respuesta ayudó.",
+      "conversationPrompt": "¿Qué patrón vimos y cuál será nuestra señal de pausa?",
+      "prayer": "Señor, danos ojos para ver patrones y sabiduría para interrumpir los dañinos.",
+      "checkpoint": "Se eligió una señal neutral y una hora máxima para retomar después de una pausa."
+    },
+    {
+      "day": 15,
+      "week": 3,
+      "title": "Recibir una diferencia",
+      "focus": "Unidad sin uniformidad",
+      "practice": "Elijan una preferencia distinta que no dañe a nadie y practiquen no corregirse.",
+      "conversationPrompt": "¿Qué diferencia podemos respetar sin convertirla en amenaza?",
+      "prayer": "Dios de unidad, enséñanos a respetar diferencias sin desprecio ni presión.",
+      "checkpoint": "Cada persona pudo explicar su preferencia sin presión para ceder."
+    },
+    {
+      "day": 16,
+      "week": 3,
+      "title": "Presupuesto de atención",
+      "focus": "Prioridades compartidas",
+      "practice": "Miren el calendario y protejan dos espacios breves de conexión y uno de descanso individual.",
+      "conversationPrompt": "¿Dónde estamos gastando atención que deseamos recuperar?",
+      "prayer": "Padre, ordena nuestra atención para cuidar conexión, deberes y descanso.",
+      "checkpoint": "Los espacios tienen duración realista y permiten reprogramación sin castigo."
+    },
+    {
+      "day": 17,
+      "week": 3,
+      "title": "Celebrar crecimiento",
+      "focus": "Alegría sin competencia",
+      "practice": "Pregunten por un logro o aprendizaje del otro y celebren sin comparar ni aconsejar.",
+      "conversationPrompt": "¿Qué avance tuyo quieres que conozca mejor?",
+      "prayer": "Dios generoso, dame alegría limpia para celebrar el crecimiento ajeno.",
+      "checkpoint": "La conversación permaneció centrada en quien compartía."
+    },
+    {
+      "day": 18,
+      "week": 3,
+      "title": "Conversar sobre el futuro",
+      "focus": "Esperanza con datos",
+      "practice": "Elijan una decisión futura y anoten deseos, riesgos, información faltante y próximos pasos.",
+      "conversationPrompt": "¿Qué valor queremos proteger al tomar esta decisión?",
+      "prayer": "Señor sabio, guía nuestros planes sin usar tu nombre para imponer deseos.",
+      "checkpoint": "No se presentó una preferencia personal como voluntad divina para el otro."
+    },
+    {
+      "day": 19,
+      "week": 3,
+      "title": "Fortalecer la red",
+      "focus": "Comunidad y apoyo seguro",
+      "practice": "Contacta una amistad, mentoría o profesional que respete confidencialidad, autonomía y seguridad.",
+      "conversationPrompt": "¿Qué tipo de apoyo externo nos haría bien en esta etapa?",
+      "prayer": "Dios de comunidad, acércanos apoyo prudente, confidencial y seguro.",
+      "checkpoint": "La red elegida no promueve secreto, sometimiento, aislamiento ni permanencia en peligro."
+    },
+    {
+      "day": 20,
+      "week": 3,
+      "title": "Descanso compartido e individual",
+      "focus": "Ritmos sostenibles",
+      "practice": "Cada persona elige una forma de descanso personal y una actividad tranquila compartida.",
+      "conversationPrompt": "¿Qué descanso realmente restaura tu energía?",
+      "prayer": "Jesús, enséñanos a recibir el descanso como cuidado y no como rechazo.",
+      "checkpoint": "Nadie tuvo que renunciar a su descanso para demostrar amor."
+    },
+    {
+      "day": 21,
+      "week": 3,
+      "title": "Cierre de la tercera semana",
+      "focus": "Medir lo que importa",
+      "practice": "Evalúen del uno al cinco escucha, respeto, reparación, colaboración y descanso; elijan un área.",
+      "conversationPrompt": "¿Qué evidencia concreta mostraría una mejora de un punto?",
+      "prayer": "Señor, muéstranos el fruto real y el siguiente paso alcanzable.",
+      "checkpoint": "La meta elegida depende de acciones observables y no de adivinar sentimientos."
+    },
+    {
+      "day": 22,
+      "week": 4,
+      "title": "Practicar una conversación difícil",
+      "focus": "Valor con preparación",
+      "practice": "Usen preparación, apertura, tres preguntas y cierre para un tema de intensidad baja o media.",
+      "conversationPrompt": "¿Qué necesitamos para hablar con seguridad y no para ganar?",
+      "prayer": "Dios de verdad, danos valor para abordar lo difícil con respeto y preparación.",
+      "checkpoint": "Hubo consentimiento para conversar, una pausa disponible y un acuerdo documentado."
+    },
+    {
+      "day": 23,
+      "week": 4,
+      "title": "Fe que transforma primero",
+      "focus": "Espiritualidad sin coerción",
+      "practice": "Lee Santiago 1:19 y elige una aplicación para tu propia conducta; invita a orar sin imponer.",
+      "conversationPrompt": "¿Cómo puede nuestra fe producir más fruto y menos juicio?",
+      "prayer": "Espíritu Santo, que nuestra fe transforme primero nuestra propia conducta.",
+      "checkpoint": "La práctica espiritual respetó la conciencia y la libertad de ambos."
+    },
+    {
+      "day": 24,
+      "week": 4,
+      "title": "Revisar promesas",
+      "focus": "Confiabilidad realista",
+      "practice": "Haz inventario de acuerdos activos; cumple, renegocia o cierra uno que ya no es viable.",
+      "conversationPrompt": "¿Qué promesa necesita una fecha, un ajuste o una despedida honesta?",
+      "prayer": "Padre fiel, haznos personas coherentes que cumplen o renegocian con honestidad.",
+      "checkpoint": "No quedan compromisos ambiguos que dependan solo de buena intención."
+    },
+    {
+      "day": 25,
+      "week": 4,
+      "title": "Cuidar la intimidad",
+      "focus": "Consentimiento y vulnerabilidad",
+      "practice": "Compartan algo del mundo interior y pregunten qué forma de cercanía es bienvenida hoy.",
+      "conversationPrompt": "¿Qué te ayuda a sentirte seguro cuando eres vulnerable?",
+      "prayer": "Dios de ternura, protege el consentimiento y la confianza en nuestra intimidad.",
+      "checkpoint": "Cada no fue respetado sin presión, enfado ni retirada de afecto como castigo."
+    },
+    {
+      "day": 26,
+      "week": 4,
+      "title": "Plan para próximos conflictos",
+      "focus": "Prevención y regulación",
+      "practice": "Escriban señales de escalada, estrategias de calma, tiempo de pausa y canal para pedir ayuda.",
+      "conversationPrompt": "¿Cómo sabremos que necesitamos detenernos antes de herirnos?",
+      "prayer": "Señor de paz, ayúdanos a detener la escalada y buscar ayuda cuando haga falta.",
+      "checkpoint": "El plan prohíbe insultos, amenazas y violencia, e incluye apoyo externo cuando sea necesario."
+    },
+    {
+      "day": 27,
+      "week": 4,
+      "title": "Servicio libre",
+      "focus": "Generosidad sin deuda",
+      "practice": "Ofrece una ayuda concreta y deja libertad para aceptarla, rechazarla o modificarla.",
+      "conversationPrompt": "¿Qué apoyo sería valioso y qué prefieres hacer por tu cuenta?",
+      "prayer": "Jesús servidor, limpia nuestra ayuda de expectativas ocultas y deseo de control.",
+      "checkpoint": "La ayuda no se convirtió en argumento para obtener obediencia o reconocimiento."
+    },
+    {
+      "day": 28,
+      "week": 4,
+      "title": "Carta de aprendizaje",
+      "focus": "Integrar la jornada",
+      "practice": "Escribe una página: lo que aprendí, lo que reparé, lo que aún necesito y lo que agradezco.",
+      "conversationPrompt": "¿Qué aprendizaje quieres que recordemos dentro de seis meses?",
+      "prayer": "Dios, integra lo aprendido y dame honestidad para reconocer lo que sigue abierto.",
+      "checkpoint": "La carta reconoce avances y asuntos abiertos sin idealizar la relación."
+    },
+    {
+      "day": 29,
+      "week": 5,
+      "title": "Plan de continuidad trimestral",
+      "focus": "Sostener sin saturar",
+      "practice": "Elijan una práctica diaria, una semanal y una revisión mensual para los próximos noventa días.",
+      "conversationPrompt": "¿Qué ritmo podemos sostener incluso en semanas exigentes?",
+      "prayer": "Padre, danos un ritmo sostenible para cuidar lo valioso durante los próximos meses.",
+      "checkpoint": "Cada práctica tiene responsable, duración, alternativa mínima y fecha de revisión."
+    },
+    {
+      "day": 30,
+      "week": 5,
+      "title": "Bendición y próximo paso",
+      "focus": "Cerrar para seguir creciendo",
+      "practice": "Oren o guarden silencio, agradezcan un fruto y nombren el siguiente paso que cada uno elige libremente.",
+      "conversationPrompt": "¿Qué compromiso personal deseas llevar contigo desde mañana?",
+      "prayer": "Dios fiel, recibe nuestra gratitud y acompaña cada próximo paso elegido en libertad.",
+      "checkpoint": "El cierre celebra la fidelidad en lo pequeño y mantiene abiertos apoyo, límites y aprendizaje."
+    }
+  ]
+}

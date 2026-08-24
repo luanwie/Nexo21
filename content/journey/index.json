@@ -1,0 +1,216 @@
+{
+  "title": "Nexo 21: jornada de 21 días",
+  "locale": "es-419",
+  "totalDays": 21,
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Conciencia y reducción de la reactividad",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Interacciones positivas y diálogo",
+      "days": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Hábitos y continuidad",
+      "days": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "week": 1,
+      "slug": "day-01",
+      "title": "Ver el ciclo antes de intentar cambiarlo",
+      "objective": "Reconocer la secuencia que convierte una tensión cotidiana en reactividad, sin buscar culpables ni exigir una solución inmediata.",
+      "file": "day-01.json"
+    },
+    {
+      "day": 2,
+      "week": 1,
+      "slug": "day-02",
+      "title": "La pausa que protege la conversación",
+      "objective": "Aprender a interrumpir la reactividad con una pausa clara, respetuosa y con un regreso acordado.",
+      "file": "day-02.json"
+    },
+    {
+      "day": 3,
+      "week": 1,
+      "slug": "day-03",
+      "title": "Lo que la emoción intenta señalar",
+      "objective": "Nombrar emociones y necesidades propias con precisión para responder sin acusar, adivinar ni exigir que la pareja las resuelva.",
+      "file": "day-03.json"
+    },
+    {
+      "day": 4,
+      "week": 1,
+      "slug": "day-04",
+      "title": "Mirar los hechos sin borrar el significado",
+      "objective": "Distinguir observaciones verificables de interpretaciones para conversar con mayor claridad, curiosidad y justicia.",
+      "file": "day-04.json"
+    },
+    {
+      "day": 5,
+      "week": 1,
+      "slug": "day-05",
+      "title": "Mi responsabilidad tiene límites",
+      "objective": "Asumir decisiones y conductas propias sin cargar con las emociones, elecciones o consecuencias que corresponden a la otra persona.",
+      "file": "day-05.json"
+    },
+    {
+      "day": 6,
+      "week": 1,
+      "slug": "day-06",
+      "title": "Límites que cuidan la dignidad y la seguridad",
+      "objective": "Distinguir una petición de un límite, definir acciones propias y priorizar protección cuando existe abuso, coerción o riesgo.",
+      "file": "day-06.json"
+    },
+    {
+      "day": 7,
+      "week": 1,
+      "slug": "day-07",
+      "title": "Reparar es más que decir perdón",
+      "objective": "Practicar una reparación responsable que reconozca el daño, atienda su impacto y se sostenga mediante cambios observables.",
+      "file": "day-07.json"
+    },
+    {
+      "day": 8,
+      "week": 2,
+      "slug": "day-08",
+      "title": "Gratitud que nombra lo real",
+      "objective": "Aprender a expresar agradecimiento específico, sincero y libre de demandas ocultas para fortalecer las interacciones positivas cotidianas.",
+      "file": "day-08.json"
+    },
+    {
+      "day": 9,
+      "week": 2,
+      "slug": "day-09",
+      "title": "Escuchar para comprender",
+      "objective": "Practicar una escucha atenta que distinga hechos, emociones y necesidades antes de responder, aconsejar o defenderse.",
+      "file": "day-09.json"
+    },
+    {
+      "day": 10,
+      "week": 2,
+      "slug": "day-10",
+      "title": "Pedir con claridad y libertad",
+      "objective": "Transformar quejas vagas o expectativas silenciosas en peticiones concretas, realizables y abiertas a una respuesta honesta.",
+      "file": "day-10.json"
+    },
+    {
+      "day": 11,
+      "week": 2,
+      "slug": "day-11",
+      "title": "Comenzar sin atacar",
+      "objective": "Aprender a iniciar conversaciones difíciles con un tono suave, un tema delimitado y una petición clara, sin ocultar la verdad ni atacar la identidad.",
+      "file": "day-11.json"
+    },
+    {
+      "day": 12,
+      "week": 2,
+      "slug": "day-12",
+      "title": "Validar sin renunciar a tu perspectiva",
+      "objective": "Reconocer la experiencia y las emociones de otra persona sin fingir acuerdo, asumir responsabilidades ajenas ni abandonar la propia voz.",
+      "file": "day-12.json"
+    },
+    {
+      "day": 13,
+      "week": 2,
+      "slug": "day-13",
+      "title": "Conflicto con límites y seguridad",
+      "objective": "Distinguir un desacuerdo abordable de una situación de abuso o peligro, practicar pausas responsables y priorizar protección cuando el diálogo no es seguro.",
+      "file": "day-13.json"
+    },
+    {
+      "day": 14,
+      "week": 2,
+      "slug": "day-14",
+      "title": "Reparar y construir acuerdos",
+      "objective": "Cerrar la semana aprendiendo a reconocer el daño propio, ofrecer una reparación concreta y convertir buenas intenciones en acuerdos voluntarios y revisables.",
+      "file": "day-14.json"
+    },
+    {
+      "day": 15,
+      "week": 3,
+      "slug": "day-15",
+      "title": "Un ritual pequeño que sostiene el camino",
+      "objective": "Diseñar un ritual diario breve que ayude a cuidar la relación con constancia, sin convertirlo en una prueba de amor ni en una carga imposible.",
+      "file": "day-15.json"
+    },
+    {
+      "day": 16,
+      "week": 3,
+      "slug": "day-16",
+      "title": "Cuidarte también cuida lo que compartes",
+      "objective": "Reconocer el cuidado personal como mayordomía responsable y establecer una práctica que proteja energía, dignidad y capacidad de amar sin autoabandono.",
+      "file": "day-16.json"
+    },
+    {
+      "day": 17,
+      "week": 3,
+      "slug": "day-17",
+      "title": "Límites que pueden sostenerse",
+      "objective": "Formular límites claros, respetuosos y aplicables que protejan la dignidad y hagan posible una convivencia más honesta.",
+      "file": "day-17.json"
+    },
+    {
+      "day": 18,
+      "week": 3,
+      "slug": "day-18",
+      "title": "Decidir juntos sin perder la voz",
+      "objective": "Practicar un proceso de decisión compartida que escuche a ambas personas, aclare responsabilidades y evite tanto la imposición como la evasión.",
+      "file": "day-18.json"
+    },
+    {
+      "day": 19,
+      "week": 3,
+      "slug": "day-19",
+      "title": "Discernir patrones y priorizar la seguridad",
+      "objective": "Aprender a observar patrones con sobriedad, distinguir un conflicto de una situación de abuso o peligro y responder priorizando seguridad y apoyo confiable.",
+      "file": "day-19.json"
+    },
+    {
+      "day": 20,
+      "week": 3,
+      "slug": "day-20",
+      "title": "Cuando reaparecen viejos hábitos",
+      "objective": "Responder a las recaídas cotidianas con responsabilidad, reparación y aprendizaje, sin negar el daño ni convertir un tropiezo en una condena total.",
+      "file": "day-20.json"
+    },
+    {
+      "day": 21,
+      "week": 3,
+      "slug": "day-21",
+      "title": "Un pacto para continuar con verdad",
+      "objective": "Cerrar los veintiún días con una revisión honesta y un pacto de continuidad breve, recíproco y ajustable que proteja lo aprendido.",
+      "file": "day-21.json"
+    }
+  ]
+}

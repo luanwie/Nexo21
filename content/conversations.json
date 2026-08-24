@@ -1,0 +1,812 @@
+[
+  {
+    "id": "conv-01",
+    "situation": "Reparto de tareas del hogar",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para crear un reparto visible y sostenible.",
+      "Separa el hecho observable —varias tareas quedan pendientes o recaen en una sola persona— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre reparto de tareas del hogar. Mi intención es crear un reparto visible y sostenible; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que varias tareas quedan pendientes o recaen en una sola persona, siento cansancio y frustración; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito corresponsabilidad y claridad. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a hacer una lista completa, repartir responsables y revisar el acuerdo en siete días? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué tareas estás asumiendo que yo quizá no veo?",
+      "¿Qué reparto sería realista con nuestra energía actual?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de reparto de tareas del hogar. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-02",
+    "situation": "Presupuesto y gastos no acordados",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para proteger la estabilidad financiera con decisiones compartidas.",
+      "Separa el hecho observable —aparecen gastos relevantes fuera del presupuesto conversado— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre presupuesto y gastos no acordados. Mi intención es proteger la estabilidad financiera con decisiones compartidas; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que aparecen gastos relevantes fuera del presupuesto conversado, siento inseguridad y preocupación; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito transparencia y previsión. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a revisar cifras juntos y fijar un monto que requiera consulta previa? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué necesidad intentabas cubrir con ese gasto?",
+      "¿Qué límite de gasto podemos aceptar ambos?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de presupuesto y gastos no acordados. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-03",
+    "situation": "Uso del teléfono durante el tiempo juntos",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para recuperar presencia sin vigilar la vida digital.",
+      "Separa el hecho observable —las pantallas interrumpen con frecuencia nuestros momentos de conexión— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre uso del teléfono durante el tiempo juntos. Mi intención es recuperar presencia sin vigilar la vida digital; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que las pantallas interrumpen con frecuencia nuestros momentos de conexión, siento soledad y desconexión; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito atención y autonomía. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a probar treinta minutos sin pantallas durante la cena? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿En qué momentos el teléfono es necesario y en cuáles podemos guardarlo?",
+      "¿Qué señal amable podemos usar sin controlarnos?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de uso del teléfono durante el tiempo juntos. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-04",
+    "situation": "Interferencia de la familia extensa",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para acordar límites que cuiden la pareja y los vínculos familiares.",
+      "Separa el hecho observable —decisiones privadas se comentan o se toman con familiares antes que entre nosotros— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre interferencia de la familia extensa. Mi intención es acordar límites que cuiden la pareja y los vínculos familiares; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que decisiones privadas se comentan o se toman con familiares antes que entre nosotros, siento exposición y desplazamiento; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito privacidad y lealtad relacional. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a definir qué temas requieren permiso antes de compartirse? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué información consideras privada?",
+      "¿Cómo podemos responder unidos a una presión familiar?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de interferencia de la familia extensa. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-05",
+    "situation": "Diferencias en la crianza",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para coordinar criterios sin desautorizarse frente a los hijos.",
+      "Separa el hecho observable —respondemos de forma contradictoria ante la misma conducta— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre diferencias en la crianza. Mi intención es coordinar criterios sin desautorizarse frente a los hijos; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que respondemos de forma contradictoria ante la misma conducta, siento confusión y tensión; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito coherencia, respeto y flexibilidad. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a conversar en privado y probar una pauta común esta semana? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué valor quieres proteger con tu enfoque?",
+      "¿En qué punto podemos ser flexibles sin perder consistencia?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de diferencias en la crianza. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-06",
+    "situation": "Necesidad de tiempo a solas",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para respetar autonomía sin interpretar distancia como rechazo.",
+      "Separa el hecho observable —uno necesita retirarse para recuperar energía y el otro desea conexión inmediata— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre necesidad de tiempo a solas. Mi intención es respetar autonomía sin interpretar distancia como rechazo; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que uno necesita retirarse para recuperar energía y el otro desea conexión inmediata, siento temor y saturación; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito descanso, previsibilidad y afecto. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a acordar un tiempo de pausa y una hora concreta de reencuentro? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Cuánto tiempo a solas suele ayudarte de verdad?",
+      "¿Qué gesto puede dar seguridad mientras esperamos el reencuentro?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de necesidad de tiempo a solas. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-07",
+    "situation": "Frecuencia de la intimidad física",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para hablar de deseo, consentimiento y cercanía sin presión.",
+      "Separa el hecho observable —nuestras expectativas sobre intimidad física no coinciden— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre frecuencia de la intimidad física. Mi intención es hablar de deseo, consentimiento y cercanía sin presión; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que nuestras expectativas sobre intimidad física no coinciden, siento vulnerabilidad y distancia; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito consentimiento, ternura y comunicación. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a explorar formas de conexión aceptadas libremente por ambos? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué condiciones te ayudan a sentir seguridad y deseo?",
+      "¿Qué formas de afecto disfrutas sin que impliquen avanzar más?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de frecuencia de la intimidad física. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-08",
+    "situation": "Celos y confianza",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para expresar inseguridad sin acusar, vigilar ni aislar.",
+      "Separa el hecho observable —una interacción reciente activó dudas y temor de pérdida— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre celos y confianza. Mi intención es expresar inseguridad sin acusar, vigilar ni aislar; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que una interacción reciente activó dudas y temor de pérdida, siento inseguridad y vergüenza; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito claridad, confianza gradual y autonomía. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a aclarar lo ocurrido y definir acuerdos voluntarios de transparencia? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué parte de esta situación te parece importante aclarar?",
+      "¿Qué acuerdo protege la relación sin invadir privacidad?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de celos y confianza. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-09",
+    "situation": "Disculpa después de palabras hirientes",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para asumir el daño y reparar sin exigir perdón rápido.",
+      "Separa el hecho observable —usé palabras o un tono que degradaron tu dignidad— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre disculpa después de palabras hirientes. Mi intención es asumir el daño y reparar sin exigir perdón rápido; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que usé palabras o un tono que degradaron tu dignidad, siento arrepentimiento y tristeza; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito responsabilidad y reparación. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a escuchar el impacto y cambiar una conducta observable? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué efecto tuvieron mis palabras en ti?",
+      "¿Qué reparación sería útil y segura ahora?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de disculpa después de palabras hirientes. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-10",
+    "situation": "Desconexión después de semanas ocupadas",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para crear un reencuentro posible sin culpar al calendario.",
+      "Separa el hecho observable —hemos funcionado como equipo logístico y casi no compartimos el mundo interior— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre desconexión después de semanas ocupadas. Mi intención es crear un reencuentro posible sin culpar al calendario; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que hemos funcionado como equipo logístico y casi no compartimos el mundo interior, siento nostalgia y cansancio; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito amistad y tiempo de calidad. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a reservar dos encuentros breves y realistas esta semana? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué momento reciente te hubiera gustado compartir conmigo?",
+      "¿Qué tipo de encuentro cabe de verdad en nuestra semana?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de desconexión después de semanas ocupadas. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-11",
+    "situation": "Decisión sobre una mudanza",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para discernir impacto, riesgos y deseos sin imponer el resultado.",
+      "Separa el hecho observable —tenemos preferencias diferentes sobre cambiar de ciudad o vivienda— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre decisión sobre una mudanza. Mi intención es discernir impacto, riesgos y deseos sin imponer el resultado; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que tenemos preferencias diferentes sobre cambiar de ciudad o vivienda, siento incertidumbre y esperanza; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito estabilidad, propósito y participación equitativa. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a comparar opciones con criterios acordados y una fecha de decisión? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué ganarías y qué perderías con cada opción?",
+      "¿Qué condición sería indispensable para sentirte considerado?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de decisión sobre una mudanza. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-12",
+    "situation": "Cambio o pérdida de empleo",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para acompañar la incertidumbre sin rescatar ni minimizar.",
+      "Separa el hecho observable —el trabajo cambió y nuestra rutina o ingreso quedó afectado— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre cambio o pérdida de empleo. Mi intención es acompañar la incertidumbre sin rescatar ni minimizar; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que el trabajo cambió y nuestra rutina o ingreso quedó afectado, siento miedo y desorientación; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito apoyo, realismo y dignidad. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a definir juntos la ayuda práctica que sí es útil esta semana? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Quieres escucha, ideas o ayuda con una tarea concreta?",
+      "¿Qué decisión necesitas tomar tú y cuál nos corresponde juntos?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de cambio o pérdida de empleo. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-13",
+    "situation": "Diferencias de práctica espiritual",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para cuidar la fe compartida sin coerción religiosa.",
+      "Separa el hecho observable —oramos, congregamos o expresamos la fe de maneras distintas— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre diferencias de práctica espiritual. Mi intención es cuidar la fe compartida sin coerción religiosa; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que oramos, congregamos o expresamos la fe de maneras distintas, siento tristeza y confusión; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito libertad de conciencia, respeto y comunión. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a elegir una práctica espiritual voluntaria que ambos puedan sostener? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué práctica nutre tu fe en esta etapa?",
+      "¿Qué conducta religiosa te hace sentir presionado o juzgado?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de diferencias de práctica espiritual. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-14",
+    "situation": "Expectativas sobre celebraciones",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para evitar resentimientos mediante acuerdos anticipados.",
+      "Separa el hecho observable —imaginamos de forma diferente cumpleaños, aniversarios o fiestas— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre expectativas sobre celebraciones. Mi intención es evitar resentimientos mediante acuerdos anticipados; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que imaginamos de forma diferente cumpleaños, aniversarios o fiestas, siento decepción y presión; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito significado, límites y presupuesto. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a definir qué gesto importa más y qué puede simplificarse? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué hace significativa esta fecha para ti?",
+      "¿Qué expectativa podemos soltar sin sentir descuido?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de expectativas sobre celebraciones. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-15",
+    "situation": "Amistades y vida social",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para equilibrar pertenencia, autonomía y tiempo compartido.",
+      "Separa el hecho observable —tenemos ritmos sociales distintos o tensión con ciertas amistades— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre amistades y vida social. Mi intención es equilibrar pertenencia, autonomía y tiempo compartido; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que tenemos ritmos sociales distintos o tensión con ciertas amistades, siento incomodidad y temor; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito confianza, comunidad y elección. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a acordar tiempos sociales sin prohibiciones ni castigos? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué te aporta esta amistad y qué preocupación concreta ves?",
+      "¿Cómo podemos mantener autonomía y también cuidar nuestros acuerdos?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de amistades y vida social. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-16",
+    "situation": "Privacidad en redes sociales",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para proteger consentimiento y reputación digital.",
+      "Separa el hecho observable —se publican fotos, conflictos o detalles de la relación sin consulta— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre privacidad en redes sociales. Mi intención es proteger consentimiento y reputación digital; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que se publican fotos, conflictos o detalles de la relación sin consulta, siento exposición y enojo; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito privacidad y consentimiento. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a pedir permiso antes de publicar contenido que incluya al otro? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué información no deseas que sea pública?",
+      "¿Cómo retiraremos una publicación si alguien cambia de opinión?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de privacidad en redes sociales. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-17",
+    "situation": "Deudas anteriores a la relación",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para construir transparencia financiera sin humillación.",
+      "Separa el hecho observable —una deuda personal afecta nuestros planes y no tenemos un mapa compartido— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre deudas anteriores a la relación. Mi intención es construir transparencia financiera sin humillación; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que una deuda personal afecta nuestros planes y no tenemos un mapa compartido, siento vergüenza y preocupación; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito honestidad, responsabilidad y planificación. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a reunir saldos reales y diseñar un plan sostenible sin ocultamientos? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué datos faltan para entender la situación completa?",
+      "¿Qué apoyo es colaboración y qué responsabilidad sigue siendo personal?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de deudas anteriores a la relación. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-18",
+    "situation": "Cuidado de una persona enferma",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para distribuir el cuidado sin agotar ni invisibilizar a nadie.",
+      "Separa el hecho observable —las necesidades de salud han aumentado la carga física y emocional— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre cuidado de una persona enferma. Mi intención es distribuir el cuidado sin agotar ni invisibilizar a nadie; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que las necesidades de salud han aumentado la carga física y emocional, siento agotamiento y culpa; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito descanso, apoyo externo y corresponsabilidad. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a mapear tareas de cuidado y pedir ayuda concreta a la red disponible? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué tarea te pesa más en este momento?",
+      "¿Qué apoyo profesional o comunitario podemos activar?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de cuidado de una persona enferma. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-19",
+    "situation": "Deseo de tener hijos o no tenerlos",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para explorar una diferencia esencial con honestidad y sin presión.",
+      "Separa el hecho observable —nuestras expectativas sobre la parentalidad no parecen coincidir— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre deseo de tener hijos o no tenerlos. Mi intención es explorar una diferencia esencial con honestidad y sin presión; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que nuestras expectativas sobre la parentalidad no parecen coincidir, siento dolor y temor; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito verdad, libertad y discernimiento. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a dedicar conversaciones graduales y buscar orientación profesional respetuosa? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué significado tiene para ti ser o no ser madre o padre?",
+      "¿Esta postura es una duda abierta, una preferencia o una convicción firme?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de deseo de tener hijos o no tenerlos. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-20",
+    "situation": "Hábitos de sueño incompatibles",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para mejorar el descanso con soluciones prácticas.",
+      "Separa el hecho observable —nuestros horarios, ruidos o rutinas nocturnas afectan el sueño del otro— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre hábitos de sueño incompatibles. Mi intención es mejorar el descanso con soluciones prácticas; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que nuestros horarios, ruidos o rutinas nocturnas afectan el sueño del otro, siento irritación y cansancio; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito descanso y consideración. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a probar ajustes concretos durante una semana y evaluar resultados? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué factor interrumpe más tu descanso?",
+      "¿Qué cambio puedes intentar sin perjudicar tu salud?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de hábitos de sueño incompatibles. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-21",
+    "situation": "Puntualidad y retrasos repetidos",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para aumentar previsibilidad sin convertir el tiempo en arma.",
+      "Separa el hecho observable —los retrasos frecuentes alteran planes y no siempre se avisan— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre puntualidad y retrasos repetidos. Mi intención es aumentar previsibilidad sin convertir el tiempo en arma; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que los retrasos frecuentes alteran planes y no siempre se avisan, siento frustración y poca importancia; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito consideración y comunicación. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a avisar con antelación y fijar un margen realista? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué suele causar los retrasos?",
+      "¿Qué acuerdo de aviso podemos cumplir de forma consistente?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de puntualidad y retrasos repetidos. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-22",
+    "situation": "Reacciones defensivas ante comentarios",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para crear espacio para recibir impacto antes de explicar intención.",
+      "Separa el hecho observable —cuando uno expresa una preocupación, el otro se defiende o contraataca— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre reacciones defensivas ante comentarios. Mi intención es crear espacio para recibir impacto antes de explicar intención; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que cuando uno expresa una preocupación, el otro se defiende o contraataca, siento desánimo y tensión; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito escucha y responsabilidad. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a usar una pausa y resumir lo oído antes de responder? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué escuchas como acusación aunque no haya sido mi intención?",
+      "¿Qué frase nos ayudaría a pedir una pausa sin cerrar el diálogo?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de reacciones defensivas ante comentarios. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-23",
+    "situation": "Comparaciones con otras parejas",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para centrar la conversación en necesidades reales sin avergonzar.",
+      "Separa el hecho observable —usamos la vida de otras parejas como medida de nuestro valor— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre comparaciones con otras parejas. Mi intención es centrar la conversación en necesidades reales sin avergonzar; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que usamos la vida de otras parejas como medida de nuestro valor, siento insuficiencia y resentimiento; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito identidad, gratitud y crecimiento propio. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a nombrar la necesidad detrás de la comparación y elegir una práctica propia? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué deseo intentas expresar al comparar?",
+      "¿Qué fortaleza de nuestra relación estamos dejando de ver?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de comparaciones con otras parejas. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-24",
+    "situation": "Decisión sobre pedir terapia",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para considerar apoyo profesional sin usarlo como amenaza.",
+      "Separa el hecho observable —repetimos un conflicto y nuestras herramientas actuales no bastan— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre decisión sobre pedir terapia. Mi intención es considerar apoyo profesional sin usarlo como amenaza; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que repetimos un conflicto y nuestras herramientas actuales no bastan, siento cansancio y cautela; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito ayuda competente y elección informada. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a buscar opciones, credenciales y condiciones de seguridad juntos? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué temor te produce la idea de terapia?",
+      "¿Qué cualidades necesitaría un profesional para que ambos se sientan respetados?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de decisión sobre pedir terapia. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-25",
+    "situation": "Una promesa incumplida",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para reconstruir confiabilidad con acuerdos realistas.",
+      "Separa el hecho observable —un compromiso importante no se cumplió ni se renegoció a tiempo— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre una promesa incumplida. Mi intención es reconstruir confiabilidad con acuerdos realistas; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que un compromiso importante no se cumplió ni se renegoció a tiempo, siento decepción y desconfianza; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito coherencia y reparación. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a revisar por qué falló y reemplazarlo por un compromiso específico? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué obstáculo no anticipamos?",
+      "¿Qué señal observable mostraría que el nuevo acuerdo funciona?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de una promesa incumplida. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-26",
+    "situation": "Vacaciones con preferencias distintas",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para diseñar descanso que considere ritmos y recursos de ambos.",
+      "Separa el hecho observable —uno desea actividad y el otro descanso, o el presupuesto genera tensión— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre vacaciones con preferencias distintas. Mi intención es diseñar descanso que considere ritmos y recursos de ambos; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que uno desea actividad y el otro descanso, o el presupuesto genera tensión, siento ilusión y estrés; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito descanso, participación y límites financieros. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a alternar actividades y fijar un presupuesto antes de reservar? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué necesitas para volver renovado de este viaje?",
+      "¿Qué parte del plan es esencial y cuál puede negociarse?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de vacaciones con preferencias distintas. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-27",
+    "situation": "Dolor por una pérdida",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para acompañar el duelo sin fijar plazos ni dar explicaciones fáciles.",
+      "Separa el hecho observable —una pérdida reciente cambió el ánimo, las rutinas y la disponibilidad— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre dolor por una pérdida. Mi intención es acompañar el duelo sin fijar plazos ni dar explicaciones fáciles; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que una pérdida reciente cambió el ánimo, las rutinas y la disponibilidad, siento tristeza e impotencia; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito presencia, paciencia y apoyo. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a preguntar cómo acompañar y facilitar ayuda cuando se desee? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué recuerdo o emoción necesitas compartir hoy?",
+      "¿Prefieres compañía, ayuda práctica o espacio?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de dolor por una pérdida. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-28",
+    "situation": "Cambio en la salud mental",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para responder con cuidado sin convertir la pareja en terapeuta.",
+      "Separa el hecho observable —hay síntomas emocionales que afectan el bienestar y la convivencia— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre cambio en la salud mental. Mi intención es responder con cuidado sin convertir la pareja en terapeuta; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que hay síntomas emocionales que afectan el bienestar y la convivencia, siento preocupación y agotamiento; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito tratamiento adecuado, apoyo y límites. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a facilitar contacto profesional y acordar qué apoyo doméstico es sostenible? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué apoyo te ayuda y cuál se siente invasivo?",
+      "¿Qué señales indicarían que necesitamos ayuda urgente?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de cambio en la salud mental. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-29",
+    "situation": "Conflicto sobre valores políticos",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para proteger la dignidad mientras se exploran diferencias profundas.",
+      "Separa el hecho observable —una conversación política terminó en etiquetas o desprecio— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre conflicto sobre valores políticos. Mi intención es proteger la dignidad mientras se exploran diferencias profundas; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que una conversación política terminó en etiquetas o desprecio, siento enojo y distancia; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito respeto, curiosidad y límites. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a hablar de un valor por vez y detenerse si aparece deshumanización? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Qué experiencia formó esta convicción en ti?",
+      "¿Qué valor compartido existe debajo de nuestras posturas distintas?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de conflicto sobre valores políticos. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  },
+  {
+    "id": "conv-30",
+    "situation": "Seguridad ante control, amenazas o violencia",
+    "preparation": [
+      "Elige un momento con privacidad y tiempo suficiente para priorizar protección y apoyo especializado, no mediación de pareja.",
+      "Separa el hecho observable —existen amenazas, miedo, vigilancia, coerción o agresión— de las interpretaciones sobre intención.",
+      "Define de antemano una pausa segura y una acción propia que puedas sostener aunque no haya acuerdo."
+    ],
+    "opening": "Quiero hablar sobre seguridad ante control, amenazas o violencia. Mi intención es priorizar protección y apoyo especializado, no mediación de pareja; no busco ganar ni decidir por ti. ¿Es un buen momento?",
+    "recommendedPhrases": [
+      "Cuando noto que existen amenazas, miedo, vigilancia, coerción o agresión, siento miedo y confusión; quiero explicarlo sin atribuirte intenciones.",
+      "Necesito seguridad inmediata, red de apoyo y orientación especializada. También quiero entender qué necesitas tú.",
+      "¿Estarías dispuesto a usar un dispositivo seguro para contactar emergencias o un servicio local de violencia doméstica? Podemos probarlo y revisarlo sin imponerlo."
+    ],
+    "avoidPhrases": [
+      "«Tú siempre haces esto y nunca te importa.»",
+      "«Si de verdad me amaras, harías lo que quiero.»",
+      "«Vas a cambiar aunque tenga que vigilarte, castigarte o exponerte.»"
+    ],
+    "questions": [
+      "¿Hay peligro inmediato para ti, niñas, niños u otras personas?",
+      "¿Qué persona segura puede conocer el plan sin alertar a quien agrede?",
+      "¿Qué acuerdo pequeño, voluntario y revisable sería aceptable para ambos?"
+    ],
+    "closing": "Gracias por hablar de seguridad ante control, amenazas o violencia. Anotemos lo que sí acordamos, lo que quedó abierto y cuándo lo revisaremos; cualquiera puede pedir una pausa respetuosa.",
+    "disclaimer": "Esta guía educativa no sustituye terapia, asesoría legal ni servicios de emergencia. Si hay miedo, amenazas, coerción, control, abuso o violencia, no uses esta conversación para confrontar ni mediar: prioriza tu seguridad y busca ayuda local especializada desde un medio seguro."
+  }
+]

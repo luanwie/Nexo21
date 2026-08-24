@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Nexo 21 — favicon</title>
+  <rect width="64" height="64" rx="14" fill="#1F2A26"/>
+  <path d="M12 50V30c0-11.05 8.95-20 20-20s20 8.95 20 20v20" fill="none" stroke="#FFFCF7" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M21 50V34c0-6.08 4.92-11 11-11s11 4.92 11 11v16" fill="none" stroke="#B9684F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 23v27" fill="none" stroke="#C6A66B" stroke-width="3" stroke-linecap="round"/>
+</svg>

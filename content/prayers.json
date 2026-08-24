@@ -1,0 +1,270 @@
+{
+  "title": "Oraciones para relaciones con verdad y gracia",
+  "disclaimer": "Estas oraciones son recursos espirituales y no sustituyen atención médica o psicológica, asesoría legal ni servicios de emergencia. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y contacta ayuda local especializada desde un dispositivo seguro. La fe nunca obliga a permanecer en peligro.",
+  "themes": [
+    {
+      "id": "comunicacion",
+      "theme": "Comunicación",
+      "description": "Para hablar y escuchar con verdad, claridad y respeto",
+      "prayers": [
+        {
+          "id": "prayer-comunicacion-1",
+          "title": "Palabras oportunas",
+          "text": "Señor, ordena mis pensamientos antes de hablar. Que mis palabras nombren la verdad sin humillar, pidan lo necesario sin exigir y dejen espacio para una respuesta libre. Amén."
+        },
+        {
+          "id": "prayer-comunicacion-2",
+          "title": "Oídos atentos",
+          "text": "Dios, aquieta mi impulso de defenderme. Ayúdame a escuchar la experiencia de la otra persona, comprobar lo que entendí y aprender incluso cuando no coincidimos. Amén."
+        },
+        {
+          "id": "prayer-comunicacion-3",
+          "title": "Silencio sabio",
+          "text": "Padre, muéstrame cuándo hablar, cuándo preguntar y cuándo guardar un silencio que acompaña. Que mi pausa no sea castigo, sino cuidado. Amén."
+        }
+      ]
+    },
+    {
+      "id": "conflicto",
+      "theme": "Conflicto y reconciliación",
+      "description": "Para atravesar diferencias sin desprecio ni violencia",
+      "prayers": [
+        {
+          "id": "prayer-conflicto-1",
+          "title": "Paz en la diferencia",
+          "text": "Príncipe de paz, danos dominio propio para tratar un asunto a la vez. Líbranos de insultos, amenazas y deseos de vencer; guíanos hacia acuerdos dignos. Amén."
+        },
+        {
+          "id": "prayer-conflicto-2",
+          "title": "Mi parte",
+          "text": "Señor, enséñame a reconocer mi responsabilidad sin cargar con lo que pertenece al otro. Dame humildad para reparar lo que hice y sabiduría para sostener límites. Amén."
+        },
+        {
+          "id": "prayer-conflicto-3",
+          "title": "Reconciliación prudente",
+          "text": "Dios de verdad, abre caminos de reconciliación donde haya arrepentimiento, seguridad y cambio real. Donde no los haya, concédeme claridad, apoyo y protección. Amén."
+        }
+      ]
+    },
+    {
+      "id": "perdon",
+      "theme": "Perdón y reparación",
+      "description": "Para soltar rencor sin negar consecuencias ni apresurar confianza",
+      "prayers": [
+        {
+          "id": "prayer-perdon-1",
+          "title": "Corazón libre",
+          "text": "Dios misericordioso, trabaja en mi corazón para que el dolor no se convierta en amargura. Permíteme avanzar a un ritmo honesto, sin fingir que nada ocurrió. Amén."
+        },
+        {
+          "id": "prayer-perdon-2",
+          "title": "Arrepentimiento con frutos",
+          "text": "Señor, no permitas que mi disculpa sea una salida fácil. Muéstrame cómo escuchar el impacto, reparar lo posible y sostener un cambio visible. Amén."
+        },
+        {
+          "id": "prayer-perdon-3",
+          "title": "Confianza paso a paso",
+          "text": "Padre fiel, dame paciencia para no exigir confianza inmediata. Que la coherencia, la transparencia voluntaria y el tiempo hagan su obra sin presión. Amén."
+        }
+      ]
+    },
+    {
+      "id": "gratitud",
+      "theme": "Gratitud",
+      "description": "Para reconocer el bien concreto sin ocultar lo difícil",
+      "prayers": [
+        {
+          "id": "prayer-gratitud-1",
+          "title": "Lo pequeño",
+          "text": "Gracias, Dios, por los gestos cotidianos que sostienen nuestra relación: una escucha, una tarea compartida, una risa y un descanso. Abre nuestros ojos para verlos. Amén."
+        },
+        {
+          "id": "prayer-gratitud-2",
+          "title": "En días difíciles",
+          "text": "Señor, aun en un día pesado, ayúdame a reconocer una señal de cuidado sin negar lo que duele. Que la gratitud y la verdad puedan convivir. Amén."
+        },
+        {
+          "id": "prayer-gratitud-3",
+          "title": "Celebrar al otro",
+          "text": "Dios generoso, líbrame de competir. Dame alegría sincera por el crecimiento, los dones y los logros de la persona que amo. Amén."
+        }
+      ]
+    },
+    {
+      "id": "confianza",
+      "theme": "Confianza y honestidad",
+      "description": "Para construir seguridad sin vigilancia ni control",
+      "prayers": [
+        {
+          "id": "prayer-confianza-1",
+          "title": "Transparencia libre",
+          "text": "Dios de luz, haznos honestos antes de que el miedo nos lleve a ocultar. Enséñanos una transparencia que nazca de la integridad y no de la coerción. Amén."
+        },
+        {
+          "id": "prayer-confianza-2",
+          "title": "Inseguridad expresada",
+          "text": "Señor, cuando sienta temor, ayúdame a preguntar en vez de acusar y a pedir claridad sin invadir. Sostén mi dignidad mientras discierno. Amén."
+        },
+        {
+          "id": "prayer-confianza-3",
+          "title": "Coherencia",
+          "text": "Padre, que nuestras promesas sean realistas y nuestras acciones consistentes. Danos valor para renegociar a tiempo en lugar de fallar en silencio. Amén."
+        }
+      ]
+    },
+    {
+      "id": "limites",
+      "theme": "Límites y dignidad",
+      "description": "Para amar sin abandonar la salud, la identidad ni la seguridad",
+      "prayers": [
+        {
+          "id": "prayer-limites-1",
+          "title": "Un no honesto",
+          "text": "Señor, dame libertad para decir no con respeto y para recibir el no ajeno sin castigo. Que nuestros límites protejan la dignidad de ambos. Amén."
+        },
+        {
+          "id": "prayer-limites-2",
+          "title": "Autonomía",
+          "text": "Dios creador, recuérdanos que cada persona conserva voz, conciencia, amistades y responsabilidad. Líbranos de llamar amor al control. Amén."
+        },
+        {
+          "id": "prayer-limites-3",
+          "title": "Límite firme",
+          "text": "Padre, cuando un límite sea necesario, dame claridad para expresarlo y constancia para actuar de manera segura, sin amenazas ni venganza. Amén."
+        }
+      ]
+    },
+    {
+      "id": "intimidad",
+      "theme": "Intimidad y amistad",
+      "description": "Para cultivar cercanía emocional y física con consentimiento",
+      "prayers": [
+        {
+          "id": "prayer-intimidad-1",
+          "title": "Vulnerabilidad segura",
+          "text": "Señor, crea entre nosotros un espacio donde podamos compartir temores y sueños sin burla ni uso posterior como arma. Haznos custodios fieles de la intimidad. Amén."
+        },
+        {
+          "id": "prayer-intimidad-2",
+          "title": "Ternura sin presión",
+          "text": "Dios de amor, enséñanos una ternura que pregunte, escuche y respete cada no. Que el afecto sea un regalo libre, nunca una deuda. Amén."
+        },
+        {
+          "id": "prayer-intimidad-3",
+          "title": "Amistad renovada",
+          "text": "Jesús, devuelve curiosidad a nuestra amistad. Ayúdanos a reír, conversar y disfrutar momentos sencillos sin exigir perfección. Amén."
+        }
+      ]
+    },
+    {
+      "id": "decisiones",
+      "theme": "Decisiones y futuro",
+      "description": "Para discernir opciones compartidas con fe y realismo",
+      "prayers": [
+        {
+          "id": "prayer-decisiones-1",
+          "title": "Sabiduría práctica",
+          "text": "Dios sabio, ayúdanos a reunir datos, escuchar consejo y reconocer riesgos. Que la prisa, el miedo o el orgullo no decidan por nosotros. Amén."
+        },
+        {
+          "id": "prayer-decisiones-2",
+          "title": "Diferencias de rumbo",
+          "text": "Señor, cuando nuestros deseos no coincidan, danos honestidad para nombrarlos y respeto para no imponer. Muéstranos el camino que preserve verdad y dignidad. Amén."
+        },
+        {
+          "id": "prayer-decisiones-3",
+          "title": "Manos abiertas",
+          "text": "Padre, recibimos el futuro con esperanza y manos abiertas. Líbranos de usar tu nombre para presentar nuestros deseos como órdenes para la otra persona. Amén."
+        }
+      ]
+    },
+    {
+      "id": "familia",
+      "theme": "Familia, hogar y crianza",
+      "description": "Para colaborar en responsabilidades y vínculos familiares",
+      "prayers": [
+        {
+          "id": "prayer-familia-1",
+          "title": "Hogar compartido",
+          "text": "Señor, enséñanos a ver y repartir el trabajo visible e invisible. Que el servicio no recaiga por costumbre en una sola persona. Amén."
+        },
+        {
+          "id": "prayer-familia-2",
+          "title": "Crianza con gracia",
+          "text": "Padre compasivo, danos unidad suficiente para cuidar y humildad para corregir nuestros errores. Que niñas y niños encuentren seguridad, límites y ternura. Amén."
+        },
+        {
+          "id": "prayer-familia-3",
+          "title": "Familias extensas",
+          "text": "Dios de paz, ayúdanos a honrar a nuestras familias sin entregarles decisiones que corresponden a nuestra relación. Danos límites amables y firmes. Amén."
+        }
+      ]
+    },
+    {
+      "id": "dificultades",
+      "theme": "Crisis, pérdida y enfermedad",
+      "description": "Para sostenerse en temporadas que superan las fuerzas habituales",
+      "prayers": [
+        {
+          "id": "prayer-dificultades-1",
+          "title": "En la incertidumbre",
+          "text": "Dios presente, acompáñanos cuando no conocemos el resultado. Danos el pan de hoy, personas sabias y valor para pedir la ayuda que necesitamos. Amén."
+        },
+        {
+          "id": "prayer-dificultades-2",
+          "title": "En el duelo",
+          "text": "Señor cercano al quebrantado, recibe nuestras lágrimas y recuerdos. Líbranos de apresurar el duelo y enséñanos a acompañar sin explicaciones fáciles. Amén."
+        },
+        {
+          "id": "prayer-dificultades-3",
+          "title": "Cuidar sin agotarse",
+          "text": "Padre, concede fuerza para cuidar y humildad para descansar, delegar y buscar apoyo profesional. Que nadie tenga que sostenerlo todo a solas. Amén."
+        }
+      ]
+    },
+    {
+      "id": "fe",
+      "theme": "Fe compartida",
+      "description": "Para vivir una espiritualidad que produzca servicio, libertad y fruto",
+      "prayers": [
+        {
+          "id": "prayer-fe-1",
+          "title": "Orar sin imponer",
+          "text": "Señor, que mi oración no sea una forma de cerrar conversaciones ni presionar decisiones. Hazla escuela de humildad, escucha y transformación propia. Amén."
+        },
+        {
+          "id": "prayer-fe-2",
+          "title": "Comunidad sabia",
+          "text": "Dios, guíanos hacia una comunidad que cuide la verdad, la confidencialidad y la seguridad; una comunidad que nunca proteja apariencias a costa de personas. Amén."
+        },
+        {
+          "id": "prayer-fe-3",
+          "title": "Fruto visible",
+          "text": "Espíritu Santo, que nuestra fe se vea en paciencia, bondad, dominio propio y justicia. Corrige toda espiritualidad que excuse desprecio o abuso. Amén."
+        }
+      ]
+    },
+    {
+      "id": "seguridad",
+      "theme": "Seguridad ante abuso o violencia",
+      "description": "Para buscar protección, justicia y apoyo especializado",
+      "prayers": [
+        {
+          "id": "prayer-seguridad-1",
+          "title": "Protección inmediata",
+          "text": "Dios de refugio, protege a quien vive amenazas o violencia. Abre una salida segura, acerca ayuda confiable y da claridad para actuar sin alertar a quien agrede. Amén."
+        },
+        {
+          "id": "prayer-seguridad-2",
+          "title": "Sin culpa",
+          "text": "Señor de verdad, rompe la mentira de que el abuso es culpa de quien lo sufre. Devuelve voz, dignidad y esperanza; rodea a la persona de apoyo especializado. Amén."
+        },
+        {
+          "id": "prayer-seguridad-3",
+          "title": "Justicia y restauración",
+          "text": "Dios justo, fortalece a quienes intervienen para proteger. Que la verdad salga a la luz sin aumentar el riesgo y que la justicia camine junto a la compasión. Amén."
+        }
+      ]
+    }
+  ]
+}

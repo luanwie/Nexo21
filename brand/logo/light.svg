@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">Nexo 21 — variante para fondo claro</title>
+  <desc id="desc">Logo Nexo 21 sobre fondo lino claro.</desc>
+  <style>
+    .outer{fill:none;stroke:#1F2A26;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+    .inner{fill:none;stroke:#B9684F;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .axis{fill:none;stroke:#C6A66B;stroke-width:4;stroke-linecap:round}
+    .word{fill:none;stroke:#1F2A26;stroke-width:5.25;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+  <rect width="640" height="160" rx="20" fill="#F7F2EA"/>
+  <g transform="translate(32 32)">
+    <path class="outer" d="M18 70V47C18 30.98 30.98 18 47 18S76 30.98 76 47v23"/>
+    <path class="inner" d="M30 70V51c0-9.39 7.61-17 17-17s17 7.61 17 17v19"/>
+    <path class="axis" d="M47 34v36"/>
+  </g>
+  <g class="word" transform="translate(156 50) scale(1.15)">
+    <path d="M0 52V0l34 52V0"/>
+    <path d="M52 0v52M52 0h26M52 26h22M52 52h26"/>
+    <path d="M96 0l34 52M130 0L96 52"/>
+    <path d="M166 0c-17 0-26 10.5-26 26s9 26 26 26 26-10.5 26-26S183 0 166 0Z"/>
+    <path d="M214 14c0-9 7-14 17-14s17 5.5 17 14c0 9.5-7 16-34 38h36"/>
+    <path d="M270 13 284 0v52M270 52h29"/>
+  </g>
+</svg>

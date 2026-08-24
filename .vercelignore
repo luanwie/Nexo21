@@ -1,0 +1,9 @@
+playwright-report/
+test-results/
+coverage/
+tests/
+brand/
+docs/
+marketing/
+*.md
+!.well-known
