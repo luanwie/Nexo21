@@ -40,6 +40,8 @@ Não usar desconto riscado, venda falsa, contador reiniciado ou depoimento inven
 - [ ] refund/chargeback revogam acesso;
 - [ ] Resend aceita o email de acesso/reset;
 - [ ] landing, checkout e produto passam em mobile;
+- [ ] Hotmart redireciona a compra aprovada para a URL canônica `/gracias`, sem email, nome ou outra PII na query;
+- [ ] `/gracias` passa em mobile e os CTAs para `/registro`, `/login` e suporte funcionam;
 - [ ] suporte e política de reembolso publicados;
 - [ ] mock checkout desabilitado.
 

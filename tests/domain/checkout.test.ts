@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canAcceptBuyerIdentity, canApplyPurchaseEvent, normalizeCheckoutEvent } from "@/lib/domain/checkout";
+import { canAcceptBuyerIdentity, canApplyPurchaseEvent, normalizeCheckoutEvent, requiresPreCheckoutEmail, validateHotmartCheckoutUrl } from "@/lib/domain/checkout";
 
 describe("checkout event normalization", () => {
   it("maps a paid transaction to explicit entitlements", () => {
@@ -62,5 +62,25 @@ describe("checkout event normalization", () => {
     expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "REFUNDED")).toBe(true);
     expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "CHARGEBACK")).toBe(true);
     expect(canAcceptBuyerIdentity("first@example.com", "second@example.com", "CANCELLED")).toBe(true);
+  });
+
+  it("collects email before checkout only in the local mock", () => {
+    expect(requiresPreCheckoutEmail("mock")).toBe(true);
+    expect(requiresPreCheckoutEmail("hotmart")).toBe(false);
+    expect(requiresPreCheckoutEmail("disabled")).toBe(false);
+  });
+
+  it("accepts only the official HTTPS Hotmart checkout host", () => {
+    expect(validateHotmartCheckoutUrl("https://pay.hotmart.com/ABC123")).toBe("https://pay.hotmart.com/ABC123");
+    for (const unsafe of [
+      "http://pay.hotmart.com/ABC123",
+      "https://evil.example/ABC123",
+      "https://pay.hotmart.com.evil.example/ABC123",
+      "https://pay.hotmart.com:444/ABC123",
+      "https://user:pass@pay.hotmart.com/ABC123",
+      "not-a-url",
+    ]) {
+      expect(() => validateHotmartCheckoutUrl(unsafe)).toThrow("Invalid Hotmart checkout URL");
+    }
   });
 });

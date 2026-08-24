@@ -5,10 +5,14 @@ const prisma = process.env.DATABASE_URL
   ? new PrismaClient({ datasourceUrl: process.env.DATABASE_URL })
   : new PrismaClient();
 const buyerEmail = "compradora.e2e@nexo21.test";
-const adminEmail = process.env.ADMIN_EMAIL ?? "admin@nexo21.local";
+const adminEmail = "admin.e2e@nexo21.test";
+const disposableEmails = new Set([buyerEmail, adminEmail]);
 const password = "Nexo21!Prueba2026";
 
 async function clean(email: string) {
+  if (!disposableEmails.has(email) || !email.endsWith("@nexo21.test")) {
+    throw new Error("Refusing to clean a non-disposable E2E identity");
+  }
   const purchases = await prisma.purchase.findMany({ where: { purchaserEmail: email }, select: { id: true } });
   if (purchases.length) {
     await prisma.paymentEvent.deleteMany({ where: { purchaseId: { in: purchases.map((purchase) => purchase.id) } } });
@@ -84,7 +88,7 @@ test("buyer completes checkout, registers and uses core product flows", async ({
   await page.getByLabel("Título").fill("Mi primera nota");
   await page.getByLabel("Escribe con libertad").fill("Una observación concreta para recordar.");
   await page.getByRole("button", { name: /Guardar entrada/i }).click();
-  await expect(page.getByText("Mi primera nota")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Mi primera nota" })).toBeVisible({ timeout: 20_000 });
 
   await page.goto("/app/mensajes");
   await page.getByPlaceholder(/Busca por situación/i).fill("agrade");

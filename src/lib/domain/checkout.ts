@@ -45,6 +45,27 @@ export function normalizeCheckoutEvent(input: unknown) {
 
 type PurchaseState = "PENDING" | "PAID" | "REFUNDED" | "CHARGEBACK" | "CANCELLED";
 
+export function requiresPreCheckoutEmail(provider: string | undefined) {
+  return provider === "mock";
+}
+
+export function validateHotmartCheckoutUrl(value: string) {
+  try {
+    const url = new URL(value);
+    if (
+      url.origin !== "https://pay.hotmart.com" ||
+      url.username ||
+      url.password
+    ) {
+      throw new Error("Invalid Hotmart checkout URL");
+    }
+    return url.toString();
+  } catch (error) {
+    if (error instanceof Error && error.message === "Invalid Hotmart checkout URL") throw error;
+    throw new Error("Invalid Hotmart checkout URL");
+  }
+}
+
 export function canAcceptBuyerIdentity(existingEmail: string, incomingEmail: string, incomingStatus: PurchaseState) {
   if (existingEmail.trim().toLowerCase() === incomingEmail.trim().toLowerCase()) return true;
   return incomingStatus === "REFUNDED" || incomingStatus === "CHARGEBACK" || incomingStatus === "CANCELLED";

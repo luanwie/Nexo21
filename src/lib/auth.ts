@@ -2,6 +2,7 @@ import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
 import { nextCookies } from "better-auth/next-js";
 import { escapeHtml, sendTransactionalEmail } from "@/lib/email";
+import { secureSessionConfig } from "@/lib/auth-policy";
 import { resolveAppUrlFromEnvironment, resolvePublicAppUrlFromEnvironment } from "@/lib/app-url";
 import { prisma } from "@/lib/prisma";
 
@@ -61,11 +62,7 @@ export const auth = betterAuth({
       },
     },
   },
-  session: {
-    expiresIn: 60 * 60 * 24 * 30,
-    updateAge: 60 * 60 * 24,
-    cookieCache: { enabled: true, maxAge: 60 * 5 },
-  },
+  session: secureSessionConfig,
   advanced: {
     cookiePrefix: "nexo21",
     useSecureCookies: process.env.NODE_ENV === "production",

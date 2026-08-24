@@ -27,6 +27,7 @@ Ao usar o P0, a participante consegue:
 Público
 ├── /                         landing
 ├── /checkout                 composição da oferta
+├── /gracias                  orientação pós-compra e ativação
 ├── /login
 ├── /registro
 ├── /olvide-mi-clave
@@ -144,6 +145,7 @@ Sem pontos, competição, ranking ou estética infantil.
 Implementado:
 
 - landing e checkout modular;
+- página pública `/gracias` para orientar ativação após a compra;
 - autenticação e reset;
 - compra/entitlement por email;
 - jornada completa;
@@ -221,6 +223,7 @@ Situações de violência, coerção, ameaça, abuso, controle ou risco físico 
 
 ## 12. Critérios de aceite P0
 
+- `/gracias` funciona sem PII na query, orienta usar o mesmo email da compra, confirmar o email e aguardar o webhook, e oferece acesso a `/registro`, `/login` e suporte;
 - comprador conclui checkout e cria conta com o mesmo email;
 - compra é associada e acesso liberado;
 - usuário sem acesso é redirecionado à loja;

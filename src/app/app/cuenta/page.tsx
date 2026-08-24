@@ -1,7 +1,37 @@
-import Link from "next/link";
-import { KeyRound, PackageCheck } from "lucide-react";
-import { ProfileForm } from "@/components/profile-form";
+import { AccountIdentity } from "@/components/account/account-identity";
+import { AccountProducts } from "@/components/account/account-products";
+import { OtherSessionsCard } from "@/components/account/other-sessions-card";
+import { PasswordChangeForm } from "@/components/account/password-change-form";
+import { ProfileForm } from "@/components/account/profile-form";
 import { listEntitlements } from "@/lib/access";
 import { requireUser } from "@/lib/session";
 
-export default async function AccountPage(){const user=await requireUser();const entitlements=await listEntitlements(user);return <div className="mx-auto max-w-4xl space-y-7"><header><p className="text-sm font-semibold uppercase tracking-[.16em] text-[#B85C42]">Mi cuenta</p><h1 className="editorial-title mt-3 text-4xl sm:text-6xl">Tu perfil y tus accesos.</h1><p className="mt-3 text-muted">Sesión: {user.email}</p></header><div className="grid gap-5 md:grid-cols-2"><ProfileForm initialName={user.name}/><section className="app-card p-6"><h2 className="flex items-center gap-2 font-semibold"><KeyRound size={18} className="text-[#B85C42]"/> Seguridad</h2><p className="mt-3 text-sm leading-6 text-muted">Puedes cambiar tu contraseña mediante un enlace seguro enviado a tu email.</p><Link href="/olvide-mi-clave" className="secondary-button mt-5 text-sm">Restablecer contraseña</Link></section></div><section className="app-card p-6"><h2 className="flex items-center gap-2 font-semibold"><PackageCheck size={18} className="text-[#74836B]"/> Productos adquiridos</h2><div className="mt-4 grid gap-3 sm:grid-cols-2">{entitlements.length?entitlements.map(item=><div key={item.id} className="rounded-xl border border-[#ddd3c6] p-4"><p className="font-semibold">{item.product.title}</p><p className="mt-1 text-xs text-muted">Acceso activo desde {new Intl.DateTimeFormat("es",{dateStyle:"medium"}).format(item.grantedAt)}</p></div>):<p className="text-sm text-muted">Todavía no hay compras vinculadas a esta cuenta.</p>}</div></section></div>}
+export default async function AccountPage() {
+  const user = await requireUser();
+  const entitlements = await listEntitlements(user);
+  const products = entitlements.map((entitlement) => ({
+    id: entitlement.id,
+    title: entitlement.product.title,
+    grantedAt: entitlement.grantedAt,
+  }));
+
+  return (
+    <div className="mx-auto max-w-4xl space-y-7">
+      <header>
+        <p className="text-sm font-semibold uppercase tracking-[.16em] text-[#B85C42]">Mi cuenta</p>
+        <h1 className="editorial-title mt-3 text-4xl sm:text-6xl">Tu perfil y tus accesos.</h1>
+        <p className="mt-3 text-muted">Administra tus datos y protege el acceso a tu cuenta.</p>
+      </header>
+
+      <AccountIdentity email={user.email} emailVerified={user.emailVerified} />
+
+      <div className="grid items-start gap-5 md:grid-cols-2">
+        <ProfileForm initialName={user.name} />
+        <PasswordChangeForm />
+      </div>
+
+      <OtherSessionsCard />
+      <AccountProducts products={products} />
+    </div>
+  );
+}
