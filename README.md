@@ -74,7 +74,6 @@ Abra a URL configurada em `NEXT_PUBLIC_APP_URL`.
 |---|---|
 | `DATABASE_URL` | SQLite local; depois da conexão Neon, PostgreSQL em produção |
 | `BETTER_AUTH_SECRET` | segredo de sessão com 32+ bytes |
-| `BETTER_AUTH_URL` | URL canônica da autenticação |
 | `NEXT_PUBLIC_APP_URL` | URL pública da aplicação |
 | `CHECKOUT_PROVIDER` | `mock` local ou provedor real |
 | `ENABLE_MOCK_CHECKOUT` | somente QA local; nunca habilitar na Vercel |

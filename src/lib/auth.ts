@@ -2,11 +2,13 @@ import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
 import { nextCookies } from "better-auth/next-js";
 import { escapeHtml, sendTransactionalEmail } from "@/lib/email";
+import { resolveAppUrlFromEnvironment, resolvePublicAppUrlFromEnvironment } from "@/lib/app-url";
 import { prisma } from "@/lib/prisma";
 
 const requireEmailVerification = true;
 const authSecret = process.env.BETTER_AUTH_SECRET;
-const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined);
+const publicAppUrl = resolvePublicAppUrlFromEnvironment();
+const appUrl = publicAppUrl ?? resolveAppUrlFromEnvironment();
 const databaseProvider = process.env.DATABASE_URL?.startsWith("postgres") ? "postgresql" : "sqlite";
 
 if (
@@ -15,13 +17,13 @@ if (
 ) {
   throw new Error("BETTER_AUTH_SECRET must be a non-placeholder value with at least 32 characters");
 }
-if (process.env.NODE_ENV === "production" && !appUrl) {
+if (process.env.NODE_ENV === "production" && !publicAppUrl) {
   throw new Error("NEXT_PUBLIC_APP_URL is required in production");
 }
 
 export const auth = betterAuth({
   appName: "Nexo 21",
-  baseURL: process.env.BETTER_AUTH_URL,
+  baseURL: appUrl,
   secret: authSecret,
   trustedOrigins: [appUrl ?? "http://localhost:3000"],
   database: prismaAdapter(prisma, { provider: databaseProvider, transaction: true }),
