@@ -16,9 +16,15 @@ export type ClientEventName =
   | "UseTool"
   | "ViewUpsell";
 
+const standardMetaEvents = new Set<ClientEventName>(["PageView", "ViewContent", "InitiateCheckout"]);
+
+export function metaEventMethod(name: ClientEventName) {
+  return standardMetaEvents.has(name) ? "track" : "trackCustom";
+}
+
 export function trackEvent(name: ClientEventName, payload: Record<string, unknown> = {}) {
   if (typeof window === "undefined") return;
-  window.fbq?.(name === "PageView" ? "track" : "trackCustom", name, payload);
+  window.fbq?.(metaEventMethod(name), name, payload);
   window.gtag?.("event", name, payload);
   const body = JSON.stringify({ name, path: window.location.pathname, payload });
   if (navigator.sendBeacon) {
