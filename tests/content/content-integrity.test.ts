@@ -23,4 +23,12 @@ describe("product content catalog", () => {
     expect(loadDevotionals()).toHaveLength(30);
     expect(loadPrayers().length).toBeGreaterThanOrEqual(36);
   });
+
+  it("assigns every message to one visible category", () => {
+    const messages = loadMessages();
+    const categories = new Map<string, number>();
+    for (const message of messages) categories.set(message.category, (categories.get(message.category) ?? 0) + 1);
+    expect([...categories.values()].reduce((total, count) => total + count, 0)).toBe(messages.length);
+    expect([...categories.values()].every((count) => count > 0)).toBe(true);
+  });
 });
