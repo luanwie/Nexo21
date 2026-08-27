@@ -11,18 +11,46 @@ import { useEffect, useRef, useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import { BrandLogo } from "@/components/brand-logo";
 
-const links = [
-  { href: "/app", label: "Hoy", icon: Home },
-  { href: "/app/comenzar", label: "Comienza aquí", icon: Sparkles },
-  { href: "/app/jornada", label: "Mi jornada", icon: ListChecks },
-  { href: "/app/diario", label: "Mi diario", icon: NotebookPen },
-  { href: "/app/conversaciones", label: "Conversaciones", icon: MessageCircleHeart },
-  { href: "/app/mensajes", label: "Mensajes", icon: BookHeart },
-  { href: "/app/acciones", label: "Pequeñas acciones", icon: Heart },
-  { href: "/app/devocionales", label: "Devocionales", icon: BookOpen },
-  { href: "/app/oraciones", label: "Oraciones", icon: Library },
-  { href: "/app/favoritos", label: "Favoritos", icon: Store },
-  { href: "/app/tienda", label: "Biblioteca y próximos", icon: ShoppingBag },
+type NavLink = { href: string; label: string; icon: typeof Home };
+type Section = { title: string; links: NavLink[] };
+
+const sections: Section[] = [
+  {
+    title: "Mi recorrido",
+    links: [
+      { href: "/app", label: "Hoy", icon: Home },
+      { href: "/app/comenzar", label: "Comienza aquí", icon: Sparkles },
+      { href: "/app/jornada", label: "Mi jornada", icon: ListChecks },
+    ],
+  },
+  {
+    title: "Mi espacio",
+    links: [
+      { href: "/app/diario", label: "Mi diario", icon: NotebookPen },
+      { href: "/app/conversaciones", label: "Conversaciones", icon: MessageCircleHeart },
+      { href: "/app/mensajes", label: "Mensajes", icon: BookHeart },
+      { href: "/app/acciones", label: "Pequeñas acciones", icon: Heart },
+    ],
+  },
+  {
+    title: "Fe y vida",
+    links: [
+      { href: "/app/devocionales", label: "Devocionales", icon: BookOpen },
+      { href: "/app/oraciones", label: "Oraciones", icon: Library },
+    ],
+  },
+  {
+    title: "Mi biblioteca",
+    links: [
+      { href: "/app/favoritos", label: "Favoritos", icon: Store },
+    ],
+  },
+  {
+    title: "Explorar",
+    links: [
+      { href: "/app/tienda", label: "Tienda", icon: ShoppingBag },
+    ],
+  },
 ];
 
 function SidebarNavigation({
@@ -41,10 +69,15 @@ function SidebarNavigation({
   return <>
     <div className="px-2 pb-6"><BrandLogo inverted /></div>
     <nav className="flex-1 space-y-1 overflow-y-auto" aria-label="Navegación principal">
-      {links.map(({ href, label, icon: Icon }) => {
-        const active = href === "/app" ? pathname === href : pathname.startsWith(href);
-        return <Link key={href} href={href} className="app-nav-link" data-active={active} aria-current={active ? "page" : undefined} onClick={onNavigate}><Icon size={18} aria-hidden /> <span>{label}</span></Link>;
-      })}
+      {sections.map((section) => (
+        <div key={section.title}>
+          <p className="px-3 pt-5 pb-1 text-[10px] font-bold uppercase tracking-[0.18em] text-white/35">{section.title}</p>
+          {section.links.map(({ href, label, icon: Icon }) => {
+            const active = href === "/app" ? pathname === href : pathname.startsWith(href);
+            return <Link key={href} href={href} className="app-nav-link" data-active={active} aria-current={active ? "page" : undefined} onClick={onNavigate}><Icon size={18} aria-hidden /> <span>{label}</span></Link>;
+          })}
+        </div>
+      ))}
       {role === "ADMIN" ? <Link href="/admin" className="app-nav-link" data-active={pathname.startsWith("/admin")} aria-current={pathname.startsWith("/admin") ? "page" : undefined} onClick={onNavigate}><UsersRound size={18} aria-hidden /> Administración</Link> : null}
     </nav>
     <div className="mt-4 border-t border-white/10 pt-4">

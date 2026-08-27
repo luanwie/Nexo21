@@ -48,21 +48,27 @@ export async function saveJournalEntry(formData: FormData) {
     title: z.string().trim().min(1).max(120),
     body: z.string().trim().min(1).max(12_000),
     entryDate: z.coerce.date(),
+    mood: z.string().max(10).optional(),
+    tags: z.string().max(200).optional(),
+    prompt: z.string().max(200).optional(),
   }).parse({
     id: formData.get("id") || undefined,
     title: formData.get("title"),
     body: formData.get("body"),
     entryDate: formData.get("entryDate"),
+    mood: formData.get("mood") || undefined,
+    tags: formData.get("tags") || undefined,
+    prompt: formData.get("prompt") || undefined,
   });
 
   if (values.id) {
     const result = await prisma.journalEntry.updateMany({
       where: { id: values.id, userId: user.id },
-      data: { title: values.title, body: values.body, entryDate: values.entryDate },
+      data: { title: values.title, body: values.body, entryDate: values.entryDate, mood: values.mood, tags: values.tags, prompt: values.prompt },
     });
     if (!result.count) throw new Error("Entrada no encontrada");
   } else {
-    await prisma.journalEntry.create({ data: { userId: user.id, title: values.title, body: values.body, entryDate: values.entryDate } });
+    await prisma.journalEntry.create({ data: { userId: user.id, title: values.title, body: values.body, entryDate: values.entryDate, mood: values.mood, tags: values.tags, prompt: values.prompt } });
   }
   await record(user.id, "UseTool", "/app/diario", { tool: "journal" });
   revalidatePath("/app/diario");

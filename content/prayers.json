@@ -1,268 +1,290 @@
 {
   "title": "Oraciones para relaciones con verdad y gracia",
-  "disclaimer": "Estas oraciones son recursos espirituales y no sustituyen atención médica o psicológica, asesoría legal ni servicios de emergencia. Ante amenazas, coerción, abuso o violencia, prioriza la seguridad y contacta ayuda local especializada desde un dispositivo seguro. La fe nunca obliga a permanecer en peligro.",
+  "disclaimer": "Estas oraciones ofrecen acompañamiento espiritual y no sustituyen la orientación pastoral responsable, la terapia profesional, la atención médica, la asesoría legal ni los servicios de emergencia. La fe nunca exige soportar violencia, coerción, abuso sexual, amenazas, control económico, aislamiento o peligro para ti o tus hijos; si existe riesgo inmediato, busca un lugar seguro y comunícate con los servicios de emergencia o una organización especializada de tu país. Comparte lo que vives con personas confiables y capacitadas, y recuerda que establecer límites, pedir ayuda o alejarte del peligro no contradice el amor, el perdón ni la fidelidad cristiana. Adapta cada oración a tu historia, conciencia y contexto, sin usarla para justificar daño, silenciar denuncias o reemplazar decisiones informadas.",
   "themes": [
     {
       "id": "comunicacion",
       "theme": "Comunicación",
-      "description": "Para hablar y escuchar con verdad, claridad y respeto",
+      "description": "Oraciones para hablar con verdad, escuchar con humildad y cultivar conversaciones que den vida.",
       "prayers": [
         {
           "id": "prayer-comunicacion-1",
-          "title": "Palabras oportunas",
-          "text": "Señor, ordena mis pensamientos antes de hablar. Que mis palabras nombren la verdad sin humillar, pidan lo necesario sin exigir y dejen espacio para una respuesta libre. Amén."
+          "title": "Palabras que edifican",
+          "text": "Señor, pon guarda en mi boca y enséñame a hablar con verdad y ternura. Que ninguna palabra dañina salga de mí, sino aquella que edifique según la necesidad. Dame serenidad para expresar lo que siento sin atacar, ocultarme ni manipular. Haz que mis palabras lleven gracia, luz y reconciliación a nuestro matrimonio. Amén."
         },
         {
           "id": "prayer-comunicacion-2",
-          "title": "Oídos atentos",
-          "text": "Dios, aquieta mi impulso de defenderme. Ayúdame a escuchar la experiencia de la otra persona, comprobar lo que entendí y aprender incluso cuando no coincidimos. Amén."
+          "title": "Un corazón que escucha",
+          "text": "Dios paciente, hazme pronta para escuchar, lenta para hablar y lenta para enojarme. Líbrame de preparar una defensa mientras mi esposo comparte su corazón. Concédeme discernimiento para oír también sus temores, esperanzas y necesidades. Que nuestra escucha sea una forma de amarnos como tú nos has amado. Amén."
         },
         {
           "id": "prayer-comunicacion-3",
-          "title": "Silencio sabio",
-          "text": "Padre, muéstrame cuándo hablar, cuándo preguntar y cuándo guardar un silencio que acompaña. Que mi pausa no sea castigo, sino cuidado. Amén."
+          "title": "Verdad con gracia",
+          "text": "Padre de luz, guíanos a decir la verdad en amor, sin dureza ni evasión. Muéstranos el momento oportuno, el tono sabio y las palabras honestas. Cuando no nos entendamos, recuérdanos que la respuesta suave calma la ira. Une nuestros corazones para buscar comprensión antes que victoria. Amén."
         }
       ]
     },
     {
       "id": "conflicto",
-      "theme": "Conflicto y reconciliación",
-      "description": "Para atravesar diferencias sin desprecio ni violencia",
+      "theme": "Conflicto",
+      "description": "Oraciones para atravesar desacuerdos con dominio propio, justicia y voluntad de reparar.",
       "prayers": [
         {
           "id": "prayer-conflicto-1",
-          "title": "Paz en la diferencia",
-          "text": "Príncipe de paz, danos dominio propio para tratar un asunto a la vez. Líbranos de insultos, amenazas y deseos de vencer; guíanos hacia acuerdos dignos. Amén."
+          "title": "Paz en el desacuerdo",
+          "text": "Príncipe de Paz, permanece con nosotros cuando las diferencias eleven la tensión. No permitas que el enojo gobierne nuestras decisiones ni que el sol se ponga sobre un resentimiento alimentado. Ayúdanos a detenernos, respirar y buscar lo que conduce a la paz. Danos valor para resolver el problema sin convertirnos el uno en enemigo del otro. Amén."
         },
         {
           "id": "prayer-conflicto-2",
-          "title": "Mi parte",
-          "text": "Señor, enséñame a reconocer mi responsabilidad sin cargar con lo que pertenece al otro. Dame humildad para reparar lo que hice y sabiduría para sostener límites. Amén."
+          "title": "Sabiduría en la tensión",
+          "text": "Señor de toda sabiduría, cuando no sepamos qué hacer, danos sabiduría generosa y sin reproche. Revela mi parte en el conflicto y corrige en mí lo que necesita cambiar. Guárdanos del desprecio, los insultos, las amenazas y el silencio usado como castigo. Haznos firmes en la verdad, mansos en el trato y diligentes para reparar. Amén."
         },
         {
           "id": "prayer-conflicto-3",
-          "title": "Reconciliación prudente",
-          "text": "Dios de verdad, abre caminos de reconciliación donde haya arrepentimiento, seguridad y cambio real. Donde no los haya, concédeme claridad, apoyo y protección. Amén."
+          "title": "Camino de reconciliación",
+          "text": "Dios reconciliador, muéstranos una senda donde hoy solo vemos distancia. Ayúdanos a reconocer el daño con claridad, pedir perdón sin excusas y acordar cambios concretos. Danos humildad para buscar mediación sabia cuando solos no podamos avanzar. Que la justicia y la paz se abracen en nuestro hogar bajo tu mirada. Amén."
         }
       ]
     },
     {
       "id": "perdon",
-      "theme": "Perdón y reparación",
-      "description": "Para soltar rencor sin negar consecuencias ni apresurar confianza",
+      "theme": "Perdón",
+      "description": "Oraciones para recibir misericordia, soltar la venganza y recorrer procesos responsables de reparación.",
       "prayers": [
         {
           "id": "prayer-perdon-1",
-          "title": "Corazón libre",
-          "text": "Dios misericordioso, trabaja en mi corazón para que el dolor no se convierta en amargura. Permíteme avanzar a un ritmo honesto, sin fingir que nada ocurrió. Amén."
+          "title": "Gracia para perdonar",
+          "text": "Padre misericordioso, recuerdo que me perdonaste en Cristo y acudo a tu gracia. Sana la herida que vuelve una y otra vez a mi memoria. Ayúdame a renunciar a la venganza sin negar la verdad ni llamar bueno a lo que hizo daño. Guíame en un perdón paciente, acompañado de arrepentimiento, límites sabios y frutos dignos. Amén."
         },
         {
           "id": "prayer-perdon-2",
-          "title": "Arrepentimiento con frutos",
-          "text": "Señor, no permitas que mi disculpa sea una salida fácil. Muéstrame cómo escuchar el impacto, reparar lo posible y sostener un cambio visible. Amén."
+          "title": "Humildad para pedir perdón",
+          "text": "Señor, examina mi corazón y muéstrame cualquier camino torcido. Dame humildad para nombrar mi falta sin justificarme ni trasladar la culpa. Enséñame a confesar, reparar y cambiar, porque la tristeza según tú produce arrepentimiento verdadero. Que mis acciones confirmen las palabras con las que pido perdón. Amén."
         },
         {
           "id": "prayer-perdon-3",
-          "title": "Confianza paso a paso",
-          "text": "Padre fiel, dame paciencia para no exigir confianza inmediata. Que la coherencia, la transparencia voluntaria y el tiempo hagan su obra sin presión. Amén."
+          "title": "Sanidad de la memoria",
+          "text": "Dios que sanas a los quebrantados de corazón, toca los recuerdos que todavía duelen. No dejes que la amargura eche raíces ni contamine lo bueno que aún puede crecer. Concédeme tiempo, apoyo y paciencia para sanar sin apresurar el proceso. Renueva mi mente con lo verdadero, justo, puro y digno de alabanza. Amén."
         }
       ]
     },
     {
       "id": "gratitud",
       "theme": "Gratitud",
-      "description": "Para reconocer el bien concreto sin ocultar lo difícil",
+      "description": "Oraciones para reconocer la bondad de Dios y valorar los dones cotidianos del matrimonio.",
       "prayers": [
         {
           "id": "prayer-gratitud-1",
-          "title": "Lo pequeño",
-          "text": "Gracias, Dios, por los gestos cotidianos que sostienen nuestra relación: una escucha, una tarea compartida, una risa y un descanso. Abre nuestros ojos para verlos. Amén."
+          "title": "Gracias por lo cotidiano",
+          "text": "Dador de todo bien, gracias por los gestos sencillos que sostienen nuestra vida compartida. Abre mis ojos a la provisión escondida en una comida, una conversación y una tarea cumplida. Enséñame a dar gracias en toda circunstancia sin negar el dolor de los días difíciles. Que la gratitud ensanche mi corazón y haga visible tu fidelidad. Amén."
         },
         {
           "id": "prayer-gratitud-2",
-          "title": "En días difíciles",
-          "text": "Señor, aun en un día pesado, ayúdame a reconocer una señal de cuidado sin negar lo que duele. Que la gratitud y la verdad puedan convivir. Amén."
+          "title": "Honrar lo bueno",
+          "text": "Señor, gracias por las cualidades que sembraste en mi esposo y por la historia que hemos construido. Ayúdame a expresar aprecio con sinceridad, sin dar por sentado sus esfuerzos. Que piense en todo lo verdadero, honorable y amable, y también hable de ello. Haz de nuestro hogar un lugar donde el bien sea reconocido y celebrado. Amén."
         },
         {
           "id": "prayer-gratitud-3",
-          "title": "Celebrar al otro",
-          "text": "Dios generoso, líbrame de competir. Dame alegría sincera por el crecimiento, los dones y los logros de la persona que amo. Amén."
+          "title": "Memoria de fidelidad",
+          "text": "Dios fiel, ayúdanos a recordar las veces que nos sostuviste hasta aquí. Cuando la preocupación nuble el presente, tráenos a la memoria tus misericordias nuevas cada mañana. Recibe nuestra gratitud por las puertas abiertas, las pruebas superadas y las personas que nos acompañaron. Que recordar tu bondad fortalezca nuestra confianza para el mañana. Amén."
         }
       ]
     },
     {
       "id": "confianza",
-      "theme": "Confianza y honestidad",
-      "description": "Para construir seguridad sin vigilancia ni control",
+      "theme": "Confianza",
+      "description": "Oraciones para construir seguridad mediante verdad, coherencia, transparencia y dependencia de Dios.",
       "prayers": [
         {
           "id": "prayer-confianza-1",
-          "title": "Transparencia libre",
-          "text": "Dios de luz, haznos honestos antes de que el miedo nos lleve a ocultar. Enséñanos una transparencia que nazca de la integridad y no de la coerción. Amén."
+          "title": "Coherencia y transparencia",
+          "text": "Dios de verdad, forma en nosotros corazones íntegros cuando nadie nos ve. Que nuestro sí sea sí y nuestro no sea no, sin secretos que destruyan la seguridad. Danos valentía para ser transparentes con respeto y responsabilidad. Haz que la confianza crezca mediante decisiones pequeñas, fieles y constantes. Amén."
         },
         {
           "id": "prayer-confianza-2",
-          "title": "Inseguridad expresada",
-          "text": "Señor, cuando sienta temor, ayúdame a preguntar en vez de acusar y a pedir claridad sin invadir. Sostén mi dignidad mientras discierno. Amén."
+          "title": "Cuando la confianza fue herida",
+          "text": "Señor cercano, acompáñanos donde la confianza ha sido quebrada. Danos verdad completa, arrepentimiento genuino, protección sabia y paciencia para evaluar frutos con el tiempo. Líbrame de sentir que debo ignorar señales de peligro para demostrar fe. Sé mi refugio y guía nuestros próximos pasos con consejo prudente. Amén."
         },
         {
           "id": "prayer-confianza-3",
-          "title": "Coherencia",
-          "text": "Padre, que nuestras promesas sean realistas y nuestras acciones consistentes. Danos valor para renegociar a tiempo en lugar de fallar en silencio. Amén."
+          "title": "Descansar en Dios",
+          "text": "Padre, enséñame a confiar en ti de todo corazón y no solo en mi propio entendimiento. Cuando la incertidumbre me invada, endereza mis sendas mientras te reconozco en cada decisión. No permitas que el miedo controle mi manera de amar ni que idealice a una persona como mi salvador. Afirma mi seguridad en tu presencia constante y tu amor que no falla. Amén."
         }
       ]
     },
     {
       "id": "limites",
-      "theme": "Límites y dignidad",
-      "description": "Para amar sin abandonar la salud, la identidad ni la seguridad",
+      "theme": "Límites",
+      "description": "Oraciones para establecer límites claros que protejan la dignidad, la paz y la responsabilidad mutua.",
       "prayers": [
         {
           "id": "prayer-limites-1",
-          "title": "Un no honesto",
-          "text": "Señor, dame libertad para decir no con respeto y para recibir el no ajeno sin castigo. Que nuestros límites protejan la dignidad de ambos. Amén."
+          "title": "Sabiduría para decir no",
+          "text": "Dios sabio, dame claridad para reconocer aquello que no debo aceptar. Enséñame a decir no con firmeza y sin culpa cuando mi dignidad, salud o seguridad estén en riesgo. Recuérdame que mi cuerpo y mi vida son templo de tu Espíritu y merecen cuidado. Rodéame de personas prudentes que respeten y sostengan límites saludables. Amén."
         },
         {
           "id": "prayer-limites-2",
-          "title": "Autonomía",
-          "text": "Dios creador, recuérdanos que cada persona conserva voz, conciencia, amistades y responsabilidad. Líbranos de llamar amor al control. Amén."
+          "title": "Respeto mutuo",
+          "text": "Señor de justicia, ayúdanos a honrarnos mutuamente como portadores de tu imagen. Que ninguno domine, intimide ni controle al otro, sino que nos sirvamos en amor. Danos acuerdos claros sobre tiempo, dinero, familia, privacidad y descanso. Que nuestros límites protejan la comunión en vez de convertirse en muros de castigo. Amén."
         },
         {
           "id": "prayer-limites-3",
-          "title": "Límite firme",
-          "text": "Padre, cuando un límite sea necesario, dame claridad para expresarlo y constancia para actuar de manera segura, sin amenazas ni venganza. Amén."
+          "title": "Protección ante el daño",
+          "text": "Dios refugio, dame valor para buscar ayuda cuando exista abuso, coerción o peligro. Abre una salida segura, pues tú oyes el clamor de quien sufre y defiendes al vulnerable. Líbrame de consejos que confundan aguantar violencia con cargar la cruz. Guía a profesionales, autoridades y personas confiables para protegernos con verdad y justicia. Amén."
         }
       ]
     },
     {
       "id": "intimidad",
-      "theme": "Intimidad y amistad",
-      "description": "Para cultivar cercanía emocional y física con consentimiento",
+      "theme": "Intimidad",
+      "description": "Oraciones para una cercanía emocional, espiritual y física marcada por cuidado, consentimiento y honra.",
       "prayers": [
         {
           "id": "prayer-intimidad-1",
-          "title": "Vulnerabilidad segura",
-          "text": "Señor, crea entre nosotros un espacio donde podamos compartir temores y sueños sin burla ni uso posterior como arma. Haznos custodios fieles de la intimidad. Amén."
+          "title": "Cercanía emocional",
+          "text": "Señor que nos conoces por completo, ayúdanos a compartir el corazón sin temor al desprecio. Crea entre nosotros un espacio seguro para lágrimas, dudas, sueños y alegría. Vístanos de compasión, bondad, humildad, mansedumbre y paciencia. Que al conocernos más profundamente aprendamos también a cuidarnos mejor. Amén."
         },
         {
           "id": "prayer-intimidad-2",
-          "title": "Ternura sin presión",
-          "text": "Dios de amor, enséñanos una ternura que pregunte, escuche y respete cada no. Que el afecto sea un regalo libre, nunca una deuda. Amén."
+          "title": "Ternura y consentimiento",
+          "text": "Dios de amor, guía nuestra intimidad física con ternura, respeto y consentimiento libre. Enséñanos a escuchar el cuerpo, los límites y las necesidades del otro sin presión ni egoísmo. Que cada encuentro honre la dignidad con la que nos creaste y refleje un amor paciente y bondadoso. Sana cualquier experiencia dolorosa y danos libertad para buscar ayuda competente. Amén."
         },
         {
           "id": "prayer-intimidad-3",
-          "title": "Amistad renovada",
-          "text": "Jesús, devuelve curiosidad a nuestra amistad. Ayúdanos a reír, conversar y disfrutar momentos sencillos sin exigir perfección. Amén."
+          "title": "Amistad en el matrimonio",
+          "text": "Padre bueno, renueva la amistad que sostiene nuestro pacto. Regálanos tiempo para reír, conversar, descansar y disfrutar juntos sin exigencias. Ayúdanos a llevar las cargas del otro y a alegrarnos sinceramente con sus alegrías. Que dos sean mejor que uno porque pueden levantarse y acompañarse en el camino. Amén."
         }
       ]
     },
     {
       "id": "decisiones",
-      "theme": "Decisiones y futuro",
-      "description": "Para discernir opciones compartidas con fe y realismo",
+      "theme": "Decisiones",
+      "description": "Oraciones para discernir juntos con sabiduría, información responsable y unidad de propósito.",
       "prayers": [
         {
           "id": "prayer-decisiones-1",
-          "title": "Sabiduría práctica",
-          "text": "Dios sabio, ayúdanos a reunir datos, escuchar consejo y reconocer riesgos. Que la prisa, el miedo o el orgullo no decidan por nosotros. Amén."
+          "title": "Discernimiento compartido",
+          "text": "Señor de sabiduría, dirige nuestros pasos al tomar decisiones importantes. Ayúdanos a escuchar tu Palabra, los hechos, nuestra conciencia y el consejo de personas prudentes. Líbranos de la prisa, la manipulación y el orgullo que rechaza toda corrección. Que la paz de Cristo gobierne nuestros corazones mientras buscamos un acuerdo justo. Amén."
         },
         {
           "id": "prayer-decisiones-2",
-          "title": "Diferencias de rumbo",
-          "text": "Señor, cuando nuestros deseos no coincidan, danos honestidad para nombrarlos y respeto para no imponer. Muéstranos el camino que preserve verdad y dignidad. Amén."
+          "title": "Orden en las finanzas",
+          "text": "Dios proveedor, danos sabiduría para administrar el dinero con honestidad y propósito. Enséñanos a calcular el costo, evitar cargas imprudentes y compartir decisiones financieras sin ocultamientos. Haznos generosos con quien necesita y responsables con las obligaciones de nuestro hogar. Que nuestro tesoro revele un corazón puesto en tu reino y no en la ansiedad. Amén."
         },
         {
           "id": "prayer-decisiones-3",
-          "title": "Manos abiertas",
-          "text": "Padre, recibimos el futuro con esperanza y manos abiertas. Líbranos de usar tu nombre para presentar nuestros deseos como órdenes para la otra persona. Amén."
+          "title": "Puertas abiertas y cerradas",
+          "text": "Padre que guías, ponemos delante de ti las oportunidades y renuncias que enfrentamos. Abre las puertas que conduzcan a vida, justicia y servicio, y cierra las que nos aparten de tu verdad. Danos paciencia para esperar sin forzar resultados ni interpretar cada deseo como tu voluntad. Haznos fieles en el próximo paso aunque todavía no veamos el camino completo. Amén."
         }
       ]
     },
     {
-      "id": "familia",
-      "theme": "Familia, hogar y crianza",
-      "description": "Para colaborar en responsabilidades y vínculos familiares",
+      "id": "sacrificio",
+      "theme": "Sacrificio",
+      "description": "Oraciones para servir con amor sin borrar la dignidad, la reciprocidad ni el cuidado personal.",
       "prayers": [
         {
-          "id": "prayer-familia-1",
-          "title": "Hogar compartido",
-          "text": "Señor, enséñanos a ver y repartir el trabajo visible e invisible. Que el servicio no recaiga por costumbre en una sola persona. Amén."
+          "id": "prayer-sacrificio-1",
+          "title": "Servicio nacido del amor",
+          "text": "Jesús servidor, enséñame a amar con acciones y en verdad. Que mi entrega nazca de la libertad y no del miedo, la presión o el deseo de comprar afecto. Dame discernimiento para servir sin sostener irresponsabilidades que otro debe asumir. Que sigamos tu ejemplo al cuidarnos mutuamente y no al buscar nuestro propio interés. Amén."
         },
         {
-          "id": "prayer-familia-2",
-          "title": "Crianza con gracia",
-          "text": "Padre compasivo, danos unidad suficiente para cuidar y humildad para corregir nuestros errores. Que niñas y niños encuentren seguridad, límites y ternura. Amén."
+          "id": "prayer-sacrificio-2",
+          "title": "Cargas compartidas",
+          "text": "Señor, enséñanos a llevar las cargas el uno del otro y cumplir así la ley del amor. Muéstranos cómo repartir con justicia el trabajo visible e invisible del hogar. No permitas que el cansancio de una persona sea normalizado mientras la otra permanece indiferente. Danos humildad para pedir ayuda, ofrecer descanso y reorganizar nuestras responsabilidades. Amén."
         },
         {
-          "id": "prayer-familia-3",
-          "title": "Familias extensas",
-          "text": "Dios de paz, ayúdanos a honrar a nuestras familias sin entregarles decisiones que corresponden a nuestra relación. Danos límites amables y firmes. Amén."
-        }
-      ]
-    },
-    {
-      "id": "dificultades",
-      "theme": "Crisis, pérdida y enfermedad",
-      "description": "Para sostenerse en temporadas que superan las fuerzas habituales",
-      "prayers": [
-        {
-          "id": "prayer-dificultades-1",
-          "title": "En la incertidumbre",
-          "text": "Dios presente, acompáñanos cuando no conocemos el resultado. Danos el pan de hoy, personas sabias y valor para pedir la ayuda que necesitamos. Amén."
-        },
-        {
-          "id": "prayer-dificultades-2",
-          "title": "En el duelo",
-          "text": "Señor cercano al quebrantado, recibe nuestras lágrimas y recuerdos. Líbranos de apresurar el duelo y enséñanos a acompañar sin explicaciones fáciles. Amén."
-        },
-        {
-          "id": "prayer-dificultades-3",
-          "title": "Cuidar sin agotarse",
-          "text": "Padre, concede fuerza para cuidar y humildad para descansar, delegar y buscar apoyo profesional. Que nadie tenga que sostenerlo todo a solas. Amén."
+          "id": "prayer-sacrificio-3",
+          "title": "Descanso sin culpa",
+          "text": "Dios que descansaste y nos llamas a reposar, libera mi corazón de una productividad sin fin. Recuérdame que soy amada antes de realizar cualquier tarea y que mis fuerzas tienen límites. Ayúdame a recibir sueño, alimento, silencio y alegría como dones tuyos. Que el descanso renueve mi capacidad de amar con presencia y no desde el agotamiento. Amén."
         }
       ]
     },
     {
       "id": "fe",
-      "theme": "Fe compartida",
-      "description": "Para vivir una espiritualidad que produzca servicio, libertad y fruto",
+      "theme": "Fe",
+      "description": "Oraciones para buscar a Dios juntos y respetar los distintos ritmos del camino espiritual.",
       "prayers": [
         {
           "id": "prayer-fe-1",
-          "title": "Orar sin imponer",
-          "text": "Señor, que mi oración no sea una forma de cerrar conversaciones ni presionar decisiones. Hazla escuela de humildad, escucha y transformación propia. Amén."
+          "title": "Un hogar arraigado en Dios",
+          "text": "Señor, edifica nuestra casa, porque sin ti nuestro esfuerzo es en vano. Arraiga nuestra vida en tu amor y haz de tu Palabra lámpara para nuestros pasos. Que la oración, la hospitalidad, la justicia y la misericordia formen el ritmo de nuestro hogar. Ayúdanos a servirte con alegría, lejos de apariencias religiosas vacías. Amén."
         },
         {
           "id": "prayer-fe-2",
-          "title": "Comunidad sabia",
-          "text": "Dios, guíanos hacia una comunidad que cuide la verdad, la confidencialidad y la seguridad; una comunidad que nunca proteja apariencias a costa de personas. Amén."
+          "title": "Fe en tiempos de duda",
+          "text": "Dios compasivo, creo; ayuda mi incredulidad cuando las preguntas pesan. No permitas que usemos la fe para juzgarnos, controlarnos o esconder conversaciones necesarias. Danos libertad para preguntar, aprender y buscarte con un corazón sincero. Sostennos con tu gracia mientras cada uno madura a su propio ritmo. Amén."
         },
         {
           "id": "prayer-fe-3",
-          "title": "Fruto visible",
-          "text": "Espíritu Santo, que nuestra fe se vea en paciencia, bondad, dominio propio y justicia. Corrige toda espiritualidad que excuse desprecio o abuso. Amén."
+          "title": "Oración en pareja",
+          "text": "Padre cercano, enséñanos a presentarnos ante ti con sencillez y sin máscaras. Cuando dos nos reunamos en tu nombre, centra nuestra atención en tu presencia y tu voluntad. Ayúdanos a interceder sin corregirnos mediante la oración ni exponer confidencias. Que orar juntos nos haga más humildes, honestos y disponibles para obedecer. Amén."
         }
       ]
     },
     {
-      "id": "seguridad",
-      "theme": "Seguridad ante abuso o violencia",
-      "description": "Para buscar protección, justicia y apoyo especializado",
+      "id": "esperanza",
+      "theme": "Esperanza",
+      "description": "Oraciones para perseverar en temporadas difíciles con una esperanza realista anclada en Dios.",
       "prayers": [
         {
-          "id": "prayer-seguridad-1",
-          "title": "Protección inmediata",
-          "text": "Dios de refugio, protege a quien vive amenazas o violencia. Abre una salida segura, acerca ayuda confiable y da claridad para actuar sin alertar a quien agrede. Amén."
+          "id": "prayer-esperanza-1",
+          "title": "Luz en la temporada difícil",
+          "text": "Dios de esperanza, llénanos de todo gozo y paz mientras confiamos en ti. Cuando la noche parezca larga, recuérdanos que la luz brilla en las tinieblas y no es vencida. Danos fuerzas para hacer hoy lo que promueve vida, aunque el resultado tarde. Que abundemos en esperanza por el poder de tu Espíritu. Amén."
         },
         {
-          "id": "prayer-seguridad-2",
-          "title": "Sin culpa",
-          "text": "Señor de verdad, rompe la mentira de que el abuso es culpa de quien lo sufre. Devuelve voz, dignidad y esperanza; rodea a la persona de apoyo especializado. Amén."
+          "id": "prayer-esperanza-2",
+          "title": "Nuevos comienzos",
+          "text": "Señor que haces nuevas todas las cosas, sopla vida sobre las áreas secas de nuestra relación. Muéstranos qué hábitos deben terminar y qué semillas debemos comenzar a cuidar. Danos valentía para intentar caminos más sanos sin negar las consecuencias del pasado. Que tu misericordia, nueva cada mañana, nos impulse hacia cambios concretos. Amén."
         },
         {
-          "id": "prayer-seguridad-3",
-          "title": "Justicia y restauración",
-          "text": "Dios justo, fortalece a quienes intervienen para proteger. Que la verdad salga a la luz sin aumentar el riesgo y que la justicia camine junto a la compasión. Amén."
+          "id": "prayer-esperanza-3",
+          "title": "Esperar con acción",
+          "text": "Padre fiel, líbranos de confundir esperanza con pasividad. Enséñanos a esperar en ti mientras buscamos consejo, cumplimos acuerdos y damos pasos responsables. Renueva nuestras fuerzas para correr sin rendirnos y caminar sin desfallecer. Que la perseverancia forme carácter y el carácter sostenga una esperanza que no avergüenza. Amén."
+        }
+      ]
+    },
+    {
+      "id": "proteccion",
+      "theme": "Protección",
+      "description": "Oraciones por seguridad física, emocional y espiritual, con disposición a buscar ayuda concreta.",
+      "prayers": [
+        {
+          "id": "prayer-proteccion-1",
+          "title": "Refugio para el hogar",
+          "text": "Altísimo, sé refugio y fortaleza para nuestra familia en toda dificultad. Guarda nuestra entrada y nuestra salida, y danos prudencia para prevenir riesgos reales. Líbranos del mal, de la violencia y de decisiones que pongan vidas en peligro. Haznos atentos a las medidas concretas mediante las cuales también llega tu cuidado. Amén."
+        },
+        {
+          "id": "prayer-proteccion-2",
+          "title": "Protección emocional",
+          "text": "Buen Pastor, protege nuestro interior de palabras crueles, humillaciones y patrones destructivos. Danos discernimiento para reconocer el daño y no cubrirlo con una paz falsa. Restaura al corazón herido y guía al responsable hacia arrepentimiento comprobable y ayuda especializada. Rodéanos de una comunidad que diga la verdad, cuide al vulnerable y actúe con sabiduría. Amén."
+        },
+        {
+          "id": "prayer-proteccion-3",
+          "title": "Valor para pedir ayuda",
+          "text": "Señor defensor, rompe el aislamiento que alimenta el miedo y el silencio. Dame valor para contar lo que sucede a alguien seguro, capacitado y dispuesto a actuar. Si hay peligro, guía mis pasos hacia una salida protegida y recursos de emergencia. Recuérdame que tú estás cerca del corazón quebrantado y no me abandonas. Amén."
+        }
+      ]
+    },
+    {
+      "id": "maternidad",
+      "theme": "Maternidad",
+      "description": "Oraciones para vivir la maternidad con gracia, corresponsabilidad, cuidado y confianza en Dios.",
+      "prayers": [
+        {
+          "id": "prayer-maternidad-1",
+          "title": "Sabiduría para criar",
+          "text": "Padre amoroso, dame sabiduría para acompañar a mis hijos según sus necesidades y etapas. Ayúdame a instruir con paciencia, corregir sin humillar y escuchar antes de responder. Que mis palabras les hablen de tu gracia y mis acciones modelen justicia, compasión y verdad. Cuando me equivoque, concédeme humildad para reparar y comenzar de nuevo. Amén."
+        },
+        {
+          "id": "prayer-maternidad-2",
+          "title": "Cuidado para la madre cansada",
+          "text": "Dios que me ves, recibe mi cansancio, mis temores y las cargas que no sé nombrar. Llévame junto a aguas de reposo y restaura mi alma mediante descanso y ayuda concreta. Enséñame a pedir apoyo sin vergüenza y a compartir la crianza con responsabilidad justa. Recuérdame que tu poder se perfecciona en mi debilidad y que no tengo que hacerlo todo sola. Amén."
+        },
+        {
+          "id": "prayer-maternidad-3",
+          "title": "Protección y libertad para los hijos",
+          "text": "Señor, guarda a mis hijos bajo tu cuidado cuando están cerca y cuando salen de mi alcance. Dales raíces profundas en el amor y alas para crecer en sabiduría, estatura y gracia. Líbrame de controlar por miedo, y dame discernimiento para proteger sin impedir su madurez. Rodéalos de personas seguras y guíalos por sendas de justicia todos sus días. Amén."
         }
       ]
     }

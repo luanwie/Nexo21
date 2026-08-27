@@ -23,7 +23,7 @@ import {
   Target,
   WandSparkles,
 } from "lucide-react";
-import { BrandMark } from "./brand-mark";
+import { BrandLogo } from "@/components/brand-logo";
 import { PlatformPreview } from "./platform-preview";
 import { TrackedCta } from "./tracked-cta";
 import { WomanJourneyPreview } from "./woman-journey-preview";
@@ -143,6 +143,13 @@ const weeks = [
   },
 ];
 
+const sampleDays = [
+  { day: 1, week: 1, title: "Escuchar antes de responder", reading: "Santiago 1:19" },
+  { day: 7, week: 1, title: "Perdón y proceso", reading: "Colosenses 3:13" },
+  { day: 14, week: 2, title: "Peticiones claras", reading: "Filipenses 4:6" },
+  { day: 21, week: 3, title: "Alegría compartida", reading: "Romanos 12:15" },
+];
+
 const faqs = [
   {
     question: "¿Mi pareja tiene que participar?",
@@ -220,9 +227,7 @@ export function LandingPage() {
     <div className="min-h-screen overflow-x-hidden bg-[#F5F1E8] [font-family:var(--font-geist-sans)] text-[#25231F] selection:bg-[#B85C42]/20">
       <nav className="relative z-50 border-b border-[#25231F]/8 bg-[#F5F1E8]/90 backdrop-blur-md" aria-label="Navegación principal">
         <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
-          <a href="#inicio" aria-label="Nexo 21, volver al inicio" className="rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#B85C42]">
-            <BrandMark />
-          </a>
+          <BrandLogo compact />
           <div className="hidden items-center gap-7 text-xs font-semibold text-[#25231F]/65 md:flex">
             <a className="transition hover:text-[#934731]" href="#metodo">Método</a>
             <a className="transition hover:text-[#934731]" href="#recorrido">Recorrido</a>
@@ -500,15 +505,15 @@ export function LandingPage() {
                 </div>
               </div>
               <div className="space-y-3">
-                {weeks.map((week, index) => (
-                  <article key={week.title} className="grid gap-5 rounded-[24px] border border-[#25231F]/9 bg-[#F5F1E8]/55 p-5 sm:grid-cols-[80px_1fr] sm:p-6">
-                    <div className="flex size-14 items-center justify-center rounded-full font-[Georgia,serif] text-2xl text-white sm:size-16" style={{ backgroundColor: week.color }}>{index + 1}</div>
+                {sampleDays.map((day) => (
+                  <article key={day.day} className="grid gap-5 rounded-[24px] border border-[#25231F]/9 bg-[#F5F1E8]/55 p-5 sm:grid-cols-[80px_1fr] sm:p-6">
+                    <div className="flex size-14 items-center justify-center rounded-full bg-[#25231F] font-[Georgia,serif] text-2xl text-white sm:size-16">{day.day}</div>
                     <div>
                       <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                        <h3 className="font-[Georgia,serif] text-2xl">Semana {index + 1}: {week.title}</h3>
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-[#25231F]/40">{week.eyebrow}</span>
+                        <h3 className="font-[Georgia,serif] text-2xl">Día {day.day}: {day.title}</h3>
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-[#25231F]/40">Semana {day.week}</span>
                       </div>
-                      <p className="mt-2 text-sm leading-6 text-[#25231F]/60">{week.text}</p>
+                      <p className="mt-2 text-sm leading-6 text-[#25231F]/60">{day.reading}</p>
                     </div>
                   </article>
                 ))}
@@ -648,7 +653,7 @@ export function LandingPage() {
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col justify-between gap-8 border-b border-white/10 pb-10 sm:flex-row sm:items-end">
             <div>
-              <BrandMark inverted />
+              <BrandLogo inverted />
               <p className="mt-4 max-w-md text-sm leading-6 text-white/45">
                 Un espacio educativo para cultivar conversaciones más conscientes, acuerdos más claros y una conexión más presente.
               </p>

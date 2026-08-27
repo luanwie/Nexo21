@@ -24,11 +24,15 @@ export default async function StorePage({
   const { bloqueado } = await searchParams;
   const readiness = new Map(await Promise.all(OFFERS.map(async (offer) => [offer.slug, await getCheckoutReadiness(offer.slug)] as const)));
 
+  /* Only show products the user does NOT already own; admin sees all */
+  const isAdmin = user.role === "ADMIN";
+  const available = isAdmin ? OFFERS : OFFERS.filter((offer) => !owned.has(offer.slug));
+
   return <div className="space-y-7">
     <header>
       <p className="text-sm font-semibold uppercase tracking-[.16em] text-[#934731]">Tienda Nexo 21</p>
       <h1 className="editorial-title mt-3 text-4xl sm:text-6xl">Experiencias completas para distintos momentos.</h1>
-      <p className="mt-4 max-w-3xl text-lg leading-8 text-muted">Cada producto tiene contenido propio y acceso independiente. El botón de compra aparece solamente cuando su checkout Hotmart y la entrega automática están configurados.</p>
+      <p className="mt-4 max-w-3xl text-lg leading-8 text-muted">Explora productos adicionales que complementan tu jornada. El botón de compra aparece solamente cuando su checkout Hotmart y la entrega automática están configurados.</p>
     </header>
 
     {bloqueado ? <div className="rounded-2xl border border-[#e3c7bd] bg-[#fff8f4] p-5">
@@ -36,31 +40,48 @@ export default async function StorePage({
       <p className="mt-2 text-sm text-muted">Confirma que ingresaste con el mismo correo verificado de la compra o revisa la oferta correspondiente.</p>
     </div> : null}
 
-    <section className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-      {OFFERS.map((offer) => {
-        const hasAccess = owned.has(offer.slug) || user.role === "ADMIN";
-        const readyToSell = readiness.get(offer.slug)?.ready === true;
-        const accessHref = offer.type === "MAIN" ? "/app" : `/app/extras/${offer.slug}`;
-        return <article key={offer.slug} className="app-card flex flex-col p-6">
-          <div className="flex items-start justify-between gap-3">
-            <span className="pill bg-[#f4eee4] text-muted">{typeLabels[offer.type]}</span>
-            {hasAccess ? <PackageCheck size={20} className="text-[#547055]" /> : <Sparkles size={20} className="text-[#B85C42]" />}
-          </div>
-          <h2 className="editorial-title mt-5 text-3xl">{offer.shortTitle}</h2>
-          <p className="mt-3 flex-1 text-sm leading-6 text-muted">{offer.description}</p>
-          <ul className="mt-5 space-y-2 text-sm text-muted">
-            {offer.features.map((feature) => <li key={feature} className="flex gap-2"><CheckCircle2 size={16} className="mt-0.5 shrink-0 text-[#547055]" />{feature}</li>)}
-          </ul>
-          <div className="mt-6 border-t border-[#eee6db] pt-5">
-            <p className="text-2xl font-semibold">US${(offer.priceCents / 100).toFixed(2)}{offer.type === "SUBSCRIPTION" ? <span className="text-sm font-normal text-muted">/mes</span> : null}</p>
-            {hasAccess
-              ? <Link href={accessHref} className="primary-button mt-4 w-full">Abrir contenido</Link>
-              : readyToSell
+    {/* Link to library if user has products */}
+    {owned.size > 0 && (
+      <div className="rounded-2xl border border-[#74836B]/15 bg-[#f1f5ed]/50 p-4">
+        <p className="flex items-center gap-2 text-sm text-[#547055]">
+          <PackageCheck size={16} />
+          Ya tienes <strong>{owned.size}</strong> producto{owned.size === 1 ? "" : "s"}.{" "}
+          <Link href="/app/biblioteca" className="underline underline-offset-2 hover:text-[#354436]">Ver mi biblioteca →</Link>
+        </p>
+      </div>
+    )}
+
+    {available.length === 0 ? (
+      <div className="app-card p-12 text-center">
+        <CheckCircle2 className="mx-auto text-[#547055]" size={40} />
+        <h2 className="editorial-title mt-5 text-3xl">Ya tienes todo lo disponible.</h2>
+        <p className="mx-auto mt-3 max-w-md leading-7 text-muted">
+          Cuando agreguemos nuevos productos, aparecerán aquí.
+        </p>
+      </div>
+    ) : (
+      <section className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        {available.map((offer) => {
+          const readyToSell = readiness.get(offer.slug)?.ready === true;
+          return <article key={offer.slug} className="app-card flex flex-col p-6">
+            <div className="flex items-start justify-between gap-3">
+              <span className="pill bg-[#f4eee4] text-muted">{typeLabels[offer.type]}</span>
+              <Sparkles size={20} className="text-[#B85C42]" />
+            </div>
+            <h2 className="editorial-title mt-5 text-3xl">{offer.shortTitle}</h2>
+            <p className="mt-3 flex-1 text-sm leading-6 text-muted">{offer.description}</p>
+            <ul className="mt-5 space-y-2 text-sm text-muted">
+              {offer.features.map((feature) => <li key={feature} className="flex gap-2"><CheckCircle2 size={16} className="mt-0.5 shrink-0 text-[#547055]" />{feature}</li>)}
+            </ul>
+            <div className="mt-6 border-t border-[#eee6db] pt-5">
+              <p className="text-2xl font-semibold">US${(offer.priceCents / 100).toFixed(2)}{offer.type === "SUBSCRIPTION" ? <span className="text-sm font-normal text-muted">/mes</span> : null}</p>
+              {readyToSell
                 ? <Link href={`/checkout?product=${offer.slug}`} className="primary-button mt-4 w-full"><CircleDollarSign size={17} /> Comprar</Link>
-                : <p className="mt-4 rounded-xl bg-[#f4eee4] px-4 py-3 text-center text-xs font-semibold text-muted">{offer.type === "SUBSCRIPTION" ? "Mes 1 disponible · venta recurrente aún protegida" : "Disponible · conecta checkout, HOTTOK y mapeo Hotmart"}</p>}
-          </div>
-        </article>;
-      })}
-    </section>
+                : <p className="mt-4 rounded-xl bg-[#f4eee4] px-4 py-3 text-center text-xs font-semibold text-muted">{offer.type === "SUBSCRIPTION" ? "Mes 1 disponible · venta recurrente aún protegida" : "Próximamente · conecta checkout y mapeo Hotmart"}</p>}
+            </div>
+          </article>;
+        })}
+      </section>
+    )}
   </div>;
 }
