@@ -42,6 +42,7 @@ const sections: Section[] = [
   {
     title: "Mi biblioteca",
     links: [
+      { href: "/app/biblioteca", label: "Mis ebooks", icon: Library },
       { href: "/app/favoritos", label: "Favoritos", icon: Store },
     ],
   },

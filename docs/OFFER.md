@@ -67,6 +67,7 @@ Inclui:
 - 36 orações;
 - favoritos e histórico;
 - plano pós-jornada de 30 dias;
+- 5 ebooks incluídos, para ler no sistema ou guardar como PDF: `Las 6 trampas silenciosas`, `La protección de Dios`, `Unión inquebrantable` (com checklist), `Paz en el hogar` e `Las 5 zonas sagradas` (ilustrado);
 - acesso permanente à versão comprada.
 
 **CTA:** `Empezar mi recorrido por US$9.90`

@@ -54,6 +54,13 @@ if (productModules.length !== 15) throw new Error(`productModules has ${productM
 const productModuleSlugs = productModules.map((module) => String((module as { slug?: unknown }).slug ?? ""));
 if (new Set(productModuleSlugs).size !== productModuleSlugs.length) throw new Error("productModules contains duplicate slugs");
 
+const includedBonuses = readJson<Array<{ slug?: unknown }>>("included-bonuses.json");
+if (includedBonuses.length !== 5) throw new Error(`includedBonuses has ${includedBonuses.length}; expected 5`);
+const includedBonusSlugs = includedBonuses.map((bonus) => String(bonus.slug ?? ""));
+if (new Set(includedBonusSlugs).size !== includedBonusSlugs.length || includedBonusSlugs.some((slug) => !/^[a-z0-9-]+$/.test(slug))) {
+  throw new Error("includedBonuses requires unique safe slugs");
+}
+
 const output = {
   generatedAt: "deterministic-build",
   journey,
@@ -66,6 +73,7 @@ const output = {
   continuity: readJson<Record<string, unknown>>("continuity-30.json"),
   storeProducts: readJson<unknown[]>("store-products.json"),
   productModules,
+  includedBonuses,
 };
 
 const minimums: Array<[string, unknown[], number]> = [
@@ -76,6 +84,7 @@ const minimums: Array<[string, unknown[], number]> = [
   ["prayers", output.prayers, 36],
   ["storeProducts", output.storeProducts, 10],
   ["productModules", output.productModules, 15],
+  ["includedBonuses", output.includedBonuses, 5],
 ];
 for (const [name, items, minimum] of minimums) {
   if (items.length < minimum) throw new Error(`${name} has ${items.length}; expected at least ${minimum}`);

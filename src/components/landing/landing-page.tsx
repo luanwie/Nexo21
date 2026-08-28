@@ -1,6 +1,5 @@
 import {
   ArrowDown,
-  BookOpen,
   Brain,
   CalendarDays,
   Check,
@@ -19,7 +18,6 @@ import {
   Pause,
   RefreshCcw,
   ShieldCheck,
-  Sparkles,
   Target,
   WandSparkles,
 } from "lucide-react";
@@ -150,6 +148,14 @@ const sampleDays = [
   { day: 21, week: 3, title: "Alegría compartida", reading: "Romanos 12:15" },
 ];
 
+const includedEbooks = [
+  { title: "Las 6 trampas silenciosas", text: "Reconoce hábitos que enfrían el vínculo antes de que se vuelvan costumbre.", format: "Ebook PDF" },
+  { title: "La protección de Dios", text: "Fortalece tu hogar con fe, discernimiento, verdad y límites sanos.", format: "Ebook PDF" },
+  { title: "Unión inquebrantable", text: "Compromiso espiritual practicable con checklist semanal.", format: "Ebook + checklist PDF" },
+  { title: "Paz en el hogar", text: "Vuelve a conectar aun en medio del cansancio, hijos y rutina.", format: "Ebook PDF" },
+  { title: "Las 5 zonas sagradas", text: "Presencia, ternura y cercanía con respeto y consentimiento.", format: "Ebook ilustrado PDF" },
+];
+
 const faqs = [
   {
     question: "¿Mi pareja tiene que participar?",
@@ -174,7 +180,7 @@ const faqs = [
   {
     question: "¿Qué recibo al comprar?",
     answer:
-      "Acceso digital a 21 días guiados, diario privado, 150 mensajes, 30 conversaciones, 100 pequeñas acciones, devocionales, oraciones, favoritos y un plan de continuidad de 30 días.",
+      "Acceso digital a 21 días guiados, diario privado, 150 mensajes, 30 conversaciones, 100 pequeñas acciones, devocionales, oraciones, favoritos, continuidad de 30 días y 5 ebooks incluidos para leer o descargar como PDF.",
   },
   {
     question: "¿Cómo funciona la garantía?",
@@ -253,12 +259,11 @@ export function LandingPage() {
                 Jornada cristiana para mujeres casadas
               </div>
               <h1 className="font-[Georgia,serif] text-[2.75rem] leading-[0.98] tracking-[-0.045em] text-[#25231F] sm:text-6xl lg:text-[4.6rem]">
-                Tu matrimonio importa.
-                <span className="mt-2 block text-[#934731] italic">Tu voz, tu paz y tus límites también.</span>
+                No dejes que la rutina,
+                <span className="mt-2 block text-[#934731] italic">el silencio y el cansancio enfríen lo que Dios unió.</span>
               </h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-[#25231F]/68 sm:text-xl sm:leading-9">
-                Nexo 21 es una jornada cristiana individual de 21 días para volver a escucharte,
-                comprender lo que vives y practicar formas más claras de hablar, cuidar y poner límites sin cargar sola con toda la relación.
+                Nexo 21 es tu jornada cristiana de 21 días para la mujer que ama su matrimonio, pero ya no quiere dormir con el corazón pesado, callar para evitar otra discusión ni cargar sola con todo. Vuelve a la fe, la verdad y los pasos que sí puedes cuidar.
               </p>
               <div className="mt-9 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">
                 <TrackedCta source="hero" className="min-h-14 px-7 text-base sm:min-w-[250px]">
@@ -527,27 +532,26 @@ export function LandingPage() {
           </div>
         </section>
 
-        <section className="px-5 py-20 sm:px-8 sm:py-28 lg:px-10">
+        <section className="border-y border-[#25231F]/8 bg-[#FFFDF8] px-5 py-20 sm:px-8 sm:py-28 lg:px-10">
           <div className="mx-auto max-w-7xl">
             <SectionHeading
-              eyebrow="Bibliotecas incluidas"
-              title={<>Recursos prácticos dentro de tu acceso, <em className="text-[#934731]">sin compras adicionales.</em></>}
+              eyebrow="Valor incluido en tu acceso"
+              title={<>No recibes solo una jornada. Recibes <em className="text-[#934731]">5 ebooks para cuidar lo que aún amas.</em></>}
+              text="Léelos dentro de Nexo 21 o guárdalos como PDF. No son extras cobrados después: están incluidos en los US$9.90 de tu acceso completo."
             />
-            <div className="mt-12 grid gap-5 lg:grid-cols-3">
-              {[
-                { icon: BookOpen, label: "Biblioteca 01", title: "150 mensajes con intención", text: "Mensajes originales con filtros por sentimiento, contexto y objetivo, listos para adaptar a tu propia voz." },
-                { icon: ShieldCheck, label: "Biblioteca 02", title: "30 conversaciones guiadas", text: "Preparación, aperturas, frases útiles, preguntas, cierres y alertas de seguridad para temas difíciles." },
-                { icon: Sparkles, label: "Biblioteca 03", title: "100 pequeñas acciones", text: "Acciones categorizadas y concretas para practicar cuidado sin depender de grandes gestos." },
-              ].map(({ icon: Icon, label, title, text }) => (
-                <article key={label} className="relative overflow-hidden rounded-[28px] border border-[#25231F]/10 bg-[#FFFDF8] p-7 sm:p-8">
-                  <span className="absolute right-5 top-5 font-[Georgia,serif] text-6xl text-[#25231F]/[0.035]">+</span>
-                  <div className="flex size-12 items-center justify-center rounded-2xl bg-[#B85C42]/10 text-[#934731]"><Icon className="size-6" strokeWidth={1.6} /></div>
-                  <p className="mt-7 text-[10px] font-bold uppercase tracking-[0.2em] text-[#547055]">{label}</p>
-                  <h3 className="mt-2 font-[Georgia,serif] text-2xl leading-tight">{title}</h3>
-                  <p className="mt-4 text-sm leading-6 text-[#25231F]/60">{text}</p>
-                  <p className="mt-6 inline-flex items-center gap-2 text-xs font-bold text-[#934731]"><Gift className="size-4" /> Incluido</p>
+            <div className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+              {includedEbooks.map((ebook, index) => (
+                <article key={ebook.title} className="relative flex min-h-[250px] flex-col rounded-[26px] border border-[#25231F]/10 bg-[#F5F1E8]/70 p-6">
+                  <span className="font-[Georgia,serif] text-4xl text-[#B85C42]/35">0{index + 1}</span>
+                  <p className="mt-5 text-[10px] font-bold uppercase tracking-[0.18em] text-[#547055]">{ebook.format}</p>
+                  <h3 className="mt-2 font-[Georgia,serif] text-2xl leading-tight text-[#25231F]">{ebook.title}</h3>
+                  <p className="mt-3 flex-1 text-sm leading-6 text-[#25231F]/60">{ebook.text}</p>
+                  <p className="mt-5 inline-flex items-center gap-2 text-xs font-bold text-[#934731]"><Gift className="size-4" /> Incluido · sin costo extra</p>
                 </article>
               ))}
+            </div>
+            <div className="mt-8 rounded-2xl border border-[#74836B]/20 bg-[#74836B]/10 px-5 py-4 text-center text-sm font-semibold text-[#435144]">
+              Jornada Nexo 21 + 5 ebooks incluidos + diario, oraciones, devocionales, mensajes y conversaciones. Todo por un solo pago de US$9.90.
             </div>
           </div>
         </section>
@@ -574,7 +578,7 @@ export function LandingPage() {
               <p className="mt-3 text-sm text-[#25231F]/55">Pago único · sin suscripción</p>
               <div className="my-7 h-px bg-[#25231F]/10" />
               <ul className="space-y-3">
-                {["Recorrido completo de 21 días", "Método C.A.L.M.A. paso a paso", "Diario privado y progreso", "150 mensajes y 30 conversaciones", "100 acciones, devocionales y oraciones", "Continuidad de 30 días y garantía de 15 días"].map((item) => (
+                {["Recorrido completo de 21 días", "Método C.A.L.M.A. paso a paso", "Diario privado y progreso", "150 mensajes y 30 conversaciones", "100 acciones, devocionales y oraciones", "5 ebooks PDF incluidos para leer o descargar", "Continuidad de 30 días y garantía de 15 días"].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-[#25231F]/75">
                     <span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-[#74836B] text-white"><Check className="size-3" /></span>
                     {item}

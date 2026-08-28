@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CheckCircle2, ExternalLink, PackageCheck, Sparkles } from "lucide-react";
 import { listEntitlements } from "@/lib/access";
+import { INCLUDED_BONUSES } from "@/lib/included-bonuses";
 import { OFFERS } from "@/lib/offers";
 import { requireUser } from "@/lib/session";
 
@@ -68,6 +69,33 @@ export default async function LibraryPage() {
                     </ul>
                     <Link href="/app" className="primary-button mt-6 w-full">
                       <ExternalLink size={16} /> Abrir mi jornada
+                    </Link>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {main.length > 0 && (
+            <section>
+              <h2 className="text-sm font-semibold uppercase tracking-[.16em] text-muted mb-4">
+                5 ebooks incluidos con Nexo 21
+              </h2>
+              <p className="mb-5 max-w-3xl text-sm leading-6 text-muted">
+                Léelos aquí o usa “Descargar como PDF” dentro de cada ebook. Ya están incluidos en tu acceso; no requieren otra compra.
+              </p>
+              <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+                {INCLUDED_BONUSES.map((bonus) => (
+                  <article key={bonus.slug} className="app-card flex flex-col p-6">
+                    <div className="flex items-start justify-between gap-3">
+                      <span className="pill bg-[#f0ddd5] text-[#934731]">Incluido</span>
+                      <PackageCheck size={20} className="text-[#547055]" />
+                    </div>
+                    <h3 className="editorial-title mt-5 text-3xl">{bonus.title}</h3>
+                    <p className="mt-3 flex-1 text-sm leading-6 text-muted">{bonus.description}</p>
+                    <p className="mt-4 text-xs font-semibold uppercase tracking-[.12em] text-[#547055]">{bonus.format}</p>
+                    <Link href={`/app/bonus/${bonus.slug}`} className="secondary-button mt-5 w-full text-center text-sm">
+                      Leer o descargar
                     </Link>
                   </article>
                 ))}
