@@ -68,8 +68,13 @@ function SidebarNavigation({
   onLogout: () => void;
 }) {
   return <>
-    <div className="px-2 pb-6"><BrandLogo inverted /></div>
-    <nav className="flex-1 space-y-1 overflow-y-auto" aria-label="Navegación principal">
+    <div className="px-2 pb-5"><BrandLogo inverted /></div>
+    <div className="mb-4 rounded-2xl border border-white/10 bg-white/[0.055] p-4 shadow-inner">
+      <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-[#D99A84]">Tu espacio de hoy</p>
+      <p className="mt-2 font-[Georgia,serif] text-lg leading-tight text-white">Un paso amable también cuenta.</p>
+      <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/10"><div className="h-full w-1/3 rounded-full bg-[#D99A84]" /></div>
+    </div>
+    <nav className="flex-1 space-y-1 overflow-y-auto pr-1" aria-label="Navegación principal">
       {sections.map((section) => (
         <div key={section.title}>
           <p className="px-3 pt-5 pb-1 text-[10px] font-bold uppercase tracking-[0.18em] text-white/35">{section.title}</p>

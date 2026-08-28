@@ -126,9 +126,9 @@ Recusa clara:
 
 ## 7. Garantia
 
-### Garantia de 15 dias
+### Garantia de 7 dias
 
-> `Explora Nexo 21 durante 15 días. Si el formato no encaja contigo, solicita el reembolso dentro del plazo mediante el canal informado en tu recibo.`
+> `Explora Nexo 21 durante 7 días. Si el formato no encaja contigo, solicita el reembolso dentro del plazo mediante el canal informado en tu recibo.`
 
 Reembolso e prazo final devem obedecer à legislação e às regras do processador escolhido.
 

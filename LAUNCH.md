@@ -23,7 +23,7 @@ Compra isolada não valida o produto. O gate exige:
 - bump 2: US$2,90;
 - bump 3: US$3,90;
 - upsell: US$19;
-- garantia: 15 dias;
+- garantia: 7 dias;
 - Círculo Nexo não é ofertado no checkout inicial.
 
 Não usar desconto riscado, venda falsa, contador reiniciado ou depoimento inventado.

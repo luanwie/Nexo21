@@ -185,7 +185,7 @@ const faqs = [
   {
     question: "¿Cómo funciona la garantía?",
     answer:
-      "Tienes 15 días desde la compra para explorar el material. Si consideras que no es para ti, puedes solicitar el reembolso dentro de ese plazo respondiendo al email de confirmación.",
+      "Tienes 7 días desde la compra para explorar el material. Si consideras que no es para ti, puedes solicitar el reembolso dentro de ese plazo respondiendo al email de confirmación.",
   },
 ];
 
@@ -240,9 +240,17 @@ export function LandingPage() {
             <a className="transition hover:text-[#934731]" href="#plataforma">Plataforma</a>
             <a className="transition hover:text-[#934731]" href="#faq">Preguntas</a>
           </div>
-          <TrackedCta source="nav" className="min-h-10 px-4 py-2 text-xs sm:px-5" showArrow={false}>
-            Empezar por US$9.90
-          </TrackedCta>
+          <div className="flex items-center gap-2 sm:gap-3">
+            <a
+              href="/login"
+              className="inline-flex min-h-10 items-center justify-center rounded-full border border-[#25231F]/15 bg-white/50 px-3 text-xs font-bold text-[#25231F]/75 transition hover:border-[#B85C42]/45 hover:text-[#934731] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B85C42] sm:px-4"
+            >
+              Ingresar
+            </a>
+            <TrackedCta source="nav" className="min-h-10 px-4 py-2 text-xs sm:px-5" showArrow={false}>
+              Empezar por US$9.90
+            </TrackedCta>
+          </div>
         </div>
       </nav>
 
@@ -277,7 +285,7 @@ export function LandingPage() {
                 </a>
               </div>
               <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-[#25231F]/55">
-                {["Prácticas de 15–25 min", "Avance individual", "Garantía de 15 días"].map((item) => (
+                {["Prácticas de 15–25 min", "Avance individual", "Garantía de 7 días"].map((item) => (
                   <span key={item} className="inline-flex items-center gap-1.5">
                     <CircleCheck className="size-3.5 text-[#547055]" aria-hidden="true" /> {item}
                   </span>
@@ -578,7 +586,7 @@ export function LandingPage() {
               <p className="mt-3 text-sm text-[#25231F]/55">Pago único · sin suscripción</p>
               <div className="my-7 h-px bg-[#25231F]/10" />
               <ul className="space-y-3">
-                {["Recorrido completo de 21 días", "Método C.A.L.M.A. paso a paso", "Diario privado y progreso", "150 mensajes y 30 conversaciones", "100 acciones, devocionales y oraciones", "5 ebooks PDF incluidos para leer o descargar", "Continuidad de 30 días y garantía de 15 días"].map((item) => (
+                {["Recorrido completo de 21 días", "Método C.A.L.M.A. paso a paso", "Diario privado y progreso", "150 mensajes y 30 conversaciones", "100 acciones, devocionales y oraciones", "5 ebooks PDF incluidos para leer o descargar", "Continuidad de 30 días y garantía de 7 días"].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-[#25231F]/75">
                     <span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-[#74836B] text-white"><Check className="size-3" /></span>
                     {item}
@@ -601,10 +609,10 @@ export function LandingPage() {
               <ShieldCheck className="size-9 text-[#F0D8A5]" strokeWidth={1.5} aria-hidden="true" />
             </div>
             <div className="flex-1">
-              <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-white/60">Garantía simple de 15 días</p>
+              <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-white/60">Garantía simple de 7 días</p>
               <h2 className="mt-2 font-[Georgia,serif] text-3xl sm:text-4xl">Explora el recorrido con tranquilidad.</h2>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-white/68 sm:text-base">
-                Si durante los primeros 15 días sientes que Nexo 21 no es para ti, puedes solicitar el reembolso respondiendo al email de confirmación de la compra.
+                Si durante los primeros 7 días sientes que Nexo 21 no es para ti, puedes solicitar el reembolso respondiendo al email de confirmación de la compra.
               </p>
             </div>
           </div>
@@ -647,7 +655,7 @@ export function LandingPage() {
               <TrackedCta source="final-cta" variant="dark" className="mt-8 min-h-14 px-8 text-base">
                 Empezar Nexo 21 por US$9.90
               </TrackedCta>
-              <p className="mt-4 text-xs text-white/55">Pago único · acceso digital · 15 días de garantía</p>
+              <p className="mt-4 text-xs text-white/55">Pago único · acceso digital · 7 días de garantía</p>
             </div>
           </div>
         </section>

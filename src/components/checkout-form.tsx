@@ -85,6 +85,6 @@ export function CheckoutForm({
     </div>
     {error ? <p className="error-text" role="alert">{error}</p> : null}
     <button className="primary-button w-full" disabled={loading}>{loading ? <Loader2 size={18} className="animate-spin" /> : <LockKeyhole size={18} />} {loading ? "Preparando…" : "Continuar al pago seguro"}</button>
-    <div className="flex items-start gap-2 text-xs leading-5 text-muted"><ShieldCheck size={16} className="mt-0.5 shrink-0 text-[#74836B]" /><span>15 días de garantía. Acceso personal a la versión adquirida. La Hotmart procesa tus datos financieros.</span></div>
+    <div className="flex items-start gap-2 text-xs leading-5 text-muted"><ShieldCheck size={16} className="mt-0.5 shrink-0 text-[#74836B]" /><span>7 días de garantía. Acceso personal a la versión adquirida. La Hotmart procesa tus datos financieros.</span></div>
   </form>;
 }

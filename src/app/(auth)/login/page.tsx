@@ -12,7 +12,7 @@ export default function LoginPage() {
     <AuthShell
       eyebrow="Bienvenido de nuevo"
       title="Ingresa a tu cuenta"
-      description="Continúa tu recorrido y retoma el espacio que están construyendo juntos."
+      description="Continúa tu recorrido personal y vuelve al espacio que estás cuidando para ti."
     >
       <LoginForm />
     </AuthShell>

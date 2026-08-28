@@ -110,12 +110,17 @@ textarea.field { min-height: 130px; resize: vertical; }
 .success-text { color: var(--success); font-size: .875rem; }
 
 .app-shell { min-height: 100vh; background: #f2ede4; }
-.app-sidebar { background: #282621; color: #f9f3e9; }
-.app-nav-link {
-  display: flex; align-items: center; gap: .75rem; min-height: 44px; border-radius: .75rem;
-  padding: .65rem .8rem; color: #d9d0c4; transition: background .18s ease, color .18s ease;
+.app-sidebar {
+  background: radial-gradient(circle at 0 0, rgba(184,92,66,.18), transparent 32%), linear-gradient(160deg, #302d27, #20201d 70%);
+  color: #f9f3e9;
+  box-shadow: 16px 0 42px rgba(37,35,31,.11);
 }
-.app-nav-link:hover, .app-nav-link[data-active="true"] { background: rgba(255,255,255,.09); color: white; }
+.app-nav-link {
+  display: flex; align-items: center; gap: .75rem; min-height: 44px; border-radius: .85rem;
+  padding: .65rem .8rem; color: #d9d0c4; transition: transform .18s ease, background .18s ease, color .18s ease;
+}
+.app-nav-link:hover { transform: translateX(2px); background: rgba(255,255,255,.07); color: white; }
+.app-nav-link[data-active="true"] { background: rgba(184,92,66,.23); box-shadow: inset 3px 0 #D99A84; color: white; }
 .app-card { background: #fffdf9; border: 1px solid var(--line); border-radius: 1rem; }
 .pill { display: inline-flex; align-items: center; gap: .35rem; border-radius: 999px; padding: .32rem .65rem; font-size: .78rem; font-weight: 650; }
 

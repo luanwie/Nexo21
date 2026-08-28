@@ -12,7 +12,7 @@
 
 - Idioma: espanhol
 - Mercado: América Latina
-- Garantia: 15 dias
+- Garantia: 7 dias
 - Email de suporte: `listenghust.ia@gmail.com`
 - Responsável: Luan
 - Página pós-compra: `https://nexo21.vercel.app/gracias`
@@ -55,7 +55,7 @@
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$9.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `nexo-21`
 - **Rota após liberar acesso:** `/app`
 - **Variável da URL do checkout:** `CHECKOUT_URL_NEXO_21`
@@ -78,7 +78,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$1.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `mensajes-esenciales`
 - **Rota após liberar acesso:** `/app/extras/mensajes-esenciales`
 - **Variável da URL do checkout:** `CHECKOUT_URL_MENSAJES_ESENCIALES`
@@ -100,7 +100,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$2.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `conversaciones-sin-herir`
 - **Rota após liberar acesso:** `/app/extras/conversaciones-sin-herir`
 - **Variável da URL do checkout:** `CHECKOUT_URL_CONVERSACIONES_SIN_HERIR`
@@ -122,7 +122,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$3.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `diario-imprimible`
 - **Rota após liberar acesso:** `/app/extras/diario-imprimible`
 - **Variável da URL do checkout:** `CHECKOUT_URL_DIARIO_IMPRIMIBLE`
@@ -144,7 +144,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$19.00
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `devocional-30`
 - **Rota após liberar acesso:** `/app/extras/devocional-30`
 - **Variável da URL do checkout:** `CHECKOUT_URL_DEVOCIONAL_30`
@@ -167,7 +167,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$5.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `siete-dias-menos-tension`
 - **Rota após liberar acesso:** `/app/extras/siete-dias-menos-tension`
 - **Variável da URL do checkout:** `CHECKOUT_URL_SIETE_DIAS_MENOS_TENSION`
@@ -189,7 +189,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$8.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `dinero-en-equipo`
 - **Rota após liberar acesso:** `/app/extras/dinero-en-equipo`
 - **Variável da URL do checkout:** `CHECKOUT_URL_DINERO_EN_EQUIPO`
@@ -211,7 +211,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$6.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `desafio-gratitud-30`
 - **Rota após liberar acesso:** `/app/extras/desafio-gratitud-30`
 - **Variável da URL do checkout:** `CHECKOUT_URL_DESAFIO_GRATITUD_30`
@@ -233,7 +233,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$9.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `citas-en-casa`
 - **Rota após liberar acesso:** `/app/extras/citas-en-casa`
 - **Variável da URL do checkout:** `CHECKOUT_URL_CITAS_EN_CASA`
@@ -255,7 +255,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$7.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `rutina-y-reconexion`
 - **Rota após liberar acesso:** `/app/extras/rutina-y-reconexion`
 - **Variável da URL do checkout:** `CHECKOUT_URL_RUTINA_Y_RECONEXION`
@@ -277,7 +277,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$12.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `confianza-paso-a-paso`
 - **Rota após liberar acesso:** `/app/extras/confianza-paso-a-paso`
 - **Variável da URL do checkout:** `CHECKOUT_URL_CONFIANZA_PASO_A_PASO`
@@ -299,7 +299,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$10.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `intimidad-y-presencia`
 - **Rota após liberar acesso:** `/app/extras/intimidad-y-presencia`
 - **Variável da URL do checkout:** `CHECKOUT_URL_INTIMIDAD_Y_PRESENCIA`
@@ -321,7 +321,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$8.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `familia-y-limites`
 - **Rota após liberar acesso:** `/app/extras/familia-y-limites`
 - **Variável da URL do checkout:** `CHECKOUT_URL_FAMILIA_Y_LIMITES`
@@ -343,7 +343,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$14.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `mensajes-365`
 - **Rota após liberar acesso:** `/app/extras/mensajes-365`
 - **Variável da URL do checkout:** `CHECKOUT_URL_MENSAJES_365`
@@ -366,7 +366,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Curso Online
 - **Preço:** US$11.90
 - **Cobrança:** pagamento único
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `plan-anual-nosotros`
 - **Rota após liberar acesso:** `/app/extras/plan-anual-nosotros`
 - **Variável da URL do checkout:** `CHECKOUT_URL_PLAN_ANUAL_NOSOTROS`
@@ -390,7 +390,7 @@ Após criar, anote:
 - **Tipo na Hotmart:** Assinatura
 - **Preço:** US$7.90
 - **Cobrança:** mensal recorrente, cancelável
-- **Garantia:** 15 dias
+- **Garantia:** 7 dias
 - **Slug interno:** `circulo-nexo`
 - **Rota após liberar acesso:** `/app/extras/circulo-nexo`
 - **Variável da URL do checkout:** `CHECKOUT_URL_CIRCULO_NEXO`
