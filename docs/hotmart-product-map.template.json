@@ -1,29 +1,62 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-08-29",
-  "notes": "No secrets. Populate productUcode and offerCodes only after confirming them in Hotmart. Checkout URLs are public but are tracked separately in Vercel environment variables.",
-  "products": {
-    "nexo-21": {
-      "hotmartName": "Nexo 21 — Un camino de regreso a lo cotidiano",
-      "productUcode": "Y107380759X",
-      "offerCodes": [""],
-      "checkoutUrl": "https://pay.hotmart.com/Y107380759X?checkoutMode=10",
-      "price": { "amount": 9.9, "currency": "USD" },
-      "status": "checkout-custom-draft"
-    },
-    "mensajes-esenciales": { "hotmartName": "50 mensajes para volver a acercarse", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 3.9, "currency": "USD" }, "status": "created-unmapped" },
-    "conversaciones-sin-herir": { "hotmartName": "Guía de conversaciones sin herir", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 3.9, "currency": "USD" }, "status": "created-unmapped" },
-    "diario-imprimible": { "hotmartName": "Diario de reconexión imprimible", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 3.9, "currency": "USD" }, "status": "created-unmapped" },
-    "devocional-30": { "hotmartName": "30 días para cuidar el vínculo", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 9.9, "currency": "USD" }, "status": "created-unmapped" },
-    "siete-dias-menos-tension": { "hotmartName": "7 días con menos tensión", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 5.9, "currency": "USD" }, "status": "created-unmapped" },
-    "dinero-en-equipo": { "hotmartName": "Dinero en equipo", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 8.9, "currency": "USD" }, "status": "created-unmapped" },
-    "desafio-gratitud-30": { "hotmartName": "30 días de gratitud visible", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 6.9, "currency": "USD" }, "status": "created-unmapped" },
-    "citas-en-casa": { "hotmartName": "30 encuentros en casa", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 9.9, "currency": "USD" }, "status": "created-unmapped" },
-    "rutina-y-reconexion": { "hotmartName": "Reconexión después de la rutina", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 7.9, "currency": "USD" }, "status": "created-unmapped" },
-    "confianza-paso-a-paso": { "hotmartName": "Confianza paso a paso", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 12.9, "currency": "USD" }, "status": "created-unmapped" },
-    "intimidad-y-presencia": { "hotmartName": "Intimidad y presencia", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 10.9, "currency": "USD" }, "status": "created-unmapped" },
-    "familia-y-limites": { "hotmartName": "Familia, límites y unidad", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 8.9, "currency": "USD" }, "status": "created-unmapped" },
-    "mensajes-365": { "hotmartName": "Biblioteca anual de mensajes con intención", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 9.9, "currency": "USD" }, "status": "created-unmapped" },
-    "plan-anual-nosotros": { "hotmartName": "Planner anual de nosotros", "productUcode": "", "offerCodes": [""], "checkoutUrl": "", "price": { "amount": 9.9, "currency": "USD" }, "status": "created-unmapped" }
+  "nexo-21": {
+    "productUcode": "Y107380759X",
+    "offerCodes": ["ypkgtm9g"]
+  },
+  "mensajes-esenciales": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "conversaciones-sin-herir": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "diario-imprimible": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "devocional-30": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "siete-dias-menos-tension": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "dinero-en-equipo": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "desafio-gratitud-30": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "citas-en-casa": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "rutina-y-reconexion": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "confianza-paso-a-paso": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "intimidad-y-presencia": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "familia-y-limites": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "mensajes-365": {
+    "productUcode": "",
+    "offerCodes": [""]
+  },
+  "plan-anual-nosotros": {
+    "productUcode": "",
+    "offerCodes": [""]
   }
 }
