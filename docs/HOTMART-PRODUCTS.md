@@ -5,8 +5,9 @@
 ## Qual opção escolher na Hotmart
 
 - **Curso Online**: produto principal, bumps, upsell e todos os DLCs. A entrega acontece na plataforma externa Nexo 21; o formato não é apenas um arquivo.
-- **Assinatura**: somente `Círculo Nexo`. Pode ser cadastrado agora, mas não conecte sua URL de checkout nem aceite cobranças até o lifecycle recorrente (renovação, falha, cancelamento e fim do período pago) ser liberado numa versão posterior.
+- **Assinatura**: `Círculo Nexo` está fora deste lançamento. Não cadastrar, conectar checkout ou aceitar cobranças recorrentes.
 - Não escolher eBook para os módulos: até o diário imprimível é entregue como workbook interativo com impressão/Salvar PDF dentro da área de membros.
+- Webhook Hotmart permanece desativado até uma compra-teste aprovada validar entrega e revogação.
 
 ## Configurações comuns
 
@@ -32,10 +33,10 @@
 | Produto | Papel | Tipo Hotmart | Preço | Cobrança | Slug | Variável de checkout |
 |---|---|---|---:|---|---|---|
 | Nexo 21 — Un camino de regreso a lo cotidiano | MAIN | Curso Online | US$9.90 | Pagamento único | `nexo-21` | `CHECKOUT_URL_NEXO_21` |
-| 50 mensajes para volver a acercarse | BUMP | Curso Online | US$1.90 | Pagamento único | `mensajes-esenciales` | `CHECKOUT_URL_MENSAJES_ESENCIALES` |
-| Guía de conversaciones sin herir | BUMP | Curso Online | US$2.90 | Pagamento único | `conversaciones-sin-herir` | `CHECKOUT_URL_CONVERSACIONES_SIN_HERIR` |
+| 50 mensajes para volver a acercarse | BUMP | Curso Online | US$3.90 | Pagamento único | `mensajes-esenciales` | `CHECKOUT_URL_MENSAJES_ESENCIALES` |
+| Guía de conversaciones sin herir | BUMP | Curso Online | US$3.90 | Pagamento único | `conversaciones-sin-herir` | `CHECKOUT_URL_CONVERSACIONES_SIN_HERIR` |
 | Diario de reconexión imprimible | BUMP | Curso Online | US$3.90 | Pagamento único | `diario-imprimible` | `CHECKOUT_URL_DIARIO_IMPRIMIBLE` |
-| 30 días para cuidar el vínculo | UPSELL | Curso Online | US$19.00 | Pagamento único | `devocional-30` | `CHECKOUT_URL_DEVOCIONAL_30` |
+| 30 días para cuidar el vínculo | UPSELL | Curso Online | US$9.90 | Pagamento único | `devocional-30` | `CHECKOUT_URL_DEVOCIONAL_30` |
 | 7 días con menos tensión | DLC | Curso Online | US$5.90 | Pagamento único | `siete-dias-menos-tension` | `CHECKOUT_URL_SIETE_DIAS_MENOS_TENSION` |
 | Dinero en equipo | DLC | Curso Online | US$8.90 | Pagamento único | `dinero-en-equipo` | `CHECKOUT_URL_DINERO_EN_EQUIPO` |
 | 30 días de gratitud visible | DLC | Curso Online | US$6.90 | Pagamento único | `desafio-gratitud-30` | `CHECKOUT_URL_DESAFIO_GRATITUD_30` |
@@ -44,8 +45,8 @@
 | Confianza paso a paso | DLC | Curso Online | US$12.90 | Pagamento único | `confianza-paso-a-paso` | `CHECKOUT_URL_CONFIANZA_PASO_A_PASO` |
 | Intimidad y presencia | DLC | Curso Online | US$10.90 | Pagamento único | `intimidad-y-presencia` | `CHECKOUT_URL_INTIMIDAD_Y_PRESENCIA` |
 | Familia, límites y unidad | DLC | Curso Online | US$8.90 | Pagamento único | `familia-y-limites` | `CHECKOUT_URL_FAMILIA_Y_LIMITES` |
-| Biblioteca anual de mensajes con intención | DLC | Curso Online | US$14.90 | Pagamento único | `mensajes-365` | `CHECKOUT_URL_MENSAJES_365` |
-| Planner anual de nosotros | DLC | Curso Online | US$11.90 | Pagamento único | `plan-anual-nosotros` | `CHECKOUT_URL_PLAN_ANUAL_NOSOTROS` |
+| Biblioteca anual de mensajes con intención | DLC | Curso Online | US$9.90 | Pagamento único | `mensajes-365` | `CHECKOUT_URL_MENSAJES_365` |
+| Planner anual de nosotros | DLC | Curso Online | US$9.90 | Pagamento único | `plan-anual-nosotros` | `CHECKOUT_URL_PLAN_ANUAL_NOSOTROS` |
 | Círculo Nexo | SUBSCRIPTION | Assinatura | US$7.90 | Mensal, cancelável | `circulo-nexo` | `CHECKOUT_URL_CIRCULO_NEXO` |
 
 ## Fichas para copiar

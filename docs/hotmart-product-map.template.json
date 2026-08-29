@@ -1,62 +1,17 @@
 {
-  "nexo-21": {
-    "productUcode": "Y107380759X",
-    "offerCodes": ["ypkgtm9g"]
-  },
-  "mensajes-esenciales": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "conversaciones-sin-herir": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "diario-imprimible": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "devocional-30": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "siete-dias-menos-tension": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "dinero-en-equipo": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "desafio-gratitud-30": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "citas-en-casa": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "rutina-y-reconexion": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "confianza-paso-a-paso": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "intimidad-y-presencia": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "familia-y-limites": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "mensajes-365": {
-    "productUcode": "",
-    "offerCodes": [""]
-  },
-  "plan-anual-nosotros": {
-    "productUcode": "",
-    "offerCodes": [""]
-  }
+  "nexo-21": { "productUcode": "Y107380759X", "offerCodes": ["ypkgtm9g"] },
+  "mensajes-esenciales": { "productUcode": "M107381280O", "offerCodes": ["0n3i5ie6"] },
+  "conversaciones-sin-herir": { "productUcode": "T107381383F", "offerCodes": ["0cdgof0u"] },
+  "diario-imprimible": { "productUcode": "D107381425U", "offerCodes": ["ovk9iisz"] },
+  "devocional-30": { "productUcode": "U107381586U", "offerCodes": ["jx2lf3al"] },
+  "siete-dias-menos-tension": { "productUcode": "J107381628T", "offerCodes": ["az5o2vv6"] },
+  "dinero-en-equipo": { "productUcode": "V107381670V", "offerCodes": ["4cyoilu1"] },
+  "desafio-gratitud-30": { "productUcode": "F107381711B", "offerCodes": ["grsofsdb"] },
+  "citas-en-casa": { "productUcode": "O107381756G", "offerCodes": ["vdpi82l0"] },
+  "rutina-y-reconexion": { "productUcode": "V107381793H", "offerCodes": ["k685gfgu"] },
+  "confianza-paso-a-paso": { "productUcode": "D107381895S", "offerCodes": ["staandh6"] },
+  "intimidad-y-presencia": { "productUcode": "Q107381942L", "offerCodes": ["yvi1p9jv"] },
+  "familia-y-limites": { "productUcode": "X107381973U", "offerCodes": ["f0v6wkg2"] },
+  "mensajes-365": { "productUcode": "J107382013M", "offerCodes": ["xvev5yd6"] },
+  "plan-anual-nosotros": { "productUcode": "F107382041M", "offerCodes": ["6atei9t5"] }
 }

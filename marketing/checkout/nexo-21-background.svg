@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Fondo Nexo 21">
+<defs><pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r=".65" fill="#1F2A26" opacity=".08"/><circle cx="16" cy="13" r=".5" fill="#1F2A26" opacity=".05"/></pattern></defs>
+<rect width="1920" height="1080" fill="#F7F2EA"/><rect width="1920" height="1080" fill="url(#grain)"/>
+<circle cx="1790" cy="925" r="480" fill="#D8B6A8" opacity=".5"/><circle cx="1790" cy="925" r="350" fill="none" stroke="#B9684F" stroke-width="3" opacity=".32"/>
+<path d="M1480 1075C1580 945 1685 846 1827 768" fill="none" stroke="#C6A66B" stroke-width="4" opacity=".55"/>
+<path d="M95 94h200" stroke="#1F2A26" stroke-width="3" opacity=".13"/><circle cx="109" cy="94" r="7" fill="#B9684F" opacity=".45"/>
+</svg>

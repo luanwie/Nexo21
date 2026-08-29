@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2400" viewBox="0 0 1920 2400" role="img" aria-label="Fondo vertical Nexo 21 para checkout">
+<defs>
+  <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r=".65" fill="#1F2A26" opacity=".08"/><circle cx="16" cy="13" r=".5" fill="#1F2A26" opacity=".05"/></pattern>
+</defs>
+<rect width="1920" height="2400" fill="#F7F2EA"/><rect width="1920" height="2400" fill="url(#grain)"/>
+<circle cx="1840" cy="1980" r="550" fill="#D8B6A8" opacity=".46"/>
+<circle cx="1840" cy="1980" r="406" fill="none" stroke="#B9684F" stroke-width="3" opacity=".30"/>
+<path d="M1420 2380C1560 2160 1700 1992 1885 1890" fill="none" stroke="#C6A66B" stroke-width="4" opacity=".55"/>
+<path d="M95 94h200" stroke="#1F2A26" stroke-width="3" opacity=".13"/><circle cx="109" cy="94" r="7" fill="#B9684F" opacity=".45"/>
+<circle cx="70" cy="1540" r="105" fill="#D8B6A8" opacity=".23"/><path d="M0 1625C90 1560 138 1505 180 1430" fill="none" stroke="#C6A66B" stroke-width="3" opacity=".3"/>
+</svg>
