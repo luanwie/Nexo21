@@ -33,10 +33,10 @@
 | Produto | Papel | Tipo Hotmart | Preço | Cobrança | Slug | Variável de checkout |
 |---|---|---|---:|---|---|---|
 | Nexo 21 — Un camino de regreso a lo cotidiano | MAIN | Curso Online | US$9.90 | Pagamento único | `nexo-21` | `CHECKOUT_URL_NEXO_21` |
-| 50 mensajes para volver a acercarse | BUMP | Curso Online | US$3.90 | Pagamento único | `mensajes-esenciales` | `CHECKOUT_URL_MENSAJES_ESENCIALES` |
-| Guía de conversaciones sin herir | BUMP | Curso Online | US$3.90 | Pagamento único | `conversaciones-sin-herir` | `CHECKOUT_URL_CONVERSACIONES_SIN_HERIR` |
+| 50 mensajes para volver a acercarse | BUMP | Curso Online | US$1.90 | Pagamento único | `mensajes-esenciales` | `CHECKOUT_URL_MENSAJES_ESENCIALES` |
+| Guía de conversaciones sin herir | BUMP | Curso Online | US$2.90 | Pagamento único | `conversaciones-sin-herir` | `CHECKOUT_URL_CONVERSACIONES_SIN_HERIR` |
 | Diario de reconexión imprimible | BUMP | Curso Online | US$3.90 | Pagamento único | `diario-imprimible` | `CHECKOUT_URL_DIARIO_IMPRIMIBLE` |
-| 30 días para cuidar el vínculo | UPSELL | Curso Online | US$9.90 | Pagamento único | `devocional-30` | `CHECKOUT_URL_DEVOCIONAL_30` |
+| 30 días para cuidar el vínculo | UPSELL | Curso Online | US$19.00 | Pagamento único | `devocional-30` | `CHECKOUT_URL_DEVOCIONAL_30` |
 | 7 días con menos tensión | DLC | Curso Online | US$5.90 | Pagamento único | `siete-dias-menos-tension` | `CHECKOUT_URL_SIETE_DIAS_MENOS_TENSION` |
 | Dinero en equipo | DLC | Curso Online | US$8.90 | Pagamento único | `dinero-en-equipo` | `CHECKOUT_URL_DINERO_EN_EQUIPO` |
 | 30 días de gratitud visible | DLC | Curso Online | US$6.90 | Pagamento único | `desafio-gratitud-30` | `CHECKOUT_URL_DESAFIO_GRATITUD_30` |
